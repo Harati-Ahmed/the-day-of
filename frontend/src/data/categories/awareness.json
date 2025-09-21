@@ -1,0 +1,362 @@
+[
+  {
+    "title": "World Heart Day",
+    "slug": "world-heart-day",
+    "date": "2025-09-29",
+    "category": "Awareness",
+    "description": "Take a moment to care for your heart on World Heart Day! This global awareness day focuses on cardiovascular health, encouraging people worldwide to make heart-healthy choices. Learn about prevention strategies, discover heart-healthy recipes, and join the movement to reduce cardiovascular disease through education, exercise, and lifestyle changes that can save lives.",
+    "tags": [
+      "health",
+      "heart",
+      "awareness",
+      "September",
+      "wellness",
+      "prevention",
+      "medical"
+    ],
+    "image": "heart-health-awareness.jpg",
+    "relatedDays": [
+      "national-cardiac-rehabilitation-week",
+      "american-heart-month",
+      "world-health-day"
+    ],
+    "howToCelebrate": "Schedule a health checkup or blood pressure screening. Take a 30-minute walk or engage in heart-pumping exercise. Cook a heart-healthy meal with lean proteins, vegetables, and whole grains. Learn CPR and basic life support techniques. Share heart health tips on social media to educate others. Donate to heart disease research organizations or volunteer at local health events.",
+    "funFacts": [
+      "Heart disease is the leading cause of death worldwide, claiming 17.9 million lives annually",
+      "Your heart beats about 100,000 times per day, pumping 2,000 gallons of blood",
+      "The heart has its own electrical system and can continue beating even when separated from the brain",
+      "Regular exercise can reduce your risk of heart disease by up to 30%",
+      "Laughing is actually good for your heart - it improves blood flow and reduces stress hormones"
+    ]
+  },
+  {
+    "title": "World Teachers' Day",
+    "slug": "world-teachers-day",
+    "date": "2025-10-05",
+    "category": "Awareness",
+    "description": "Honor the educators who shape our future on World Teachers' Day! This global celebration recognizes the invaluable contributions of teachers worldwide who dedicate their lives to educating, inspiring, and nurturing the next generation. Learn about the challenges teachers face, discover ways to support education, and take a moment to thank the teachers who made a difference in your life.",
+    "tags": [
+      "teachers",
+      "education",
+      "October",
+      "appreciation",
+      "learning",
+      "school",
+      "inspiration"
+    ],
+    "image": "teachers-in-classroom.jpg",
+    "relatedDays": [
+      "national-teacher-appreciation-week",
+      "back-to-school-month",
+      "world-book-day"
+    ],
+    "howToCelebrate": "Write a heartfelt thank-you note to a teacher who made a difference in your life. Share your appreciation on social media using #WorldTeachersDay. Donate school supplies to local classrooms or education charities. Volunteer to help with school activities or tutoring programs. Support teachers by advocating for better education funding and resources in your community.",
+    "funFacts": [
+      "Teachers work an average of 50 hours per week, often unpaid overtime",
+      "A single teacher can impact over 3,000 students throughout their career",
+      "Teachers spend an average of $500-1,000 of their own money on classroom supplies annually",
+      "The first teacher training college was established in France in 1685",
+      "Teachers make more decisions per hour than brain surgeons"
+    ]
+  },
+  {
+    "title": "National Mammography Day",
+    "slug": "national-mammography-day",
+    "date": "2025-10-17",
+    "category": "Awareness",
+    "description": "Take charge of your breast health on National Mammography Day! This important awareness day encourages women to schedule their annual mammograms and learn about early detection of breast cancer. Join the conversation about breast health, support those affected by breast cancer, and help spread awareness about the importance of regular screenings and self-examinations.",
+    "tags": [
+      "mammography",
+      "breast-health",
+      "October",
+      "awareness",
+      "cancer",
+      "screening",
+      "women"
+    ],
+    "image": "breast-health-awareness.jpg",
+    "relatedDays": [
+      "breast-cancer-awareness-month",
+      "national-women-health-day",
+      "world-cancer-day"
+    ],
+    "howToCelebrate": "Schedule your annual mammogram if you're due for one. Encourage the women in your life to prioritize their breast health screenings. Share educational information about breast cancer prevention and early detection on social media. Wear pink or a pink ribbon to show support for breast cancer awareness. Donate to breast cancer research organizations or volunteer at local health events.",
+    "funFacts": [
+      "Mammograms can detect breast cancer up to 3 years before it can be felt",
+      "Women should start getting mammograms at age 40, or earlier if they have a family history",
+      "Digital mammography is more accurate than traditional film mammography",
+      "Breast cancer is the second most common cancer in women worldwide",
+      "Early detection through mammography increases survival rates by 99%"
+    ]
+  },
+  {
+    "title": "World Health Day",
+    "slug": "world-health-day",
+    "date": "2025-04-07",
+    "category": "Awareness",
+    "description": "Prioritize your health and well-being on World Health Day! This global awareness day focuses on promoting healthy lifestyles, preventing diseases, and ensuring access to healthcare for all. Learn about current health challenges, discover ways to improve your physical and mental health, and join the global conversation about creating healthier communities worldwide.",
+    "tags": [
+      "health",
+      "wellness",
+      "April",
+      "awareness",
+      "prevention",
+      "medical",
+      "global"
+    ],
+    "image": "health-wellness-awareness.jpg",
+    "relatedDays": [
+      "national-nutrition-month",
+      "mental-health-awareness-month",
+      "world-heart-day"
+    ],
+    "howToCelebrate": "Schedule a health checkup or annual physical exam. Start a new healthy habit like regular exercise or better nutrition. Learn about a health condition you're not familiar with to increase awareness. Donate to health organizations or volunteer at local health events. Share health tips and resources on social media to help others prioritize their well-being.",
+    "funFacts": [
+      "World Health Day was established by the World Health Organization in 1950",
+      "Each year focuses on a different health theme or priority area",
+      "The WHO estimates that 80% of premature heart disease and stroke is preventable",
+      "Regular physical activity can reduce the risk of chronic diseases by 30%",
+      "Mental health conditions affect 1 in 4 people worldwide"
+    ]
+  },
+  {
+    "title": "National Stress Awareness Day",
+    "slug": "national-stress-awareness-day",
+    "date": "2025-04-16",
+    "category": "Awareness",
+    "description": "Take a deep breath and focus on your mental well-being on National Stress Awareness Day! This important awareness day highlights the impact of stress on our health and provides resources for stress management. Learn healthy coping strategies, practice relaxation techniques, and join the conversation about mental health and stress reduction in our fast-paced world.",
+    "tags": [
+      "stress",
+      "mental-health",
+      "April",
+      "awareness",
+      "wellness",
+      "relaxation",
+      "self-care"
+    ],
+    "image": "stress-relief-activities.jpg",
+    "relatedDays": [
+      "mental-health-awareness-month",
+      "national-meditation-day",
+      "world-mental-health-day"
+    ],
+    "howToCelebrate": "Practice stress-relief techniques like meditation, deep breathing, or yoga. Take a break from technology and spend time in nature. Engage in activities that bring you joy and relaxation. Learn about stress management techniques and share them with others. Support mental health organizations and advocate for better mental health resources in your community.",
+    "funFacts": [
+      "Chronic stress can lead to serious health problems including heart disease and depression",
+      "Stress affects 77% of people regularly",
+      "Exercise is one of the most effective ways to reduce stress",
+      "Laughter can reduce stress hormones and boost immune function",
+      "The American Institute of Stress was founded in 1978 to study stress"
+    ]
+  },
+  {
+    "title": "National Meditation Day",
+    "slug": "national-meditation-day",
+    "date": "2025-05-21",
+    "category": "Awareness",
+    "description": "Find your inner peace and celebrate mindfulness on National Meditation Day! This special day encourages people to explore the benefits of meditation for mental clarity, stress reduction, and overall well-being. Whether you're new to meditation or a seasoned practitioner, take time to quiet your mind and connect with your inner self.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "May",
+      "wellness",
+      "mental-health",
+      "peace",
+      "relaxation"
+    ],
+    "image": "peaceful-meditation-scene.jpg",
+    "relatedDays": [
+      "national-stress-awareness-day",
+      "mental-health-awareness-month",
+      "national-yoga-day"
+    ],
+    "howToCelebrate": "Try a meditation session using apps, guided videos, or classes. Practice different meditation techniques like mindfulness, breathing exercises, or walking meditation. Create a peaceful meditation space in your home. Learn about the science behind meditation's benefits. Share meditation tips and experiences on social media.",
+    "funFacts": [
+      "Meditation has been practiced for over 5,000 years",
+      "Just 10 minutes of meditation daily can improve focus and reduce stress",
+      "Meditation can increase gray matter in the brain",
+      "Regular meditation can lower blood pressure and heart rate",
+      "There are over 100 different types of meditation practices"
+    ]
+  },
+  {
+    "title": "National Fitness Day",
+    "slug": "national-fitness-day",
+    "date": "2025-05-06",
+    "category": "Awareness",
+    "description": "Get moving and prioritize your physical health on National Fitness Day! This important day encourages people to embrace an active lifestyle and discover the benefits of regular exercise. Whether you prefer running, yoga, weightlifting, or dancing, find activities you enjoy and make fitness a fun part of your daily routine.",
+    "tags": [
+      "fitness",
+      "exercise",
+      "May",
+      "health",
+      "wellness",
+      "active",
+      "sports"
+    ],
+    "image": "people-exercising-outdoor.jpg",
+    "relatedDays": [
+      "national-yoga-day",
+      "national-running-day",
+      "national-sports-day"
+    ],
+    "howToCelebrate": "Try a new workout or fitness class you've never done before. Go for a walk, run, or bike ride outdoors. Set new fitness goals and create a workout plan. Share your fitness journey and tips on social media. Encourage friends and family to join you in physical activities.",
+    "funFacts": [
+      "Regular exercise can reduce the risk of heart disease by 30%",
+      "Exercise releases endorphins that improve mood and reduce stress",
+      "You can burn calories even while sleeping if you exercise regularly",
+      "The average person takes about 7,500 steps per day",
+      "Exercise can improve sleep quality and boost immune function"
+    ]
+  },
+  {
+    "title": "National Sleep Day",
+    "slug": "national-sleep-day",
+    "date": "2025-03-15",
+    "category": "Awareness",
+    "description": "Catch some quality Z's and prioritize your rest on National Sleep Day! This important awareness day highlights the crucial role sleep plays in our physical and mental health. Learn about healthy sleep habits, discover ways to improve your sleep quality, and recognize that good sleep is essential for overall well-being and daily performance.",
+    "tags": [
+      "sleep",
+      "rest",
+      "March",
+      "health",
+      "wellness",
+      "recovery",
+      "mental-health"
+    ],
+    "image": "peaceful-sleep-environment.jpg",
+    "relatedDays": [
+      "national-insomnia-awareness-day",
+      "daylight-saving-time-begins",
+      "national-nap-day"
+    ],
+    "howToCelebrate": "Create a relaxing bedtime routine and stick to a consistent sleep schedule. Make your bedroom a sleep-friendly environment with comfortable bedding and minimal distractions. Avoid screens before bedtime and try relaxation techniques. Learn about sleep hygiene and share tips with others. Take a well-deserved nap if you're feeling tired.",
+    "funFacts": [
+      "Adults need 7-9 hours of sleep per night for optimal health",
+      "Sleep deprivation can impair judgment as much as alcohol consumption",
+      "During sleep, your brain consolidates memories and processes information",
+      "The record for longest period without sleep is 11 days",
+      "Sleep is more important than food - you can survive longer without food than without sleep"
+    ]
+  },
+  {
+    "title": "National Nutrition Month",
+    "slug": "national-nutrition-month",
+    "date": "2025-03-01",
+    "category": "Awareness",
+    "description": "Nourish your body and mind throughout National Nutrition Month! This month-long awareness campaign promotes healthy eating habits and the importance of good nutrition for overall health. Learn about balanced diets, discover new healthy recipes, and make informed food choices that support your well-being and energy levels.",
+    "tags": [
+      "nutrition",
+      "health",
+      "March",
+      "diet",
+      "wellness",
+      "healthy-eating",
+      "education"
+    ],
+    "image": "healthy-nutritious-foods.jpg",
+    "relatedDays": [
+      "world-health-day",
+      "national-fitness-day",
+      "world-food-day"
+    ],
+    "howToCelebrate": "Plan and prepare healthy meals for the month. Learn about different nutrients and their benefits. Try new fruits and vegetables you've never had before. Consult with a nutritionist or dietitian. Share healthy recipes and nutrition tips on social media.",
+    "funFacts": [
+      "National Nutrition Month was established in 1973",
+      "Proper nutrition can prevent 80% of heart disease and stroke",
+      "The average American diet is high in processed foods",
+      "Eating a variety of colors ensures diverse nutrients",
+      "Good nutrition can improve mental health and cognitive function"
+    ]
+  },
+  {
+    "title": "National Yoga Day",
+    "slug": "national-yoga-day",
+    "date": "2025-06-21",
+    "category": "Awareness",
+    "description": "Find your zen and celebrate the ancient practice of yoga on National Yoga Day! This mind-body practice combines physical postures, breathing techniques, and meditation to promote physical and mental well-being. Whether you're a beginner or experienced practitioner, embrace the benefits of yoga for flexibility, strength, and inner peace.",
+    "tags": [
+      "yoga",
+      "mindfulness",
+      "June",
+      "flexibility",
+      "meditation",
+      "wellness",
+      "balance"
+    ],
+    "image": "person-practicing-yoga.jpg",
+    "relatedDays": [
+      "national-meditation-day",
+      "national-fitness-day",
+      "national-stress-awareness-day"
+    ],
+    "howToCelebrate": "Attend a yoga class or practice at home. Try different styles of yoga like Hatha, Vinyasa, or Yin. Learn about the history and philosophy of yoga. Practice breathing exercises and meditation. Share your yoga journey and tips on social media.",
+    "funFacts": [
+      "Yoga originated in India over 5,000 years ago",
+      "Regular yoga practice can improve flexibility by 35%",
+      "Yoga can reduce chronic pain and improve sleep quality",
+      "There are over 100 different yoga styles",
+      "Yoga is practiced by over 300 million people worldwide"
+    ]
+  },
+  {
+    "title": "National Mental Health Day",
+    "slug": "national-mental-health-day",
+    "date": "2025-10-10",
+    "category": "Awareness",
+    "description": "Prioritize your mental well-being on National Mental Health Day! This important awareness day focuses on mental health education, reducing stigma, and promoting resources for those struggling with mental health challenges. Learn about mental health, support others, and remember that seeking help is a sign of strength, not weakness.",
+    "tags": [
+      "mental-health",
+      "wellness",
+      "October",
+      "awareness",
+      "support",
+      "therapy",
+      "self-care"
+    ],
+    "image": "mental-health-support.jpg",
+    "relatedDays": [
+      "national-stress-awareness-day",
+      "mental-health-awareness-month",
+      "national-meditation-day"
+    ],
+    "howToCelebrate": "Learn about mental health resources and support services. Practice self-care activities like meditation, exercise, or hobbies. Check in with friends and family about their mental well-being. Share mental health resources and information on social media. Consider volunteering with mental health organizations.",
+    "funFacts": [
+      "1 in 5 adults experiences mental illness each year",
+      "Mental health is just as important as physical health",
+      "Early intervention can prevent mental health conditions from worsening",
+      "Exercise is one of the most effective treatments for depression and anxiety",
+      "Talking about mental health helps reduce stigma and encourages others to seek help"
+    ]
+  },
+  {
+    "title": "National Mindfulness Day",
+    "slug": "national-mindfulness-day",
+    "date": "2025-09-12",
+    "category": "Awareness",
+    "description": "Be present and celebrate the practice of mindfulness on National Mindfulness Day! Mindfulness involves being fully aware of the present moment without judgment. This powerful practice can reduce stress, improve focus, and enhance overall well-being. Learn techniques for staying present and cultivate a more mindful approach to daily life.",
+    "tags": [
+      "mindfulness",
+      "present",
+      "September",
+      "awareness",
+      "meditation",
+      "wellness",
+      "focus"
+    ],
+    "image": "peaceful-mindfulness-practice.jpg",
+    "relatedDays": [
+      "national-meditation-day",
+      "national-stress-awareness-day",
+      "national-yoga-day"
+    ],
+    "howToCelebrate": "Practice mindfulness meditation for 10-15 minutes. Try mindful eating by savoring each bite. Take a mindful walk, paying attention to your surroundings. Practice deep breathing exercises. Share mindfulness tips and experiences on social media.",
+    "funFacts": [
+      "Mindfulness can reduce anxiety by 60%",
+      "Just 10 minutes of mindfulness daily can improve focus",
+      "Mindfulness has been practiced for over 2,500 years",
+      "Mindfulness can improve sleep quality",
+      "Regular mindfulness practice can increase gray matter in the brain"
+    ]
+  }
+]

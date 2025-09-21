@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Black Friday",
+    "slug": "black-friday",
+    "date": "2025-11-28",
+    "category": "Shopping",
+    "description": "Score amazing deals on the biggest shopping day of the year! Black Friday marks the official start of the holiday shopping season with incredible discounts, doorbuster sales, and limited-time offers. Whether you're shopping in-store or online, discover the best deals, learn shopping strategies, and find the perfect gifts for everyone on your list. Shop smart and save big!",
+    "tags": [
+      "black-friday",
+      "shopping",
+      "November",
+      "deals",
+      "discounts",
+      "holiday",
+      "savings"
+    ],
+    "image": "black-friday-shopping.jpg",
+    "relatedDays": [
+      "cyber-monday",
+      "thanksgiving-day",
+      "small-business-saturday"
+    ],
+    "howToCelebrate": "Research deals and create a shopping list before heading out. Shop early for the best doorbuster deals, or stay home and shop online for convenience. Compare prices across different retailers to ensure you're getting the best deal. Set a budget and stick to it to avoid overspending. Consider shopping at small businesses on Small Business Saturday instead of just big retailers.",
+    "funFacts": [
+      "Black Friday got its name because it's when retailers' books go from red (loss) to black (profit)",
+      "Over 165 million Americans shop on Black Friday weekend",
+      "The term 'Black Friday' was first used in 1961 in Philadelphia",
+      "Online Black Friday sales have grown by 20% annually since 2010",
+      "The average Black Friday shopper spends about $300"
+    ]
+  },
+  {
+    "title": "Cyber Monday",
+    "slug": "cyber-monday",
+    "date": "2025-12-01",
+    "category": "Shopping",
+    "description": "Shop from the comfort of your home on Cyber Monday! This online shopping extravaganza offers incredible deals on everything from electronics to clothing, making it the perfect day to complete your holiday shopping. Discover exclusive online discounts, learn about safe online shopping practices, and find the best deals without leaving your couch. Happy shopping!",
+    "tags": [
+      "cyber-monday",
+      "online-shopping",
+      "December",
+      "deals",
+      "holiday",
+      "electronics",
+      "convenience"
+    ],
+    "image": "online-shopping.jpg",
+    "relatedDays": [
+      "black-friday",
+      "thanksgiving-day",
+      "national-free-shipping-day"
+    ],
+    "howToCelebrate": "Shop online from the comfort of your home for the best Cyber Monday deals. Sign up for retailer newsletters to get exclusive discount codes. Use price comparison tools to find the best deals across multiple websites. Take advantage of free shipping offers and extended return policies. Shop securely by using trusted websites and secure payment methods.",
+    "funFacts": [
+      "Cyber Monday was created in 2005 by the National Retail Federation",
+      "It's the biggest online shopping day of the year in the United States",
+      "Cyber Monday sales have grown from $484 million in 2005 to over $10 billion today",
+      "The term was coined because people returned to work and shopped online on Monday",
+      "Mobile shopping accounts for over 50% of Cyber Monday traffic"
+    ]
+  },
+  {
+    "title": "National Small Business Saturday",
+    "slug": "national-small-business-saturday",
+    "date": "2025-11-29",
+    "category": "Shopping",
+    "description": "Shop small and support local communities on National Small Business Saturday! This important shopping day encourages consumers to support small, local businesses in their communities. From family-owned restaurants to boutique stores, discover the unique products and personalized service that small businesses offer while helping to strengthen local economies.",
+    "tags": [
+      "small-business",
+      "local",
+      "November",
+      "shopping",
+      "community",
+      "support",
+      "entrepreneurship"
+    ],
+    "image": "local-small-businesses.jpg",
+    "relatedDays": [
+      "black-friday",
+      "cyber-monday",
+      "national-entrepreneurs-day"
+    ],
+    "howToCelebrate": "Visit local small businesses in your community and make purchases. Share your favorite small businesses on social media to help promote them. Leave positive reviews for local businesses you love. Attend small business events or markets in your area. Consider starting your own small business or supporting a friend's entrepreneurial venture.",
+    "funFacts": [
+      "Small Business Saturday was created by American Express in 2010",
+      "Small businesses create 2 out of every 3 new jobs in America",
+      "For every $100 spent at a local business, $68 stays in the community",
+      "Small businesses employ nearly half of all private sector employees",
+      "Small Business Saturday has generated over $120 billion in sales since its inception"
+    ]
+  }
+]

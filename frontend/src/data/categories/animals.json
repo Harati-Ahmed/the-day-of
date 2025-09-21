@@ -1,0 +1,242 @@
+[
+  {
+    "title": "National Pet Day",
+    "slug": "national-pet-day",
+    "date": "2025-10-05",
+    "category": "Animals",
+    "description": "Show your furry, feathered, or scaly friends some extra love on National Pet Day! This special day celebrates the unconditional love and joy that pets bring to our lives. Learn about pet care tips, discover fun activities to do with your pet, and consider supporting local animal shelters. Whether you have a dog, cat, bird, or any other companion, today is all about appreciating the special bond between humans and animals.",
+    "tags": [
+      "pets",
+      "animals",
+      "October",
+      "love",
+      "care",
+      "companionship",
+      "shelters"
+    ],
+    "image": "happy-pets-together.jpg",
+    "relatedDays": [
+      "national-dog-day",
+      "national-cat-day",
+      "national-adopt-a-pet-day"
+    ],
+    "howToCelebrate": "Spend extra quality time with your pet - take them for a longer walk, play their favorite games, or give them extra cuddles. Treat your pet to something special like a new toy or their favorite treats. Take photos and share them on social media with #NationalPetDay. Volunteer at a local animal shelter or donate pet supplies. Consider adopting a pet if you're ready for the commitment.",
+    "funFacts": [
+      "70% of American households own at least one pet",
+      "Pet owners visit the doctor 30% less often than non-pet owners",
+      "Dogs have been domesticated for over 15,000 years",
+      "Cats spend 70% of their lives sleeping",
+      "Petting a dog or cat can lower your blood pressure and reduce stress"
+    ]
+  },
+  {
+    "title": "National Dog Day",
+    "slug": "national-dog-day",
+    "date": "2025-08-26",
+    "category": "Animals",
+    "description": "Celebrate our loyal canine companions on National Dog Day! This special day honors the unconditional love, loyalty, and joy that dogs bring to our lives. From rescue dogs to purebreds, working dogs to family pets, join millions of dog lovers worldwide in celebrating these amazing animals who make our world a better place.",
+    "tags": [
+      "dogs",
+      "pets",
+      "August",
+      "loyalty",
+      "companionship",
+      "animals",
+      "love"
+    ],
+    "image": "happy-dogs-playing.jpg",
+    "relatedDays": [
+      "national-pet-day",
+      "national-adopt-a-dog-day",
+      "national-puppy-day"
+    ],
+    "howToCelebrate": "Spend extra time playing with your dog - take them for a long walk, play fetch, or give them their favorite treats. Visit a local dog park to let your pup socialize with other dogs. Consider adopting a rescue dog from a local shelter. Donate to animal rescue organizations or volunteer at a local animal shelter. Share photos of your dog on social media with #NationalDogDay.",
+    "funFacts": [
+      "Dogs have been human companions for over 15,000 years",
+      "A dog's sense of smell is 10,000 to 100,000 times more sensitive than humans",
+      "Dogs can learn over 150 words and gestures",
+      "The average dog lives 10-13 years, depending on breed",
+      "Dogs can detect diseases like cancer and diabetes through smell"
+    ]
+  },
+  {
+    "title": "National Cat Day",
+    "slug": "national-cat-day",
+    "date": "2025-10-29",
+    "category": "Animals",
+    "description": "Paws and celebrate our feline friends on National Cat Day! These independent, graceful, and sometimes mysterious creatures bring joy, comfort, and entertainment to millions of households. From playful kittens to wise senior cats, honor the special bond between humans and cats while supporting cat rescue and adoption efforts.",
+    "tags": [
+      "cats",
+      "pets",
+      "October",
+      "feline",
+      "adoption",
+      "rescue",
+      "companionship"
+    ],
+    "image": "adorable-cats-playing.jpg",
+    "relatedDays": [
+      "national-pet-day",
+      "national-kitten-day",
+      "national-black-cat-day"
+    ],
+    "howToCelebrate": "Spend quality time with your cat - play with their favorite toys, give them extra cuddles, or treat them to a special meal. Consider adopting a cat from a local shelter or rescue organization. Donate cat food, toys, or supplies to animal shelters. Share photos of your cat on social media with #NationalCatDay. Learn about cat behavior and how to provide the best care for your feline friend.",
+    "funFacts": [
+      "Cats spend 70% of their lives sleeping - that's 13-16 hours per day",
+      "A group of cats is called a 'clowder' or a 'glaring'",
+      "Cats can rotate their ears 180 degrees independently",
+      "A cat's purr has healing properties and can help reduce stress in humans",
+      "Cats have been domesticated for over 4,000 years"
+    ]
+  },
+  {
+    "title": "National Bird Day",
+    "slug": "national-bird-day",
+    "date": "2025-01-05",
+    "category": "Animals",
+    "description": "Spread your wings and celebrate our feathered friends on National Bird Day! This special day honors the beauty, diversity, and importance of birds in our ecosystems. From backyard songbirds to majestic eagles, learn about bird conservation, enjoy birdwatching, and appreciate the vital role birds play in maintaining the balance of nature.",
+    "tags": [
+      "birds",
+      "animals",
+      "January",
+      "conservation",
+      "nature",
+      "birdwatching",
+      "wildlife"
+    ],
+    "image": "colorful-birds-in-nature.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "world-migratory-bird-day",
+      "national-audubon-day"
+    ],
+    "howToCelebrate": "Go birdwatching in your local park or nature area with binoculars and a field guide. Set up bird feeders in your yard to attract local species. Learn about bird conservation efforts and support organizations that protect bird habitats. Take photos of birds you spot and share them on social media. Visit a local aviary or bird sanctuary to see exotic species up close.",
+    "funFacts": [
+      "There are over 10,000 species of birds worldwide",
+      "Birds are the only animals with feathers",
+      "The smallest bird is the bee hummingbird, weighing less than a penny",
+      "Birds can see ultraviolet light, which humans cannot",
+      "The oldest known bird fossil is 150 million years old"
+    ]
+  },
+  {
+    "title": "National Fish Day",
+    "slug": "national-fish-day",
+    "date": "2025-08-04",
+    "category": "Animals",
+    "description": "Dive deep and celebrate the fascinating world of fish on National Fish Day! From tropical reef fish to deep-sea creatures, fish make up the largest group of vertebrates on Earth. Learn about marine conservation, discover different fish species, and appreciate the vital role fish play in aquatic ecosystems and human nutrition.",
+    "tags": [
+      "fish",
+      "marine",
+      "August",
+      "ocean",
+      "conservation",
+      "aquatic",
+      "wildlife"
+    ],
+    "image": "colorful-tropical-fish.jpg",
+    "relatedDays": [
+      "national-ocean-day",
+      "world-oceans-day",
+      "national-seafood-day"
+    ],
+    "howToCelebrate": "Visit an aquarium to see different fish species up close. Go fishing (catch and release) to experience fish in their natural habitat. Learn about sustainable fishing practices and marine conservation. Try cooking different types of fish for dinner. Support organizations that protect marine ecosystems and fish habitats.",
+    "funFacts": [
+      "There are over 34,000 species of fish in the world",
+      "Fish have been on Earth for over 500 million years",
+      "Some fish can change their gender during their lifetime",
+      "The smallest fish is the Paedocypris, measuring just 7.9mm",
+      "Fish provide protein for over 3 billion people worldwide"
+    ]
+  },
+  {
+    "title": "National Pet Adoption Day",
+    "slug": "national-pet-adoption-day",
+    "date": "2025-04-30",
+    "category": "Animals",
+    "description": "Open your heart and home to a furry friend on National Pet Adoption Day! This special day encourages people to consider adopting pets from shelters and rescue organizations. Whether you're looking for a dog, cat, or other companion animal, adoption saves lives and brings immeasurable joy to both pets and their new families.",
+    "tags": [
+      "adoption",
+      "pets",
+      "April",
+      "rescue",
+      "shelters",
+      "companionship",
+      "love"
+    ],
+    "image": "happy-adopted-pet.jpg",
+    "relatedDays": [
+      "national-pet-day",
+      "national-dog-day",
+      "national-cat-day"
+    ],
+    "howToCelebrate": "Visit local animal shelters and rescue organizations to meet adoptable pets. Consider adopting a pet if you're ready for the commitment. Volunteer at animal shelters or foster a pet temporarily. Donate supplies, food, or money to local rescue organizations. Share adoption success stories on social media to encourage others.",
+    "funFacts": [
+      "Over 6 million pets enter animal shelters each year in the US",
+      "Adopting a pet can reduce stress and improve mental health",
+      "Mixed-breed pets often live longer than purebred pets",
+      "Senior pets are often the most grateful and loving companions",
+      "Adoption fees are typically much less than purchasing from breeders"
+    ]
+  },
+  {
+    "title": "National Wildlife Day",
+    "slug": "national-wildlife-day",
+    "date": "2025-09-04",
+    "category": "Animals",
+    "description": "Celebrate the incredible diversity of wild animals on National Wildlife Day! This special day raises awareness about wildlife conservation and the importance of protecting natural habitats. From majestic elephants to tiny hummingbirds, learn about different species, their ecosystems, and how we can help preserve wildlife for future generations.",
+    "tags": [
+      "wildlife",
+      "conservation",
+      "September",
+      "animals",
+      "nature",
+      "habitat",
+      "preservation"
+    ],
+    "image": "wild-animals-in-nature.jpg",
+    "relatedDays": [
+      "national-bird-day",
+      "national-fish-day",
+      "world-environment-day"
+    ],
+    "howToCelebrate": "Visit a wildlife sanctuary, zoo, or nature reserve. Learn about endangered species and conservation efforts. Support wildlife conservation organizations through donations or volunteering. Create a wildlife-friendly garden with native plants. Share information about wildlife conservation on social media.",
+    "funFacts": [
+      "There are over 8.7 million species of wildlife on Earth",
+      "Wildlife tourism generates over $120 billion annually",
+      "Habitat loss is the biggest threat to wildlife",
+      "Conservation efforts have saved many species from extinction",
+      "Wildlife plays a crucial role in maintaining ecosystem balance"
+    ]
+  },
+  {
+    "title": "National Elephant Day",
+    "slug": "national-elephant-day",
+    "date": "2025-04-16",
+    "category": "Animals",
+    "description": "Celebrate the gentle giants of the animal kingdom on National Elephant Day! These magnificent creatures are known for their intelligence, memory, and strong family bonds. Learn about elephant conservation, their importance to ecosystems, and the threats they face. Support efforts to protect these incredible animals for future generations.",
+    "tags": [
+      "elephants",
+      "wildlife",
+      "April",
+      "conservation",
+      "intelligence",
+      "endangered",
+      "majestic"
+    ],
+    "image": "majestic-elephants-in-nature.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "world-elephant-day",
+      "national-zoo-day"
+    ],
+    "howToCelebrate": "Visit a zoo or wildlife sanctuary to see elephants up close. Learn about elephant conservation efforts and support organizations that protect them. Watch documentaries about elephant behavior and intelligence. Share information about elephant conservation on social media. Avoid products that contribute to elephant habitat destruction.",
+    "funFacts": [
+      "Elephants are the largest land animals on Earth",
+      "Elephants can live up to 70 years in the wild",
+      "Elephants have excellent memories and can remember locations for decades",
+      "Elephants communicate through infrasound that can travel miles",
+      "African elephants are listed as endangered, Asian elephants as critically endangered"
+    ]
+  }
+]

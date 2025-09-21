@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Columbus Day",
+    "slug": "columbus-day",
+    "date": "2025-10-13",
+    "category": "Holiday",
+    "description": "Commemorate Christopher Columbus' historic voyage to the Americas on Columbus Day. This federal holiday marks the anniversary of Columbus' landing in 1492, celebrating Italian-American heritage and the spirit of exploration. Learn about the historical significance, discover local parades and festivals, and explore the complex legacy of this pivotal moment in world history.",
+    "tags": [
+      "holiday",
+      "history",
+      "October",
+      "exploration",
+      "italian-american",
+      "columbus",
+      "federal"
+    ],
+    "image": "columbus-day-parade.jpg",
+    "relatedDays": [
+      "indigenous-peoples-day",
+      "leif-erikson-day",
+      "veterans-day"
+    ],
+    "howToCelebrate": "Attend local Columbus Day parades and festivals celebrating Italian-American culture. Visit museums or historical sites related to exploration and maritime history. Learn about the complex history of European exploration and its impact on indigenous peoples. Enjoy Italian-American cuisine and cultural events. Read books or watch documentaries about the Age of Exploration.",
+    "funFacts": [
+      "Columbus never actually set foot on mainland North America",
+      "His ships were the Niña, Pinta, and Santa María",
+      "Columbus Day became a federal holiday in 1937",
+      "Many states now celebrate Indigenous Peoples' Day instead",
+      "Columbus made four voyages to the Americas between 1492 and 1504"
+    ]
+  },
+  {
+    "title": "Halloween",
+    "slug": "halloween",
+    "date": "2025-10-31",
+    "category": "Holiday",
+    "description": "Get ready for the spookiest night of the year! Halloween brings out the kid in all of us with costumes, trick-or-treating, haunted houses, and pumpkin carving. From ancient Celtic traditions to modern celebrations, discover the rich history behind this beloved holiday. Whether you're planning a party, decorating your home, or just enjoying some candy, Halloween is all about fun, creativity, and a little bit of fright!",
+    "tags": [
+      "halloween",
+      "costumes",
+      "October",
+      "trick-or-treat",
+      "pumpkins",
+      "spooky",
+      "celebration"
+    ],
+    "image": "halloween-celebration.jpg",
+    "relatedDays": [
+      "day-of-the-dead",
+      "all-saints-day",
+      "national-pumpkin-day"
+    ],
+    "howToCelebrate": "Carve pumpkins with creative designs and display them on your porch. Dress up in costumes and go trick-or-treating or attend a Halloween party. Decorate your home with spooky decorations like cobwebs, skeletons, and jack-o'-lanterns. Watch classic horror movies or family-friendly Halloween films. Visit a haunted house or corn maze for thrills. Hand out candy to trick-or-treaters in your neighborhood.",
+    "funFacts": [
+      "Halloween originated from the ancient Celtic festival of Samhain over 2,000 years ago",
+      "Americans spend over $9 billion on Halloween each year",
+      "The largest pumpkin ever recorded weighed 2,624 pounds",
+      "Black cats were once believed to be witches' familiars",
+      "The tradition of trick-or-treating began in medieval Europe"
+    ]
+  },
+  {
+    "title": "Veterans Day",
+    "slug": "veterans-day",
+    "date": "2025-11-11",
+    "category": "Holiday",
+    "description": "Honor those who served our country on Veterans Day! This federal holiday pays tribute to all American military veterans who have bravely served in the armed forces. Attend local ceremonies, visit veterans' memorials, or simply thank a veteran for their service. Learn about the history of this important day and discover ways to support veterans in your community.",
+    "tags": [
+      "veterans",
+      "military",
+      "November",
+      "honor",
+      "service",
+      "federal-holiday",
+      "gratitude"
+    ],
+    "image": "veterans-day-ceremony.jpg",
+    "relatedDays": [
+      "memorial-day",
+      "armed-forces-day",
+      "national-military-appreciation-month"
+    ],
+    "howToCelebrate": "Attend a Veterans Day parade or ceremony in your community. Visit a veterans' memorial or cemetery to pay your respects. Thank veterans you know personally for their service. Donate to organizations that support veterans and their families. Learn about the history of Veterans Day and the sacrifices made by military personnel. Fly the American flag at half-mast until noon, then full-staff.",
+    "funFacts": [
+      "Veterans Day was originally called Armistice Day and marked the end of World War I",
+      "The date November 11th was chosen because WWI ended on the 11th hour of the 11th day of the 11th month",
+      "There are over 18 million veterans living in the United States today",
+      "Veterans Day became a federal holiday in 1938",
+      "The holiday was temporarily moved to the fourth Monday in October from 1971-1977"
+    ]
+  },
+  {
+    "title": "Thanksgiving Day",
+    "slug": "thanksgiving-day",
+    "date": "2025-11-27",
+    "category": "Holiday",
+    "description": "Gather with family and friends to give thanks on Thanksgiving Day! This beloved American holiday is all about gratitude, delicious food, and spending quality time with loved ones. From the traditional turkey dinner to football games and parades, Thanksgiving brings communities together to celebrate the blessings in our lives. Discover new recipes, learn about the holiday's history, and create lasting memories.",
+    "tags": [
+      "thanksgiving",
+      "gratitude",
+      "November",
+      "family",
+      "turkey",
+      "tradition",
+      "celebration"
+    ],
+    "image": "thanksgiving-dinner.jpg",
+    "relatedDays": [
+      "black-friday",
+      "cyber-monday",
+      "national-turkey-day"
+    ],
+    "howToCelebrate": "Prepare a traditional Thanksgiving feast with turkey, stuffing, cranberry sauce, and pumpkin pie. Go around the table and share what you're grateful for this year. Watch the Macy's Thanksgiving Day Parade or football games. Volunteer at a local food bank or homeless shelter. Take a family walk or play outdoor games together. Send thank-you notes to people who have made a difference in your life.",
+    "funFacts": [
+      "The first Thanksgiving was celebrated in 1621 and lasted three days",
+      "Americans eat about 46 million turkeys on Thanksgiving",
+      "The Macy's Thanksgiving Day Parade started in 1924",
+      "Thanksgiving became a national holiday in 1863 when Abraham Lincoln declared it",
+      "The average Thanksgiving meal contains about 3,000 calories"
+    ]
+  },
+  {
+    "title": "Hanukkah 2025",
+    "slug": "hanukkah-2025",
+    "date": "2025-12-25",
+    "category": "Holiday",
+    "description": "Celebrate the Festival of Lights! Hanukkah commemorates the miracle of the oil that lasted eight days in the ancient Temple. Light the menorah, enjoy traditional foods like latkes and sufganiyot, play dreidel games, and exchange gifts with family and friends. Learn about the rich traditions, history, and meaning behind this beautiful Jewish holiday that brings light and joy to the darkest time of year.",
+    "tags": [
+      "hanukkah",
+      "jewish",
+      "December",
+      "lights",
+      "menorah",
+      "tradition",
+      "miracle"
+    ],
+    "image": "hanukkah-menorah.jpg",
+    "relatedDays": [
+      "christmas-day",
+      "kwanzaa",
+      "winter-solstice"
+    ],
+    "howToCelebrate": "Light the menorah each night for eight nights, adding one candle each day. Enjoy traditional Hanukkah foods like latkes (potato pancakes) and sufganiyot (jelly donuts). Play dreidel games with family and friends. Exchange small gifts each night of Hanukkah. Learn about the history and meaning of Hanukkah through books or online resources. Attend community Hanukkah celebrations or host your own.",
+    "funFacts": [
+      "Hanukkah means 'dedication' in Hebrew",
+      "The holiday commemorates the rededication of the Second Temple in Jerusalem",
+      "Hanukkah lasts for eight days and nights",
+      "The menorah used during Hanukkah is called a hanukkiah and has nine branches",
+      "Hanukkah is not mentioned in the Hebrew Bible but is described in the Talmud"
+    ]
+  },
+  {
+    "title": "Christmas Eve",
+    "slug": "christmas-eve",
+    "date": "2025-12-24",
+    "category": "Holiday",
+    "description": "The magic is in the air on Christmas Eve! This special night is filled with anticipation, wonder, and the joy of giving. From hanging stockings and leaving cookies for Santa to attending midnight mass or enjoying a quiet family dinner, Christmas Eve traditions vary but all share the same spirit of love and togetherness. Create lasting memories and embrace the wonder of the season.",
+    "tags": [
+      "christmas-eve",
+      "christmas",
+      "December",
+      "eve",
+      "santa",
+      "traditions",
+      "family"
+    ],
+    "image": "christmas-eve-magic.jpg",
+    "relatedDays": [
+      "christmas-day",
+      "hanukkah-2025",
+      "new-years-eve"
+    ],
+    "howToCelebrate": "Hang stockings by the fireplace and leave cookies and milk for Santa. Attend Christmas Eve church services or watch them online. Enjoy a special family dinner together. Read Christmas stories or watch classic holiday movies. Drive around to look at Christmas light displays in your neighborhood. Spend quality time with loved ones and create new traditions.",
+    "funFacts": [
+      "Christmas Eve is celebrated on December 24th in most Western countries",
+      "The tradition of hanging stockings comes from the story of St. Nicholas",
+      "Many families open one present on Christmas Eve",
+      "Christmas Eve is often considered more important than Christmas Day in some cultures",
+      "The tradition of leaving cookies for Santa started in the 1930s"
+    ]
+  },
+  {
+    "title": "Christmas Day",
+    "slug": "christmas-day",
+    "date": "2025-12-25",
+    "category": "Holiday",
+    "description": "Merry Christmas! Celebrate the most wonderful time of the year with family, friends, and the joy of giving. From opening presents under the tree to enjoying a festive feast, Christmas Day is about love, gratitude, and creating precious memories. Whether you're celebrating the religious significance or simply enjoying the magic of the season, may your day be filled with peace, joy, and happiness.",
+    "tags": [
+      "christmas",
+      "holiday",
+      "December",
+      "gifts",
+      "family",
+      "celebration",
+      "joy"
+    ],
+    "image": "christmas-day-celebration.jpg",
+    "relatedDays": [
+      "christmas-eve",
+      "boxing-day",
+      "new-years-eve"
+    ],
+    "howToCelebrate": "Wake up early to open presents with family and friends. Attend Christmas church services or watch them online. Prepare and enjoy a traditional Christmas dinner with loved ones. Watch classic Christmas movies like 'It's a Wonderful Life' or 'A Christmas Story'. Call or video chat with family members who can't be there in person. Give back by volunteering at a soup kitchen or donating to charity.",
+    "funFacts": [
+      "Christmas trees were first decorated in 16th century Germany",
+      "Santa Claus is based on Saint Nicholas, a 4th-century Greek bishop",
+      "The first Christmas card was sent in 1843",
+      "Rudolph the Red-Nosed Reindeer was created for a department store in 1939",
+      "Christmas is celebrated by over 2 billion people worldwide"
+    ]
+  },
+  {
+    "title": "New Year's Eve",
+    "slug": "new-years-eve",
+    "date": "2025-12-31",
+    "category": "Holiday",
+    "description": "Ring in the New Year with style and celebration! New Year's Eve is the perfect time to reflect on the past year and look forward to new beginnings. From glamorous parties and fireworks displays to quiet gatherings with loved ones, celebrate the end of one year and the start of another. Make resolutions, count down to midnight, and toast to new possibilities and fresh starts.",
+    "tags": [
+      "new-years-eve",
+      "celebration",
+      "December",
+      "midnight",
+      "fireworks",
+      "resolution",
+      "party"
+    ],
+    "image": "new-years-eve-celebration.jpg",
+    "relatedDays": [
+      "new-years-day",
+      "christmas-day",
+      "national-champagne-day"
+    ],
+    "howToCelebrate": "Attend a New Year's Eve party or host your own celebration with friends and family. Watch the ball drop in Times Square or find a local fireworks display. Make New Year's resolutions and write them down. Toast with champagne or sparkling cider at midnight. Reflect on the past year and set goals for the new one. Share a kiss with someone special at midnight for good luck.",
+    "funFacts": [
+      "The Times Square ball drop tradition started in 1907",
+      "The first New Year's Eve celebration was held in ancient Babylon 4,000 years ago",
+      "Eating black-eyed peas on New Year's Eve is thought to bring good luck",
+      "The tradition of making resolutions dates back to ancient Rome",
+      "New Year's Eve is celebrated at different times around the world due to time zones"
+    ]
+  }
+]
