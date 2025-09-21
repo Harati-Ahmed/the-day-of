@@ -11,7 +11,7 @@ export default function Header() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <header className="bg-white/80 dark:bg-dark-800/80 backdrop-blur-md shadow-soft dark:shadow-dark-soft border-b border-neutral-200 dark:border-dark-700 sticky top-0 z-50">
+    <header className="bg-white/95 dark:bg-dark-800/95 backdrop-blur-md shadow-soft dark:shadow-dark-soft border-b border-neutral-200 dark:border-dark-700 fixed top-0 left-0 right-0 z-50">
       <div className="container-custom">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
