@@ -83,35 +83,35 @@ export default function SocialShare({
           <button
             onClick={() => handleShare('twitter')}
             className="p-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-white transition-colors"
-            title="Share on Twitter"
+            aria-label="Share on Twitter"
           >
             <Twitter className="h-4 w-4" />
           </button>
           <button
             onClick={() => handleShare('facebook')}
             className="p-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors"
-            title="Share on Facebook"
+            aria-label="Share on Facebook"
           >
             <Facebook className="h-4 w-4" />
           </button>
           <button
             onClick={() => handleShare('linkedin')}
             className="p-2 rounded-lg bg-blue-700 hover:bg-blue-800 text-white transition-colors"
-            title="Share on LinkedIn"
+            aria-label="Share on LinkedIn"
           >
             <Linkedin className="h-4 w-4" />
           </button>
           <button
             onClick={() => handleShare('email')}
             className="p-2 rounded-lg bg-gray-600 hover:bg-gray-700 text-white transition-colors"
-            title="Share via Email"
+            aria-label="Share via Email"
           >
             <Mail className="h-4 w-4" />
           </button>
           <button
             onClick={handleCopyLink}
             className="p-2 rounded-lg bg-gray-500 hover:bg-gray-600 text-white transition-colors"
-            title="Copy Link"
+            aria-label="Copy Link"
           >
             {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
           </button>

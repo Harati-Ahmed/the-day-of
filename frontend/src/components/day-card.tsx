@@ -1,7 +1,10 @@
+'use client';
+
 import Link from 'next/link';
+import Image from 'next/image';
 import { Day } from '@/types';
 import { formatDate, getCategorySlug, getCategoryColor } from '@/lib/utils';
-import { Calendar, Tag } from 'lucide-react';
+import { Calendar, Tag, Sparkles } from 'lucide-react';
 
 interface DayCardProps {
   day: Day;
@@ -13,7 +16,34 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
   const categoryColor = getCategoryColor(day.category);
 
   return (
-    <div className="card-hover group overflow-hidden">
+    <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-soft dark:shadow-dark-soft border border-neutral-100 dark:border-dark-700 hover:shadow-medium dark:hover:shadow-dark-medium group overflow-hidden transition-all duration-300">
+      {/* Image or Icon */}
+      <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20">
+        {day.image ? (
+          <>
+            <Image
+              src={`/images/events/${day.image}`}
+              alt={day.title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-300"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              onError={(e) => {
+                // Fallback to SVG if JPG fails
+                const target = e.target as HTMLImageElement;
+                if (!target.src.endsWith('.svg')) {
+                  target.src = `/images/events/${day.image.replace(/\.(jpg|jpeg|png|gif)$/i, '.svg')}`;
+                }
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+          </>
+        ) : (
+          <div className="flex items-center justify-center h-full">
+            <Sparkles className="h-16 w-16 text-primary-400 dark:text-primary-500" />
+          </div>
+        )}
+      </div>
+      
       <div className="p-8">
         {/* Category Badge and Date */}
         <div className="flex items-center justify-between mb-6">
@@ -33,13 +63,13 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
 
         {/* Title */}
         <Link href={`/${categorySlug}/${day.slug}`}>
-          <h3 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-4 line-clamp-2 leading-tight">
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-4 line-clamp-2 leading-tight">
             {day.title}
           </h3>
         </Link>
 
         {/* Description */}
-        <p className="text-neutral-600 dark:text-neutral-300 text-base mb-6 line-clamp-3 leading-relaxed">
+        <p className="text-gray-700 dark:text-gray-300 text-base mb-6 line-clamp-3 leading-relaxed">
           {day.description}
         </p>
 

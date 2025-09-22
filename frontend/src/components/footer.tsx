@@ -1,15 +1,10 @@
 import Link from 'next/link';
 import { Calendar, Heart } from 'lucide-react';
-import NewsletterSubscribe from '@/components/newsletter-subscribe';
 
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900 text-white">
       <div className="container-custom py-16">
-        {/* Newsletter Section */}
-        <div className="mb-16">
-          <NewsletterSubscribe variant="minimal" className="max-w-md mx-auto" />
-        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}

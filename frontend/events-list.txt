@@ -1,0 +1,280 @@
+TheDayOf - Complete Events List
+Total Events: 232
+
+========================================
+ANIMALS (22 events)
+========================================
+1. National Pet Day
+2. National Dog Day
+3. National Cat Day
+4. National Bird Day
+5. National Fish Day
+6. National Pet Adoption Day
+7. National Wildlife Day
+8. National Elephant Day
+9. National Rabbit Day
+10. National Horse Day
+11. National Turtle Day
+12. National Butterfly Day
+13. National Penguin Day
+14. National Bee Day
+15. National Koala Day
+16. National Shark Day
+17. National Squirrel Day
+18. National Dolphin Day
+19. National Panda Day
+20. National Hedgehog Day
+21. National Whale Day
+22. National Sloth Day
+
+========================================
+AWARENESS (30 events)
+========================================
+23. World Heart Day
+24. World Teachers' Day
+25. National Mammography Day
+26. World Health Day
+27. National Stress Awareness Day
+28. National Meditation Day
+29. National Fitness Day
+30. National Sleep Day
+31. National Nutrition Month
+32. National Yoga Day
+33. National Mental Health Day
+34. National Mindfulness Day
+35. National Digital Wellness Day
+36. National Literacy Awareness Day
+37. National Cybersecurity Awareness Day
+38. National Environmental Education Day
+39. National Autism Awareness Day
+40. National Disaster Preparedness Day
+41. National Blood Donor Day
+42. National Organ Donor Day
+43. National Cancer Awareness Day
+44. National Mental Health Awareness Day
+45. National Recycling Day
+46. National Diabetes Awareness Day
+47. National Alzheimer's Awareness Day
+48. National Cancer Survivors Day
+49. National Suicide Prevention Day
+50. National Recovery Month
+51. National Donate Life Month
+52. National Breast Cancer Awareness Month
+
+========================================
+FOOD (57 events)
+========================================
+53. National Coffee Day
+54. National Coffee Day Weekend Specials
+55. National Taco Day
+56. National Dessert Day
+57. National Pasta Day
+58. National Chocolate Cupcake Day
+59. National Sandwich Day
+60. National Cappuccino Day
+61. National Peanut Butter Lovers Day
+62. National Cookie Day
+63. National Brownie Day
+64. National Maple Syrup Day
+65. National Fruitcake Day
+66. National Chocolate Candy Day
+67. National Cookie Exchange Day
+68. National Champagne Day
+69. National Pizza Day
+70. National Ice Cream Day
+71. National Pretzel Day
+72. National Hamburger Day
+73. National Donut Day
+74. National Wine Day
+75. National Chocolate Day
+76. National Beer Day
+77. National Hot Dog Day
+78. National Pancake Day
+79. National Grilled Cheese Day
+80. National Sushi Day
+81. National Barbecue Day
+82. National Cheese Day
+83. National Smoothie Day
+84. National Waffle Day
+85. National Nacho Day
+86. National Smoothie Bowl Day
+87. National Avocado Day
+88. National Soup Day
+89. National Salad Day
+90. National Pie Day
+91. National Cereal Day
+92. National Bagel Day
+93. National Muffin Day
+94. National Rice Day
+95. National Oatmeal Day
+96. National Vegetarian Day
+97. National Spice Day
+98. National Tea Day
+99. National Popcorn Day
+100. National Yogurt Day
+101. National Granola Day
+102. National Apple Pie Day
+103. National Baseball Day
+104. National BBQ Day
+105. National Wings Day
+106. National Mac and Cheese Day
+107. National Fried Chicken Day
+108. National Soul Food Day
+109. National Hot Dog Day (duplicate)
+
+========================================
+FUN (34 events)
+========================================
+110. National Boss's Day
+111. Daylight Saving Time Ends
+112. National Ugly Christmas Sweater Day
+113. National Siblings Day
+114. National Work From Home Day
+115. National Random Acts of Kindness Day
+116. National Employee Appreciation Day
+117. National Gardening Day
+118. National Picnic Day
+119. National Joke Day
+120. National Take a Walk Day
+121. National Laugh Day
+122. National Smile Day
+123. National Happiness Day
+124. National Pajama Day
+125. National Board Game Day
+126. National Bubble Wrap Day
+127. National Backwards Day
+128. National Video Game Day
+129. National Dance Day
+130. National Puzzle Day
+131. National Karaoke Day
+132. National Magic Day
+133. National Trivia Day
+134. National Opposite Day
+135. National Compliment Day
+136. National Tell a Joke Day
+137. National Play Outside Day
+138. National Football Day
+139. National Tailgating Day
+140. National Drive-In Movie Day
+141. National State Fair Day
+142. National County Fair Day
+143. National Road Trip Day
+
+========================================
+HOLIDAY (26 events)
+========================================
+144. Columbus Day
+145. Halloween
+146. Veterans Day
+147. Thanksgiving Day
+148. Hanukkah 2025
+149. Christmas Eve
+150. Christmas Day
+151. New Year's Eve
+152. Presidents Day
+153. Labor Day
+154. Martin Luther King Jr. Day
+155. Memorial Day
+156. Independence Day
+157. Earth Day
+158. Flag Day
+159. Arbor Day
+160. Juneteenth
+161. Valentine's Day
+162. New Year's Day
+163. St. Patrick's Day
+164. Easter
+165. Groundhog Day
+166. Super Bowl Sunday
+167. Mother's Day
+168. Father's Day
+169. Cinco de Mayo
+
+========================================
+INTERNATIONAL (14 events)
+========================================
+170. International Women's Day
+171. World Environment Day
+172. International Day of Friendship
+173. World Kindness Day
+174. World Food Day
+175. World Book Day
+176. National Ocean Day
+177. International Day of Peace
+178. International Music Day
+179. International Yoga Day
+180. World Oceans Day
+181. International Day of Happiness
+182. World Water Day
+183. International Day of Families
+
+========================================
+NATIONAL (35 events)
+========================================
+184. National Back to School Day
+185. National Technology Day
+186. National Reading Day
+187. National Volunteer Day
+188. National Astronomy Day
+189. National Family Day
+190. National Music Day
+191. National Friendship Day
+192. National Art Day
+193. National Internet Day
+194. National Photography Day
+195. National Creativity Day
+196. National Gratitude Day
+197. National Creativity Day (duplicate)
+198. National Volunteer Day (duplicate)
+199. National Science Day
+200. National Innovation Day
+201. National Friendship Day (duplicate)
+202. National Reading Day (duplicate)
+203. National Fitness Day
+204. National Entrepreneurship Day
+205. National Mentorship Day
+206. National Library Day
+207. National Art Day (duplicate)
+208. National Education Day
+209. National Leadership Day
+210. National Constitution Day
+211. National Veterans Day
+212. National American History Day
+213. National Small Business Day
+214. National Armed Forces Day
+215. National Freedom Day
+216. National Gold Star Mother's Day
+217. National 4th of July Weekend
+218. National American Dream Day
+
+========================================
+SHOPPING (14 events)
+========================================
+219. Black Friday
+220. Cyber Monday
+221. National Small Business Saturday
+222. Small Business Saturday
+223. National Thrift Shop Day
+224. National Shopping Day
+225. National Bargain Hunting Day
+226. National Coupon Day
+227. National Retail Day
+228. National Shop Local Day
+229. National Online Shopping Day
+230. National Gift Card Day
+231. National Mall Day
+232. National Garage Sale Day
+
+========================================
+SUMMARY BY CATEGORY
+========================================
+Animals: 22 events
+Awareness: 30 events
+Food: 57 events (including 1 duplicate)
+Fun: 34 events
+Holiday: 26 events
+International: 14 events
+National: 35 events (including 4 duplicates)
+Shopping: 14 events
+
+Total: 232 events

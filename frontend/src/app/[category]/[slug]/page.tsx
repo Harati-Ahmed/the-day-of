@@ -87,8 +87,32 @@ export default async function DayPage({ params }: PageProps) {
       "@type": "Organization", 
       "name": "TheDayOf",
       "url": "https://thedayof.net"
-    }
+    },
+    ...(day.nextOccurrences && day.nextOccurrences.length > 0 && {
+      "recurringEvent": {
+        "@type": "EventSeries",
+        "eventSchedule": day.nextOccurrences.map(date => ({
+          "@type": "Schedule",
+          "startDate": date,
+          "endDate": date
+        }))
+      }
+    })
   };
+
+  // FAQ Schema
+  const faqStructuredData = day.faqs && day.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": day.faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  } : null;
 
   const articleStructuredData = {
     "@context": "https://schema.org",
@@ -124,6 +148,12 @@ export default async function DayPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
       />
+      {faqStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        />
+      )}
       
       <div className="min-h-screen bg-gray-50 dark:bg-dark-900">
         {/* Breadcrumb */}
@@ -197,23 +227,64 @@ export default async function DayPage({ params }: PageProps) {
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-neutral-100 mb-6">About {day.title}</h2>
                 
                 <div className="prose max-w-none">
-                  <p className="text-gray-700 dark:text-neutral-300 mb-4">
+                  <p className="text-gray-700 dark:text-neutral-300 mb-6">
                     {day.description}
                   </p>
                   
+                  {day.history && (
+                    <>
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">History & Origins</h3>
+                      <p className="text-gray-700 dark:text-neutral-300 mb-6">
+                        {day.history}
+                      </p>
+                    </>
+                  )}
+                  
+                  {day.whyItMatters && (
+                    <>
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">Why It Matters</h3>
+                      <p className="text-gray-700 dark:text-neutral-300 mb-6">
+                        {day.whyItMatters}
+                      </p>
+                    </>
+                  )}
+                  
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">How to Celebrate</h3>
-                  <p className="text-gray-700 dark:text-neutral-300 mb-4">
+                  <p className="text-gray-700 dark:text-neutral-300 mb-6">
                     {day.howToCelebrate || "There are countless ways to celebrate this special day. Whether you're looking for traditional activities, modern twists, or creative ideas, this special day offers opportunities to connect with others, learn something new, or simply enjoy the moment."}
                   </p>
                   
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">Fun Facts</h3>
-                  <ul className="list-disc list-inside text-gray-700 dark:text-neutral-300 space-y-2">
-                    {(day.funFacts || []).map((fact, index) => (
-                      <li key={index}>{fact}</li>
-                    ))}
-                  </ul>
+                  {day.funFacts && day.funFacts.length > 0 && (
+                    <>
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">Fun Facts</h3>
+                      <ul className="list-disc list-inside text-gray-700 dark:text-neutral-300 space-y-2 mb-6">
+                        {day.funFacts.map((fact, index) => (
+                          <li key={index}>{fact}</li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
                 </div>
               </div>
+
+              {/* FAQ Section */}
+              {day.faqs && day.faqs.length > 0 && (
+                <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-8 mb-8">
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-neutral-100 mb-6">Frequently Asked Questions</h2>
+                  <div className="space-y-6">
+                    {day.faqs.map((faq, index) => (
+                      <div key={index} className="border-b border-gray-200 dark:border-dark-600 pb-4 last:border-b-0">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-neutral-100 mb-2">
+                          {faq.question}
+                        </h3>
+                        <p className="text-gray-700 dark:text-neutral-300">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Share Section */}
               <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-8">
@@ -265,6 +336,27 @@ export default async function DayPage({ params }: PageProps) {
                 </div>
               )}
 
+              {/* Topic Clusters Navigation */}
+              <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-6 mb-8">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Related Collections</h3>
+                <div className="space-y-3">
+                  <Link 
+                    href={`/category/${categorySlug}`}
+                    className="block p-3 rounded-lg bg-gray-50 dark:bg-dark-700 hover:bg-gray-100 dark:hover:bg-dark-600 transition-colors"
+                  >
+                    <div className="font-medium text-gray-900 dark:text-neutral-100">All {day.category} Days</div>
+                    <p className="text-sm text-gray-600 dark:text-neutral-300">Explore more {day.category.toLowerCase()} celebrations</p>
+                  </Link>
+                  <Link 
+                    href={`/month/${new Date(day.date).toLocaleDateString('en-US', { month: 'long' }).toLowerCase()}`}
+                    className="block p-3 rounded-lg bg-gray-50 dark:bg-dark-700 hover:bg-gray-100 dark:hover:bg-dark-600 transition-colors"
+                  >
+                    <div className="font-medium text-gray-900 dark:text-neutral-100">{new Date(day.date).toLocaleDateString('en-US', { month: 'long' })} Special Days</div>
+                    <p className="text-sm text-gray-600 dark:text-neutral-300">See all celebrations this month</p>
+                  </Link>
+                </div>
+              </div>
+
               {/* Quick Info */}
               <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-6">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Quick Info</h3>
@@ -281,6 +373,29 @@ export default async function DayPage({ params }: PageProps) {
                     <div>
                       <span className="text-sm font-medium text-gray-500 dark:text-neutral-400">Tags:</span>
                       <p className="text-gray-900 dark:text-neutral-100">{day.tags.join(', ')}</p>
+                    </div>
+                  )}
+                  {day.nextOccurrences && day.nextOccurrences.length > 0 && (
+                    <div>
+                      <span className="text-sm font-medium text-gray-500 dark:text-neutral-400">Next Occurrences:</span>
+                      <div className="mt-2 space-y-1">
+                        {day.nextOccurrences.slice(0, 3).map((occurrence, index) => {
+                          const occurrenceDate = new Date(occurrence);
+                          const year = occurrenceDate.getFullYear();
+                          const month = occurrenceDate.toLocaleDateString('en-US', { month: 'short' });
+                          const dayNum = occurrenceDate.getDate();
+                          return (
+                            <p key={index} className="text-gray-900 dark:text-neutral-100 text-sm">
+                              {month} {dayNum}, {year}
+                            </p>
+                          );
+                        })}
+                        {day.nextOccurrences.length > 3 && (
+                          <p className="text-gray-500 dark:text-neutral-400 text-sm">
+                            +{day.nextOccurrences.length - 3} more
+                          </p>
+                        )}
+                      </div>
                     </div>
                   )}
                 </div>

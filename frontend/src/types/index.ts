@@ -9,6 +9,15 @@ export interface Day {
   relatedDays: string[];
   howToCelebrate?: string;
   funFacts?: string[];
+  nextOccurrences?: string[];
+  history?: string;
+  whyItMatters?: string;
+  faqs?: FAQ[];
+}
+
+export interface FAQ {
+  question: string;
+  answer: string;
 }
 
 export interface Category {

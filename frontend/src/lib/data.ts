@@ -1,4 +1,5 @@
 import { Day, Category } from '@/types';
+import { generateNextOccurrences, isRecurringEvent, generateAutoFAQs, generateDefaultHistory, generateDefaultWhyItMatters } from './utils';
 
 // Import individual category files
 import foodData from '../data/categories/food.json';
@@ -10,8 +11,35 @@ import shoppingData from '../data/categories/shopping.json';
 import nationalData from '../data/categories/national.json';
 import internationalData from '../data/categories/international.json';
 
-// Combine all category data into a single array
-export const days: Day[] = [
+// Helper function to enhance each day with additional SEO content
+function enhanceDay(day: Day): Day {
+  const enhanced: Day = { ...day };
+  
+  // Add nextOccurrences if missing
+  if (isRecurringEvent(day) && !day.nextOccurrences) {
+    enhanced.nextOccurrences = generateNextOccurrences(day.date, 5);
+  }
+  
+  // Add auto-generated FAQs if missing
+  if (!enhanced.faqs || enhanced.faqs.length === 0) {
+    enhanced.faqs = generateAutoFAQs(enhanced);
+  }
+  
+  // Add default history if missing
+  if (!enhanced.history) {
+    enhanced.history = generateDefaultHistory(enhanced);
+  }
+  
+  // Add default "why it matters" if missing
+  if (!enhanced.whyItMatters) {
+    enhanced.whyItMatters = generateDefaultWhyItMatters(enhanced);
+  }
+  
+  return enhanced;
+}
+
+// Combine all category data into a single array and add nextOccurrences
+const rawDays: Day[] = [
   ...foodData as Day[],
   ...awarenessData as Day[],
   ...animalsData as Day[],
@@ -21,6 +49,8 @@ export const days: Day[] = [
   ...nationalData as Day[],
   ...internationalData as Day[]
 ];
+
+export const days: Day[] = rawDays.map(enhanceDay);
 
 export const categories: Category[] = [
   {

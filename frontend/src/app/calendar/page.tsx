@@ -101,6 +101,27 @@ export default function CalendarPage() {
       </div>
 
       <div className="container-custom py-16">
+        {/* Quick Month Navigation */}
+        <div className="card p-8 mb-8">
+          <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">Browse by Month</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'].map((month, index) => (
+              <Link
+                key={month}
+                href={`/month/${month}`}
+                className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800 text-center transition-colors group"
+              >
+                <div className="font-medium text-neutral-900 dark:text-neutral-100 capitalize group-hover:text-primary-600 dark:group-hover:text-primary-400">
+                  {month}
+                </div>
+                <div className="text-sm text-neutral-500 dark:text-neutral-400 mt-1">
+                  {getDaysByMonth(index + 1, selectedYear).length} days
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* Calendar Navigation */}
         <div className="card p-8 mb-8">
           <div className="flex items-center justify-between mb-8">
@@ -116,6 +137,7 @@ export default function CalendarPage() {
               <button
                 onClick={() => navigateMonth('prev')}
                 className="p-3 hover:bg-neutral-100 dark:hover:bg-dark-700 rounded-xl hover:scale-105"
+                aria-label="Go to previous month"
               >
                 <ChevronLeft className="h-5 w-5 text-neutral-600 dark:text-neutral-300" />
               </button>
@@ -131,6 +153,7 @@ export default function CalendarPage() {
               <button
                 onClick={() => navigateMonth('next')}
                 className="p-3 hover:bg-neutral-100 dark:hover:bg-dark-700 rounded-xl hover:scale-105"
+                aria-label="Go to next month"
               >
                 <ChevronRight className="h-5 w-5 text-neutral-600 dark:text-neutral-300" />
               </button>
