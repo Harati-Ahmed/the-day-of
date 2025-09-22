@@ -12,6 +12,8 @@
     "deploy": "npm run build"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.16",
     "lucide-react": "^0.544.0",

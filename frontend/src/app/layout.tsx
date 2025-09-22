@@ -6,6 +6,8 @@ import Footer from '@/components/footer';
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from '@/contexts/theme-context';
 import ThemeSpread from '@/components/theme-spread';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -58,6 +60,8 @@ export default function RootLayout({
                 },
               }}
             />
+            <Analytics />
+            <SpeedInsights />
           </ThemeSpread>
         </ThemeProvider>
       </body>
