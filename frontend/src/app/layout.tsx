@@ -85,8 +85,13 @@ export default function RootLayout({
       <head>
         {/* Resource hints for better performance */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
+        
+        {/* Preload critical resources */}
+        <link rel="preload" href="/next.svg" as="image" />
+        <link rel="preload" href="/vercel.svg" as="image" />
         
         {/* Schema.org structured data */}
         <Script
@@ -97,17 +102,20 @@ export default function RootLayout({
           {JSON.stringify(websiteStructuredData)}
         </Script>
         
-        {/* Google Analytics */}
+        {/* Google Analytics - Optimized for mobile performance */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BLYYB9LCXW"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-BLYYB9LCXW');
+            gtag('config', 'G-BLYYB9LCXW', {
+              page_title: document.title,
+              page_location: window.location.href
+            });
           `}
         </Script>
       </head>

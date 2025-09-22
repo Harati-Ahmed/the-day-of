@@ -16,7 +16,7 @@
   }
   
   body {
-    @apply text-neutral-800 dark:text-neutral-100 bg-gradient-to-br from-neutral-50 via-white to-primary-50 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900 antialiased;
+    @apply text-neutral-800 dark:text-neutral-100 bg-white dark:bg-dark-900 antialiased;
     font-family: var(--font-inter);
     line-height: 1.6;
   }
@@ -48,9 +48,9 @@
     overflow: hidden;
   }
   
-  /* Buttons - critical for interaction */
+  /* Buttons - critical for interaction, optimized for mobile */
   .btn-primary {
-    @apply bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold py-3 px-6 rounded-xl;
+    @apply bg-primary-600 text-white font-semibold py-3 px-6 rounded-xl;
   }
   
   .btn-secondary {
@@ -58,22 +58,22 @@
   }
 
   .btn-accent {
-    @apply bg-gradient-to-r from-accent-500 to-accent-600 text-white font-semibold py-3 px-6 rounded-xl;
+    @apply bg-accent-500 text-white font-semibold py-3 px-6 rounded-xl;
   }
 }
 
 @layer utilities {
-  /* Non-critical hover effects and animations - loaded after */
+  /* Non-critical hover effects - simplified for mobile performance */
   .btn-primary {
-    @apply hover:from-primary-700 hover:to-primary-800 dark:from-primary-500 dark:to-primary-600 dark:hover:from-primary-600 dark:hover:to-primary-700 shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transform hover:-translate-y-0.5 active:translate-y-0;
+    @apply hover:bg-primary-700 dark:bg-primary-500 dark:hover:bg-primary-600 shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium;
   }
   
   .btn-secondary {
-    @apply hover:bg-neutral-50 dark:hover:bg-dark-700 hover:border-neutral-300 dark:hover:border-dark-500 shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transform hover:-translate-y-0.5 active:translate-y-0;
+    @apply hover:bg-neutral-50 dark:hover:bg-dark-700 hover:border-neutral-300 dark:hover:border-dark-500 shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium;
   }
   
   .btn-accent {
-    @apply hover:from-accent-600 hover:to-accent-700 dark:from-accent-400 dark:to-accent-500 dark:hover:from-accent-500 dark:hover:to-accent-600 shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transform hover:-translate-y-0.5 active:translate-y-0;
+    @apply hover:bg-accent-600 dark:bg-accent-400 dark:hover:bg-accent-500 shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium;
   }
 
   .card {
@@ -81,7 +81,7 @@
   }
 
   .card-hover {
-    @apply card hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-700;
+    @apply card hover:border-primary-200 dark:hover:border-primary-700;
   }
 
   .gradient-text {

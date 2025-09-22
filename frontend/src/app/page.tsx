@@ -19,11 +19,11 @@ const NewsletterSubscribe = dynamic(() => import('@/components/newsletter-subscr
 });
 
 export default function HomePage() {
-  // Reduce initial data load for mobile performance
-  const upcomingDays = getUpcomingDays(4); // Reduced from 6 to 4
-  const featuredCategories = categories.slice(0, 4); // Reduced from 6 to 4
-  const trendingDays = days.slice(0, 3); // Reduced from 4 to 3
-  const thisWeekDays = getUpcomingDays(6); // Reduced from 7 to 6
+  // Optimize initial data load for mobile performance
+  const upcomingDays = getUpcomingDays(3); // Further reduced for mobile
+  const featuredCategories = categories.slice(0, 4);
+  const trendingDays = days.slice(0, 2); // Further reduced for mobile
+  const thisWeekDays = getUpcomingDays(4); // Further reduced for mobile
 
   // Homepage structured data
   const homepageStructuredData = {
@@ -68,11 +68,11 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageStructuredData) }}
       />
     <div className="min-h-screen bg-white dark:bg-dark-900">
-      {/* Hero Section - Allrecipes Style */}
-      <section className="relative bg-gradient-to-b from-neutral-50 to-white dark:from-dark-800 dark:to-dark-900">
-        <div className="container-custom py-12 md:py-16">
+      {/* Hero Section - Optimized for mobile performance */}
+      <section className="relative bg-neutral-50 dark:bg-dark-800">
+        <div className="container-custom py-10 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full px-3 py-1 mb-6">
+            <div className="inline-flex items-center gap-1 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full px-3 py-1 mb-4 md:mb-6">
               <Star className="h-3 w-3 md:h-4 md:w-4" />
               <span className="text-xs md:text-sm font-semibold">America&apos;s #1 Trusted Celebration Resource</span>
             </div>
