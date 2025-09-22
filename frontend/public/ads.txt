@@ -1,0 +1,4 @@
+# ads.txt file for thedayof.net
+# This file authorizes Google AdSense to serve ads on this domain
+
+google.com, pub-2160043117224167, DIRECT, f08c47fec0942fa0
