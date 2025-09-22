@@ -44,7 +44,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const currentYear = new Date().getFullYear();
-  const monthDays = getDaysByMonth(month.number, currentYear);
   
   return {
     title: `${month.name} ${currentYear} Special Days & Holidays – TheDayOf`,
