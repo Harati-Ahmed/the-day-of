@@ -48,10 +48,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "frontend/src/app/api/**/*.ts": {
-      "maxDuration": 10
-    }
-  }
+  ]
 }
