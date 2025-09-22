@@ -2,6 +2,7 @@ import { getUpcomingDays, categories, getDaysByCategory, days } from '@/lib/data
 import { formatDate, getCategorySlug, getCategoryColor } from '@/lib/utils';
 import { Calendar, Globe, TrendingUp, Star, Clock, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import NewsletterSubscribe from '@/components/newsletter-subscribe';
 
 export default function HomePage() {
   const upcomingDays = getUpcomingDays(6);
@@ -301,26 +302,7 @@ export default function HomePage() {
       </section>
 
       {/* Newsletter CTA */}
-      <section className="bg-gradient-to-r from-primary-600 to-primary-700 dark:from-primary-700 dark:to-primary-800 text-white py-16">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Never Miss a Celebration
-          </h2>
-          <p className="text-xl text-primary-100 dark:text-primary-200 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Get daily updates on special days, fun facts, and celebration ideas delivered to your inbox.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-neutral-900 dark:text-neutral-100 placeholder-neutral-500 dark:placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-accent-400 dark:focus:ring-accent-300 bg-white dark:bg-dark-700"
-            />
-            <button className="btn-accent px-6 py-3 whitespace-nowrap">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </section>
+      <NewsletterSubscribe />
     </div>
   );
 }

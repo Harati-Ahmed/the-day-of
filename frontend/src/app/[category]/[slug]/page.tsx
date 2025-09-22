@@ -1,9 +1,10 @@
 import { notFound } from 'next/navigation';
 import { getDayBySlug, getRelatedDays, days } from '@/lib/data';
 import { formatDate, getCategoryColor, getCategorySlug } from '@/lib/utils';
-import { Calendar, Tag, ArrowLeft, Share2 } from 'lucide-react';
+import { Calendar, Tag, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import SocialShare from '@/components/social-share';
 
 interface PageProps {
   params: Promise<{
@@ -176,13 +177,24 @@ export default async function DayPage({ params }: PageProps) {
               {/* Share Section */}
               <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-8">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Share This Day</h3>
-                <p className="text-gray-600 dark:text-neutral-300 mb-4">
+                <p className="text-gray-600 dark:text-neutral-300 mb-6">
                   Help others discover this special day by sharing it with your friends and family.
                 </p>
-                <button className="btn-primary inline-flex items-center">
-                  <Share2 className="h-4 w-4 mr-2" />
-                  Share on Social Media
-                </button>
+                <div className="space-y-4">
+                  <SocialShare
+                    title={day.title}
+                    url={`https://thedayof.net/${categorySlug}/${day.slug}`}
+                    description={day.description}
+                    variant="dropdown"
+                  />
+                  <SocialShare
+                    title={day.title}
+                    url={`https://thedayof.net/${categorySlug}/${day.slug}`}
+                    description={day.description}
+                    variant="inline"
+                    className="mt-4"
+                  />
+                </div>
               </div>
             </div>
 
