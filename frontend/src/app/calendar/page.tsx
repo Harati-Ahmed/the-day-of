@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { getDaysByMonth } from '@/lib/data';
 import { getMonthName, getCategorySlug, getCategoryColor, formatDate } from '@/lib/utils';
-import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Clock, ArrowRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Clock, ArrowRight, X } from 'lucide-react';
 import Link from 'next/link';
 
 export default function CalendarPage() {
@@ -11,6 +11,8 @@ export default function CalendarPage() {
   const [selectedMonth, setSelectedMonth] = useState(currentDate.getMonth() + 1);
   const [selectedYear, setSelectedYear] = useState(currentDate.getFullYear());
   const [monthDays, setMonthDays] = useState(getDaysByMonth(selectedMonth, selectedYear));
+  const [selectedDay, setSelectedDay] = useState<number | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const days = getDaysByMonth(selectedMonth, selectedYear);
@@ -63,6 +65,16 @@ export default function CalendarPage() {
              dayDate.getMonth() === selectedMonth - 1 && 
              dayDate.getFullYear() === selectedYear;
     });
+  };
+
+  const handleShowMoreEvents = (day: number) => {
+    setSelectedDay(day);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedDay(null);
   };
 
   const calendarDays = getDaysInMonth(selectedMonth, selectedYear);
@@ -174,9 +186,12 @@ export default function CalendarPage() {
                           );
                         })}
                         {dayEvents.length > 2 && (
-                          <div className="text-xs text-neutral-500 dark:text-neutral-400 font-medium bg-neutral-100 dark:bg-dark-700 px-2 py-1 rounded-lg text-center hover:bg-neutral-200 dark:hover:bg-dark-600 cursor-pointer">
+                          <button
+                            onClick={() => handleShowMoreEvents(day)}
+                            className="w-full text-xs text-neutral-500 dark:text-neutral-400 font-medium bg-neutral-100 dark:bg-dark-700 px-2 py-1 rounded-lg text-center hover:bg-neutral-200 dark:hover:bg-dark-600 cursor-pointer transition-colors"
+                          >
                             +{dayEvents.length - 2} more
-                          </div>
+                          </button>
                         )}
                       </div>
                     </>
@@ -254,6 +269,71 @@ export default function CalendarPage() {
           )}
         </div>
       </div>
+
+      {/* Events Modal */}
+      {isModalOpen && selectedDay && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[80vh] overflow-hidden">
+            <div className="flex items-center justify-between p-6 border-b border-neutral-200 dark:border-dark-700">
+              <h3 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
+                Events for {selectedDay} {monthName} {selectedYear}
+              </h3>
+              <button
+                onClick={closeModal}
+                className="p-2 hover:bg-neutral-100 dark:hover:bg-dark-700 rounded-lg transition-colors"
+              >
+                <X className="h-6 w-6 text-neutral-500 dark:text-neutral-400" />
+              </button>
+            </div>
+            
+            <div className="p-6 overflow-y-auto max-h-[60vh]">
+              {getDaysForDate(selectedDay).length > 0 ? (
+                <div className="space-y-4">
+                  {getDaysForDate(selectedDay).map((event) => (
+                    <Link
+                      key={event.slug}
+                      href={`/${getCategorySlug(event.category)}/${event.slug}`}
+                      className="block p-4 border border-neutral-200 dark:border-dark-600 rounded-xl hover:border-primary-300 dark:hover:border-primary-600 hover:shadow-md dark:hover:shadow-dark-soft transition-all group"
+                    >
+                      <div className="flex items-start justify-between mb-2">
+                        <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(event.category)}`}>
+                          {event.category}
+                        </span>
+                        <span className="text-sm text-neutral-500 dark:text-neutral-400">
+                          {formatDate(event.date)}
+                        </span>
+                      </div>
+                      <h4 className="text-lg font-bold text-neutral-900 dark:text-neutral-100 mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                        {event.title}
+                      </h4>
+                      <p className="text-neutral-600 dark:text-neutral-300 text-sm line-clamp-2">
+                        {event.description}
+                      </p>
+                      {event.tags && event.tags.length > 0 && (
+                        <div className="flex flex-wrap gap-1 mt-3">
+                          {event.tags.slice(0, 3).map((tag, index) => (
+                            <span
+                              key={index}
+                              className="px-2 py-1 bg-neutral-100 dark:bg-dark-700 text-neutral-600 dark:text-neutral-300 text-xs rounded-md"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-8">
+                  <CalendarIcon className="h-12 w-12 text-neutral-400 dark:text-neutral-500 mx-auto mb-4" />
+                  <p className="text-neutral-600 dark:text-neutral-300">No events found for this day.</p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

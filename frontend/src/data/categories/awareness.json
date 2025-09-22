@@ -358,5 +358,545 @@
       "Mindfulness can improve sleep quality",
       "Regular mindfulness practice can increase gray matter in the brain"
     ]
+  },
+  {
+    "title": "National Digital Wellness Day",
+    "slug": "national-digital-wellness-day",
+    "date": "2025-05-15",
+    "category": "Awareness",
+    "description": "Take a step back from screens and focus on healthy technology habits on National Digital Wellness Day! In our increasingly connected world, it's important to maintain a balanced relationship with technology. Learn about digital wellness practices, discover ways to reduce screen time, and create healthier boundaries with your devices for better mental and physical well-being.",
+    "tags": [
+      "digital-wellness",
+      "technology",
+      "May",
+      "mental-health",
+      "balance",
+      "screen-time",
+      "awareness"
+    ],
+    "image": "digital-wellness-balance.jpg",
+    "relatedDays": [
+      "national-mental-health-day",
+      "national-technology-day",
+      "national-unplugging-day"
+    ],
+    "howToCelebrate": "Take regular breaks from screens throughout the day using the 20-20-20 rule. Set up phone-free zones in your home, especially bedrooms and dining areas. Practice mindful technology use by being intentional about when and why you use devices. Try a digital detox for a few hours or the whole day. Share digital wellness tips and resources on social media.",
+    "funFacts": [
+      "The average person checks their phone 96 times per day",
+      "Blue light from screens can disrupt sleep patterns and circadian rhythms",
+      "Taking regular breaks from screens can reduce eye strain and headaches",
+      "Digital wellness practices can improve focus and productivity",
+      "Excessive screen time has been linked to increased anxiety and depression"
+    ]
+  },
+  {
+    "title": "National Literacy Awareness Day",
+    "slug": "national-literacy-awareness-day",
+    "date": "2025-09-08",
+    "category": "Awareness",
+    "description": "Celebrate the power of reading and writing on National Literacy Awareness Day! Literacy is fundamental to personal growth, education, and social development. This important day raises awareness about literacy challenges worldwide and encourages support for reading programs, libraries, and educational initiatives that help people develop essential reading and writing skills.",
+    "tags": [
+      "literacy",
+      "reading",
+      "September",
+      "education",
+      "awareness",
+      "books",
+      "learning"
+    ],
+    "image": "literacy-education-books.jpg",
+    "relatedDays": [
+      "world-teachers-day",
+      "national-library-week",
+      "international-literacy-day"
+    ],
+    "howToCelebrate": "Donate books to local schools, libraries, or literacy programs. Volunteer with adult literacy organizations or reading programs for children. Read to children in your community or family. Support literacy initiatives through donations or advocacy. Share the importance of literacy and reading on social media.",
+    "funFacts": [
+      "About 771 million adults worldwide cannot read or write",
+      "Children who read for pleasure perform better in school",
+      "Reading regularly can reduce stress by up to 68%",
+      "Literacy rates have improved dramatically over the past century",
+      "Reading fiction can improve empathy and social understanding"
+    ]
+  },
+  {
+    "title": "National Cybersecurity Awareness Day",
+    "slug": "national-cybersecurity-awareness-day",
+    "date": "2025-10-15",
+    "category": "Awareness",
+    "description": "Protect yourself and others online on National Cybersecurity Awareness Day! In our increasingly digital world, cybersecurity is more important than ever. Learn about online safety practices, password security, phishing scams, and how to protect your personal information. Stay informed about cyber threats and help create a safer digital environment for everyone.",
+    "tags": [
+      "cybersecurity",
+      "online-safety",
+      "October",
+      "digital",
+      "privacy",
+      "protection",
+      "awareness"
+    ],
+    "image": "cybersecurity-protection-awareness.jpg",
+    "relatedDays": [
+      "national-technology-day",
+      "national-digital-wellness-day",
+      "data-privacy-day"
+    ],
+    "howToCelebrate": "Update all your passwords and enable two-factor authentication on important accounts. Learn about common cyber threats like phishing, malware, and social engineering. Review your privacy settings on social media and other online accounts. Share cybersecurity tips and resources with friends and family. Support cybersecurity education and awareness programs.",
+    "funFacts": [
+      "Cybercrime damages are expected to reach $10.5 trillion annually by 2025",
+      "95% of successful cyber attacks are due to human error",
+      "The average data breach costs companies $4.35 million",
+      "A new malware is created every 4.2 seconds",
+      "Strong passwords should be at least 12 characters long with mixed characters"
+    ]
+  },
+  {
+    "title": "National Environmental Education Day",
+    "slug": "national-environmental-education-day",
+    "date": "2025-04-22",
+    "category": "Awareness",
+    "description": "Learn about our planet and how to protect it on National Environmental Education Day! Environmental education empowers people to make informed decisions about environmental issues and take action to protect our natural world. From climate change to conservation, discover how education can inspire environmental stewardship and sustainable living practices.",
+    "tags": [
+      "environmental-education",
+      "sustainability",
+      "April",
+      "conservation",
+      "climate",
+      "learning",
+      "awareness"
+    ],
+    "image": "environmental-education-nature.jpg",
+    "relatedDays": [
+      "earth-day",
+      "world-environment-day",
+      "national-environmental-education-week"
+    ],
+    "howToCelebrate": "Participate in environmental education programs or workshops. Visit nature centers, parks, or environmental organizations to learn about local ecosystems. Start an environmental project at school or in your community. Share environmental facts and tips on social media. Support environmental education initiatives and organizations.",
+    "funFacts": [
+      "Environmental education helps develop critical thinking skills",
+      "Students who participate in environmental education score higher on standardized tests",
+      "Environmental education can lead to more sustainable lifestyle choices",
+      "Outdoor education experiences can improve mental health and well-being",
+      "Environmental education programs exist in schools worldwide"
+    ]
+  },
+  {
+    "title": "National Autism Awareness Day",
+    "slug": "national-autism-awareness-day",
+    "date": "2025-04-02",
+    "category": "Awareness",
+    "description": "Promote understanding and acceptance of autism on National Autism Awareness Day! This important day raises awareness about autism spectrum disorders and celebrates the unique strengths and perspectives of individuals with autism. Learn about autism, support autism research and advocacy, and help create a more inclusive society for people of all neurotypes.",
+    "tags": [
+      "autism",
+      "awareness",
+      "April",
+      "acceptance",
+      "neurodiversity",
+      "inclusion",
+      "understanding"
+    ],
+    "image": "autism-awareness-support.jpg",
+    "relatedDays": [
+      "world-autism-awareness-day",
+      "national-disability-awareness-month",
+      "international-day-of-persons-with-disabilities"
+    ],
+    "howToCelebrate": "Learn about autism spectrum disorders and the experiences of autistic individuals. Support autism research organizations and advocacy groups. Promote autism acceptance and inclusion in your community. Share autism awareness information and resources on social media. Listen to and amplify autistic voices and perspectives.",
+    "funFacts": [
+      "About 1 in 36 children are diagnosed with autism spectrum disorder",
+      "Autism affects people of all races, ethnicities, and socioeconomic backgrounds",
+      "Many autistic individuals have exceptional skills in areas like math, music, or art",
+      "Early intervention and support can significantly improve outcomes for autistic individuals",
+      "The autism rights movement promotes acceptance rather than trying to 'cure' autism"
+    ]
+  },
+  {
+    "title": "National Disaster Preparedness Day",
+    "slug": "national-disaster-preparedness-day",
+    "date": "2025-09-30",
+    "category": "Awareness",
+    "description": "Be ready for emergencies on National Disaster Preparedness Day! Natural disasters and emergencies can happen without warning, making preparation essential for protecting yourself and your family. Learn about emergency planning, build disaster supply kits, and develop the knowledge and skills needed to respond effectively to various emergency situations.",
+    "tags": [
+      "disaster-preparedness",
+      "emergency",
+      "September",
+      "safety",
+      "planning",
+      "awareness",
+      "protection"
+    ],
+    "image": "disaster-preparedness-kit.jpg",
+    "relatedDays": [
+      "national-emergency-preparedness-month",
+      "international-day-for-disaster-reduction",
+      "national-safety-month"
+    ],
+    "howToCelebrate": "Create or update your family emergency plan and disaster supply kit. Learn about the types of disasters that could affect your area. Practice emergency procedures like evacuation routes and communication plans. Sign up for local emergency alerts and warnings. Share preparedness tips and resources with your community.",
+    "funFacts": [
+      "Only 39% of Americans have an emergency supply kit",
+      "It's recommended to have supplies for at least 72 hours",
+      "The most common natural disasters in the US are floods, hurricanes, and wildfires",
+      "Having a family emergency plan can reduce panic and confusion during disasters",
+      "Emergency kits should be checked and updated every six months"
+    ]
+  },
+  {
+    "title": "National Blood Donor Day",
+    "slug": "national-blood-donor-day",
+    "date": "2025-01-14",
+    "category": "Awareness",
+    "description": "Give the gift of life on National Blood Donor Day! Blood donation is one of the most meaningful ways to help others, as donated blood saves millions of lives each year. Learn about the importance of blood donation, eligibility requirements, and how this simple act of kindness can make a life-or-death difference for patients in need.",
+    "tags": [
+      "blood-donation",
+      "life-saving",
+      "January",
+      "health",
+      "giving",
+      "medical",
+      "awareness"
+    ],
+    "image": "blood-donation-awareness.jpg",
+    "relatedDays": [
+      "world-blood-donor-day",
+      "national-volunteer-day",
+      "red-cross-day"
+    ],
+    "howToCelebrate": "Donate blood if you're eligible and encourage others to do the same. Learn about blood types and donation requirements. Support blood donation drives in your community. Share the importance of blood donation on social media. Thank blood donors and healthcare workers who make transfusions possible.",
+    "funFacts": [
+      "One blood donation can save up to three lives",
+      "Only 3% of age-eligible Americans donate blood annually",
+      "Blood cannot be manufactured - it can only come from volunteer donors",
+      "The average red blood cell lives for 120 days",
+      "Type O-negative blood is the universal donor type"
+    ]
+  },
+  {
+    "title": "National Organ Donor Day",
+    "slug": "national-organ-donor-day",
+    "date": "2025-02-14",
+    "category": "Awareness",
+    "description": "Share the gift of life on National Organ Donor Day! Organ donation gives hope to thousands of people waiting for life-saving transplants. This important day raises awareness about organ donation, encourages people to register as donors, and honors the generous donors and recipients whose lives have been forever changed by this ultimate act of giving.",
+    "tags": [
+      "organ-donation",
+      "transplant",
+      "February",
+      "life-saving",
+      "awareness",
+      "medical",
+      "giving"
+    ],
+    "image": "organ-donation-awareness.jpg",
+    "relatedDays": [
+      "national-donate-life-month",
+      "national-blood-donor-day",
+      "world-kidney-day"
+    ],
+    "howToCelebrate": "Register as an organ donor and encourage family members to do the same. Learn about organ donation facts and the transplant process. Support organ donation awareness campaigns. Share organ donation information on social media. Honor organ donors and recipients in your community.",
+    "funFacts": [
+      "One organ donor can save up to eight lives",
+      "Over 100,000 Americans are waiting for organ transplants",
+      "Every 10 minutes, someone is added to the organ transplant waiting list",
+      "Organs that can be donated include heart, liver, kidneys, lungs, pancreas, and intestines",
+      "Age is not a barrier to organ donation - people in their 80s have been successful donors"
+    ]
+  },
+  {
+    "title": "National Cancer Awareness Day",
+    "slug": "national-cancer-awareness-day",
+    "date": "2025-02-04",
+    "category": "Awareness",
+    "description": "Stand together in the fight against cancer on National Cancer Awareness Day! This important day promotes cancer prevention, early detection, and support for patients and families affected by cancer. Learn about risk factors, screening guidelines, and the latest advances in cancer research and treatment.",
+    "tags": [
+      "cancer-awareness",
+      "prevention",
+      "February",
+      "health",
+      "research",
+      "support",
+      "screening"
+    ],
+    "image": "cancer-awareness-support.jpg",
+    "relatedDays": [
+      "world-cancer-day",
+      "breast-cancer-awareness-month",
+      "national-cancer-survivors-day"
+    ],
+    "howToCelebrate": "Learn about cancer prevention and early detection methods. Support cancer research organizations and patient support groups. Share cancer awareness information and resources. Participate in cancer fundraising events and awareness campaigns. Honor cancer survivors and remember those lost to cancer.",
+    "funFacts": [
+      "About 40% of cancer cases could be prevented through lifestyle changes",
+      "Early detection significantly improves cancer treatment outcomes",
+      "Cancer survival rates have improved dramatically over the past 30 years",
+      "There are over 100 different types of cancer",
+      "More than 18 million people worldwide are diagnosed with cancer each year"
+    ]
+  },
+  {
+    "title": "National Mental Health Awareness Day",
+    "slug": "national-mental-health-awareness-day",
+    "date": "2025-05-18",
+    "category": "Awareness",
+    "description": "Break the silence and promote mental health awareness on National Mental Health Awareness Day! Mental health is just as important as physical health, yet it's often overlooked or stigmatized. Learn about mental health conditions, support those who are struggling, and work to create a more understanding and compassionate society for everyone.",
+    "tags": [
+      "mental-health",
+      "awareness",
+      "May",
+      "wellness",
+      "support",
+      "stigma",
+      "compassion"
+    ],
+    "image": "mental-health-awareness-support.jpg",
+    "relatedDays": [
+      "world-mental-health-day",
+      "national-suicide-prevention-month",
+      "mental-health-awareness-month"
+    ],
+    "howToCelebrate": "Learn about mental health conditions and how to support those affected. Share mental health resources and information on social media. Check in with friends and family about their mental well-being. Support mental health organizations and advocacy groups. Practice self-care and stress management techniques.",
+    "funFacts": [
+      "1 in 5 adults experiences mental illness each year",
+      "Mental health conditions are treatable with proper care",
+      "Talking about mental health reduces stigma and encourages help-seeking",
+      "Exercise and social connections can improve mental health",
+      "Mental health awareness has increased significantly in recent years"
+    ]
+  },
+  {
+    "title": "National Recycling Day",
+    "slug": "national-recycling-day",
+    "date": "2025-11-15",
+    "category": "Awareness",
+    "description": "Go green and recycle on National Recycling Day! Recycling helps conserve natural resources, reduce waste, and protect our environment for future generations. Learn about what can be recycled, how to recycle properly, and discover creative ways to reduce, reuse, and recycle in your daily life.",
+    "tags": [
+      "recycling",
+      "environment",
+      "November",
+      "sustainability",
+      "waste-reduction",
+      "green",
+      "conservation"
+    ],
+    "image": "recycling-environmental-action.jpg",
+    "relatedDays": [
+      "earth-day",
+      "world-environment-day",
+      "national-cleanup-day"
+    ],
+    "howToCelebrate": "Sort and recycle materials properly in your home. Learn about local recycling programs and guidelines. Reduce waste by choosing products with less packaging. Start a composting program for organic waste. Share recycling tips and environmental facts on social media.",
+    "funFacts": [
+      "Recycling one aluminum can saves enough energy to power a TV for 3 hours",
+      "Americans recycle about 34% of their waste",
+      "Glass can be recycled indefinitely without losing quality",
+      "Recycling creates 6 times more jobs than landfilling",
+      "A single plastic bottle takes 450 years to decompose in a landfill"
+    ]
+  },
+  {
+    "title": "National Diabetes Awareness Day",
+    "slug": "national-diabetes-awareness-day",
+    "date": "2025-11-14",
+    "category": "Awareness",
+    "description": "Raise awareness about diabetes and its impact on National Diabetes Awareness Day! Diabetes affects millions of people worldwide and requires ongoing management and support. Learn about prevention, treatment options, and how to support those living with diabetes while promoting healthy lifestyle choices.",
+    "tags": [
+      "diabetes",
+      "health",
+      "November",
+      "awareness",
+      "prevention",
+      "management",
+      "support"
+    ],
+    "image": "diabetes-awareness-education.jpg",
+    "relatedDays": [
+      "world-diabetes-day",
+      "national-nutrition-month",
+      "national-fitness-day"
+    ],
+    "howToCelebrate": "Learn about diabetes prevention and management. Get your blood sugar checked if you're at risk. Support diabetes research and advocacy organizations. Share diabetes awareness information on social media. Encourage healthy lifestyle choices for diabetes prevention.",
+    "funFacts": [
+      "Over 37 million Americans have diabetes",
+      "Type 2 diabetes can often be prevented with lifestyle changes",
+      "Regular exercise and healthy eating can help manage diabetes",
+      "Diabetes is the 7th leading cause of death in the United States",
+      "Early detection and treatment can prevent serious complications"
+    ]
+  },
+  {
+    "title": "National Alzheimer's Awareness Day",
+    "slug": "national-alzheimers-awareness-day",
+    "date": "2025-09-21",
+    "category": "Awareness",
+    "description": "Stand together against Alzheimer's on National Alzheimer's Awareness Day! This devastating disease affects millions of families worldwide, causing memory loss and cognitive decline. Learn about Alzheimer's, support research efforts, and help create a more understanding and supportive community for those affected.",
+    "tags": [
+      "alzheimers",
+      "dementia",
+      "September",
+      "awareness",
+      "memory",
+      "research",
+      "support"
+    ],
+    "image": "alzheimers-awareness-support.jpg",
+    "relatedDays": [
+      "world-alzheimers-day",
+      "national-memory-day",
+      "national-brain-awareness-week"
+    ],
+    "howToCelebrate": "Learn about Alzheimer's disease and its impact on families. Support Alzheimer's research organizations and advocacy groups. Share information about early warning signs and prevention. Volunteer with organizations supporting families affected by Alzheimer's. Wear purple to show support for the cause.",
+    "funFacts": [
+      "Alzheimer's is the 6th leading cause of death in the United States",
+      "More than 6 million Americans are living with Alzheimer's",
+      "Early diagnosis can help slow disease progression",
+      "Regular physical and mental exercise may help prevent Alzheimer's",
+      "Alzheimer's affects not just memory but also thinking and behavior"
+    ]
+  },
+  {
+    "title": "National Cancer Survivors Day",
+    "slug": "national-cancer-survivors-day",
+    "date": "2025-06-01",
+    "category": "Awareness",
+    "description": "Celebrate life and hope on National Cancer Survivors Day! This important American observance honors the millions of cancer survivors who have faced this disease with courage and determination. From those in remission to long-term survivors, recognize their strength, resilience, and the hope they bring to others fighting cancer.",
+    "tags": [
+      "cancer-survivors",
+      "hope",
+      "June",
+      "american-awareness",
+      "celebration",
+      "strength",
+      "resilience"
+    ],
+    "image": "cancer-survivors-celebration.jpg",
+    "relatedDays": [
+      "national-cancer-awareness-day",
+      "breast-cancer-awareness-month",
+      "world-cancer-day"
+    ],
+    "howToCelebrate": "Celebrate cancer survivors in your life with cards, calls, or visits. Participate in cancer survivor events and walks. Support cancer research and treatment organizations. Share survivor stories and messages of hope on social media. Donate to cancer charities that support survivors and research.",
+    "funFacts": [
+      "There are over 16.9 million cancer survivors in the United States",
+      "Cancer survival rates have improved significantly over the past 30 years",
+      "The 5-year survival rate for all cancers combined is about 68%",
+      "Early detection and treatment greatly improve survival rates",
+      "Cancer survivors often become advocates for cancer research and awareness"
+    ]
+  },
+  {
+    "title": "National Suicide Prevention Day",
+    "slug": "national-suicide-prevention-day",
+    "date": "2025-09-10",
+    "category": "Awareness",
+    "description": "Break the silence and save lives on National Suicide Prevention Day! This critical American awareness day focuses on preventing suicide, supporting those at risk, and remembering those we've lost. Learn the warning signs, reach out to those who may be struggling, and help create a more compassionate society where everyone feels valued and supported.",
+    "tags": [
+      "suicide-prevention",
+      "mental-health",
+      "September",
+      "american-awareness",
+      "support",
+      "crisis",
+      "compassion"
+    ],
+    "image": "suicide-prevention-awareness.jpg",
+    "relatedDays": [
+      "national-mental-health-day",
+      "national-mental-health-awareness-day",
+      "world-suicide-prevention-day"
+    ],
+    "howToCelebrate": "Learn about suicide warning signs and how to help someone in crisis. Share the National Suicide Prevention Lifeline (988) on social media. Check in with friends and family who may be struggling. Support suicide prevention organizations and mental health resources. Participate in awareness walks and events in your community.",
+    "funFacts": [
+      "Suicide is the 10th leading cause of death in the United States",
+      "The National Suicide Prevention Lifeline is 988",
+      "Suicide rates have increased by 30% since 2000",
+      "Men are 3.5 times more likely to die by suicide than women",
+      "Most people who attempt suicide don't die by suicide"
+    ]
+  },
+  {
+    "title": "National Recovery Month",
+    "slug": "national-recovery-month",
+    "date": "2025-09-01",
+    "category": "Awareness",
+    "description": "Celebrate hope and healing during National Recovery Month! This important American observance recognizes the millions of Americans in recovery from substance use disorders and mental health conditions. Learn about recovery resources, support those in recovery, and help reduce the stigma surrounding addiction and mental health treatment.",
+    "tags": [
+      "recovery",
+      "addiction",
+      "September",
+      "american-awareness",
+      "healing",
+      "support",
+      "hope"
+    ],
+    "image": "recovery-month-celebration.jpg",
+    "relatedDays": [
+      "national-mental-health-day",
+      "national-suicide-prevention-day",
+      "world-mental-health-day"
+    ],
+    "howToCelebrate": "Learn about recovery resources and support services in your community. Share recovery stories and messages of hope on social media. Support organizations that help people in recovery. Attend recovery events and walks in your area. Educate yourself about addiction and mental health to reduce stigma.",
+    "funFacts": [
+      "National Recovery Month was established in 1989 by SAMHSA",
+      "Over 20 million Americans are in recovery from substance use disorders",
+      "Recovery is possible for everyone, regardless of the severity of their condition",
+      "Support from family and friends is crucial for successful recovery",
+      "Recovery rates improve significantly with proper treatment and support"
+    ]
+  },
+  {
+    "title": "National Donate Life Month",
+    "slug": "national-donate-life-month",
+    "date": "2025-04-01",
+    "category": "Awareness",
+    "description": "Give the gift of life during National Donate Life Month! This important American awareness campaign promotes organ, eye, and tissue donation, encouraging Americans to register as donors and save lives. Learn about the donation process, register as a donor, and help spread awareness about this life-saving opportunity.",
+    "tags": [
+      "donate-life",
+      "organ-donation",
+      "April",
+      "american-awareness",
+      "life-saving",
+      "gift",
+      "hope"
+    ],
+    "image": "donate-life-awareness.jpg",
+    "relatedDays": [
+      "national-organ-donor-day",
+      "national-blood-donor-day",
+      "world-blood-donor-day"
+    ],
+    "howToCelebrate": "Register as an organ, eye, and tissue donor. Share your donor status on social media to encourage others. Learn about the donation process and how it saves lives. Support organizations that promote donation awareness. Talk to your family about your wishes regarding donation.",
+    "funFacts": [
+      "One organ donor can save up to 8 lives",
+      "Over 100,000 Americans are waiting for organ transplants",
+      "Every 10 minutes, someone is added to the transplant waiting list",
+      "95% of Americans support organ donation, but only 58% are registered",
+      "Donation is possible for people of all ages and backgrounds"
+    ]
+  },
+  {
+    "title": "National Breast Cancer Awareness Month",
+    "slug": "national-breast-cancer-awareness-month",
+    "date": "2025-10-01",
+    "category": "Awareness",
+    "description": "Think pink and raise awareness during National Breast Cancer Awareness Month! This important American campaign educates women about breast cancer prevention, early detection, and treatment options. From mammograms to self-exams, learn how to protect yourself and support others in the fight against breast cancer.",
+    "tags": [
+      "breast-cancer",
+      "awareness",
+      "October",
+      "american-awareness",
+      "prevention",
+      "pink",
+      "women"
+    ],
+    "image": "breast-cancer-awareness-pink.jpg",
+    "relatedDays": [
+      "national-mammography-day",
+      "national-cancer-awareness-day",
+      "world-cancer-day"
+    ],
+    "howToCelebrate": "Schedule your annual mammogram if you're due. Learn about breast self-examination techniques. Participate in breast cancer awareness walks and events. Wear pink to show your support. Donate to breast cancer research and support organizations.",
+    "funFacts": [
+      "1 in 8 women will develop breast cancer in their lifetime",
+      "Early detection through mammograms can reduce breast cancer deaths by 30%",
+      "Breast cancer is the most common cancer in American women",
+      "Men can also get breast cancer, though it's rare",
+      "The pink ribbon became the symbol of breast cancer awareness in 1992"
+    ]
   }
 ]

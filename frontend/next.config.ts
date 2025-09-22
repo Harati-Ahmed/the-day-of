@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  // Enable compression
+  // Enable compression (HTTP/2 works well with compression)
   compress: true,
   // Optimize for mobile performance
   experimental: {
@@ -17,9 +17,9 @@ const nextConfig: NextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-  // Performance optimizations
+  // Performance optimizations for HTTP/2
   poweredByHeader: false,
-  generateEtags: false,
+  generateEtags: true, // Enable ETags for better caching with HTTP/2
 };
 
 export default nextConfig;

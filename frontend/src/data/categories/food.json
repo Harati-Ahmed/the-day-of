@@ -1048,5 +1048,665 @@
       "It takes 320 liters of water to grow one avocado",
       "Avocados are the only fruit that contains monounsaturated fat"
     ]
+  },
+  {
+    "title": "National Soup Day",
+    "slug": "national-soup-day",
+    "date": "2025-01-12",
+    "category": "Food",
+    "description": "Warm up with a comforting bowl of soup on National Soup Day! From classic chicken noodle to exotic international broths, soups are the ultimate comfort food that nourishes both body and soul. Discover new soup recipes, learn about different soup traditions from around the world, and enjoy the perfect meal for any season or occasion.",
+    "tags": [
+      "soup",
+      "comfort-food",
+      "January",
+      "warm",
+      "nourishing",
+      "broth",
+      "cozy"
+    ],
+    "image": "delicious-soup-bowl.jpg",
+    "relatedDays": [
+      "national-comfort-food-day",
+      "national-chicken-noodle-soup-day",
+      "national-chili-day"
+    ],
+    "howToCelebrate": "Make homemade soup using fresh ingredients and family recipes. Try a new soup recipe from a different cuisine or culture. Visit a local restaurant known for their soup specialties. Host a soup potluck where everyone brings their favorite soup to share. Learn about the health benefits of different soup ingredients and broths.",
+    "funFacts": [
+      "Soup has been consumed for over 20,000 years",
+      "Chicken noodle soup is often called 'Jewish penicillin' for its healing properties",
+      "The word 'soup' comes from the French word 'soupe'",
+      "Tomato soup is the most popular soup flavor in America",
+      "Soup can help with weight management by increasing feelings of fullness"
+    ]
+  },
+  {
+    "title": "National Salad Day",
+    "slug": "national-salad-day",
+    "date": "2025-05-01",
+    "category": "Food",
+    "description": "Celebrate fresh, healthy eating on National Salad Day! Salads are the perfect way to enjoy nutritious vegetables, fruits, and proteins in one delicious meal. From simple green salads to elaborate composed salads, discover new combinations, dressings, and ingredients that make eating healthy both satisfying and enjoyable.",
+    "tags": [
+      "salad",
+      "healthy",
+      "May",
+      "fresh",
+      "vegetables",
+      "nutritious",
+      "greens"
+    ],
+    "image": "fresh-colorful-salad.jpg",
+    "relatedDays": [
+      "national-eat-your-vegetables-day",
+      "national-nutrition-month",
+      "national-fresh-fruit-and-vegetable-month"
+    ],
+    "howToCelebrate": "Create a colorful salad with fresh, seasonal ingredients. Try a new salad recipe or dressing you've never made before. Visit a local farmer's market to buy fresh produce for your salads. Host a salad bar party with various toppings and dressings. Share healthy salad recipes and tips on social media.",
+    "funFacts": [
+      "The word 'salad' comes from the Latin 'salata', meaning salted vegetables",
+      "Caesar salad was invented in Mexico, not Italy",
+      "Americans eat about 30 pounds of lettuce per person each year",
+      "The first salads were made with bitter herbs and were eaten for medicinal purposes",
+      "Adding healthy fats like avocado or nuts to salads helps absorb fat-soluble vitamins"
+    ]
+  },
+  {
+    "title": "National Pie Day",
+    "slug": "national-pie-day",
+    "date": "2025-01-23",
+    "category": "Food",
+    "description": "Slice into the delicious world of pies on National Pie Day! From sweet apple and pumpkin pies to savory meat and vegetable pies, these circular delights have been bringing comfort and joy to tables for centuries. Discover new pie recipes, learn baking techniques, and celebrate this beloved dessert that brings families together.",
+    "tags": [
+      "pie",
+      "baking",
+      "January",
+      "dessert",
+      "comfort-food",
+      "sweet",
+      "savory"
+    ],
+    "image": "delicious-homemade-pies.jpg",
+    "relatedDays": [
+      "national-dessert-day",
+      "national-apple-pie-day",
+      "national-pumpkin-pie-day"
+    ],
+    "howToCelebrate": "Bake a homemade pie using fresh ingredients and traditional recipes. Try making both sweet and savory pies to explore different flavors. Visit a local bakery to sample their pie varieties. Host a pie-making party with friends and family. Share pie recipes and baking tips on social media.",
+    "funFacts": [
+      "The saying 'easy as pie' actually refers to eating pie, not making it",
+      "The first pies were made by the ancient Egyptians",
+      "Apple pie became associated with American culture in the 19th century",
+      "The world's largest pie weighed over 39,000 pounds",
+      "Pi Day (March 14) is often celebrated by eating pie"
+    ]
+  },
+  {
+    "title": "National Cereal Day",
+    "slug": "national-cereal-day",
+    "date": "2025-03-07",
+    "category": "Food",
+    "description": "Start your day right with National Cereal Day! This beloved breakfast staple has been fueling mornings for over a century, from simple oats to colorful, crunchy varieties. Whether you prefer healthy whole grains or sweet treats, cereal brings nostalgia and convenience to the most important meal of the day.",
+    "tags": [
+      "cereal",
+      "breakfast",
+      "March",
+      "morning",
+      "milk",
+      "grains",
+      "convenience"
+    ],
+    "image": "colorful-cereal-bowls.jpg",
+    "relatedDays": [
+      "national-breakfast-day",
+      "national-oatmeal-day",
+      "national-milk-day"
+    ],
+    "howToCelebrate": "Try a new cereal variety you've never had before. Make homemade granola or cereal from scratch. Have cereal for dinner - it's not just for breakfast! Create cereal-inspired treats like cereal bars or cookies. Share your favorite childhood cereal memories on social media.",
+    "funFacts": [
+      "Americans eat about 2.7 billion boxes of cereal each year",
+      "Corn Flakes were invented by accident in 1894",
+      "The average American eats 160 bowls of cereal per year",
+      "Cheerios was the first ready-to-eat cereal",
+      "Cereal was originally marketed as a health food"
+    ]
+  },
+  {
+    "title": "National Bagel Day",
+    "slug": "national-bagel-day",
+    "date": "2025-01-15",
+    "category": "Food",
+    "description": "Rise and shine with a delicious bagel on National Bagel Day! These ring-shaped breads have been a breakfast staple for centuries, offering endless possibilities with different flavors, toppings, and spreads. From classic everything bagels to sweet cinnamon raisin varieties, celebrate this beloved bread that brings comfort and satisfaction to morning routines worldwide.",
+    "tags": [
+      "bagels",
+      "breakfast",
+      "January",
+      "bread",
+      "morning",
+      "toppings",
+      "comfort"
+    ],
+    "image": "fresh-bagels-variety.jpg",
+    "relatedDays": [
+      "national-breakfast-day",
+      "national-bread-day",
+      "national-cream-cheese-day"
+    ],
+    "howToCelebrate": "Try a new bagel flavor or topping combination you've never had before. Visit a local bagel shop or bakery for fresh, authentic bagels. Make homemade bagels from scratch and experiment with different seasonings. Host a bagel breakfast party with various bagels and spreads. Share your favorite bagel combinations on social media.",
+    "funFacts": [
+      "Bagels originated in Poland in the 17th century",
+      "The hole in the middle made bagels easier to transport on sticks",
+      "New York-style bagels are boiled before baking for their distinctive texture",
+      "Americans eat about 3 billion bagels per year",
+      "The everything bagel was invented in the 1980s in New York"
+    ]
+  },
+  {
+    "title": "National Muffin Day",
+    "slug": "national-muffin-day",
+    "date": "2025-02-20",
+    "category": "Food",
+    "description": "Start your day sweet with National Muffin Day! These portable, cake-like treats are perfect for breakfast on-the-go or an afternoon snack. From classic blueberry and chocolate chip to creative savory varieties, muffins offer endless flavor possibilities and bring joy to kitchens and bakeries everywhere.",
+    "tags": [
+      "muffins",
+      "baking",
+      "February",
+      "breakfast",
+      "sweet",
+      "portable",
+      "treats"
+    ],
+    "image": "delicious-fresh-muffins.jpg",
+    "relatedDays": [
+      "national-blueberry-muffin-day",
+      "national-baking-day",
+      "national-breakfast-day"
+    ],
+    "howToCelebrate": "Bake homemade muffins using fresh ingredients and creative flavor combinations. Try a new muffin recipe you've never made before. Visit a local bakery to sample their muffin varieties. Share muffins with friends, neighbors, or coworkers. Post photos of your muffin creations and recipes on social media.",
+    "funFacts": [
+      "The difference between muffins and cupcakes is that muffins are less sweet and denser",
+      "English muffins are actually different from American muffins - they're more like bread",
+      "Blueberry muffins are the most popular muffin flavor in America",
+      "The muffin method of mixing prevents tough, dense muffins",
+      "Muffins can be made sweet or savory with various ingredients"
+    ]
+  },
+  {
+    "title": "National Rice Day",
+    "slug": "national-rice-day",
+    "date": "2025-09-20",
+    "category": "Food",
+    "description": "Celebrate one of the world's most important staple foods on National Rice Day! Rice feeds more than half of the world's population and comes in countless varieties and preparations. From sushi rice to basmati, wild rice to risotto, explore the versatility and cultural significance of this essential grain that brings families together around the world.",
+    "tags": [
+      "rice",
+      "grains",
+      "September",
+      "staple-food",
+      "global",
+      "versatile",
+      "cultural"
+    ],
+    "image": "rice-varieties-display.jpg",
+    "relatedDays": [
+      "world-food-day",
+      "national-sushi-day",
+      "international-rice-day"
+    ],
+    "howToCelebrate": "Try cooking different types of rice dishes from various cultures. Learn about rice cultivation and its importance in global food security. Visit Asian restaurants to experience different rice preparations. Make homemade sushi or rice bowls. Share rice recipes and cultural significance on social media.",
+    "funFacts": [
+      "Rice is the primary food source for more than 3.5 billion people",
+      "There are over 40,000 varieties of rice worldwide",
+      "Rice has been cultivated for over 10,000 years",
+      "Asia produces and consumes 90% of the world's rice",
+      "One rice plant can produce up to 3,000 grains of rice"
+    ]
+  },
+  {
+    "title": "National Oatmeal Day",
+    "slug": "national-oatmeal-day",
+    "date": "2025-10-29",
+    "category": "Food",
+    "description": "Start your day with a warm, nutritious bowl on National Oatmeal Day! Oats are a powerhouse breakfast food, packed with fiber, protein, and essential nutrients. From classic oatmeal to overnight oats and granola, discover creative ways to enjoy this healthy grain that provides sustained energy and supports heart health.",
+    "tags": [
+      "oatmeal",
+      "breakfast",
+      "October",
+      "healthy",
+      "fiber",
+      "nutritious",
+      "energy"
+    ],
+    "image": "healthy-oatmeal-bowl.jpg",
+    "relatedDays": [
+      "national-breakfast-day",
+      "national-nutrition-month",
+      "national-fiber-focus-month"
+    ],
+    "howToCelebrate": "Make a delicious bowl of oatmeal with your favorite toppings. Try overnight oats or baked oatmeal recipes. Learn about the health benefits of oats and whole grains. Create oat-based snacks like granola bars or energy balls. Share healthy oatmeal recipes and tips on social media.",
+    "funFacts": [
+      "Oats can help lower cholesterol and reduce heart disease risk",
+      "Steel-cut oats take longer to cook but have a nuttier texture",
+      "Oats are naturally gluten-free but may be processed with wheat",
+      "Scotland has been growing oats for over 2,000 years",
+      "Oats contain beta-glucan, a type of soluble fiber that promotes satiety"
+    ]
+  },
+  {
+    "title": "National Vegetarian Day",
+    "slug": "national-vegetarian-day",
+    "date": "2025-10-01",
+    "category": "Food",
+    "description": "Explore plant-based eating on National Vegetarian Day! This day celebrates the benefits of vegetarian diets for health, animals, and the environment. Whether you're a lifelong vegetarian or curious about reducing meat consumption, discover delicious vegetarian recipes and learn about the positive impact of plant-based eating.",
+    "tags": [
+      "vegetarian",
+      "plant-based",
+      "October",
+      "healthy",
+      "environment",
+      "sustainable",
+      "compassionate"
+    ],
+    "image": "vegetarian-plant-based-meal.jpg",
+    "relatedDays": [
+      "world-vegan-day",
+      "national-eat-your-vegetables-day",
+      "meatless-monday"
+    ],
+    "howToCelebrate": "Try cooking vegetarian meals and exploring plant-based recipes. Visit vegetarian restaurants to discover new flavors and dishes. Learn about the environmental and health benefits of reducing meat consumption. Share vegetarian recipes and meal ideas on social media. Consider participating in Meatless Monday.",
+    "funFacts": [
+      "About 5% of Americans follow a vegetarian diet",
+      "Vegetarian diets can reduce the risk of heart disease and diabetes",
+      "Plant-based diets have a lower environmental impact than meat-based diets",
+      "India has the highest percentage of vegetarians in the world",
+      "Many athletes follow vegetarian diets for improved performance and recovery"
+    ]
+  },
+  {
+    "title": "National Spice Day",
+    "slug": "national-spice-day",
+    "date": "2025-01-16",
+    "category": "Food",
+    "description": "Add some flavor to your life on National Spice Day! Spices have been treasured throughout history for their ability to transform ordinary dishes into extraordinary culinary experiences. From aromatic cinnamon to fiery chili peppers, explore the world of spices and discover how these flavor enhancers can elevate your cooking.",
+    "tags": [
+      "spices",
+      "flavor",
+      "January",
+      "cooking",
+      "aromatic",
+      "culinary",
+      "seasoning"
+    ],
+    "image": "colorful-spices-display.jpg",
+    "relatedDays": [
+      "national-herb-day",
+      "international-curry-day",
+      "national-cooking-day"
+    ],
+    "howToCelebrate": "Experiment with new spices in your cooking and try recipes from different cuisines. Visit spice markets or specialty stores to discover unique seasonings. Learn about the history and origins of different spices. Create your own spice blends and seasonings. Share spice tips and favorite recipes on social media.",
+    "funFacts": [
+      "Saffron is the most expensive spice in the world by weight",
+      "The spice trade shaped world history and exploration",
+      "Many spices have antimicrobial and antioxidant properties",
+      "Vanilla comes from orchid pods and is the second most expensive spice",
+      "Black pepper was once used as currency in ancient times"
+    ]
+  },
+  {
+    "title": "National Tea Day",
+    "slug": "national-tea-day",
+    "date": "2025-04-21",
+    "category": "Food",
+    "description": "Steep yourself in the world of tea on National Tea Day! From delicate green teas to robust black teas, herbal infusions to traditional ceremonies, tea has been bringing comfort and culture to people worldwide for thousands of years. Discover different tea varieties, brewing methods, and the art of tea appreciation.",
+    "tags": [
+      "tea",
+      "beverage",
+      "April",
+      "relaxation",
+      "culture",
+      "herbal",
+      "ceremony"
+    ],
+    "image": "tea-ceremony-setup.jpg",
+    "relatedDays": [
+      "national-coffee-day",
+      "national-hot-tea-month",
+      "international-tea-day"
+    ],
+    "howToCelebrate": "Try different types of tea from around the world. Learn proper tea brewing techniques and temperatures. Host a tea tasting party with friends. Visit a tea house or specialty tea shop. Practice mindfulness while enjoying a cup of tea.",
+    "funFacts": [
+      "Tea is the second most consumed beverage in the world after water",
+      "All tea comes from the same plant - Camellia sinensis",
+      "The difference between tea types comes from processing methods",
+      "Tea contains antioxidants that may help prevent certain diseases",
+      "The British drink about 165 million cups of tea per day"
+    ]
+  },
+  {
+    "title": "National Popcorn Day",
+    "slug": "national-popcorn-day",
+    "date": "2025-01-19",
+    "category": "Food",
+    "description": "Pop into the crunchy world of popcorn on National Popcorn Day! This beloved snack has been enjoyed for thousands of years and remains a favorite at movies, carnivals, and home gatherings. From classic buttered to gourmet flavors, discover the versatility and fun of this simple yet satisfying treat.",
+    "tags": [
+      "popcorn",
+      "snack",
+      "January",
+      "movies",
+      "crunchy",
+      "versatile",
+      "fun"
+    ],
+    "image": "fresh-popcorn-bowl.jpg",
+    "relatedDays": [
+      "national-movie-day",
+      "national-snack-day",
+      "national-cinema-day"
+    ],
+    "howToCelebrate": "Make homemade popcorn with different seasonings and flavors. Visit a movie theater and enjoy popcorn with a film. Try gourmet popcorn varieties from specialty shops. Host a popcorn tasting party with various flavors. Share popcorn recipes and flavor combinations on social media.",
+    "funFacts": [
+      "Americans eat about 17 billion quarts of popcorn per year",
+      "Popcorn kernels can pop up to 3 feet in the air",
+      "The oldest popcorn ever found is over 5,000 years old",
+      "Popcorn is a whole grain and high in fiber",
+      "Movie theaters make about 85% profit on popcorn sales"
+    ]
+  },
+  {
+    "title": "National Yogurt Day",
+    "slug": "national-yogurt-day",
+    "date": "2025-06-11",
+    "category": "Food",
+    "description": "Spoon into the creamy world of yogurt on National Yogurt Day! This probiotic-rich dairy product has been enjoyed for thousands of years and offers numerous health benefits. From Greek yogurt to plant-based alternatives, discover the versatility and nutritional value of this beloved breakfast and snack food.",
+    "tags": [
+      "yogurt",
+      "dairy",
+      "June",
+      "probiotics",
+      "healthy",
+      "breakfast",
+      "protein"
+    ],
+    "image": "fresh-yogurt-bowls.jpg",
+    "relatedDays": [
+      "national-breakfast-day",
+      "national-dairy-month",
+      "national-nutrition-month"
+    ],
+    "howToCelebrate": "Try different types of yogurt - Greek, Icelandic, or plant-based varieties. Make homemade yogurt or yogurt parfaits with fresh fruit. Learn about the health benefits of probiotics. Visit a local dairy farm or yogurt producer. Share yogurt recipes and health tips on social media.",
+    "funFacts": [
+      "Yogurt has been consumed for over 4,000 years",
+      "The word 'yogurt' comes from the Turkish word 'yoğurt'",
+      "Yogurt contains live bacteria that can improve gut health",
+      "Greek yogurt has twice the protein of regular yogurt",
+      "Yogurt can be used as a substitute for sour cream in many recipes"
+    ]
+  },
+  {
+    "title": "National Granola Day",
+    "slug": "national-granola-day",
+    "date": "2025-01-21",
+    "category": "Food",
+    "description": "Crunch into the wholesome goodness of granola on National Granola Day! This nutritious mix of oats, nuts, and dried fruits makes a perfect breakfast or snack. From homemade recipes to store-bought varieties, discover the versatility and health benefits of this beloved cereal and trail mix ingredient.",
+    "tags": [
+      "granola",
+      "oats",
+      "January",
+      "healthy",
+      "breakfast",
+      "nuts",
+      "trail-mix"
+    ],
+    "image": "homemade-granola-mix.jpg",
+    "relatedDays": [
+      "national-oatmeal-day",
+      "national-cereal-day",
+      "national-trail-mix-day"
+    ],
+    "howToCelebrate": "Make homemade granola with your favorite nuts and dried fruits. Try granola as a yogurt topping or cereal. Create granola bars for a healthy snack. Visit a local granola producer or specialty food store. Share granola recipes and variations on social media.",
+    "funFacts": [
+      "Granola was invented in 1863 by Dr. James Caleb Jackson",
+      "The original granola was called 'granula' and was much harder than today's version",
+      "Granola can be high in calories due to nuts and sweeteners",
+      "Homemade granola allows you to control ingredients and sweetness",
+      "Granola is popular for hiking and camping due to its portability"
+    ]
+  },
+  {
+    "title": "National Apple Pie Day",
+    "slug": "national-apple-pie-day",
+    "date": "2025-05-13",
+    "category": "Food",
+    "description": "Bake up a slice of Americana on National Apple Pie Day! Apple pie is more than just a dessert - it's a symbol of American tradition, home, and comfort. From classic double-crust to Dutch apple pie, celebrate this quintessential American treat that has been warming hearts and homes for generations.",
+    "tags": [
+      "apple-pie",
+      "american-tradition",
+      "May",
+      "dessert",
+      "comfort-food",
+      "homemade",
+      "nostalgic"
+    ],
+    "image": "homemade-apple-pie.jpg",
+    "relatedDays": [
+      "national-pie-day",
+      "national-apple-day",
+      "thanksgiving-day"
+    ],
+    "howToCelebrate": "Bake a homemade apple pie using your favorite recipe or family tradition. Visit a local bakery to try their apple pie varieties. Host an apple pie baking contest with friends and family. Learn about the history of apple pie in America. Share your apple pie recipes and photos on social media.",
+    "funFacts": [
+      "The phrase 'as American as apple pie' became popular during World War II",
+      "Apple pie was actually brought to America by English settlers",
+      "The first apple pie recipe in America was published in 1796",
+      "Americans eat about 186 million apple pies each year",
+      "Apple pie is the most popular pie flavor in the United States"
+    ]
+  },
+  {
+    "title": "National Baseball Day",
+    "slug": "national-baseball-day",
+    "date": "2025-04-15",
+    "category": "Food",
+    "description": "Play ball and celebrate America's pastime on National Baseball Day! Baseball is more than just a sport - it's woven into the fabric of American culture. From hot dogs and peanuts to the seventh-inning stretch, enjoy the traditions, food, and community spirit that make baseball the great American game.",
+    "tags": [
+      "baseball",
+      "american-sports",
+      "April",
+      "pastime",
+      "tradition",
+      "community",
+      "stadium-food"
+    ],
+    "image": "baseball-stadium-celebration.jpg",
+    "relatedDays": [
+      "national-hot-dog-day",
+      "opening-day",
+      "world-series"
+    ],
+    "howToCelebrate": "Attend a baseball game at your local stadium or watch one on TV. Enjoy traditional ballpark foods like hot dogs, peanuts, and Cracker Jack. Play catch or organize a pickup game with friends. Visit the Baseball Hall of Fame in Cooperstown. Share your baseball memories and favorite team on social media.",
+    "funFacts": [
+      "Baseball is often called 'America's Pastime'",
+      "The first professional baseball game was played in 1869",
+      "The seventh-inning stretch tradition started in the 19th century",
+      "Baseball stadiums sell over 20 million hot dogs each season",
+      "The World Series has been played annually since 1903"
+    ]
+  },
+  {
+    "title": "National BBQ Day",
+    "slug": "national-bbq-day",
+    "date": "2025-07-04",
+    "category": "Food",
+    "description": "Fire up the grill and celebrate American barbecue on National BBQ Day! BBQ is a cornerstone of American cuisine, with regional styles from Texas brisket to Carolina pulled pork. From backyard cookouts to competitive smoking, embrace the smoky, savory flavors and community spirit that make American BBQ legendary worldwide.",
+    "tags": [
+      "bbq",
+      "american-cuisine",
+      "July",
+      "grilling",
+      "smoky",
+      "regional",
+      "community"
+    ],
+    "image": "american-bbq-grill.jpg",
+    "relatedDays": [
+      "independence-day",
+      "national-hamburger-day",
+      "national-hot-dog-day"
+    ],
+    "howToCelebrate": "Fire up your grill and cook your favorite BBQ recipes. Try different regional BBQ styles and sauces. Host a BBQ party with friends and family. Visit a local BBQ restaurant or food truck. Share your BBQ techniques and recipes on social media.",
+    "funFacts": [
+      "American BBQ has four main regional styles: Texas, Kansas City, Memphis, and Carolina",
+      "BBQ competitions are held throughout the US with thousands of participants",
+      "The word 'barbecue' comes from the Caribbean word 'barbacoa'",
+      "BBQ sauce was first commercially produced in 1909",
+      "Americans consume over 2 billion pounds of BBQ meat annually"
+    ]
+  },
+  {
+    "title": "National Wings Day",
+    "slug": "national-wings-day",
+    "date": "2025-07-29",
+    "category": "Food",
+    "description": "Spice up your life on National Wings Day! Buffalo wings are an American invention that took the world by storm. From mild to atomic hot, these crispy, saucy delights are perfect for game day, parties, or any time you want to add some heat to your meal. Celebrate this iconic American finger food!",
+    "tags": [
+      "wings",
+      "buffalo-wings",
+      "July",
+      "american-food",
+      "spicy",
+      "game-day",
+      "finger-food"
+    ],
+    "image": "buffalo-wings-plate.jpg",
+    "relatedDays": [
+      "super-bowl-sunday",
+      "national-hot-sauce-day",
+      "national-chicken-day"
+    ],
+    "howToCelebrate": "Order wings from your favorite restaurant or make them at home. Try different wing sauces and heat levels. Host a wing-eating contest with friends. Visit a wing festival or competition. Share your favorite wing recipes and hot sauce recommendations on social media.",
+    "funFacts": [
+      "Buffalo wings were invented in 1964 at the Anchor Bar in Buffalo, New York",
+      "Americans eat over 1.3 billion chicken wings on Super Bowl Sunday",
+      "The original Buffalo wing sauce is just hot sauce and butter",
+      "Wing eating contests are popular at bars and restaurants nationwide",
+      "The National Buffalo Wing Festival draws over 80,000 people annually"
+    ]
+  },
+  {
+    "title": "National Mac and Cheese Day",
+    "slug": "national-mac-and-cheese-day",
+    "date": "2025-07-14",
+    "category": "Food",
+    "description": "Get cheesy with America's favorite comfort food on National Mac and Cheese Day! This beloved American dish has been warming hearts and filling bellies for generations. From the blue box classic to gourmet variations, celebrate the creamy, cheesy goodness that makes mac and cheese the ultimate American comfort food.",
+    "tags": [
+      "mac-and-cheese",
+      "comfort-food",
+      "July",
+      "american-classic",
+      "cheese",
+      "nostalgic",
+      "homemade"
+    ],
+    "image": "homemade-mac-and-cheese.jpg",
+    "relatedDays": [
+      "national-cheese-day",
+      "national-comfort-food-day",
+      "national-pasta-day"
+    ],
+    "howToCelebrate": "Make homemade mac and cheese using your favorite recipe. Try gourmet variations with different cheeses and add-ins. Visit restaurants known for their mac and cheese dishes. Host a mac and cheese cook-off with friends. Share your mac and cheese recipes and photos on social media.",
+    "funFacts": [
+      "Mac and cheese became popular in America during the Great Depression",
+      "Thomas Jefferson served mac and cheese at a state dinner in 1802",
+      "Americans consume over 2 billion boxes of mac and cheese annually",
+      "The first mac and cheese recipe was published in 1769",
+      "Mac and cheese is the most popular comfort food in America"
+    ]
+  },
+  {
+    "title": "National Fried Chicken Day",
+    "slug": "national-fried-chicken-day",
+    "date": "2025-07-06",
+    "category": "Food",
+    "description": "Crisp up and celebrate America's love affair with fried chicken on National Fried Chicken Day! From Southern-style buttermilk fried chicken to Nashville hot, this iconic American dish brings families together and satisfies cravings nationwide. Whether you prefer KFC, Popeyes, or homemade, enjoy this crispy, golden American classic!",
+    "tags": [
+      "fried-chicken",
+      "southern-food",
+      "July",
+      "american-classic",
+      "crispy",
+      "comfort-food",
+      "family"
+    ],
+    "image": "southern-fried-chicken.jpg",
+    "relatedDays": [
+      "national-chicken-day",
+      "national-soul-food-month",
+      "national-comfort-food-day"
+    ],
+    "howToCelebrate": "Visit your favorite fried chicken restaurant or make it at home. Try different regional styles like Nashville hot or Korean fried chicken. Host a fried chicken dinner with family and friends. Learn about the history of fried chicken in America. Share your fried chicken photos and recipes on social media.",
+    "funFacts": [
+      "Fried chicken became popular in America through African American cuisine",
+      "Colonel Sanders started KFC when he was 65 years old",
+      "Americans eat about 1.25 billion pounds of chicken annually",
+      "The first fried chicken recipe in America was published in 1824",
+      "Fried chicken is often associated with Sunday dinner traditions"
+    ]
+  },
+  {
+    "title": "National Soul Food Day",
+    "slug": "national-soul-food-day",
+    "date": "2025-10-10",
+    "category": "Food",
+    "description": "Feed your soul on National Soul Food Day! This beloved American cuisine represents the rich culinary traditions of African American culture, featuring dishes like fried chicken, collard greens, mac and cheese, and cornbread. Celebrate the history, flavor, and community spirit that makes soul food a cornerstone of American culture.",
+    "tags": [
+      "soul-food",
+      "african-american-cuisine",
+      "October",
+      "american-culture",
+      "tradition",
+      "comfort-food",
+      "heritage"
+    ],
+    "image": "soul-food-traditional-dishes.jpg",
+    "relatedDays": [
+      "national-fried-chicken-day",
+      "national-mac-and-cheese-day",
+      "black-history-month"
+    ],
+    "howToCelebrate": "Visit a soul food restaurant or cook traditional soul food dishes at home. Learn about the history and cultural significance of soul food. Host a soul food potluck with friends and family. Support Black-owned restaurants and food businesses. Share soul food recipes and stories on social media.",
+    "funFacts": [
+      "Soul food originated from the cooking traditions of enslaved Africans",
+      "Popular soul food dishes include fried chicken, collard greens, and cornbread",
+      "Soul food restaurants are found in communities across America",
+      "The term 'soul food' became popular during the Civil Rights Movement",
+      "Soul food represents resilience, creativity, and cultural pride"
+    ]
+  },
+  {
+    "title": "National Hot Dog Day",
+    "slug": "national-hot-dog-day-food",
+    "date": "2025-07-17",
+    "category": "Food",
+    "description": "Sizzle into summer with America's favorite handheld meal on National Hot Dog Day! From classic ballpark franks to gourmet creations, hot dogs are the perfect summertime treat. Discover regional variations, learn about hot dog history, and celebrate this iconic American food that brings people together at barbecues, ballgames, and backyard parties.",
+    "tags": [
+      "hot-dogs",
+      "summer",
+      "July",
+      "american-food",
+      "barbecue",
+      "ballpark",
+      "grilling"
+    ],
+    "image": "delicious-hot-dogs.jpg",
+    "relatedDays": [
+      "national-baseball-day",
+      "national-bbq-day",
+      "super-bowl-sunday"
+    ],
+    "howToCelebrate": "Fire up the grill and cook hot dogs for family and friends. Visit a local hot dog stand or restaurant to try different styles. Host a hot dog bar with various toppings and condiments. Learn about regional hot dog styles from around the country. Share your favorite hot dog combinations on social media.",
+    "funFacts": [
+      "Americans eat over 20 billion hot dogs per year",
+      "The first hot dog was sold in 1871 at Coney Island",
+      "The longest hot dog ever made was 668 feet long",
+      "Hot dogs were originally called 'dachshund sausages'",
+      "The average American eats 70 hot dogs per year"
+    ]
   }
 ]

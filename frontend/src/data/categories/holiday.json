@@ -238,5 +238,545 @@
       "The tradition of making resolutions dates back to ancient Rome",
       "New Year's Eve is celebrated at different times around the world due to time zones"
     ]
+  },
+  {
+    "title": "Presidents Day",
+    "slug": "presidents-day",
+    "date": "2025-02-17",
+    "category": "Holiday",
+    "description": "Honor the legacy of American presidents on Presidents Day! This federal holiday celebrates the contributions and leadership of all U.S. presidents, with special recognition for George Washington and Abraham Lincoln. Learn about presidential history, visit historical sites, and reflect on the importance of leadership and public service in American democracy.",
+    "tags": [
+      "presidents",
+      "american-history",
+      "February",
+      "federal-holiday",
+      "leadership",
+      "democracy",
+      "patriotic"
+    ],
+    "image": "presidents-day-celebration.jpg",
+    "relatedDays": [
+      "independence-day",
+      "constitution-day",
+      "memorial-day"
+    ],
+    "howToCelebrate": "Visit presidential libraries, monuments, or historical sites. Read biographies of American presidents and learn about their contributions. Watch documentaries about presidential history and American government. Attend local Presidents Day events and parades. Discuss the importance of civic engagement and democratic values.",
+    "funFacts": [
+      "Presidents Day was originally established to honor George Washington's birthday",
+      "It's officially called 'Washington's Birthday' at the federal level",
+      "The holiday was moved to the third Monday in February in 1971",
+      "Four U.S. presidents were born in February: Washington, Lincoln, Reagan, and Harrison",
+      "Mount Rushmore features four presidents: Washington, Jefferson, Roosevelt, and Lincoln"
+    ]
+  },
+  {
+    "title": "Labor Day",
+    "slug": "labor-day",
+    "date": "2025-09-01",
+    "category": "Holiday",
+    "description": "Celebrate the contributions of workers and the labor movement on Labor Day! This federal holiday honors the achievements of American workers and their role in building the nation's strength and prosperity. From its origins in the labor movement to modern celebrations, Labor Day marks the unofficial end of summer and recognizes the dignity of work.",
+    "tags": [
+      "labor",
+      "workers",
+      "September",
+      "federal-holiday",
+      "employment",
+      "unions",
+      "summer-end"
+    ],
+    "image": "labor-day-workers-celebration.jpg",
+    "relatedDays": [
+      "national-employee-appreciation-day",
+      "international-workers-day",
+      "national-boss-day"
+    ],
+    "howToCelebrate": "Attend local Labor Day parades and festivals. Take time to appreciate the hard work of essential workers in your community. Learn about the history of the labor movement and workers' rights. Enjoy end-of-summer activities like barbecues, picnics, or beach trips. Support worker-friendly businesses and fair labor practices.",
+    "funFacts": [
+      "Labor Day was first celebrated in 1882 in New York City",
+      "It became a federal holiday in 1894 after the Pullman Strike",
+      "Labor Day is celebrated on the first Monday in September",
+      "It traditionally marks the end of summer and the start of the school year",
+      "The first Labor Day parade had 10,000 workers marching in New York"
+    ]
+  },
+  {
+    "title": "Martin Luther King Jr. Day",
+    "slug": "martin-luther-king-jr-day",
+    "date": "2025-01-20",
+    "category": "Holiday",
+    "description": "Honor the legacy of civil rights leader Dr. Martin Luther King Jr. on this federal holiday! This day celebrates Dr. King's contributions to the civil rights movement and his dream of equality and justice for all. Reflect on his powerful message of nonviolent resistance, love, and unity while continuing the work toward a more just and equitable society.",
+    "tags": [
+      "martin-luther-king",
+      "civil-rights",
+      "January",
+      "federal-holiday",
+      "equality",
+      "justice",
+      "legacy"
+    ],
+    "image": "martin-luther-king-jr-day.jpg",
+    "relatedDays": [
+      "black-history-month",
+      "international-human-rights-day",
+      "national-freedom-day"
+    ],
+    "howToCelebrate": "Participate in community service projects and volunteer activities. Attend MLK Day events, marches, or educational programs. Read Dr. King's speeches and writings, especially 'I Have a Dream'. Support civil rights organizations and social justice causes. Reflect on progress made and work still needed for equality.",
+    "funFacts": [
+      "MLK Day became a federal holiday in 1983, first observed in 1986",
+      "It's the only federal holiday designated as a National Day of Service",
+      "Dr. King was the youngest person to receive the Nobel Peace Prize at age 35",
+      "His 'I Have a Dream' speech was largely improvised",
+      "All 50 states officially observe MLK Day as a holiday"
+    ]
+  },
+  {
+    "title": "Memorial Day",
+    "slug": "memorial-day",
+    "date": "2025-05-26",
+    "category": "Holiday",
+    "description": "Honor and remember the brave men and women who died serving in the U.S. military on Memorial Day. This solemn federal holiday is a time to reflect on the ultimate sacrifice made by service members to protect our freedoms. From visiting cemeteries to participating in parades, join in remembering those who gave their lives for our country.",
+    "tags": [
+      "memorial-day",
+      "military",
+      "May",
+      "federal-holiday",
+      "sacrifice",
+      "remembrance",
+      "veterans"
+    ],
+    "image": "memorial-day-remembrance.jpg",
+    "relatedDays": [
+      "veterans-day",
+      "independence-day",
+      "armed-forces-day"
+    ],
+    "howToCelebrate": "Visit national cemeteries or memorials to honor fallen service members. Participate in Memorial Day parades and ceremonies. Place flags or flowers on veterans' graves. Support military families and veteran organizations. Take a moment of silence at 3 PM for the National Moment of Remembrance.",
+    "funFacts": [
+      "Memorial Day was originally called Decoration Day",
+      "It originated after the Civil War to honor Union soldiers",
+      "The holiday was moved to the last Monday in May in 1971",
+      "Wearing red poppies on Memorial Day honors fallen soldiers",
+      "The National Moment of Remembrance occurs at 3 PM local time"
+    ]
+  },
+  {
+    "title": "Independence Day",
+    "slug": "independence-day",
+    "date": "2025-07-04",
+    "category": "Holiday",
+    "description": "Celebrate America's birthday on Independence Day! This patriotic federal holiday commemorates the adoption of the Declaration of Independence on July 4, 1776, marking the birth of the United States of America. From fireworks and parades to barbecues and family gatherings, join in celebrating freedom, democracy, and the American spirit.",
+    "tags": [
+      "independence-day",
+      "america",
+      "July",
+      "patriotic",
+      "freedom",
+      "fireworks",
+      "celebration"
+    ],
+    "image": "fourth-of-july-fireworks.jpg",
+    "relatedDays": [
+      "flag-day",
+      "constitution-day",
+      "memorial-day"
+    ],
+    "howToCelebrate": "Watch fireworks displays and attend local parades. Host or attend a patriotic barbecue with friends and family. Display the American flag and wear red, white, and blue. Learn about American history and the founding fathers. Participate in community Independence Day events and festivals.",
+    "funFacts": [
+      "The Declaration of Independence was actually signed on August 2, 1776",
+      "Americans consume 150 million hot dogs on July 4th",
+      "Three U.S. presidents died on July 4th: Adams, Jefferson, and Monroe",
+      "The first Fourth of July celebration at the White House was in 1801",
+      "Americans spend over $1 billion on fireworks each year"
+    ]
+  },
+  {
+    "title": "Earth Day",
+    "slug": "earth-day",
+    "date": "2025-04-22",
+    "category": "Holiday",
+    "description": "Show love for our planet on Earth Day! This global environmental movement encourages people to take action to protect the environment and address climate change. From tree planting to beach cleanups, Earth Day is about making positive changes for our planet and inspiring others to join the fight for a cleaner, healthier world.",
+    "tags": [
+      "earth-day",
+      "environment",
+      "April",
+      "sustainability",
+      "conservation",
+      "climate",
+      "planet"
+    ],
+    "image": "earth-day-environmental-action.jpg",
+    "relatedDays": [
+      "world-environment-day",
+      "national-recycling-day",
+      "arbor-day"
+    ],
+    "howToCelebrate": "Participate in local environmental cleanup activities. Plant trees or start a garden with native plants. Reduce energy consumption and adopt eco-friendly practices. Learn about climate change and environmental issues. Support environmental organizations and green initiatives.",
+    "funFacts": [
+      "The first Earth Day was celebrated on April 22, 1970",
+      "Over 1 billion people participate in Earth Day activities worldwide",
+      "Earth Day led to the creation of the EPA and major environmental laws",
+      "The Earth Day flag features a photo of Earth from space",
+      "Earth Day is now celebrated in more than 190 countries"
+    ]
+  },
+  {
+    "title": "Flag Day",
+    "slug": "flag-day",
+    "date": "2025-06-14",
+    "category": "Holiday",
+    "description": "Honor the Stars and Stripes on Flag Day! This patriotic observance commemorates the adoption of the American flag on June 14, 1777. Learn about flag history, proper flag etiquette, and the symbolism behind the red, white, and blue. Display your flag proudly and reflect on what it represents - freedom, unity, and the American spirit.",
+    "tags": [
+      "flag-day",
+      "patriotic",
+      "June",
+      "american-flag",
+      "history",
+      "symbols",
+      "pride"
+    ],
+    "image": "american-flag-display.jpg",
+    "relatedDays": [
+      "independence-day",
+      "memorial-day",
+      "veterans-day"
+    ],
+    "howToCelebrate": "Display the American flag at your home or business. Learn about proper flag etiquette and care. Attend Flag Day ceremonies or parades in your community. Teach children about the flag's history and symbolism. Share patriotic messages and flag facts on social media.",
+    "funFacts": [
+      "The current 50-star flag was designed by a 17-year-old high school student",
+      "The flag has been modified 27 times since 1777",
+      "Flag Day became a national observance in 1916",
+      "The flag should never touch the ground",
+      "Betsy Ross is often credited with sewing the first American flag"
+    ]
+  },
+  {
+    "title": "Arbor Day",
+    "slug": "arbor-day",
+    "date": "2025-04-25",
+    "category": "Holiday",
+    "description": "Plant trees and celebrate nature on Arbor Day! This environmental holiday encourages tree planting and forest conservation. Trees provide oxygen, clean air and water, prevent erosion, and create habitats for wildlife. Join community tree-planting events and learn about the vital role trees play in maintaining a healthy environment.",
+    "tags": [
+      "arbor-day",
+      "trees",
+      "April",
+      "environment",
+      "planting",
+      "conservation",
+      "nature"
+    ],
+    "image": "tree-planting-arbor-day.jpg",
+    "relatedDays": [
+      "earth-day",
+      "world-environment-day",
+      "national-forest-week"
+    ],
+    "howToCelebrate": "Plant a tree in your yard or participate in community tree-planting events. Learn about different tree species and their benefits. Support forest conservation organizations. Teach children about the importance of trees and forests. Share tree facts and environmental tips on social media.",
+    "funFacts": [
+      "Arbor Day was first celebrated in Nebraska in 1872",
+      "Over 1 million trees were planted on the first Arbor Day",
+      "A single tree can absorb 48 pounds of CO2 per year",
+      "Trees can increase property values by up to 15%",
+      "The world loses about 18.7 million acres of forest annually"
+    ]
+  },
+  {
+    "title": "Juneteenth",
+    "slug": "juneteenth",
+    "date": "2025-06-19",
+    "category": "Holiday",
+    "description": "Celebrate freedom and African American culture on Juneteenth! This federal holiday commemorates the end of slavery in the United States, marking when news of emancipation reached Texas on June 19, 1865. Learn about this important moment in American history, celebrate African American achievements, and reflect on the ongoing journey toward equality and justice.",
+    "tags": [
+      "juneteenth",
+      "freedom",
+      "June",
+      "emancipation",
+      "african-american",
+      "history",
+      "celebration"
+    ],
+    "image": "juneteenth-celebration.jpg",
+    "relatedDays": [
+      "martin-luther-king-jr-day",
+      "black-history-month",
+      "emancipation-proclamation-day"
+    ],
+    "howToCelebrate": "Attend Juneteenth festivals and celebrations in your community. Learn about African American history and the end of slavery. Support Black-owned businesses and organizations. Read books by African American authors. Share the history and significance of Juneteenth on social media.",
+    "funFacts": [
+      "Juneteenth became a federal holiday in 2021",
+      "Texas was the first state to make Juneteenth an official holiday in 1980",
+      "The Emancipation Proclamation was signed in 1863, but news didn't reach Texas until 1865",
+      "Juneteenth is also known as Freedom Day or Emancipation Day",
+      "Traditional Juneteenth foods include red drinks and foods symbolizing resilience"
+    ]
+  },
+  {
+    "title": "Valentine's Day",
+    "slug": "valentines-day",
+    "date": "2025-02-14",
+    "category": "Holiday",
+    "description": "Celebrate love and romance on Valentine's Day! This beloved holiday is all about expressing affection for the special people in your life. From romantic dinners to heartfelt gifts, Valentine's Day reminds us to cherish our relationships and show appreciation for those we love most.",
+    "tags": [
+      "valentines",
+      "love",
+      "February",
+      "romance",
+      "hearts",
+      "relationships",
+      "celebration"
+    ],
+    "image": "valentines-day-romance.jpg",
+    "relatedDays": [
+      "national-chocolate-day",
+      "national-roses-day",
+      "national-kiss-day"
+    ],
+    "howToCelebrate": "Plan a special date or romantic evening with your partner. Send Valentine's cards to friends and family. Give thoughtful gifts that show you care. Cook a special meal or order from a favorite restaurant. Express your love and appreciation for the important people in your life.",
+    "funFacts": [
+      "Valentine's Day is named after Saint Valentine, a Roman priest",
+      "Americans spend about $20 billion on Valentine's Day gifts each year",
+      "The first Valentine's Day card was sent in 1415",
+      "Teachers receive the most Valentine's Day cards",
+      "The heart shape was first used as a symbol of love in the 13th century"
+    ]
+  },
+  {
+    "title": "New Year's Day",
+    "slug": "new-years-day",
+    "date": "2025-01-01",
+    "category": "Holiday",
+    "description": "Ring in the new year with hope and celebration on New Year's Day! This global holiday marks the beginning of a fresh year and symbolizes new beginnings, resolutions, and opportunities. Whether you're making resolutions or simply celebrating with loved ones, embrace the promise of a new year ahead.",
+    "tags": [
+      "new-year",
+      "celebration",
+      "January",
+      "fresh-start",
+      "resolutions",
+      "hope",
+      "global"
+    ],
+    "image": "new-years-day-celebration.jpg",
+    "relatedDays": [
+      "new-years-eve",
+      "national-resolution-day",
+      "national-hangover-day"
+    ],
+    "howToCelebrate": "Make New Year's resolutions and set goals for the year ahead. Spend time with family and friends. Watch the Rose Parade or other New Year's celebrations. Reflect on the past year and plan for the future. Start new traditions or continue beloved ones.",
+    "funFacts": [
+      "New Year's Day is celebrated on January 1st in most countries",
+      "The Times Square ball drop tradition started in 1907",
+      "About 45% of Americans make New Year's resolutions",
+      "The most popular resolution is to exercise more",
+      "New Year's Day is a federal holiday in the United States"
+    ]
+  },
+  {
+    "title": "St. Patrick's Day",
+    "slug": "st-patricks-day",
+    "date": "2025-03-17",
+    "category": "Holiday",
+    "description": "Wear green and celebrate Irish culture on St. Patrick's Day! This festive holiday honors Saint Patrick, the patron saint of Ireland, and has become a global celebration of Irish heritage. From parades and traditional music to green beer and shamrocks, join in the fun and embrace the luck of the Irish!",
+    "tags": [
+      "st-patricks",
+      "irish",
+      "March",
+      "green",
+      "celebration",
+      "heritage",
+      "festive"
+    ],
+    "image": "st-patricks-day-parade.jpg",
+    "relatedDays": [
+      "national-irish-coffee-day",
+      "national-green-day",
+      "irish-heritage-month"
+    ],
+    "howToCelebrate": "Wear green clothing and accessories. Attend St. Patrick's Day parades and festivals. Enjoy traditional Irish food and drinks. Learn about Irish culture and history. Share St. Patrick's Day photos and celebrations on social media.",
+    "funFacts": [
+      "St. Patrick's Day was originally a religious holiday in Ireland",
+      "The first St. Patrick's Day parade was held in New York City in 1762",
+      "The Chicago River is dyed green every St. Patrick's Day",
+      "St. Patrick is said to have driven snakes out of Ireland",
+      "The shamrock is a symbol of Ireland and the Holy Trinity"
+    ]
+  },
+  {
+    "title": "Easter",
+    "slug": "easter",
+    "date": "2025-04-20",
+    "category": "Holiday",
+    "description": "Celebrate renewal and new beginnings on Easter! This important Christian holiday commemorates the resurrection of Jesus Christ and is also celebrated as a spring festival of rebirth and renewal. From Easter eggs and bunnies to church services and family gatherings, embrace the joy and hope of this special season.",
+    "tags": [
+      "easter",
+      "spring",
+      "April",
+      "renewal",
+      "family",
+      "celebration",
+      "hope"
+    ],
+    "image": "easter-celebration-spring.jpg",
+    "relatedDays": [
+      "good-friday",
+      "easter-monday",
+      "national-egg-day"
+    ],
+    "howToCelebrate": "Attend Easter services or spend time in reflection. Participate in Easter egg hunts with family and children. Prepare traditional Easter meals and treats. Decorate Easter eggs and create spring crafts. Share Easter joy and spring photos on social media.",
+    "funFacts": [
+      "Easter is celebrated on the first Sunday after the first full moon of spring",
+      "The Easter Bunny tradition originated in Germany",
+      "Americans consume over 16 billion jelly beans at Easter",
+      "The largest Easter egg hunt had over 500,000 eggs",
+      "Easter is the most important Christian holiday"
+    ]
+  },
+  {
+    "title": "Groundhog Day",
+    "slug": "groundhog-day",
+    "date": "2025-02-02",
+    "category": "Holiday",
+    "description": "Will he see his shadow? Celebrate Groundhog Day, America's quirky weather-predicting tradition! This beloved American holiday centers around Punxsutawney Phil and his annual weather forecast. From Pennsylvania to your local celebrations, join in the fun of this unique American tradition that brings communities together each February.",
+    "tags": [
+      "groundhog-day",
+      "weather",
+      "February",
+      "american-tradition",
+      "punxsutawney-phil",
+      "winter",
+      "spring"
+    ],
+    "image": "groundhog-day-punxsutawney-phil.jpg",
+    "relatedDays": [
+      "national-hedgehog-day",
+      "spring-equinox",
+      "winter-solstice"
+    ],
+    "howToCelebrate": "Watch the live Groundhog Day ceremony from Punxsutawney, Pennsylvania. Host a Groundhog Day party with weather-themed activities. Learn about the history and folklore of Groundhog Day. Visit local Groundhog Day celebrations in your area. Share Groundhog Day predictions and fun facts on social media.",
+    "funFacts": [
+      "Groundhog Day has been celebrated in Punxsutawney since 1887",
+      "Punxsutawney Phil has been predicting weather for over 130 years",
+      "The tradition comes from German immigrants who brought Candlemas Day customs",
+      "If the groundhog sees his shadow, there will be 6 more weeks of winter",
+      "The movie 'Groundhog Day' made this holiday famous worldwide"
+    ]
+  },
+  {
+    "title": "Super Bowl Sunday",
+    "slug": "super-bowl-sunday",
+    "date": "2025-02-09",
+    "category": "Holiday",
+    "description": "Get ready for the biggest sports event in America on Super Bowl Sunday! This unofficial American holiday brings families and friends together for football, food, and commercials. From the big game to the halftime show, Super Bowl Sunday is about more than just football - it's about community, tradition, and the American spirit of competition.",
+    "tags": [
+      "super-bowl",
+      "football",
+      "February",
+      "american-sports",
+      "party",
+      "tradition",
+      "competition"
+    ],
+    "image": "super-bowl-celebration-party.jpg",
+    "relatedDays": [
+      "national-football-day",
+      "national-wings-day",
+      "national-beer-day"
+    ],
+    "howToCelebrate": "Host or attend a Super Bowl party with friends and family. Prepare traditional Super Bowl foods like wings, nachos, and chili. Watch the game, halftime show, and commercials. Participate in Super Bowl squares or other betting pools. Share your Super Bowl predictions and party photos on social media.",
+    "funFacts": [
+      "Super Bowl Sunday is the second-largest food consumption day in America after Thanksgiving",
+      "Americans consume over 1.25 billion chicken wings on Super Bowl Sunday",
+      "The first Super Bowl was played in 1967 between the Packers and Chiefs",
+      "Super Bowl commercials cost millions of dollars for just 30 seconds",
+      "The halftime show has featured some of the biggest names in music"
+    ]
+  },
+  {
+    "title": "Mother's Day",
+    "slug": "mothers-day",
+    "date": "2025-05-11",
+    "category": "Holiday",
+    "description": "Honor the amazing women who raised us on Mother's Day! This beloved American holiday celebrates mothers, grandmothers, and mother figures who have shaped our lives. From breakfast in bed to heartfelt cards, show your appreciation for the unconditional love, sacrifice, and guidance that mothers provide every day.",
+    "tags": [
+      "mothers-day",
+      "family",
+      "May",
+      "appreciation",
+      "love",
+      "celebration",
+      "gratitude"
+    ],
+    "image": "mothers-day-celebration.jpg",
+    "relatedDays": [
+      "fathers-day",
+      "grandparents-day",
+      "national-family-day"
+    ],
+    "howToCelebrate": "Spend quality time with your mother or mother figure. Give thoughtful gifts, cards, or flowers. Prepare a special meal or take her out to dinner. Call or video chat with your mom if you can't be together. Share memories and photos of your mother on social media.",
+    "funFacts": [
+      "Mother's Day was officially established in 1914 by President Woodrow Wilson",
+      "Anna Jarvis created Mother's Day to honor her own mother",
+      "Americans spend over $25 billion on Mother's Day gifts each year",
+      "Mother's Day is celebrated in over 50 countries worldwide",
+      "The most popular Mother's Day gift is flowers, followed by greeting cards"
+    ]
+  },
+  {
+    "title": "Father's Day",
+    "slug": "fathers-day",
+    "date": "2025-06-15",
+    "category": "Holiday",
+    "description": "Celebrate the dads who make a difference on Father's Day! This special American holiday honors fathers, grandfathers, and father figures who have guided, supported, and loved us. From grilling together to sharing stories, show your appreciation for the wisdom, strength, and love that fathers bring to our lives.",
+    "tags": [
+      "fathers-day",
+      "family",
+      "June",
+      "appreciation",
+      "dads",
+      "celebration",
+      "gratitude"
+    ],
+    "image": "fathers-day-celebration.jpg",
+    "relatedDays": [
+      "mothers-day",
+      "grandparents-day",
+      "national-family-day"
+    ],
+    "howToCelebrate": "Spend time with your father doing activities he enjoys. Give thoughtful gifts like tools, books, or experiences. Cook a meal together or take him out to his favorite restaurant. Share stories and memories about your dad. Call or visit your father to show your appreciation.",
+    "funFacts": [
+      "Father's Day was officially recognized as a national holiday in 1972",
+      "Sonora Smart Dodd created Father's Day to honor her Civil War veteran father",
+      "Americans spend about $16 billion on Father's Day gifts annually",
+      "The most popular Father's Day gifts are greeting cards and clothing",
+      "Father's Day is celebrated on different dates in different countries"
+    ]
+  },
+  {
+    "title": "Cinco de Mayo",
+    "slug": "cinco-de-mayo",
+    "date": "2025-05-05",
+    "category": "Holiday",
+    "description": "¡Viva México! Celebrate Cinco de Mayo, the vibrant American-Mexican cultural celebration! While it commemorates Mexico's victory at the Battle of Puebla, in the US it has become a celebration of Mexican culture, heritage, and community. From tacos and margaritas to music and dancing, embrace the festive spirit of this beloved American holiday.",
+    "tags": [
+      "cinco-de-mayo",
+      "mexican-culture",
+      "May",
+      "celebration",
+      "heritage",
+      "festive",
+      "community"
+    ],
+    "image": "cinco-de-mayo-celebration.jpg",
+    "relatedDays": [
+      "national-taco-day",
+      "national-mexican-food-day",
+      "hispanic-heritage-month"
+    ],
+    "howToCelebrate": "Enjoy Mexican food and drinks at local restaurants or make them at home. Attend Cinco de Mayo festivals and parades in your community. Learn about Mexican history and culture. Wear traditional Mexican colors and decorations. Share your Cinco de Mayo celebrations on social media.",
+    "funFacts": [
+      "Cinco de Mayo commemorates Mexico's victory over France in 1862",
+      "It's more widely celebrated in the US than in Mexico",
+      "Americans consume over 80 million pounds of avocados on Cinco de Mayo",
+      "The largest Cinco de Mayo celebration is in Los Angeles",
+      "Cinco de Mayo is not Mexico's Independence Day (that's September 16)"
+    ]
   }
 ]

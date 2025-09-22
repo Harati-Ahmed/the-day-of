@@ -100,7 +100,7 @@ export default function HomePage() {
             {/* Stats Row */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
               <div>
-                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-1 md:mb-2">200+</div>
+                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-1 md:mb-2">{days.length}+</div>
                 <div className="text-sm md:text-base text-neutral-600 dark:text-neutral-300 font-medium">Special Days</div>
               </div>
               <div>

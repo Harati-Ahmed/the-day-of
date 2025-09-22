@@ -238,5 +238,425 @@
       "Elephants communicate through infrasound that can travel miles",
       "African elephants are listed as endangered, Asian elephants as critically endangered"
     ]
+  },
+  {
+    "title": "National Rabbit Day",
+    "slug": "national-rabbit-day",
+    "date": "2025-09-27",
+    "category": "Animals",
+    "description": "Hop into the adorable world of rabbits on National Rabbit Day! These gentle, intelligent creatures make wonderful companions and are beloved for their soft fur, twitching noses, and playful personalities. Learn about rabbit care, discover different breeds, and appreciate these amazing animals that have captured hearts worldwide with their charm and grace.",
+    "tags": [
+      "rabbits",
+      "pets",
+      "September",
+      "cute",
+      "gentle",
+      "companions",
+      "adorable"
+    ],
+    "image": "cute-rabbits-playing.jpg",
+    "relatedDays": [
+      "national-pet-day",
+      "national-wildlife-day",
+      "national-bunny-day"
+    ],
+    "howToCelebrate": "Visit a local animal shelter to meet adoptable rabbits. Learn about proper rabbit care, including diet, housing, and exercise needs. Support rabbit rescue organizations through donations or volunteering. Share photos of rabbits and rabbit care tips on social media. Consider adopting a rabbit if you're prepared for the long-term commitment.",
+    "funFacts": [
+      "Rabbits can live 8-12 years with proper care",
+      "A rabbit's teeth never stop growing throughout their lifetime",
+      "Rabbits are social animals and do better in pairs",
+      "Baby rabbits are called kits and are born blind and deaf",
+      "Rabbits can jump up to 3 feet high and run up to 35 mph"
+    ]
+  },
+  {
+    "title": "National Horse Day",
+    "slug": "national-horse-day",
+    "date": "2025-12-13",
+    "category": "Animals",
+    "description": "Gallop into the majestic world of horses on National Horse Day! These magnificent animals have been human companions for thousands of years, serving as working partners, athletes, and beloved friends. From wild mustangs to gentle therapy horses, celebrate the beauty, strength, and intelligence of these incredible creatures that continue to capture our hearts.",
+    "tags": [
+      "horses",
+      "equine",
+      "December",
+      "majestic",
+      "companions",
+      "strength",
+      "beauty"
+    ],
+    "image": "beautiful-horses-running.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "national-pet-day",
+      "national-cowboy-day"
+    ],
+    "howToCelebrate": "Visit a local stable, ranch, or equestrian center to see horses up close. Learn about different horse breeds and their unique characteristics. Support horse rescue organizations and sanctuaries. Take horseback riding lessons or go on a trail ride. Share photos and facts about horses on social media to raise awareness.",
+    "funFacts": [
+      "Horses can sleep both lying down and standing up",
+      "A horse's heart weighs about 8-10 pounds and pumps 8 gallons of blood per minute",
+      "Horses have excellent memories and can recognize human friends after years of separation",
+      "The oldest horse on record lived to be 62 years old",
+      "Horses have nearly 360-degree vision due to the position of their eyes"
+    ]
+  },
+  {
+    "title": "National Turtle Day",
+    "slug": "national-turtle-day",
+    "date": "2025-05-23",
+    "category": "Animals",
+    "description": "Slow down and appreciate the ancient wisdom of turtles on National Turtle Day! These remarkable reptiles have been around for over 200 million years and play important roles in their ecosystems. From sea turtles to box turtles, learn about different species, their conservation needs, and the vital role they play in maintaining environmental balance.",
+    "tags": [
+      "turtles",
+      "reptiles",
+      "May",
+      "conservation",
+      "ancient",
+      "ecosystems",
+      "wildlife"
+    ],
+    "image": "turtles-in-natural-habitat.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "world-environment-day",
+      "national-reptile-day"
+    ],
+    "howToCelebrate": "Visit a local aquarium or zoo to see different turtle species. Support turtle conservation organizations through donations or volunteering. Learn about threats facing turtle populations and how to help protect them. Participate in beach cleanups to protect sea turtle nesting sites. Share turtle conservation facts on social media.",
+    "funFacts": [
+      "Turtles have been on Earth for over 200 million years",
+      "A turtle's shell is made up of over 50 bones",
+      "Some sea turtles can live over 100 years",
+      "Turtles are found on every continent except Antarctica",
+      "The temperature of turtle eggs determines the gender of the babies"
+    ]
+  },
+  {
+    "title": "National Butterfly Day",
+    "slug": "national-butterfly-day",
+    "date": "2025-06-14",
+    "category": "Animals",
+    "description": "Flutter into the beautiful world of butterflies on National Butterfly Day! These delicate creatures are not only stunning to behold but also play crucial roles as pollinators in our ecosystems. From monarchs to swallowtails, discover the incredible diversity of butterflies, their life cycles, and the importance of protecting their habitats.",
+    "tags": [
+      "butterflies",
+      "insects",
+      "June",
+      "pollinators",
+      "beautiful",
+      "metamorphosis",
+      "nature"
+    ],
+    "image": "colorful-butterflies-in-garden.jpg",
+    "relatedDays": [
+      "national-pollinator-week",
+      "national-gardening-day",
+      "world-environment-day"
+    ],
+    "howToCelebrate": "Visit butterfly gardens, conservatories, or natural areas where butterflies can be observed. Plant butterfly-friendly flowers and plants in your garden. Learn about butterfly life cycles and metamorphosis. Support butterfly conservation efforts and habitat restoration projects. Take photos of butterflies and share them on social media.",
+    "funFacts": [
+      "There are about 17,500 butterfly species worldwide",
+      "Butterflies taste with their feet and smell with their antennae",
+      "The monarch butterfly migration can span up to 3,000 miles",
+      "Butterflies can see ultraviolet light that humans cannot",
+      "A butterfly's wings are completely transparent - the colors come from tiny scales"
+    ]
+  },
+  {
+    "title": "National Penguin Day",
+    "slug": "national-penguin-day",
+    "date": "2025-01-20",
+    "category": "Animals",
+    "description": "Waddle into the wonderful world of penguins on National Penguin Day! These charming, flightless birds have captured hearts with their adorable appearance and fascinating behaviors. From emperor penguins braving Antarctic storms to playful penguins sliding on ice, learn about different penguin species, their habitats, and conservation efforts to protect these remarkable creatures.",
+    "tags": [
+      "penguins",
+      "birds",
+      "January",
+      "antarctica",
+      "conservation",
+      "adorable",
+      "marine"
+    ],
+    "image": "adorable-penguins-ice.jpg",
+    "relatedDays": [
+      "national-bird-day",
+      "world-wildlife-day",
+      "national-zoo-day"
+    ],
+    "howToCelebrate": "Visit a zoo or aquarium to see penguins up close. Watch penguin documentaries to learn about their behaviors and habitats. Support penguin conservation organizations and research programs. Learn about climate change impacts on penguin populations. Share penguin facts and photos on social media to raise awareness.",
+    "funFacts": [
+      "There are 18 different species of penguins worldwide",
+      "Emperor penguins can dive up to 1,800 feet deep",
+      "Penguins can drink saltwater because they have special glands that filter out salt",
+      "A group of penguins is called a colony, rookery, or waddle",
+      "Penguins' black and white coloring provides camouflage while swimming"
+    ]
+  },
+  {
+    "title": "National Bee Day",
+    "slug": "national-bee-day",
+    "date": "2025-08-19",
+    "category": "Animals",
+    "description": "Buzz into the essential world of bees on National Bee Day! These incredible insects are vital pollinators that help produce the food we eat and maintain healthy ecosystems. From honeybees to bumblebees, learn about different bee species, their important role in agriculture, and what we can do to protect these crucial creatures from declining populations.",
+    "tags": [
+      "bees",
+      "pollinators",
+      "August",
+      "insects",
+      "honey",
+      "conservation",
+      "ecosystems"
+    ],
+    "image": "bees-pollinating-flowers.jpg",
+    "relatedDays": [
+      "national-pollinator-week",
+      "world-bee-day",
+      "national-honey-day"
+    ],
+    "howToCelebrate": "Plant bee-friendly flowers and plants in your garden. Support local beekeepers by buying local honey. Learn about the importance of bees in food production. Avoid using pesticides that harm bee populations. Share information about bee conservation and the pollinator crisis on social media.",
+    "funFacts": [
+      "Bees pollinate about one-third of everything we eat",
+      "A single bee colony can contain up to 80,000 bees",
+      "Bees communicate through a 'waggle dance' to share location information",
+      "Honey never spoils - archaeologists have found edible honey in ancient tombs",
+      "Bee populations have declined by 40% over the past decade"
+    ]
+  },
+  {
+    "title": "National Koala Day",
+    "slug": "national-koala-day",
+    "date": "2025-05-03",
+    "category": "Animals",
+    "description": "Cuddle up to the adorable world of koalas on National Koala Day! These iconic Australian marsupials are beloved for their cute appearance and sleepy nature. Learn about koala conservation efforts, their unique eucalyptus diet, and the challenges they face from habitat loss and climate change. Help protect these precious creatures for future generations.",
+    "tags": [
+      "koalas",
+      "marsupials",
+      "May",
+      "australia",
+      "conservation",
+      "eucalyptus",
+      "endangered"
+    ],
+    "image": "cute-koala-eucalyptus.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "world-wildlife-day",
+      "australian-wildlife-day"
+    ],
+    "howToCelebrate": "Learn about koala behavior, diet, and habitat needs. Support koala conservation organizations and wildlife sanctuaries. Adopt a koala through conservation programs. Share koala facts and conservation information on social media. Visit zoos or wildlife parks that care for koalas.",
+    "funFacts": [
+      "Koalas sleep 18-22 hours per day to conserve energy",
+      "Baby koalas are called joeys and are only 2cm long at birth",
+      "Koalas have fingerprints that are remarkably similar to human fingerprints",
+      "They get most of their water from eucalyptus leaves",
+      "Koala populations have declined by 30% in the past 20 years"
+    ]
+  },
+  {
+    "title": "National Shark Day",
+    "slug": "national-shark-day",
+    "date": "2025-07-14",
+    "category": "Animals",
+    "description": "Dive into the fascinating world of sharks on National Shark Day! These apex predators are essential to ocean ecosystems and have been swimming in our seas for over 400 million years. Learn about different shark species, their importance to marine environments, and conservation efforts to protect these magnificent but often misunderstood creatures.",
+    "tags": [
+      "sharks",
+      "marine-life",
+      "July",
+      "ocean",
+      "predators",
+      "conservation",
+      "misunderstood"
+    ],
+    "image": "sharks-ocean-habitat.jpg",
+    "relatedDays": [
+      "world-oceans-day",
+      "national-fish-day",
+      "marine-conservation-day"
+    ],
+    "howToCelebrate": "Visit aquariums to see sharks up close and learn about their behavior. Watch shark documentaries to understand their role in ocean ecosystems. Support shark conservation organizations and marine protection efforts. Learn to distinguish facts from myths about sharks. Share shark conservation awareness on social media.",
+    "funFacts": [
+      "Sharks have been around for over 400 million years",
+      "There are over 500 species of sharks worldwide",
+      "Sharks can detect electrical fields from other animals",
+      "Most sharks are not dangerous to humans",
+      "Shark populations have declined by 70% over the past 50 years"
+    ]
+  },
+  {
+    "title": "National Squirrel Day",
+    "slug": "national-squirrel-day",
+    "date": "2025-01-21",
+    "category": "Animals",
+    "description": "Go nuts for squirrels on National Squirrel Day! These acrobatic rodents are common sights in parks and backyards, entertaining us with their playful antics and impressive climbing abilities. From gathering nuts to building nests, learn about squirrel behavior, different species, and how these clever creatures adapt to urban environments.",
+    "tags": [
+      "squirrels",
+      "rodents",
+      "January",
+      "urban-wildlife",
+      "acrobatic",
+      "nuts",
+      "playful"
+    ],
+    "image": "squirrels-in-park.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "national-bird-day",
+      "urban-wildlife-day"
+    ],
+    "howToCelebrate": "Observe squirrels in your local parks or backyard. Learn about different squirrel species and their behaviors. Create squirrel-friendly spaces with appropriate food and shelter. Take photos of squirrels and share them on social media. Support urban wildlife conservation efforts.",
+    "funFacts": [
+      "Squirrels can jump 10 times their body length",
+      "They bury thousands of nuts each year and remember most locations",
+      "Squirrels' teeth never stop growing throughout their lives",
+      "There are over 200 species of squirrels worldwide",
+      "Squirrels can rotate their ankles 180 degrees to climb down trees headfirst"
+    ]
+  },
+  {
+    "title": "National Dolphin Day",
+    "slug": "national-dolphin-day",
+    "date": "2025-04-14",
+    "category": "Animals",
+    "description": "Splash into the intelligent world of dolphins on National Dolphin Day! These remarkable marine mammals are known for their intelligence, playful nature, and complex social behaviors. From their sophisticated communication skills to their problem-solving abilities, dolphins continue to amaze scientists and ocean lovers alike with their incredible capabilities.",
+    "tags": [
+      "dolphins",
+      "marine-mammals",
+      "April",
+      "intelligent",
+      "ocean",
+      "playful",
+      "social"
+    ],
+    "image": "dolphins-playing-ocean.jpg",
+    "relatedDays": [
+      "world-oceans-day",
+      "national-marine-life-day",
+      "whale-watching-day"
+    ],
+    "howToCelebrate": "Visit marine parks or aquariums to observe dolphins. Learn about dolphin intelligence and communication methods. Support marine conservation organizations protecting dolphin habitats. Watch documentaries about dolphin behavior and social structures. Share dolphin facts and conservation messages on social media.",
+    "funFacts": [
+      "Dolphins have names for each other using unique whistle signatures",
+      "They can recognize themselves in mirrors, showing self-awareness",
+      "Dolphins use echolocation to navigate and hunt",
+      "They live in complex social groups called pods",
+      "Dolphins have been observed using tools and teaching skills to their young"
+    ]
+  },
+  {
+    "title": "National Panda Day",
+    "slug": "national-panda-day",
+    "date": "2025-03-16",
+    "category": "Animals",
+    "description": "Celebrate the adorable giant pandas on National Panda Day! These beloved black and white bears are symbols of conservation success and gentle giants of the animal kingdom. Learn about panda conservation efforts, their unique bamboo diet, and the important role they play in raising awareness about endangered species worldwide.",
+    "tags": [
+      "pandas",
+      "bears",
+      "March",
+      "endangered",
+      "conservation",
+      "bamboo",
+      "china"
+    ],
+    "image": "giant-panda-bamboo.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "world-wildlife-day",
+      "national-zoo-day"
+    ],
+    "howToCelebrate": "Visit a zoo with pandas or watch panda webcams online. Learn about panda conservation and habitat protection. Support organizations working to protect pandas and their habitats. Share panda facts and conservation information on social media. Watch documentaries about panda behavior and conservation efforts.",
+    "funFacts": [
+      "Giant pandas spend 10-16 hours a day eating bamboo",
+      "Pandas have a pseudo-thumb that helps them grip bamboo",
+      "Newborn pandas are only about the size of a stick of butter",
+      "Pandas can eat 20-40 pounds of bamboo per day",
+      "The panda population has increased by 17% in the past decade"
+    ]
+  },
+  {
+    "title": "National Hedgehog Day",
+    "slug": "national-hedgehog-day",
+    "date": "2025-02-02",
+    "category": "Animals",
+    "description": "Spike into the adorable world of hedgehogs on National Hedgehog Day! These spiky little creatures are beloved for their cute appearance and gentle nature. From their unique quills to their nocturnal habits, learn about hedgehog care, different species, and why these charming animals have captured hearts around the world.",
+    "tags": [
+      "hedgehogs",
+      "pets",
+      "February",
+      "spiky",
+      "nocturnal",
+      "cute",
+      "small"
+    ],
+    "image": "cute-hedgehog-closeup.jpg",
+    "relatedDays": [
+      "national-pet-day",
+      "national-wildlife-day",
+      "groundhog-day"
+    ],
+    "howToCelebrate": "Learn about hedgehog care and behavior. Visit a wildlife center or pet store that has hedgehogs. Support hedgehog conservation organizations. Share hedgehog facts and adorable photos on social media. Consider adopting a hedgehog if you're prepared for the commitment.",
+    "funFacts": [
+      "Hedgehogs have about 5,000-7,000 quills on their backs",
+      "They can roll into a tight ball for protection",
+      "Hedgehogs are immune to many snake venoms",
+      "They can run up to 4 miles per hour",
+      "Hedgehogs are excellent swimmers despite their small size"
+    ]
+  },
+  {
+    "title": "National Whale Day",
+    "slug": "national-whale-day",
+    "date": "2025-02-19",
+    "category": "Animals",
+    "description": "Dive deep into the majestic world of whales on National Whale Day! These magnificent marine mammals are among the largest animals on Earth and play crucial roles in ocean ecosystems. From humpback whales to blue whales, learn about different species, their behaviors, and the conservation efforts protecting these gentle giants.",
+    "tags": [
+      "whales",
+      "marine-mammals",
+      "February",
+      "ocean",
+      "conservation",
+      "majestic",
+      "migration"
+    ],
+    "image": "humpback-whale-ocean.jpg",
+    "relatedDays": [
+      "world-oceans-day",
+      "national-marine-life-day",
+      "whale-watching-day"
+    ],
+    "howToCelebrate": "Go whale watching or visit an aquarium with whale exhibits. Learn about whale conservation and ocean protection. Watch documentaries about whale behavior and migration. Support organizations working to protect whale habitats. Share whale facts and conservation information on social media.",
+    "funFacts": [
+      "Blue whales are the largest animals ever known to have lived on Earth",
+      "Whales can communicate across hundreds of miles using sound",
+      "Humpback whales are known for their complex songs",
+      "Whales play a crucial role in ocean ecosystems",
+      "Some whale species can live over 200 years"
+    ]
+  },
+  {
+    "title": "National Sloth Day",
+    "slug": "national-sloth-day",
+    "date": "2025-10-20",
+    "category": "Animals",
+    "description": "Take it slow and celebrate the adorable sloths on National Sloth Day! These gentle creatures are known for their slow movements and peaceful nature. From their unique upside-down lifestyle to their algae-covered fur, learn about sloth behavior, habitat, and why these laid-back animals have captured hearts worldwide.",
+    "tags": [
+      "sloths",
+      "slow",
+      "October",
+      "gentle",
+      "trees",
+      "peaceful",
+      "adorable"
+    ],
+    "image": "cute-sloth-tree.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "world-animal-day",
+      "national-zoo-day"
+    ],
+    "howToCelebrate": "Visit a zoo or wildlife sanctuary with sloths. Learn about sloth conservation and habitat protection. Watch sloth videos and documentaries. Support organizations working to protect sloth habitats. Share sloth facts and adorable photos on social media.",
+    "funFacts": [
+      "Sloths only come down from trees once a week to go to the bathroom",
+      "They move so slowly that algae grows on their fur",
+      "Sloths can turn their heads 270 degrees",
+      "They sleep 15-20 hours per day",
+      "Sloths are excellent swimmers despite their slow movements"
+    ]
   }
 ]

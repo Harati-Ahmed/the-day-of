@@ -15,21 +15,21 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
   return (
     <div className="card-hover group overflow-hidden">
       <div className="p-8">
-        {/* Category Badge */}
-        {showCategory && (
-          <div className="flex items-center justify-between mb-6">
+        {/* Category Badge and Date */}
+        <div className="flex items-center justify-between mb-6">
+          {showCategory && (
             <Link
               href={`/category/${categorySlug}`}
               className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold text-white shadow-soft ${categoryColor} hover:shadow-medium transition-all duration-300`}
             >
               {day.category}
             </Link>
-            <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400 font-medium">
-              <Calendar className="h-4 w-4 mr-2" />
-              {formatDate(day.date)}
-            </div>
+          )}
+          <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400 font-medium">
+            <Calendar className="h-4 w-4 mr-2" />
+            {formatDate(day.date)}
           </div>
-        )}
+        </div>
 
         {/* Title */}
         <Link href={`/${categorySlug}/${day.slug}`}>

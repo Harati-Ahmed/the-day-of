@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function TermsOfService() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-dark-900">
       <div className="container-custom py-16">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -18,29 +18,29 @@ export default function TermsOfService() {
                 <FileText className="h-8 w-8 text-white" />
               </div>
             </div>
-            <h1 className="text-5xl font-bold text-white mb-6">
+            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Terms of Service
             </h1>
-            <p className="text-xl text-neutral-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-neutral-300 max-w-2xl mx-auto">
               Please read these terms carefully before using TheDayOf. By using our service, 
               you agree to be bound by these terms.
             </p>
-            <p className="text-sm text-neutral-400 mt-4">
+            <p className="text-sm text-gray-500 dark:text-neutral-400 mt-4">
               Last updated: January 2025
             </p>
           </div>
 
           {/* Content */}
-          <div className="bg-dark-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-dark-700">
-            <div className="prose prose-invert max-w-none">
+          <div className="bg-white dark:bg-dark-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-gray-200 dark:border-dark-700 shadow-lg dark:shadow-dark-soft">
+            <div className="prose dark:prose-invert max-w-none">
               
               {/* Acceptance of Terms */}
               <section className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <Scale className="h-6 w-6 text-primary-400" />
-                  <h2 className="text-2xl font-bold text-white">Acceptance of Terms</h2>
+                  <Scale className="h-6 w-6 text-primary-500 dark:text-primary-400" />
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Acceptance of Terms</h2>
                 </div>
-                <div className="space-y-4 text-neutral-300">
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     By accessing and using TheDayOf (&quot;the Service&quot;), you accept and agree to be 
                     bound by the terms and provision of this agreement. If you do not agree to 
@@ -51,8 +51,8 @@ export default function TermsOfService() {
 
               {/* Description of Service */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Description of Service</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Description of Service</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     TheDayOf is a web application that provides information about special days, 
                     holidays, and observances. Our service includes:
@@ -70,10 +70,10 @@ export default function TermsOfService() {
               {/* User Responsibilities */}
               <section className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <Users className="h-6 w-6 text-primary-400" />
-                  <h2 className="text-2xl font-bold text-white">User Responsibilities</h2>
+                  <Users className="h-6 w-6 text-primary-500 dark:text-primary-400" />
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">User Responsibilities</h2>
                 </div>
-                <div className="space-y-4 text-neutral-300">
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>As a user of TheDayOf, you agree to:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Use the service only for lawful purposes</li>
@@ -89,10 +89,10 @@ export default function TermsOfService() {
               {/* Prohibited Uses */}
               <section className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <AlertTriangle className="h-6 w-6 text-red-400" />
-                  <h2 className="text-2xl font-bold text-white">Prohibited Uses</h2>
+                  <AlertTriangle className="h-6 w-6 text-red-500 dark:text-red-400" />
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Prohibited Uses</h2>
                 </div>
-                <div className="space-y-4 text-neutral-300">
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>You may not use TheDayOf:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>For any unlawful purpose or to solicit others to perform unlawful acts</li>
@@ -109,8 +109,8 @@ export default function TermsOfService() {
 
               {/* Intellectual Property */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Intellectual Property</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Intellectual Property</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     The service and its original content, features, and functionality are and will 
                     remain the exclusive property of TheDayOf and its licensors. The service is 
@@ -125,8 +125,8 @@ export default function TermsOfService() {
 
               {/* Disclaimer of Warranties */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Disclaimer of Warranties</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Disclaimer of Warranties</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     The information on this service is provided on an &quot;as is&quot; basis. To the fullest 
                     extent permitted by law, TheDayOf:
@@ -141,8 +141,8 @@ export default function TermsOfService() {
 
               {/* Limitation of Liability */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Limitation of Liability</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Limitation of Liability</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     In no event shall TheDayOf, nor its directors, employees, partners, agents, 
                     suppliers, or affiliates, be liable for any indirect, incidental, special, 
@@ -155,8 +155,8 @@ export default function TermsOfService() {
 
               {/* Termination */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Termination</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Termination</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     We may terminate or suspend your access immediately, without prior notice or 
                     liability, for any reason whatsoever, including without limitation if you 
@@ -170,8 +170,8 @@ export default function TermsOfService() {
 
               {/* Changes to Terms */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Changes to Terms</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Changes to Terms</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     We reserve the right, at our sole discretion, to modify or replace these 
                     Terms at any time. If a revision is material, we will try to provide at 
@@ -186,14 +186,14 @@ export default function TermsOfService() {
 
               {/* Contact Information */}
               <section className="mb-8">
-                <h2 className="text-2xl font-bold text-white mb-6">Contact Information</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     If you have any questions about these Terms of Service, please contact us:
                   </p>
-                  <div className="bg-dark-700/50 rounded-lg p-6">
-                    <p className="font-medium text-white mb-2">Email:</p>
-                    <p className="text-primary-400">support@thedayof.net</p>
+                  <div className="bg-gray-100 dark:bg-dark-700/50 rounded-lg p-6">
+                    <p className="font-medium text-gray-900 dark:text-white mb-2">Email:</p>
+                    <p className="text-primary-600 dark:text-primary-400">support@thedayof.net</p>
                   </div>
                 </div>
               </section>

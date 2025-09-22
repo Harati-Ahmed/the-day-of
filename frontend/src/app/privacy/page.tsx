@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-dark-900">
       <div className="container-custom py-16">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -18,29 +18,29 @@ export default function PrivacyPolicy() {
                 <Shield className="h-8 w-8 text-white" />
               </div>
             </div>
-            <h1 className="text-5xl font-bold text-white mb-6">
+            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Privacy Policy
             </h1>
-            <p className="text-xl text-neutral-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-neutral-300 max-w-2xl mx-auto">
               Your privacy is important to us. This policy explains how we collect, 
               use, and protect your information when you use TheDayOf.
             </p>
-            <p className="text-sm text-neutral-400 mt-4">
+            <p className="text-sm text-gray-500 dark:text-neutral-400 mt-4">
               Last updated: January 2025
             </p>
           </div>
 
           {/* Content */}
-          <div className="bg-dark-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-dark-700">
-            <div className="prose prose-invert max-w-none">
+          <div className="bg-white dark:bg-dark-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-gray-200 dark:border-dark-700 shadow-lg dark:shadow-dark-soft">
+            <div className="prose dark:prose-invert max-w-none">
               
               {/* Information We Collect */}
               <section className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <Database className="h-6 w-6 text-primary-400" />
-                  <h2 className="text-2xl font-bold text-white">Information We Collect</h2>
+                  <Database className="h-6 w-6 text-primary-500 dark:text-primary-400" />
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Information We Collect</h2>
                 </div>
-                <div className="space-y-4 text-neutral-300">
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     TheDayOf is designed to be privacy-friendly. We collect minimal information 
                     necessary to provide our service:
@@ -57,10 +57,10 @@ export default function PrivacyPolicy() {
               {/* How We Use Information */}
               <section className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <Eye className="h-6 w-6 text-primary-400" />
-                  <h2 className="text-2xl font-bold text-white">How We Use Your Information</h2>
+                  <Eye className="h-6 w-6 text-primary-500 dark:text-primary-400" />
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">How We Use Your Information</h2>
                 </div>
-                <div className="space-y-4 text-neutral-300">
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>We use the information we collect to:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Provide and improve our day discovery service</li>
@@ -75,10 +75,10 @@ export default function PrivacyPolicy() {
               {/* Data Protection */}
               <section className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <Lock className="h-6 w-6 text-primary-400" />
-                  <h2 className="text-2xl font-bold text-white">Data Protection</h2>
+                  <Lock className="h-6 w-6 text-primary-500 dark:text-primary-400" />
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Data Protection</h2>
                 </div>
-                <div className="space-y-4 text-neutral-300">
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>We implement appropriate security measures to protect your information:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>HTTPS encryption for all data transmission</li>
@@ -92,8 +92,8 @@ export default function PrivacyPolicy() {
 
               {/* Third-Party Services */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Third-Party Services</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Third-Party Services</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>We use the following third-party services that may collect data:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li><strong>Vercel:</strong> Hosting and analytics (privacy-focused)</li>
@@ -109,8 +109,8 @@ export default function PrivacyPolicy() {
 
               {/* Your Rights */}
               <section className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-6">Your Rights</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Your Rights</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>You have the right to:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Access your personal data</li>
@@ -124,23 +124,23 @@ export default function PrivacyPolicy() {
 
               {/* Contact */}
               <section className="mb-8">
-                <h2 className="text-2xl font-bold text-white mb-6">Contact Us</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Us</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     If you have questions about this privacy policy or want to exercise your rights, 
                     please contact us:
                   </p>
-                  <div className="bg-dark-700/50 rounded-lg p-6">
-                    <p className="font-medium text-white mb-2">Email:</p>
-                    <p className="text-primary-400">support@thedayof.net</p>
+                  <div className="bg-gray-100 dark:bg-dark-700/50 rounded-lg p-6">
+                    <p className="font-medium text-gray-900 dark:text-white mb-2">Email:</p>
+                    <p className="text-primary-600 dark:text-primary-400">support@thedayof.net</p>
                   </div>
                 </div>
               </section>
 
               {/* Updates */}
               <section>
-                <h2 className="text-2xl font-bold text-white mb-6">Policy Updates</h2>
-                <div className="space-y-4 text-neutral-300">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Policy Updates</h2>
+                <div className="space-y-4 text-gray-700 dark:text-neutral-300">
                   <p>
                     We may update this privacy policy from time to time. We will notify you of 
                     any significant changes by posting the new policy on this page and updating 

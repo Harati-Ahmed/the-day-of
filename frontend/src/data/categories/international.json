@@ -91,7 +91,7 @@
   },
   {
     "title": "World Kindness Day",
-    "slug": "world-kindness-day",
+    "slug": "world-kindness-day-international",
     "date": "2025-11-13",
     "category": "International",
     "description": "Spread kindness around the world on World Kindness Day! This global celebration promotes acts of kindness, compassion, and goodwill toward others. From small gestures like smiling at strangers to larger acts of service, kindness has the power to create positive change and make the world a better place for everyone.",
@@ -121,7 +121,7 @@
   },
   {
     "title": "World Food Day",
-    "slug": "world-food-day",
+    "slug": "world-food-day-international",
     "date": "2025-10-16",
     "category": "International",
     "description": "Celebrate food security and sustainable agriculture on World Food Day! This global observance raises awareness about hunger, food waste, and the importance of nutritious food for all. Learn about food systems, support local farmers, and discover ways to reduce food waste while ensuring everyone has access to healthy, affordable meals.",
@@ -151,7 +151,7 @@
   },
   {
     "title": "World Book Day",
-    "slug": "world-book-day",
+    "slug": "world-book-day-international",
     "date": "2025-04-23",
     "category": "International",
     "description": "Turn the page and celebrate the magic of books on World Book Day! This global celebration promotes reading, publishing, and copyright protection. From classic literature to contemporary works, books transport us to different worlds, expand our knowledge, and inspire imagination. Discover new authors, share favorite books, and celebrate the written word.",
@@ -207,6 +207,216 @@
       "The deepest part of the ocean is the Mariana Trench at 36,000 feet",
       "Ocean currents regulate global climate",
       "Over 8 million tons of plastic enter the ocean each year"
+    ]
+  },
+  {
+    "title": "International Day of Peace",
+    "slug": "international-day-of-peace",
+    "date": "2025-09-21",
+    "category": "International",
+    "description": "Promote peace and unity around the world on International Day of Peace! This United Nations observance encourages all nations and peoples to honor a cessation of hostilities and to commemorate peace through education and public awareness. Join the global movement for peace, understanding, and cooperation among all people.",
+    "tags": [
+      "peace",
+      "unity",
+      "September",
+      "international",
+      "cooperation",
+      "harmony",
+      "global"
+    ],
+    "image": "international-peace-day.jpg",
+    "relatedDays": [
+      "world-kindness-day",
+      "international-human-rights-day",
+      "world-humanitarian-day"
+    ],
+    "howToCelebrate": "Participate in peace-building activities in your community. Learn about conflict resolution and peaceful communication. Support organizations that promote peace and human rights. Practice meditation or mindfulness for inner peace. Share messages of peace and unity on social media.",
+    "funFacts": [
+      "The International Day of Peace was established by the UN in 1981",
+      "The Peace Bell at UN Headquarters is rung each year on this day",
+      "The day promotes 24 hours of non-violence and ceasefire",
+      "Each year has a specific theme related to peace-building",
+      "The dove with an olive branch is a universal symbol of peace"
+    ]
+  },
+  {
+    "title": "International Music Day",
+    "slug": "international-music-day",
+    "date": "2025-10-01",
+    "category": "International",
+    "description": "Celebrate the universal language of music on International Music Day! Music transcends cultural boundaries and brings people together from all walks of life. From classical symphonies to modern pop, traditional folk songs to experimental sounds, explore the rich diversity of musical expression and appreciate how music enriches our lives and connects us all.",
+    "tags": [
+      "music",
+      "international",
+      "October",
+      "cultural",
+      "expression",
+      "universal",
+      "harmony"
+    ],
+    "image": "international-music-celebration.jpg",
+    "relatedDays": [
+      "world-music-day",
+      "national-music-education-day",
+      "international-jazz-day"
+    ],
+    "howToCelebrate": "Listen to music from different cultures and countries around the world. Attend live concerts, music festivals, or local performances. Learn to play a musical instrument or take music lessons. Support local musicians and music education programs. Share your favorite songs and musical discoveries on social media.",
+    "funFacts": [
+      "Music is found in every culture throughout human history",
+      "Listening to music releases dopamine, the 'feel-good' hormone",
+      "Music can improve memory, mood, and cognitive function",
+      "There are over 1,500 different musical instruments worldwide",
+      "Music therapy is used in healthcare to help patients heal and recover"
+    ]
+  },
+  {
+    "title": "International Yoga Day",
+    "slug": "international-yoga-day",
+    "date": "2025-06-21",
+    "category": "International",
+    "description": "Find balance and inner peace on International Yoga Day! This United Nations-recognized day celebrates the ancient practice of yoga and its benefits for physical, mental, and spiritual well-being. From beginners to advanced practitioners, yoga offers something for everyone, promoting flexibility, strength, mindfulness, and harmony between mind and body.",
+    "tags": [
+      "yoga",
+      "wellness",
+      "June",
+      "international",
+      "mindfulness",
+      "balance",
+      "peace"
+    ],
+    "image": "international-yoga-day.jpg",
+    "relatedDays": [
+      "national-meditation-day",
+      "world-health-day",
+      "national-fitness-day"
+    ],
+    "howToCelebrate": "Practice yoga at home or join a class at a local studio. Try different yoga styles like Hatha, Vinyasa, or Restorative yoga. Attend community yoga events or outdoor yoga sessions. Learn about the philosophy and history of yoga. Share yoga poses and wellness tips on social media.",
+    "funFacts": [
+      "Yoga originated in India over 5,000 years ago",
+      "The word 'yoga' means 'to unite' or 'to join' in Sanskrit",
+      "There are over 100 different types of yoga",
+      "Regular yoga practice can reduce stress and improve flexibility",
+      "Over 300 million people practice yoga worldwide"
+    ]
+  },
+  {
+    "title": "World Oceans Day",
+    "slug": "world-oceans-day",
+    "date": "2025-06-08",
+    "category": "International",
+    "description": "Dive into ocean conservation on World Oceans Day! Our oceans cover 70% of the planet and are essential for life on Earth. This United Nations observance raises awareness about ocean health, marine conservation, and the impact of human activities on ocean ecosystems. Join the global effort to protect our blue planet.",
+    "tags": [
+      "oceans",
+      "marine-conservation",
+      "June",
+      "international",
+      "environment",
+      "sustainability",
+      "blue-planet"
+    ],
+    "image": "world-oceans-day.jpg",
+    "relatedDays": [
+      "world-environment-day",
+      "earth-day",
+      "national-marine-life-day"
+    ],
+    "howToCelebrate": "Learn about ocean conservation and marine ecosystems. Participate in beach cleanups and reduce plastic waste. Support organizations working to protect marine life. Choose sustainable seafood options. Share ocean conservation messages on social media.",
+    "funFacts": [
+      "Oceans produce over 50% of the world's oxygen",
+      "Less than 5% of the ocean has been explored by humans",
+      "The ocean contains 99% of the living space on Earth",
+      "Over 8 million tons of plastic enter the oceans each year",
+      "Oceans regulate the Earth's climate and weather patterns"
+    ]
+  },
+  {
+    "title": "International Day of Happiness",
+    "slug": "international-day-of-happiness",
+    "date": "2025-03-20",
+    "category": "International",
+    "description": "Spread joy around the world on International Day of Happiness! This United Nations observance recognizes happiness as a fundamental human goal and promotes well-being for all people. Celebrate what makes you happy, practice gratitude, and share positivity with others to create a happier, more compassionate world.",
+    "tags": [
+      "happiness",
+      "well-being",
+      "March",
+      "international",
+      "joy",
+      "positivity",
+      "gratitude"
+    ],
+    "image": "international-happiness-day.jpg",
+    "relatedDays": [
+      "world-kindness-day",
+      "national-smile-day",
+      "international-day-of-peace"
+    ],
+    "howToCelebrate": "Practice gratitude and focus on positive aspects of life. Spread happiness through acts of kindness and compassion. Spend time with loved ones and engage in activities that bring joy. Share positive messages and uplifting content on social media. Support mental health awareness and well-being initiatives.",
+    "funFacts": [
+      "The International Day of Happiness was established by the UN in 2012",
+      "Bhutan measures Gross National Happiness instead of just economic growth",
+      "Denmark consistently ranks as one of the world's happiest countries",
+      "Happiness can improve immune function and increase lifespan",
+      "Acts of kindness and gratitude are scientifically proven to increase happiness"
+    ]
+  },
+  {
+    "title": "World Water Day",
+    "slug": "world-water-day",
+    "date": "2025-03-22",
+    "category": "International",
+    "description": "Make every drop count on World Water Day! This United Nations observance raises awareness about the global water crisis and the importance of clean water access for all. Learn about water conservation, sanitation issues, and how you can help ensure everyone has access to this life-sustaining resource.",
+    "tags": [
+      "water",
+      "conservation",
+      "March",
+      "international",
+      "sustainability",
+      "access",
+      "crisis"
+    ],
+    "image": "world-water-day-conservation.jpg",
+    "relatedDays": [
+      "world-environment-day",
+      "earth-day",
+      "national-water-day"
+    ],
+    "howToCelebrate": "Learn about water conservation and how to reduce your water usage. Support organizations working to provide clean water access. Take shorter showers and fix leaky faucets. Share water conservation tips on social media. Donate to water-related charities and causes.",
+    "funFacts": [
+      "Over 2 billion people lack access to safely managed drinking water",
+      "Water covers 71% of Earth's surface, but only 3% is fresh water",
+      "The average American uses 80-100 gallons of water per day",
+      "Water scarcity affects 40% of the global population",
+      "Conserving water also saves energy used in water treatment"
+    ]
+  },
+  {
+    "title": "International Day of Families",
+    "slug": "international-day-of-families",
+    "date": "2025-05-15",
+    "category": "International",
+    "description": "Celebrate the strength and importance of families on International Day of Families! This United Nations observance recognizes the vital role families play in society and promotes awareness of family-related issues. From traditional nuclear families to diverse modern family structures, honor the love, support, and bonds that families provide.",
+    "tags": [
+      "families",
+      "relationships",
+      "May",
+      "international",
+      "love",
+      "support",
+      "bonds"
+    ],
+    "image": "international-families-day.jpg",
+    "relatedDays": [
+      "national-family-day",
+      "mothers-day",
+      "fathers-day"
+    ],
+    "howToCelebrate": "Spend quality time with your family members. Plan a family gathering or activity. Share family stories and memories. Support families in your community who may be struggling. Share photos and stories about your family on social media.",
+    "funFacts": [
+      "The International Day of Families was established by the UN in 1993",
+      "Family structures vary greatly across different cultures",
+      "Strong family relationships contribute to better mental health",
+      "Families provide the foundation for child development",
+      "The day promotes awareness of family-related social issues"
     ]
   }
 ]

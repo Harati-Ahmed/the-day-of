@@ -88,5 +88,335 @@
       "Small businesses employ nearly half of all private sector employees",
       "Small Business Saturday has generated over $120 billion in sales since its inception"
     ]
+  },
+  {
+    "title": "Small Business Saturday",
+    "slug": "small-business-saturday",
+    "date": "2025-11-29",
+    "category": "Shopping",
+    "description": "Support local entrepreneurs and shop small on Small Business Saturday! This special day encourages consumers to support small and local businesses in their communities. From unique boutiques to family restaurants, small businesses are the backbone of local economies and offer personalized service and unique products you won't find anywhere else.",
+    "tags": [
+      "small-business",
+      "local",
+      "November",
+      "entrepreneurs",
+      "community",
+      "shopping",
+      "support"
+    ],
+    "image": "small-business-saturday-shopping.jpg",
+    "relatedDays": [
+      "black-friday",
+      "cyber-monday",
+      "national-entrepreneurs-day"
+    ],
+    "howToCelebrate": "Shop at local small businesses instead of big chain stores. Discover new restaurants, boutiques, and service providers in your area. Share photos and reviews of small businesses on social media to help them gain visibility. Buy gift cards from local businesses for holiday presents. Recommend your favorite small businesses to friends and family.",
+    "funFacts": [
+      "Small Business Saturday was created by American Express in 2010",
+      "Small businesses employ nearly half of all American workers",
+      "For every $100 spent at a local business, $68 stays in the community",
+      "There are over 30 million small businesses in the United States",
+      "Small businesses create two-thirds of new jobs in America"
+    ]
+  },
+  {
+    "title": "National Thrift Shop Day",
+    "slug": "national-thrift-shop-day",
+    "date": "2025-08-17",
+    "category": "Shopping",
+    "description": "Hunt for treasures and shop sustainably on National Thrift Shop Day! Thrift shopping is not only budget-friendly but also environmentally conscious, giving pre-loved items a second life. From vintage clothing to unique home decor, thrift shops offer endless possibilities for finding one-of-a-kind items while supporting charitable causes.",
+    "tags": [
+      "thrift-shopping",
+      "sustainable",
+      "August",
+      "vintage",
+      "budget-friendly",
+      "charity",
+      "treasure-hunting"
+    ],
+    "image": "thrift-shop-treasure-hunting.jpg",
+    "relatedDays": [
+      "earth-day",
+      "national-recycling-day",
+      "world-environment-day"
+    ],
+    "howToCelebrate": "Explore local thrift shops, consignment stores, and vintage boutiques. Look for unique clothing, books, furniture, and household items. Donate items you no longer need to support thrift stores' charitable missions. Share your thrift finds and styling tips on social media. Learn about the environmental benefits of buying secondhand.",
+    "funFacts": [
+      "Thrift shopping keeps millions of pounds of clothing out of landfills each year",
+      "The average American throws away 81 pounds of clothing annually",
+      "Thrift stores support various charitable causes and community programs",
+      "Vintage and secondhand fashion has become increasingly popular with younger generations",
+      "Shopping secondhand can save up to 90% compared to buying new"
+    ]
+  },
+  {
+    "title": "National Shopping Day",
+    "slug": "national-shopping-day",
+    "date": "2025-11-27",
+    "category": "Shopping",
+    "description": "Celebrate the joy of shopping and retail therapy on National Shopping Day! Whether you're hunting for bargains, treating yourself to something special, or finding the perfect gifts for loved ones, shopping can be both fun and rewarding. Discover new stores, support local businesses, and enjoy the experience of finding exactly what you're looking for.",
+    "tags": [
+      "shopping",
+      "retail",
+      "November",
+      "bargains",
+      "therapy",
+      "gifts",
+      "stores"
+    ],
+    "image": "happy-shopping-experience.jpg",
+    "relatedDays": [
+      "black-friday",
+      "small-business-saturday",
+      "cyber-monday"
+    ],
+    "howToCelebrate": "Explore new shopping destinations and discover unique stores. Set a budget and treat yourself to something you've been wanting. Shop for holiday gifts early to avoid the rush. Compare prices and look for the best deals. Share your shopping finds and favorite stores on social media.",
+    "funFacts": [
+      "The average American spends about $1,986 per year on shopping",
+      "Online shopping accounts for about 15% of total retail sales",
+      "Shopping can release endorphins and improve mood",
+      "The busiest shopping day of the year is typically the Saturday before Christmas",
+      "Window shopping became popular in the 19th century with the invention of plate glass"
+    ]
+  },
+  {
+    "title": "National Bargain Hunting Day",
+    "slug": "national-bargain-hunting-day",
+    "date": "2025-08-06",
+    "category": "Shopping",
+    "description": "Hunt for the best deals and steals on National Bargain Hunting Day! There's nothing quite like the thrill of finding a great bargain or scoring an amazing deal. From clearance sales to coupon clipping, discover the art of smart shopping and learn how to stretch your dollar while still getting quality items you love.",
+    "tags": [
+      "bargains",
+      "deals",
+      "August",
+      "savings",
+      "coupons",
+      "clearance",
+      "smart-shopping"
+    ],
+    "image": "bargain-hunting-deals.jpg",
+    "relatedDays": [
+      "national-coupon-day",
+      "national-thrift-shop-day",
+      "black-friday"
+    ],
+    "howToCelebrate": "Search for the best deals and discounts at your favorite stores. Use coupons and cashback apps to maximize savings. Compare prices across different retailers before making purchases. Visit outlet stores and clearance sections for great bargains. Share your best bargain finds and money-saving tips on social media.",
+    "funFacts": [
+      "The word 'bargain' comes from the Old French 'bargaignier', meaning to haggle",
+      "Extreme couponing can save shoppers up to 90% on their purchases",
+      "End-of-season clearance sales often offer 50-70% discounts",
+      "Price comparison apps can help shoppers save an average of 20% per purchase",
+      "The best time to find bargains is typically at the end of each season"
+    ]
+  },
+  {
+    "title": "National Coupon Day",
+    "slug": "national-coupon-day",
+    "date": "2025-09-18",
+    "category": "Shopping",
+    "description": "Save money and hunt for deals on National Coupon Day! Coupons are a smart shopper's best friend, helping stretch budgets and make purchases more affordable. From digital coupons to traditional paper clippings, discover the art of couponing and learn how to maximize your savings while still getting the products you love.",
+    "tags": [
+      "coupons",
+      "savings",
+      "September",
+      "deals",
+      "discounts",
+      "budget",
+      "smart-shopping"
+    ],
+    "image": "coupon-savings-deals.jpg",
+    "relatedDays": [
+      "national-bargain-hunting-day",
+      "black-friday",
+      "national-thrift-shop-day"
+    ],
+    "howToCelebrate": "Collect and use coupons for your regular shopping trips. Download coupon apps and sign up for store loyalty programs. Organize your coupons for maximum efficiency and savings. Share coupon tips and deals with friends and family. Calculate how much money you save using coupons.",
+    "funFacts": [
+      "The first coupon was created in 1887 for Coca-Cola",
+      "Americans redeem about 3 billion coupons annually",
+      "Digital coupons are growing faster than traditional paper coupons",
+      "The average coupon saves shoppers about $1.50",
+      "Extreme couponing can save up to 90% on grocery bills"
+    ]
+  },
+  {
+    "title": "National Retail Day",
+    "slug": "national-retail-day",
+    "date": "2025-10-14",
+    "category": "Shopping",
+    "description": "Celebrate the retail industry and the people who make shopping experiences great on National Retail Day! From friendly sales associates to innovative store designs, retail plays a vital role in our economy and daily lives. Appreciate the hard work of retail employees and the businesses that serve our communities.",
+    "tags": [
+      "retail",
+      "shopping",
+      "October",
+      "employees",
+      "customer-service",
+      "business",
+      "appreciation"
+    ],
+    "image": "retail-store-service.jpg",
+    "relatedDays": [
+      "national-shopping-day",
+      "small-business-saturday",
+      "national-employee-appreciation-day"
+    ],
+    "howToCelebrate": "Thank retail employees for their service and hard work. Shop at local retail businesses to support your community. Learn about the history and evolution of retail. Share positive reviews and experiences about your favorite stores. Appreciate the convenience and service that retail provides.",
+    "funFacts": [
+      "The retail industry employs over 52 million people worldwide",
+      "Retail is one of the largest private sector employers",
+      "The first department store opened in Paris in 1838",
+      "Online retail accounts for about 15% of total retail sales",
+      "Customer service is the top factor in retail success"
+    ]
+  },
+  {
+    "title": "National Shop Local Day",
+    "slug": "national-shop-local-day",
+    "date": "2025-11-24",
+    "category": "Shopping",
+    "description": "Support your community on National Shop Local Day! Shopping locally keeps money in your community, supports local jobs, and helps small businesses thrive. From unique boutiques to family restaurants, local businesses offer personalized service and one-of-a-kind products that make communities special and vibrant.",
+    "tags": [
+      "shop-local",
+      "community",
+      "November",
+      "small-business",
+      "support",
+      "local-economy",
+      "unique"
+    ],
+    "image": "shop-local-community.jpg",
+    "relatedDays": [
+      "small-business-saturday",
+      "national-entrepreneurs-day",
+      "buy-local-week"
+    ],
+    "howToCelebrate": "Shop at local businesses instead of chain stores. Discover new local restaurants, shops, and services. Buy gifts from local artisans and craftspeople. Share photos and reviews of local businesses on social media. Encourage friends and family to support local businesses.",
+    "funFacts": [
+      "For every $100 spent locally, $68 stays in the community",
+      "Local businesses employ 1 out of every 3 American workers",
+      "Small businesses are often more environmentally friendly than large chains",
+      "Local businesses donate 250% more to community causes than chains",
+      "Shopping locally helps preserve community character and uniqueness"
+    ]
+  },
+  {
+    "title": "National Online Shopping Day",
+    "slug": "national-online-shopping-day",
+    "date": "2025-12-02",
+    "category": "Shopping",
+    "description": "Shop from the comfort of your home on National Online Shopping Day! E-commerce has revolutionized how we shop, offering convenience, variety, and often better deals than traditional retail. Discover new online stores, learn about safe shopping practices, and enjoy the ease of having everything delivered to your doorstep.",
+    "tags": [
+      "online-shopping",
+      "e-commerce",
+      "December",
+      "convenience",
+      "digital",
+      "deals",
+      "delivery"
+    ],
+    "image": "online-shopping-computer.jpg",
+    "relatedDays": [
+      "cyber-monday",
+      "national-shopping-day",
+      "black-friday"
+    ],
+    "howToCelebrate": "Explore new online stores and marketplaces. Take advantage of online deals and promotions. Learn about secure online payment methods. Support small businesses with online stores. Share your favorite online shopping finds and tips on social media.",
+    "funFacts": [
+      "Online shopping accounts for about 15% of total retail sales",
+      "The first online purchase was made in 1994 - a Sting CD",
+      "Mobile shopping now represents over 50% of online purchases",
+      "Free shipping is the top factor in online purchase decisions",
+      "Online shopping can save time and reduce impulse purchases"
+    ]
+  },
+  {
+    "title": "National Gift Card Day",
+    "slug": "national-gift-card-day",
+    "date": "2025-10-25",
+    "category": "Shopping",
+    "description": "Give the gift of choice on National Gift Card Day! Gift cards are perfect presents that let recipients choose exactly what they want. From store-specific cards to general prepaid cards, discover the convenience and thoughtfulness of giving gift cards for any occasion.",
+    "tags": [
+      "gift-cards",
+      "gifts",
+      "October",
+      "choice",
+      "convenience",
+      "prepaid",
+      "flexible"
+    ],
+    "image": "gift-cards-display.jpg",
+    "relatedDays": [
+      "national-gift-day",
+      "national-shopping-day",
+      "christmas-shopping"
+    ],
+    "howToCelebrate": "Purchase gift cards for upcoming holidays or special occasions. Give gift cards as thank-you gifts or rewards. Use existing gift cards you've been saving. Learn about gift card security and best practices. Share gift card ideas and experiences on social media.",
+    "funFacts": [
+      "Gift cards were first introduced in 1994 by Blockbuster",
+      "Americans spend over $160 billion on gift cards annually",
+      "Gift cards are the most requested holiday gift",
+      "Digital gift cards are growing faster than physical ones",
+      "Unused gift cards represent about $1 billion in unredeemed value"
+    ]
+  },
+  {
+    "title": "National Mall Day",
+    "slug": "national-mall-day",
+    "date": "2025-08-11",
+    "category": "Shopping",
+    "description": "Shop till you drop on National Mall Day! Shopping malls are an iconic American invention that revolutionized retail and social life. From the first enclosed mall in 1956 to today's mega-malls, celebrate this uniquely American shopping experience that combines retail, entertainment, and community gathering spaces.",
+    "tags": [
+      "shopping-malls",
+      "retail",
+      "August",
+      "american-invention",
+      "entertainment",
+      "community",
+      "tradition"
+    ],
+    "image": "american-shopping-mall.jpg",
+    "relatedDays": [
+      "national-shopping-day",
+      "national-retail-day",
+      "black-friday"
+    ],
+    "howToCelebrate": "Visit your local shopping mall and explore all the stores and entertainment options. Try the food court and catch a movie at the mall theater. Support local businesses within the mall. Take a walk around the mall for exercise. Share your favorite mall memories and experiences on social media.",
+    "funFacts": [
+      "The first enclosed shopping mall opened in 1956 in Edina, Minnesota",
+      "The Mall of America is the largest shopping mall in the United States",
+      "Shopping malls became popular in the 1960s and 70s",
+      "Malls often serve as community gathering places and event venues",
+      "The American shopping mall has influenced retail worldwide"
+    ]
+  },
+  {
+    "title": "National Garage Sale Day",
+    "slug": "national-garage-sale-day",
+    "date": "2025-08-10",
+    "category": "Shopping",
+    "description": "Hunt for treasures on National Garage Sale Day! Garage sales are a uniquely American tradition that brings neighbors together and gives new life to old items. From early morning treasure hunting to haggling over prices, embrace the community spirit and environmental benefits of this beloved American shopping tradition.",
+    "tags": [
+      "garage-sales",
+      "yard-sales",
+      "August",
+      "american-tradition",
+      "community",
+      "recycling",
+      "treasure-hunting"
+    ],
+    "image": "garage-sale-treasure-hunting.jpg",
+    "relatedDays": [
+      "national-thrift-shop-day",
+      "national-bargain-hunting-day",
+      "national-recycling-day"
+    ],
+    "howToCelebrate": "Host your own garage sale to declutter and make money. Go garage sale hopping in your neighborhood. Look for unique finds and hidden treasures. Meet your neighbors and build community connections. Share your garage sale finds and tips on social media.",
+    "funFacts": [
+      "Garage sales became popular in America after World War II",
+      "The average garage sale generates $200-500 in sales",
+      "Garage sales help reduce waste by giving items a second life",
+      "Many people make a hobby out of garage sale treasure hunting",
+      "Garage sales are a great way to meet neighbors and build community"
+    ]
   }
 ]
