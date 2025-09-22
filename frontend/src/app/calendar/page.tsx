@@ -246,7 +246,19 @@ export default function CalendarPage() {
                   className="group block p-6 border border-neutral-200 dark:border-dark-600 rounded-xl hover:shadow-medium dark:hover:shadow-dark-medium hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-700 bg-white dark:bg-dark-800"
                 >
                   <div className="flex items-center justify-between mb-4">
-                    <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(day.category)}`}>
+                    <span 
+                      className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(day.category)}`}
+                      style={{ 
+                        backgroundColor: day.category === 'Food' ? '#f97316' : 
+                                       day.category === 'Awareness' ? '#ec4899' : 
+                                       day.category === 'Animals' ? '#22c55e' : 
+                                       day.category === 'Shopping' ? '#3b82f6' :
+                                       day.category === 'National' ? '#6366f1' :
+                                       day.category === 'International' ? '#14b8a6' :
+                                       day.category === 'Holiday' ? '#ef4444' :
+                                       day.category === 'Fun' ? '#a855f7' : '#6b7280'
+                      }}
+                    >
                       {day.category}
                     </span>
                     <span className="text-sm text-neutral-500 dark:text-neutral-400 font-medium">
@@ -319,7 +331,19 @@ export default function CalendarPage() {
                       className="block p-4 border border-neutral-200 dark:border-dark-600 rounded-xl hover:border-primary-300 dark:hover:border-primary-600 hover:shadow-md dark:hover:shadow-dark-soft transition-all group"
                     >
                       <div className="flex items-start justify-between mb-2">
-                        <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(event.category)}`}>
+                        <span 
+                          className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(event.category)}`}
+                          style={{ 
+                            backgroundColor: event.category === 'Food' ? '#f97316' : 
+                                           event.category === 'Awareness' ? '#ec4899' : 
+                                           event.category === 'Animals' ? '#22c55e' : 
+                                           event.category === 'Shopping' ? '#3b82f6' :
+                                           event.category === 'National' ? '#6366f1' :
+                                           event.category === 'International' ? '#14b8a6' :
+                                           event.category === 'Holiday' ? '#ef4444' :
+                                           event.category === 'Fun' ? '#a855f7' : '#6b7280'
+                          }}
+                        >
                           {event.category}
                         </span>
                         <span className="text-sm text-neutral-500 dark:text-neutral-400">
