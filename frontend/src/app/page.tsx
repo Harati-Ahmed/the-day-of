@@ -2,62 +2,118 @@ import { getUpcomingDays, categories, getDaysByCategory, days } from '@/lib/data
 import { formatDate, getCategorySlug, getCategoryColor } from '@/lib/utils';
 import { Calendar, Globe, TrendingUp, Star, Clock, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import NewsletterSubscribe from '@/components/newsletter-subscribe';
+import dynamic from 'next/dynamic';
+
+const NewsletterSubscribe = dynamic(() => import('@/components/newsletter-subscribe'), {
+  loading: () => (
+    <div className="bg-gradient-to-r from-primary-600 to-primary-700 dark:from-primary-700 dark:to-primary-800 text-white py-16">
+      <div className="container-custom text-center">
+        <div className="animate-pulse">
+          <div className="w-16 h-16 bg-white/20 rounded-2xl mx-auto mb-6"></div>
+          <div className="h-8 bg-white/20 rounded w-64 mx-auto mb-4"></div>
+          <div className="h-4 bg-white/20 rounded w-96 mx-auto mb-8"></div>
+        </div>
+      </div>
+    </div>
+  )
+});
 
 export default function HomePage() {
-  const upcomingDays = getUpcomingDays(6);
-  const featuredCategories = categories.slice(0, 6);
-  const trendingDays = days.slice(0, 4);
-  const thisWeekDays = getUpcomingDays(7);
+  // Reduce initial data load for mobile performance
+  const upcomingDays = getUpcomingDays(4); // Reduced from 6 to 4
+  const featuredCategories = categories.slice(0, 4); // Reduced from 6 to 4
+  const trendingDays = days.slice(0, 3); // Reduced from 4 to 3
+  const thisWeekDays = getUpcomingDays(6); // Reduced from 7 to 6
+
+  // Homepage structured data
+  const homepageStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "TheDayOf - Discover National Days, Food & Holiday Calendar",
+    "description": "Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.",
+    "url": "https://thedayof.net",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Special Days and Celebrations",
+      "description": "A comprehensive list of special days, holidays, and celebrations",
+      "itemListElement": upcomingDays.slice(0, 3).map((day, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "item": {
+          "@type": "Event",
+          "name": day.title,
+          "description": day.description,
+          "startDate": day.date,
+          "url": `https://thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+        }
+      }))
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://thedayof.net"
+        }
+      ]
+    }
+  };
 
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageStructuredData) }}
+      />
     <div className="min-h-screen bg-white dark:bg-dark-900">
       {/* Hero Section - Allrecipes Style */}
       <section className="relative bg-gradient-to-b from-neutral-50 to-white dark:from-dark-800 dark:to-dark-900">
-        <div className="container-custom py-16">
+        <div className="container-custom py-12 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full px-4 py-2 mb-8">
-              <Star className="h-4 w-4" />
-              <span className="text-sm font-semibold">America&apos;s #1 Trusted Celebration Resource</span>
+            <div className="inline-flex items-center gap-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full px-3 py-1 mb-6">
+              <Star className="h-3 w-3 md:h-4 md:w-4" />
+              <span className="text-xs md:text-sm font-semibold">America&apos;s #1 Trusted Celebration Resource</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-neutral-900 dark:text-neutral-100 mb-4 md:mb-6 leading-tight">
               The Day Of
             </h1>
             
-            <p className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-neutral-600 dark:text-neutral-300 mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed">
               Discover, celebrate, and make every day special with our comprehensive guide to 
               holidays, food days, awareness campaigns, and unique celebrations from around the world.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-              <Link href="/calendar" className="btn-primary text-lg px-8 py-4 group">
-                <Calendar className="inline h-5 w-5 mr-2" />
+            <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12 md:mb-16">
+              <Link href="/calendar" className="btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4 group">
+                <Calendar className="inline h-4 w-4 md:h-5 md:w-5 mr-2" />
                 Explore Calendar
-                <ArrowRight className="inline h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="inline h-3 w-3 md:h-4 md:w-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link href="/categories" className="btn-secondary text-lg px-8 py-4">
+              <Link href="/categories" className="btn-secondary text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
                 Browse Categories
               </Link>
             </div>
 
             {/* Stats Row */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">200+</div>
-                <div className="text-neutral-600 dark:text-neutral-300 font-medium">Special Days</div>
+                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-1 md:mb-2">200+</div>
+                <div className="text-sm md:text-base text-neutral-600 dark:text-neutral-300 font-medium">Special Days</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">365</div>
-                <div className="text-neutral-600 dark:text-neutral-300 font-medium">Days Covered</div>
+                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-1 md:mb-2">365</div>
+                <div className="text-sm md:text-base text-neutral-600 dark:text-neutral-300 font-medium">Days Covered</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">8</div>
-                <div className="text-neutral-600 dark:text-neutral-300 font-medium">Categories</div>
+                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-1 md:mb-2">8</div>
+                <div className="text-sm md:text-base text-neutral-600 dark:text-neutral-300 font-medium">Categories</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">∞</div>
-                <div className="text-neutral-600 dark:text-neutral-300 font-medium">Celebrations</div>
+                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-600 dark:text-primary-400 mb-1 md:mb-2">∞</div>
+                <div className="text-sm md:text-base text-neutral-600 dark:text-neutral-300 font-medium">Celebrations</div>
               </div>
             </div>
           </div>
@@ -65,7 +121,7 @@ export default function HomePage() {
       </section>
 
       {/* The Latest - Allrecipes Style */}
-      <section className="bg-white dark:bg-dark-900 py-16">
+      <section className="bg-white dark:bg-dark-900 py-12 md:py-16">
         <div className="container-custom">
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">The Latest</h2>
@@ -75,8 +131,8 @@ export default function HomePage() {
             </Link>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {upcomingDays.slice(0, 6).map((day) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {upcomingDays.map((day) => (
               <div key={day.slug} className="group">
                 <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all duration-300 overflow-hidden border border-neutral-100 dark:border-dark-700 group-hover:border-primary-200 dark:group-hover:border-primary-700">
                   <div className="p-6">
@@ -119,7 +175,7 @@ export default function HomePage() {
       </section>
 
       {/* Trending Now - Atlas Obscura Style */}
-      <section className="bg-neutral-50 dark:bg-dark-800 py-16">
+      <section className="bg-neutral-50 dark:bg-dark-800 py-12 md:py-16">
         <div className="container-custom">
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">Trending Now</h2>
@@ -199,7 +255,7 @@ export default function HomePage() {
       </section>
 
       {/* Categories Grid */}
-      <section className="bg-white dark:bg-dark-900 py-16">
+      <section className="bg-white dark:bg-dark-900 py-12 md:py-16">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">
@@ -211,7 +267,7 @@ export default function HomePage() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
             {featuredCategories.map((category) => {
               const dayCount = getDaysByCategory(category.name).length;
               return (
@@ -245,7 +301,7 @@ export default function HomePage() {
       </section>
 
       {/* This Week's Highlights */}
-      <section className="bg-white dark:bg-dark-900 py-16">
+      <section className="bg-white dark:bg-dark-900 py-12 md:py-16">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">
@@ -256,8 +312,8 @@ export default function HomePage() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {thisWeekDays.slice(0, 6).map((day) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+            {thisWeekDays.map((day) => (
               <div key={day.slug} className="group">
                 <div className="bg-white dark:bg-dark-800 rounded-xl shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all duration-300 p-6 border border-neutral-100 dark:border-dark-700 group-hover:border-primary-200 dark:group-hover:border-primary-700">
                   <div className="flex items-center justify-between mb-4">
@@ -303,6 +359,7 @@ export default function HomePage() {
 
       {/* Newsletter CTA */}
       <NewsletterSubscribe />
-    </div>
+      </div>
+    </>
   );
 }

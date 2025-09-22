@@ -10,31 +10,48 @@ import ThemeSpread from '@/components/theme-spread';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  preload: true,
+  fallback: ['system-ui', 'arial'],
+  adjustFontFallback: true,
+  variable: '--font-inter'
+});
 
 export const metadata: Metadata = {
-  title: 'TheDayOf - Celebrate Every Day',
-  description: 'Discover and celebrate every special day, holiday, and observance. From food days to awareness campaigns, we\'ve got you covered with fun facts, traditions, and ways to celebrate.',
-  keywords: ['holidays', 'national days', 'celebrations', 'food days', 'awareness days', 'special days'],
+  title: 'TheDayOf - Discover National Days, Food & Holiday Calendar',
+  description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.',
+  keywords: ['national days', 'food days', 'holidays', 'coffee day', 'celebrations', 'awareness days', 'discover', 'calendar', 'world celebrations'],
   authors: [{ name: 'TheDayOf Team' }],
   openGraph: {
-    title: 'TheDayOf - Celebrate Every Day',
-    description: 'Discover and celebrate every special day, holiday, and observance.',
+    title: 'TheDayOf - National Days, Food & Holiday Calendar',
+    description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TheDayOf - Celebrate Every Day',
-    description: 'Discover and celebrate every special day, holiday, and observance.',
+    title: 'TheDayOf - National Days, Food & Holiday Calendar',
+    description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns.',
   },
   robots: {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: 'https://thedayof.net',
+  },
   other: {
     'google-adsense-account': 'ca-pub-2160043117224167',
   },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
 };
 
 export default function RootLayout({
@@ -42,9 +59,44 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const websiteStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TheDayOf",
+    "description": "Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.",
+    "url": "https://thedayof.net",
+    "publisher": {
+      "@type": "Organization",
+      "name": "TheDayOf",
+      "url": "https://thedayof.net"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://thedayof.net/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <html lang="en">
       <head>
+        {/* Resource hints for better performance */}
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        
+        {/* Schema.org structured data */}
+        <Script
+          id="website-structured-data"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+        >
+          {JSON.stringify(websiteStructuredData)}
+        </Script>
+        
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BLYYB9LCXW"
@@ -59,7 +111,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.variable} font-sans`}>
         <ThemeProvider>
           <ThemeSpread>
             <div className="min-h-screen flex flex-col">

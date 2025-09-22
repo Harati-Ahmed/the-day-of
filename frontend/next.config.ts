@@ -9,6 +9,17 @@ const nextConfig: NextConfig = {
   },
   // Enable compression
   compress: true,
+  // Optimize for mobile performance
+  experimental: {
+    optimizeServerReact: true,
+  },
+  // Compiler optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  // Performance optimizations
+  poweredByHeader: false,
+  generateEtags: false,
 };
 
 export default nextConfig;

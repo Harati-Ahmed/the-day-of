@@ -31,6 +31,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${category.name} Days - TheDayOf`,
     description: `Discover all ${category.name.toLowerCase()} days, holidays, and celebrations. ${category.description}`,
     keywords: [category.name.toLowerCase(), 'days', 'holidays', 'celebrations', 'special days'],
+    alternates: {
+      canonical: `https://thedayof.net/category/${slug}`,
+    },
     openGraph: {
       title: `${category.name} Days`,
       description: `Discover all ${category.name.toLowerCase()} days, holidays, and celebrations.`,
@@ -52,7 +55,61 @@ export default async function CategoryPage({ params }: PageProps) {
     .filter(day => new Date(day.date) >= new Date())
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
+  // Category page structured data
+  const categoryStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": `${category.name} Days`,
+    "description": `Discover all ${category.name.toLowerCase()} days, holidays, and celebrations. ${category.description}`,
+    "url": `https://thedayof.net/category/${slug}`,
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": `${category.name} Days and Celebrations`,
+      "description": category.description,
+      "numberOfItems": upcomingDays.length,
+      "itemListElement": upcomingDays.slice(0, 10).map((day, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "item": {
+          "@type": "Event",
+          "name": day.title,
+          "description": day.description,
+          "startDate": day.date,
+          "url": `https://thedayof.net/${slug}/${day.slug}`
+        }
+      }))
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://thedayof.net"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Categories",
+          "item": "https://thedayof.net/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": category.name,
+          "item": `https://thedayof.net/category/${slug}`
+        }
+      ]
+    }
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(categoryStructuredData) }}
+      />
     <div className="min-h-screen bg-gray-50 dark:bg-dark-900">
       {/* Breadcrumb */}
       <div className="bg-white dark:bg-dark-800 border-b dark:border-dark-700">
@@ -153,5 +210,6 @@ export default async function CategoryPage({ params }: PageProps) {
         )}
       </div>
     </div>
+    </>
   );
 }

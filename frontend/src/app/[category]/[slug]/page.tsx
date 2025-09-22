@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { category, slug } = await params;
   const day = getDayBySlug(slug);
   
   if (!day) {
@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${day.title} ${year} – TheDayOf`,
     description: day.description,
     keywords: day.tags.join(', '),
+    alternates: {
+      canonical: `https://thedayof.net/${category}/${slug}`,
+    },
     openGraph: {
       title: `${day.title} ${year}`,
       description: day.description,
@@ -63,17 +66,51 @@ export default async function DayPage({ params }: PageProps) {
   const categoryColor = getCategoryColor(day.category);
   const formattedDate = formatDate(day.date);
 
-  // Generate structured data
-  const structuredData = {
+  // Generate comprehensive structured data
+  const eventStructuredData = {
     "@context": "https://schema.org",
     "@type": "Event",
     "name": day.title,
     "startDate": day.date,
+    "endDate": day.date,
     "description": day.description,
     "url": `https://thedayof.net/${categorySlug}/${day.slug}`,
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "keywords": day.tags.join(', '),
     "organizer": {
       "@type": "Organization",
+      "name": "TheDayOf",
+      "url": "https://thedayof.net"
+    },
+    "publisher": {
+      "@type": "Organization", 
+      "name": "TheDayOf",
+      "url": "https://thedayof.net"
+    }
+  };
+
+  const articleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": day.title,
+    "description": day.description,
+    "url": `https://thedayof.net/${categorySlug}/${day.slug}`,
+    "datePublished": day.date,
+    "dateModified": day.date,
+    "keywords": day.tags.join(', '),
+    "author": {
+      "@type": "Organization",
       "name": "TheDayOf"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TheDayOf",
+      "url": "https://thedayof.net"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://thedayof.net/${categorySlug}/${day.slug}`
     }
   };
 
@@ -81,7 +118,11 @@ export default async function DayPage({ params }: PageProps) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(eventStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
       />
       
       <div className="min-h-screen bg-gray-50 dark:bg-dark-900">
