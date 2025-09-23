@@ -50,8 +50,8 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "name": day.title,
     "startDate": day.date,
     "description": day.description,
-    "url": `https://thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
-    "image": day.image ? `https://thedayof.net/images/events/${day.image}` : undefined,
+    "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
+    "image": day.image ? `https://www.thedayof.net/images/events/${day.image}` : undefined,
     "organizer": {
       "@type": "Organization",
       "name": "TheDayOf"

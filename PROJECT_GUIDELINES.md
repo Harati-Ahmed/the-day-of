@@ -85,7 +85,7 @@
   "name": "National Coffee Day",
   "startDate": "2025-09-29",
   "description": "Celebrate the magic of coffee! Enjoy your favorite cup and discover coffee facts and traditions.",
-  "url": "https://thedayof.net/food/national-coffee-day"
+  "url": "https://www.thedayof.net/food/national-coffee-day"
 }
 ```
 

@@ -5,7 +5,7 @@ import { getCategorySlug } from '@/lib/utils';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://thedayof.net';
+  const baseUrl = 'https://www.thedayof.net';
   
   // Static pages
   const staticPages = [

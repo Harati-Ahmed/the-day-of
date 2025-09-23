@@ -18,7 +18,7 @@ export default function SearchPage() {
     "@type": "SearchResultsPage",
     "name": "Search Results",
     "description": "Search results for national days, holidays, and celebrations on TheDayOf",
-    "url": "https://thedayof.net/search",
+    "url": "https://www.thedayof.net/search",
     "mainEntity": {
       "@type": "ItemList",
       "name": "Search Results",

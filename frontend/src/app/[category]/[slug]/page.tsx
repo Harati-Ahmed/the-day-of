@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: day.description,
     keywords: day.tags.join(', '),
     alternates: {
-      canonical: `https://thedayof.net/${category}/${slug}`,
+      canonical: `https://www.thedayof.net/${category}/${slug}`,
     },
     openGraph: {
       title: `${day.title} ${year}`,
@@ -74,19 +74,19 @@ export default async function DayPage({ params }: PageProps) {
     "startDate": day.date,
     "endDate": day.date,
     "description": day.description,
-    "url": `https://thedayof.net/${categorySlug}/${day.slug}`,
+    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
     "keywords": day.tags.join(', '),
     "organizer": {
       "@type": "Organization",
       "name": "TheDayOf",
-      "url": "https://thedayof.net"
+      "url": "https://www.thedayof.net"
     },
     "publisher": {
       "@type": "Organization", 
       "name": "TheDayOf",
-      "url": "https://thedayof.net"
+      "url": "https://www.thedayof.net"
     },
     ...(day.nextOccurrences && day.nextOccurrences.length > 0 && {
       "recurringEvent": {
@@ -119,7 +119,7 @@ export default async function DayPage({ params }: PageProps) {
     "@type": "Article",
     "headline": day.title,
     "description": day.description,
-    "url": `https://thedayof.net/${categorySlug}/${day.slug}`,
+    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
     "datePublished": day.date,
     "dateModified": day.date,
     "keywords": day.tags.join(', '),
@@ -130,11 +130,11 @@ export default async function DayPage({ params }: PageProps) {
     "publisher": {
       "@type": "Organization",
       "name": "TheDayOf",
-      "url": "https://thedayof.net"
+      "url": "https://www.thedayof.net"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://thedayof.net/${categorySlug}/${day.slug}`
+      "@id": `https://www.thedayof.net/${categorySlug}/${day.slug}`
     }
   };
 
@@ -295,13 +295,13 @@ export default async function DayPage({ params }: PageProps) {
                 <div className="space-y-4">
                   <SocialShare
                     title={day.title}
-                    url={`https://thedayof.net/${categorySlug}/${day.slug}`}
+                    url={`https://www.thedayof.net/${categorySlug}/${day.slug}`}
                     description={day.description}
                     variant="dropdown"
                   />
                   <SocialShare
                     title={day.title}
-                    url={`https://thedayof.net/${categorySlug}/${day.slug}`}
+                    url={`https://www.thedayof.net/${categorySlug}/${day.slug}`}
                     description={day.description}
                     variant="inline"
                     className="mt-4"

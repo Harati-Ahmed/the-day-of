@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://thedayof.net',
+    canonical: 'https://www.thedayof.net',
   },
   other: {
     'google-adsense-account': 'ca-pub-2160043117224167',
@@ -64,17 +64,17 @@ export default function RootLayout({
     "@type": "WebSite",
     "name": "TheDayOf",
     "description": "Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.",
-    "url": "https://thedayof.net",
+    "url": "https://www.thedayof.net",
     "publisher": {
       "@type": "Organization",
       "name": "TheDayOf",
-      "url": "https://thedayof.net"
+      "url": "https://www.thedayof.net"
     },
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://thedayof.net/search?q={search_term_string}"
+        "urlTemplate": "https://www.thedayof.net/search?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }

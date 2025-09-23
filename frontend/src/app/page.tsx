@@ -31,7 +31,7 @@ export default function HomePage() {
     "@type": "WebPage",
     "name": "TheDayOf - Discover National Days, Food & Holiday Calendar",
     "description": "Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.",
-    "url": "https://thedayof.net",
+    "url": "https://www.thedayof.net",
     "mainEntity": {
       "@type": "ItemList",
       "name": "Special Days and Celebrations",
@@ -44,7 +44,7 @@ export default function HomePage() {
           "name": day.title,
           "description": day.description,
           "startDate": day.date,
-          "url": `https://thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
         }
       }))
     },
@@ -55,7 +55,7 @@ export default function HomePage() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://thedayof.net"
+          "item": "https://www.thedayof.net"
         }
       ]
     }

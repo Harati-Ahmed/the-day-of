@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: `Discover all ${category.name.toLowerCase()} days and holidays in ${currentYear}. ${category.description} Find dates, celebration ideas, and history for ${categoryDays.length}+ special days.`,
     keywords: `${category.name.toLowerCase()} holidays, ${category.name.toLowerCase()} days ${currentYear}, national ${category.name.toLowerCase()} days, ${category.name.toLowerCase()} observances`,
     alternates: {
-      canonical: `https://thedayof.net/category/${slug}`,
+      canonical: `https://www.thedayof.net/category/${slug}`,
     },
     openGraph: {
       title: `${category.name} Days & Holidays ${currentYear} – Complete Guide`,
@@ -61,7 +61,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@type": "CollectionPage",
     "name": `${category.name} Days`,
     "description": `Discover all ${category.name.toLowerCase()} days, holidays, and celebrations. ${category.description}`,
-    "url": `https://thedayof.net/category/${slug}`,
+    "url": `https://www.thedayof.net/category/${slug}`,
     "mainEntity": {
       "@type": "ItemList",
       "name": `${category.name} Days and Celebrations`,
@@ -75,7 +75,7 @@ export default async function CategoryPage({ params }: PageProps) {
           "name": day.title,
           "description": day.description,
           "startDate": day.date,
-          "url": `https://thedayof.net/${slug}/${day.slug}`
+          "url": `https://www.thedayof.net/${slug}/${day.slug}`
         }
       }))
     },
@@ -86,19 +86,19 @@ export default async function CategoryPage({ params }: PageProps) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://thedayof.net"
+          "item": "https://www.thedayof.net"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Categories",
-          "item": "https://thedayof.net/categories"
+          "item": "https://www.thedayof.net/categories"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": category.name,
-          "item": `https://thedayof.net/category/${slug}`
+          "item": `https://www.thedayof.net/category/${slug}`
         }
       ]
     }

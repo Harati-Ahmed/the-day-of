@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: `Discover all the special days, holidays, and celebrations happening in ${month.name} ${currentYear}. From national observances to fun themed days, find out what to celebrate this month.`,
     keywords: `${month.name} holidays, ${month.name} special days, ${month.name} ${currentYear}, national days in ${month.name}`,
     alternates: {
-      canonical: `https://thedayof.net/month/${monthSlug}`,
+      canonical: `https://www.thedayof.net/month/${monthSlug}`,
     },
     openGraph: {
       title: `${month.name} ${currentYear} Special Days & Holidays`,
@@ -86,7 +86,7 @@ export default async function MonthPage({ params }: PageProps) {
     "@type": "CollectionPage",
     "name": `${month.name} ${currentYear} Special Days & Holidays`,
     "description": `Complete guide to special days, holidays, and celebrations in ${month.name} ${currentYear}`,
-    "url": `https://thedayof.net/month/${monthSlug}`,
+    "url": `https://www.thedayof.net/month/${monthSlug}`,
     "mainEntity": {
       "@type": "ItemList",
       "numberOfItems": monthDays.length,
@@ -97,7 +97,7 @@ export default async function MonthPage({ params }: PageProps) {
           "@type": "Event",
           "name": day.title,
           "startDate": day.date,
-          "url": `https://thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
         }
       }))
     }

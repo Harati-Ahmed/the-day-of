@@ -4,4 +4,4 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 
-Sitemap: https://thedayof.net/sitemap.xml
+Sitemap: https://www.thedayof.net/sitemap.xml
