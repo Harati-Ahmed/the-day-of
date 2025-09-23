@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getDayBySlug, getRelatedDays, days } from '@/lib/data';
+import { getDayBySlug, getRelatedDays, getDaysByMonth, days } from '@/lib/data';
 import { formatDate, getCategoryColor, getCategorySlug } from '@/lib/utils';
 import { Calendar, Tag, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
@@ -43,7 +43,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: `${day.title} ${year}`,
       description: day.description,
       type: 'article',
+      url: `https://www.thedayof.net/${category}/${slug}/`,
+      siteName: 'TheDayOf',
+      locale: 'en_US',
       publishedTime: day.date,
+      images: [
+        {
+          url: `https://www.thedayof.net/images/events/${day.slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: day.title,
+        }
+      ],
     },
     twitter: {
       card: 'summary_large_image',
@@ -353,6 +364,36 @@ export default async function DayPage({ params }: PageProps) {
                   >
                     <div className="font-medium text-gray-900 dark:text-neutral-100">{new Date(day.date).toLocaleDateString('en-US', { month: 'long' })} Special Days</div>
                     <p className="text-sm text-gray-600 dark:text-neutral-300">See all celebrations this month</p>
+                  </Link>
+                </div>
+              </div>
+
+              {/* More Days in This Month */}
+              <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-6 mb-8">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">More Days in {new Date(day.date).toLocaleDateString('en-US', { month: 'long' })}</h3>
+                <div className="space-y-3">
+                  {getDaysByMonth(new Date(day.date).getMonth() + 1, new Date(day.date).getFullYear())
+                    .filter(d => d.slug !== day.slug)
+                    .slice(0, 5)
+                    .map((monthDay) => (
+                      <Link
+                        key={monthDay.slug}
+                        href={`/${getCategorySlug(monthDay.category)}/${monthDay.slug}`}
+                        className="block p-3 rounded-lg bg-gray-50 dark:bg-dark-700 hover:bg-gray-100 dark:hover:bg-dark-600 transition-colors"
+                      >
+                        <div className="font-medium text-gray-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                          {monthDay.title}
+                        </div>
+                        <p className="text-sm text-gray-600 dark:text-neutral-300 mt-1">
+                          {formatDate(monthDay.date)} • {monthDay.category}
+                        </p>
+                      </Link>
+                    ))}
+                  <Link 
+                    href={`/month/${new Date(day.date).toLocaleDateString('en-US', { month: 'long' }).toLowerCase()}`}
+                    className="block text-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium pt-2"
+                  >
+                    View all {new Date(day.date).toLocaleDateString('en-US', { month: 'long' })} days →
                   </Link>
                 </div>
               </div>

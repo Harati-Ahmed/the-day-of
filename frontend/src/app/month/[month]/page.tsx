@@ -56,6 +56,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: `${month.name} ${currentYear} Special Days & Holidays`,
       description: `Discover all the special days, holidays, and celebrations happening in ${month.name} ${currentYear}.`,
       type: 'website',
+      url: `https://www.thedayof.net/month/${monthSlug}/`,
+      siteName: 'TheDayOf',
+      locale: 'en_US',
+      images: [
+        {
+          url: `https://www.thedayof.net/images/months/${monthSlug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${month.name} Special Days & Holidays`,
+        }
+      ],
     },
   };
 }

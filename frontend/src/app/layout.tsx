@@ -28,7 +28,17 @@ export const metadata: Metadata = {
     title: 'TheDayOf - National Days, Food & Holiday Calendar',
     description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns.',
     type: 'website',
+    url: 'https://www.thedayof.net/',
+    siteName: 'TheDayOf',
     locale: 'en_US',
+    images: [
+      {
+        url: 'https://www.thedayof.net/images/og-homepage.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'TheDayOf - National Days, Food & Holiday Calendar',
+      }
+    ],
   },
   twitter: {
     card: 'summary_large_image',

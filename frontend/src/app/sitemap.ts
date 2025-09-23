@@ -10,25 +10,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages
   const staticPages = [
     {
-      url: baseUrl,
+      url: `${baseUrl}/`,
       lastModified: new Date(),
       changeFrequency: 'daily' as const,
       priority: 1,
     },
     {
-      url: `${baseUrl}/categories`,
+      url: `${baseUrl}/categories/`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/calendar`,
+      url: `${baseUrl}/calendar/`,
       lastModified: new Date(),
       changeFrequency: 'daily' as const,
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/about/`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.5,
@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Category pages
   const categoryPages = categories.map((category) => ({
-    url: `${baseUrl}/category/${category.slug}`,
+    url: `${baseUrl}/category/${category.slug}/`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.7,
@@ -45,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Day pages
   const dayPages = days.map((day) => ({
-    url: `${baseUrl}/${getCategorySlug(day.category)}/${day.slug}`,
+    url: `${baseUrl}/${getCategorySlug(day.category)}/${day.slug}/`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.6,

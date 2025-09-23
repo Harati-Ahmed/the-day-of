@@ -41,6 +41,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: `${category.name} Days & Holidays ${currentYear} – Complete Guide`,
       description: `Discover all ${category.name.toLowerCase()} days and holidays in ${currentYear}. ${category.description}`,
       type: 'website',
+      url: `https://www.thedayof.net/category/${slug}/`,
+      siteName: 'TheDayOf',
+      locale: 'en_US',
+      images: [
+        {
+          url: `https://www.thedayof.net/images/categories/${slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${category.name} Days & Holidays`,
+        }
+      ],
     },
   };
 }

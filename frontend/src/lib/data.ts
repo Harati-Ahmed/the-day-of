@@ -168,11 +168,50 @@ export function getDayBySlug(slug: string): Day | undefined {
 }
 
 export function getRelatedDays(day: Day, limit: number = 5): Day[] {
+  // First, get explicitly related days
   const relatedSlugs = day.relatedDays || [];
-  return relatedSlugs
+  const explicitRelated = relatedSlugs
     .map(slug => getDayBySlug(slug))
-    .filter(Boolean)
-    .slice(0, limit) as Day[];
+    .filter(Boolean) as Day[];
+  
+  // If we don't have enough explicit related days, find similar ones
+  if (explicitRelated.length < limit) {
+    const dayDate = new Date(day.date);
+    const dayMonth = dayDate.getMonth();
+    const dayYear = dayDate.getFullYear();
+    
+    const similarDays = days
+      .filter((d: Day) => d.slug !== day.slug) // Exclude current day
+      .filter((d: Day) => !explicitRelated.some(er => er.slug === d.slug)) // Exclude already related
+      .map((d: Day) => {
+        // Score days based on similarity
+        const dDate = new Date(d.date);
+        const dMonth = dDate.getMonth();
+        const dYear = dDate.getFullYear();
+        
+        let score = 0;
+        
+        // Same category gets high score
+        if (d.category === day.category) score += 10;
+        
+        // Same month gets medium score
+        if (dMonth === dayMonth && dYear === dayYear) score += 5;
+        
+        // Common tags get score based on count
+        const commonTags = day.tags.filter(tag => d.tags.includes(tag));
+        score += commonTags.length * 2;
+        
+        return { day: d, score };
+      })
+      .filter((item: { day: Day; score: number }) => item.score > 0) // Only include days with some similarity
+      .sort((a: { day: Day; score: number }, b: { day: Day; score: number }) => b.score - a.score) // Sort by score descending
+      .map((item: { day: Day; score: number }) => item.day)
+      .slice(0, limit - explicitRelated.length);
+    
+    return [...explicitRelated, ...similarDays];
+  }
+  
+  return explicitRelated.slice(0, limit);
 }
 
 export function searchDays(query: string): Day[] {

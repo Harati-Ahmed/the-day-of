@@ -21,11 +21,11 @@ interface CategoryPageClientProps {
 type FilterType = 'all' | 'upcoming' | 'thisMonth';
 
 export default function CategoryPageClient({ category, allDays }: CategoryPageClientProps) {
-  const [filterType, setFilterType] = useState<FilterType>('upcoming');
+  const [filterType, setFilterType] = useState<FilterType>('all'); // Show all days by default for better internal linking
   const [displayedDays, setDisplayedDays] = useState<Day[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   
-  const itemsPerPage = 12;
+  const itemsPerPage = 24; // Show more days per page to improve internal linking
 
   useEffect(() => {
     if (!category || allDays.length === 0) return;
