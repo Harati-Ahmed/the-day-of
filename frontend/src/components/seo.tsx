@@ -49,12 +49,37 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "@type": "Event",
     "name": day.title,
     "startDate": day.date,
+    "endDate": day.date,
     "description": day.description,
     "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
-    "image": day.image ? `https://www.thedayof.net/images/events/${day.image}` : undefined,
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "location": {
+      "@type": "VirtualLocation",
+      "name": "Online",
+      "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+    },
     "organizer": {
       "@type": "Organization",
-      "name": "TheDayOf"
+      "name": "TheDayOf",
+      "url": "https://www.thedayof.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TheDayOf",
+      "url": "https://www.thedayof.net"
+    },
+    "performer": {
+      "@type": "Person",
+      "name": "TheDayOf Team"
+    },
+    "image": day.image ? `https://www.thedayof.net/images/events/${day.image}` : `https://www.thedayof.net/images/events/${day.slug}.jpg`,
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
     }
   };
 

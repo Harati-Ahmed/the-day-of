@@ -89,6 +89,11 @@ export default async function DayPage({ params }: PageProps) {
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
     "keywords": day.tags.join(', '),
+    "location": {
+      "@type": "VirtualLocation",
+      "name": "Online",
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+    },
     "organizer": {
       "@type": "Organization",
       "name": "TheDayOf",
@@ -98,6 +103,18 @@ export default async function DayPage({ params }: PageProps) {
       "@type": "Organization", 
       "name": "TheDayOf",
       "url": "https://www.thedayof.net"
+    },
+    "performer": {
+      "@type": "Person",
+      "name": "TheDayOf Team"
+    },
+    "image": day.image ? `https://www.thedayof.net/images/events/${day.image}` : `https://www.thedayof.net/images/events/${day.slug}.jpg`,
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
     },
     ...(day.nextOccurrences && day.nextOccurrences.length > 0 && {
       "recurringEvent": {
@@ -124,6 +141,38 @@ export default async function DayPage({ params }: PageProps) {
       }
     }))
   } : null;
+
+  // Breadcrumb Schema
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.thedayof.net"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Categories",
+        "item": "https://www.thedayof.net/categories"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": day.category,
+        "item": `https://www.thedayof.net/category/${categorySlug}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": day.title,
+        "item": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+      }
+    ]
+  };
 
   const articleStructuredData = {
     "@context": "https://schema.org",
@@ -165,6 +214,10 @@ export default async function DayPage({ params }: PageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
+      />
       
       <div className="min-h-screen bg-gray-50 dark:bg-dark-900">
         {/* Breadcrumb */}
