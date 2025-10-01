@@ -73,7 +73,6 @@ export function generateStructuredData(day: { title: string; date: string; descr
       "@type": "Person",
       "name": "TheDayOf Team"
     },
-    "image": day.image ? `https://www.thedayof.net/images/events/${day.image}` : `https://www.thedayof.net/images/events/${day.slug}.jpg`,
     "offers": {
       "@type": "Offer",
       "price": "0",
