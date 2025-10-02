@@ -4,6 +4,7 @@ import { Calendar, Globe, TrendingUp, Star, Clock, ArrowRight } from 'lucide-rea
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
+// Lazy load newsletter component for better mobile performance
 const NewsletterSubscribe = dynamic(() => import('@/components/newsletter-subscribe'), {
   loading: () => (
     <div className="bg-gradient-to-r from-primary-600 to-primary-700 dark:from-primary-700 dark:to-primary-800 text-white py-16">
@@ -18,12 +19,17 @@ const NewsletterSubscribe = dynamic(() => import('@/components/newsletter-subscr
   )
 });
 
+// Lazy load heavy sections for mobile optimization
+const LazySection = dynamic(() => import('@/components/lazy-section'), {
+  loading: () => <div className="h-16 bg-neutral-50 dark:bg-dark-800 animate-pulse"></div>
+});
+
 export default function HomePage() {
-  // Optimize initial data load for mobile performance
-  const upcomingDays = getUpcomingDays(3); // Further reduced for mobile
+  // Optimize initial data load for mobile performance - reduce data fetching
+  const upcomingDays = getUpcomingDays(3); // Reduced for mobile
   const featuredCategories = categories.slice(0, 4);
-  const trendingDays = days.slice(0, 2); // Further reduced for mobile
-  const thisWeekDays = getUpcomingDays(4); // Further reduced for mobile
+  const trendingDays = days.slice(0, 2); // Minimal for mobile
+  const thisWeekDays = upcomingDays.slice(0, 3); // Reuse data to reduce processing
 
   // Homepage structured data
   const homepageStructuredData = {
@@ -254,8 +260,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Categories Grid */}
-      <section className="bg-white dark:bg-dark-900 py-12 md:py-16">
+      {/* Categories Grid - Lazy loaded for mobile performance */}
+      <LazySection className="bg-white dark:bg-dark-900 py-12 md:py-16">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">
@@ -298,10 +304,10 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-      </section>
+      </LazySection>
 
-      {/* This Week's Highlights */}
-      <section className="bg-white dark:bg-dark-900 py-12 md:py-16">
+      {/* This Week's Highlights - Lazy loaded */}
+      <LazySection className="bg-white dark:bg-dark-900 py-12 md:py-16">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">
@@ -355,7 +361,7 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-      </section>
+      </LazySection>
 
       {/* Newsletter CTA */}
       <NewsletterSubscribe />

@@ -16,7 +16,9 @@ const inter = Inter({
   preload: true,
   fallback: ['system-ui', 'arial'],
   adjustFontFallback: true,
-  variable: '--font-inter'
+  variable: '--font-inter',
+  // Optimize font loading for mobile
+  weight: ['400', '500', '600', '700'], // Only load needed weights
 });
 
 export const metadata: Metadata = {
@@ -93,17 +95,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Resource hints for better performance */}
+        {/* Critical Resource hints optimized for static sites */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
         
-        {/* Preload critical resources */}
+        {/* Preload critical static assets */}
         <link rel="preload" href="/next.svg" as="image" />
         <link rel="preload" href="/vercel.svg" as="image" />
         
-        {/* Schema.org structured data */}
+        {/* Static site font optimization - simplified for SSG */}
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+        
+        {/* Schema.org structured data - load early for SEO */}
         <Script
           id="website-structured-data"
           type="application/ld+json"
@@ -112,17 +116,24 @@ export default function RootLayout({
           {JSON.stringify(websiteStructuredData)}
         </Script>
         
-        {/* Google Analytics - Optimized for mobile performance */}
+        {/* Google Analytics - Deferred for mobile performance */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BLYYB9LCXW"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="lazyOnload">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-BLYYB9LCXW', {
+              page_title: document.title,
+              page_location: window.location.href,
+              // Optimize for mobile performance
+              send_page_view: false
+            });
+            // Manual page view for better control
+            gtag('event', 'page_view', {
               page_title: document.title,
               page_location: window.location.href
             });
