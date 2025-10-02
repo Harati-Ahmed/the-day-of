@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 
 interface UseIntersectionObserverProps {
   threshold?: number;
@@ -17,28 +17,42 @@ export function useIntersectionObserver({
   const [hasTriggered, setHasTriggered] = useState(false);
   const ref = useRef<HTMLElement>(null);
 
+  const handleIntersection = useCallback(([entry]: IntersectionObserverEntry[]) => {
+    const isElementIntersecting = entry.isIntersecting;
+    setIsIntersecting(isElementIntersecting);
+    
+    if (isElementIntersecting && triggerOnce) {
+      setHasTriggered(true);
+    }
+  }, [triggerOnce]);
+
   useEffect(() => {
     const element = ref.current;
     if (!element || (triggerOnce && hasTriggered)) return;
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        const isElementIntersecting = entry.isIntersecting;
-        setIsIntersecting(isElementIntersecting);
-        
-        if (isElementIntersecting && triggerOnce) {
-          setHasTriggered(true);
-        }
-      },
-      { threshold, rootMargin }
-    );
+    // Use requestIdleCallback for better performance
+    const observer = new IntersectionObserver(handleIntersection, {
+      threshold,
+      rootMargin,
+    });
 
-    observer.observe(element);
+    // Use requestIdleCallback to defer observation
+    const observeElement = () => {
+      if (element) {
+        observer.observe(element);
+      }
+    };
+
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(observeElement);
+    } else {
+      setTimeout(observeElement, 0);
+    }
 
     return () => {
-      observer.unobserve(element);
+      observer.disconnect();
     };
-  }, [threshold, rootMargin, triggerOnce, hasTriggered]);
+  }, [threshold, rootMargin, triggerOnce, hasTriggered, handleIntersection]);
 
   return { ref, isIntersecting: triggerOnce ? (hasTriggered || isIntersecting) : isIntersecting };
 }

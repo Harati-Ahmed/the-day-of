@@ -30,11 +30,11 @@ const nextConfig: NextConfig = {
       config.optimization.usedExports = true;
       config.optimization.sideEffects = false;
       
-      // Optimize chunk splitting for static sites
+      // Optimize chunk splitting for mobile performance
       config.optimization.splitChunks = {
         chunks: 'all',
-        minSize: 20000,
-        maxSize: 70000,
+        minSize: 10000, // Smaller chunks for mobile
+        maxSize: 50000, // Smaller max size for mobile
         cacheGroups: {
           default: {
             minChunks: 2,
@@ -46,9 +46,22 @@ const nextConfig: NextConfig = {
             name: 'vendors',
             priority: -10,
             chunks: 'all',
+            maxSize: 30000, // Smaller vendor chunks
+          },
+          // Separate chunk for heavy libraries
+          heavy: {
+            test: /[\\/]node_modules[\\/](react|next|framer-motion|lucide-react)[\\/]/,
+            name: 'heavy',
+            priority: 10,
+            chunks: 'all',
+            maxSize: 25000,
           },
         },
       };
+      
+      // Optimize for mobile performance
+      config.optimization.concatenateModules = true;
+      config.optimization.providedExports = true;
     }
     
     return config;

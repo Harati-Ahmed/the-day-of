@@ -17,8 +17,8 @@ const inter = Inter({
   fallback: ['system-ui', 'arial'],
   adjustFontFallback: true,
   variable: '--font-inter',
-  // Optimize font loading for mobile
-  weight: ['400', '500', '600', '700'], // Only load needed weights
+  // Optimize font loading for mobile - reduce weights
+  weight: ['400', '600'], // Only essential weights for mobile
 });
 
 export const metadata: Metadata = {
@@ -103,9 +103,7 @@ export default function RootLayout({
         <link rel="preload" href="/next.svg" as="image" />
         <link rel="preload" href="/vercel.svg" as="image" />
         
-        {/* Static site font optimization - simplified for SSG */}
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+        {/* Remove duplicate font loading - Next.js handles this */}
         
         {/* Schema.org structured data - load early for SEO */}
         <Script
@@ -116,26 +114,18 @@ export default function RootLayout({
           {JSON.stringify(websiteStructuredData)}
         </Script>
         
-        {/* Google Analytics - Deferred for mobile performance */}
+        {/* Google Analytics - Lazy loaded to reduce TBT */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BLYYB9LCXW"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-BLYYB9LCXW', {
-              page_title: document.title,
-              page_location: window.location.href,
-              // Optimize for mobile performance
               send_page_view: false
-            });
-            // Manual page view for better control
-            gtag('event', 'page_view', {
-              page_title: document.title,
-              page_location: window.location.href
             });
           `}
         </Script>

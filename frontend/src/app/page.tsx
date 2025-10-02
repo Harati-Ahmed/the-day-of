@@ -2,27 +2,10 @@ import { getUpcomingDays, categories, getDaysByCategory, days } from '@/lib/data
 import { formatDate, getCategorySlug, getCategoryColor } from '@/lib/utils';
 import { Calendar, Globe, TrendingUp, Star, Clock, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
 
-// Lazy load newsletter component for better mobile performance
-const NewsletterSubscribe = dynamic(() => import('@/components/newsletter-subscribe'), {
-  loading: () => (
-    <div className="bg-gradient-to-r from-primary-600 to-primary-700 dark:from-primary-700 dark:to-primary-800 text-white py-16">
-      <div className="container-custom text-center">
-        <div className="animate-pulse">
-          <div className="w-16 h-16 bg-white/20 rounded-2xl mx-auto mb-6"></div>
-          <div className="h-8 bg-white/20 rounded w-64 mx-auto mb-4"></div>
-          <div className="h-4 bg-white/20 rounded w-96 mx-auto mb-8"></div>
-        </div>
-      </div>
-    </div>
-  )
-});
-
-// Lazy load heavy sections for mobile optimization
-const LazySection = dynamic(() => import('@/components/lazy-section'), {
-  loading: () => <div className="h-16 bg-neutral-50 dark:bg-dark-800 animate-pulse"></div>
-});
+// Import components directly for static site - no dynamic loading needed
+import NewsletterSubscribe from '@/components/newsletter-subscribe';
+import LazySection from '@/components/lazy-section';
 
 export default function HomePage() {
   // Optimize initial data load for mobile performance - reduce data fetching

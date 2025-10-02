@@ -1,7 +1,7 @@
 'use client';
 
 import { useIntersectionObserver } from '@/hooks/use-intersection-observer';
-import { ReactNode } from 'react';
+import { ReactNode, memo } from 'react';
 
 interface LazySectionProps {
   children: ReactNode;
@@ -10,11 +10,11 @@ interface LazySectionProps {
   threshold?: number;
 }
 
-export default function LazySection({ 
+const LazySection = memo(function LazySection({ 
   children, 
   className = '', 
-  rootMargin = '100px',
-  threshold = 0 
+  rootMargin = '50px', // Reduced for faster loading
+  threshold = 0.1 // Slightly higher threshold for better performance
 }: LazySectionProps) {
   const { ref, isIntersecting } = useIntersectionObserver({
     rootMargin,
@@ -25,8 +25,10 @@ export default function LazySection({
   return (
     <section ref={ref} className={className}>
       {isIntersecting ? children : (
-        <div className="h-64 bg-neutral-50 dark:bg-dark-800 animate-pulse rounded-2xl"></div>
+        <div className="h-32 bg-neutral-50 dark:bg-dark-800 animate-pulse rounded-2xl"></div>
       )}
     </section>
   );
-}
+});
+
+export default LazySection;
