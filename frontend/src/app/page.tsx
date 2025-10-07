@@ -33,7 +33,32 @@ export default function HomePage() {
           "name": day.title,
           "description": day.description,
           "startDate": day.date,
-          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+          "endDate": day.date,
+          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          "image": day.image ? `https://www.thedayof.net${day.image}` : "https://www.thedayof.net/images/og-homepage.jpg",
+          "location": {
+            "@type": "VirtualLocation",
+            "name": "Online - Worldwide Celebration",
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+          },
+          "organizer": {
+            "@type": "Organization",
+            "name": "TheDayOf",
+            "url": "https://www.thedayof.net"
+          },
+          "performer": {
+            "@type": "Organization",
+            "name": "Global Community"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+          }
         }
       }))
     },

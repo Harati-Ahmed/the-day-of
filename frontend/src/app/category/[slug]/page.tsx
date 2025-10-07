@@ -86,7 +86,32 @@ export default async function CategoryPage({ params }: PageProps) {
           "name": day.title,
           "description": day.description,
           "startDate": day.date,
-          "url": `https://www.thedayof.net/${slug}/${day.slug}`
+          "endDate": day.date,
+          "url": `https://www.thedayof.net/${slug}/${day.slug}`,
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${slug}.jpg`,
+          "location": {
+            "@type": "VirtualLocation",
+            "name": "Online - Worldwide Celebration",
+            "url": `https://www.thedayof.net/${slug}/${day.slug}`
+          },
+          "organizer": {
+            "@type": "Organization",
+            "name": "TheDayOf",
+            "url": "https://www.thedayof.net"
+          },
+          "performer": {
+            "@type": "Organization",
+            "name": "Global Community"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": `https://www.thedayof.net/${slug}/${day.slug}`
+          }
         }
       }))
     },
