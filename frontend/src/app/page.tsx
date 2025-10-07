@@ -1,6 +1,6 @@
 import { getUpcomingDays, categories, getDaysByCategory, days } from '@/lib/data';
 import { formatDate, getCategorySlug, getCategoryColor } from '@/lib/utils';
-import { Calendar, Globe, TrendingUp, Star, Clock, ArrowRight } from 'lucide-react';
+import { Calendar, Globe, TrendingUp, Star, Clock, ArrowRight, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 
 // Import components directly for static site - no dynamic loading needed
@@ -8,6 +8,15 @@ import NewsletterSubscribe from '@/components/newsletter-subscribe';
 import LazySection from '@/components/lazy-section';
 
 export default function HomePage() {
+  // Get today's celebrations
+  const today = new Date();
+  const todayMonth = today.getMonth();
+  const todayDay = today.getDate();
+  const todaysDays = days.filter(day => {
+    const dayDate = new Date(day.date);
+    return dayDate.getMonth() === todayMonth && dayDate.getDate() === todayDay;
+  });
+
   // Optimize initial data load for mobile performance - reduce data fetching
   const upcomingDays = getUpcomingDays(3); // Reduced for mobile
   const featuredCategories = categories.slice(0, 4);
@@ -133,6 +142,51 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Today's Featured Day - Prominent CTA */}
+      {todaysDays.length > 0 && (
+        <section className="bg-gradient-to-br from-primary-600 to-secondary-600 dark:from-primary-700 dark:to-secondary-700 py-12 md:py-16">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto text-center text-white">
+              <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+                <Sparkles className="h-5 w-5" />
+                <span className="font-semibold">Happening Today</span>
+              </div>
+              
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                Today is {todaysDays[0].title}!
+              </h2>
+              
+              <p className="text-lg md:text-xl mb-8 opacity-95">
+                {todaysDays[0].description}
+              </p>
+              
+              {todaysDays.length > 1 && (
+                <p className="text-base mb-8 opacity-90">
+                  Plus {todaysDays.length - 1} more {todaysDays.length === 2 ? 'celebration' : 'celebrations'} today
+                </p>
+              )}
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link 
+                  href="/today" 
+                  className="inline-flex items-center justify-center gap-2 bg-white text-primary-600 hover:bg-gray-50 px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                >
+                  <Clock className="h-5 w-5" />
+                  See All Today&apos;s Celebrations
+                  <ArrowRight className="h-5 w-5" />
+                </Link>
+                <Link 
+                  href={`/${getCategorySlug(todaysDays[0].category)}/${todaysDays[0].slug}`}
+                  className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/50 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300"
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* The Latest - Allrecipes Style */}
       <section className="bg-white dark:bg-dark-900 py-12 md:py-16">

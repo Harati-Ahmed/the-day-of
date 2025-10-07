@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Menu, X, Search, Calendar } from 'lucide-react';
+import { Menu, X, Search, Calendar, Clock } from 'lucide-react';
 import { categories } from '@/lib/data';
 import ThemeToggle from './theme-toggle';
 
@@ -44,6 +44,10 @@ export default function Header() {
           <nav className="hidden md:flex space-x-2">
             <Link href="/" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
               Home
+            </Link>
+            <Link href="/today" className="px-4 py-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:from-primary-600 hover:to-secondary-600 rounded-lg transition-all duration-200 font-semibold flex items-center gap-2 shadow-md hover:shadow-lg">
+              <Clock className="h-4 w-4" />
+              Today
             </Link>
             <Link href="/categories" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
               Categories
@@ -88,6 +92,14 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
+              </Link>
+              <Link 
+                href="/today" 
+                className="px-4 py-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:from-primary-600 hover:to-secondary-600 rounded-lg transition-all duration-200 font-semibold flex items-center gap-2 shadow-md"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Clock className="h-4 w-4" />
+                Today&apos;s National Days
               </Link>
               <Link 
                 href="/categories" 
