@@ -26,6 +26,16 @@ export const metadata: Metadata = {
   description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.',
   keywords: ['national days', 'food days', 'holidays', 'coffee day', 'celebrations', 'awareness days', 'discover', 'calendar', 'world celebrations'],
   authors: [{ name: 'TheDayOf Team' }],
+  manifest: '/manifest.json',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/apple-icon.svg', type: 'image/svg+xml' },
+    ],
+  },
   openGraph: {
     title: 'TheDayOf - National Days, Food & Holiday Calendar',
     description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns.',
@@ -64,6 +74,10 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#0284c7' },
+    { media: '(prefers-color-scheme: dark)', color: '#0f172a' },
+  ],
 };
 
 export default function RootLayout({

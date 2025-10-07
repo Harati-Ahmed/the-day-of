@@ -1,0 +1,19 @@
+{
+  "name": "TheDayOf - National Days & Holiday Calendar",
+  "short_name": "TheDayOf",
+  "description": "Discover national days, food holidays & celebrations worldwide",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
