@@ -98,6 +98,7 @@ export default function RootLayout({
         {/* Critical Resource hints optimized for static sites */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
+        <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         
         {/* Preload critical static assets */}
         <link rel="preload" href="/next.svg" as="image" />
@@ -129,6 +130,14 @@ export default function RootLayout({
             });
           `}
         </Script>
+        
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${inter.variable} font-sans`}>
         <ThemeProvider>
