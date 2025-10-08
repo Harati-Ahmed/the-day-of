@@ -97,11 +97,10 @@ export default function TodayPage() {
           "endDate": todayDateString,
           "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
           "eventStatus": "https://schema.org/EventScheduled",
-          "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : "https://www.thedayof.net/images/og-today.jpg",
           "location": {
             "@type": "VirtualLocation",
-            "name": "Online - Worldwide Celebration",
             "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
           },
           "organizer": {
@@ -109,6 +108,18 @@ export default function TodayPage() {
             "name": "TheDayOf",
             "url": "https://www.thedayof.net"
           },
+          "performer": {
+            "@type": "Organization",
+            "name": "Global Community"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "validFrom": todayDateString,
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+          }
         }
       }))
     } : undefined,

@@ -44,6 +44,7 @@ export default function SEO({ data }: SEOProps) {
 }
 
 export function generateStructuredData(day: { title: string; date: string; description: string; category: string; slug: string; image?: string }) {
+  const categorySlug = getCategorySlug(day.category);
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -51,13 +52,13 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "startDate": day.date,
     "endDate": day.date,
     "description": day.description,
-    "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
+    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
+    "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
     "eventStatus": "https://schema.org/EventScheduled",
-    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "location": {
       "@type": "VirtualLocation",
-      "name": "Online",
-      "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
     },
     "organizer": {
       "@type": "Organization",
@@ -70,15 +71,16 @@ export function generateStructuredData(day: { title: string; date: string; descr
       "url": "https://www.thedayof.net"
     },
     "performer": {
-      "@type": "Person",
-      "name": "TheDayOf Team"
+      "@type": "Organization",
+      "name": "Global Community"
     },
     "offers": {
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
-      "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+      "validFrom": day.date,
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
     }
   };
 

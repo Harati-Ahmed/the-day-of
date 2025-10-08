@@ -112,11 +112,10 @@ export default async function MonthPage({ params }: PageProps) {
           "endDate": day.date,
           "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
           "eventStatus": "https://schema.org/EventScheduled",
-          "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/months/${monthSlug}.jpg`,
           "location": {
             "@type": "VirtualLocation",
-            "name": "Online - Worldwide Celebration",
             "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
           },
           "organizer": {
@@ -133,6 +132,7 @@ export default async function MonthPage({ params }: PageProps) {
             "price": "0",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
+            "validFrom": day.date,
             "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
           }
         }

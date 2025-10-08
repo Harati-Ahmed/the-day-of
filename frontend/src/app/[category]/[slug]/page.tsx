@@ -86,12 +86,12 @@ export default async function DayPage({ params }: PageProps) {
     "endDate": day.date,
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
+    "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
     "eventStatus": "https://schema.org/EventScheduled",
-    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "keywords": day.tags.join(', '),
     "location": {
       "@type": "VirtualLocation",
-      "name": "Online",
       "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
     },
     "organizer": {
@@ -105,14 +105,15 @@ export default async function DayPage({ params }: PageProps) {
       "url": "https://www.thedayof.net"
     },
     "performer": {
-      "@type": "Person",
-      "name": "TheDayOf Team"
+      "@type": "Organization",
+      "name": "Global Community"
     },
     "offers": {
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
+      "validFrom": day.date,
       "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
     },
     ...(day.nextOccurrences && day.nextOccurrences.length > 0 && {

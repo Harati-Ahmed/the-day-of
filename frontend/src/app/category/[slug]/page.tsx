@@ -89,11 +89,10 @@ export default async function CategoryPage({ params }: PageProps) {
           "endDate": day.date,
           "url": `https://www.thedayof.net/${slug}/${day.slug}`,
           "eventStatus": "https://schema.org/EventScheduled",
-          "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${slug}.jpg`,
           "location": {
             "@type": "VirtualLocation",
-            "name": "Online - Worldwide Celebration",
             "url": `https://www.thedayof.net/${slug}/${day.slug}`
           },
           "organizer": {
@@ -110,6 +109,7 @@ export default async function CategoryPage({ params }: PageProps) {
             "price": "0",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
+            "validFrom": day.date,
             "url": `https://www.thedayof.net/${slug}/${day.slug}`
           }
         }

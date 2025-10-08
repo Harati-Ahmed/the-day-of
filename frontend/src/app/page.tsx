@@ -45,11 +45,10 @@ export default function HomePage() {
           "endDate": day.date,
           "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
           "eventStatus": "https://schema.org/EventScheduled",
-          "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : "https://www.thedayof.net/images/og-homepage.jpg",
           "location": {
             "@type": "VirtualLocation",
-            "name": "Online - Worldwide Celebration",
             "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
           },
           "organizer": {
@@ -66,6 +65,7 @@ export default function HomePage() {
             "price": "0",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
+            "validFrom": day.date,
             "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
           }
         }
