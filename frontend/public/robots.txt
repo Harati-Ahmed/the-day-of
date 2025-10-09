@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
+Allow: /_next/static/
 Disallow: /api/
-Disallow: /_next/
+Disallow: /_next/data/
 Disallow: /admin/
 
 Sitemap: https://www.thedayof.net/sitemap.xml
