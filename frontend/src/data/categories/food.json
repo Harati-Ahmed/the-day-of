@@ -1680,33 +1680,873 @@
     ]
   },
   {
-    "title": "National Hot Dog Day",
-    "slug": "national-hot-dog-day-food",
-    "date": "2025-07-17",
+    "title": "National Peanut Butter Day",
+    "slug": "national-peanut-butter-day-spread",
+    "date": "2025-01-24",
     "category": "Food",
-    "description": "Sizzle into summer with America's favorite handheld meal on National Hot Dog Day! From classic ballpark franks to gourmet creations, hot dogs are the perfect summertime treat. Discover regional variations, learn about hot dog history, and celebrate this iconic American food that brings people together at barbecues, ballgames, and backyard parties.",
+    "description": "Spread the love with America's favorite creamy (or crunchy) treat on National Peanut Butter Day! Invented in America, peanut butter has become a pantry staple and cultural icon. From classic PB&J sandwiches to gourmet recipes, celebrate this protein-packed American innovation.",
     "tags": [
-      "hot-dogs",
-      "summer",
-      "July",
-      "american-food",
-      "barbecue",
-      "ballpark",
-      "grilling"
+      "peanut-butter",
+      "American-food",
+      "January",
+      "spreads",
+      "breakfast",
+      "snacks",
+      "protein"
     ],
-    "image": "delicious-hot-dogs.jpg",
+    "image": "creamy-peanut-butter-jar.jpg",
     "relatedDays": [
-      "national-baseball-day",
-      "national-bbq-day",
-      "super-bowl-sunday"
+      "national-peanut-butter-lovers-day",
+      "national-peanut-day",
+      "national-sandwich-day"
     ],
-    "howToCelebrate": "Fire up the grill and cook hot dogs for family and friends. Visit a local hot dog stand or restaurant to try different styles. Host a hot dog bar with various toppings and condiments. Learn about regional hot dog styles from around the country. Share your favorite hot dog combinations on social media.",
+    "howToCelebrate": "Make homemade peanut butter. Create gourmet PB&J combinations. Try peanut butter in baking recipes. Make peanut butter energy balls. Share your favorite peanut butter recipes on social media.",
     "funFacts": [
-      "Americans eat over 20 billion hot dogs per year",
-      "The first hot dog was sold in 1871 at Coney Island",
-      "The longest hot dog ever made was 668 feet long",
-      "Hot dogs were originally called 'dachshund sausages'",
-      "The average American eats 70 hot dogs per year"
+      "Americans eat about 3 pounds of peanut butter per person annually",
+      "It takes about 540 peanuts to make a 12-ounce jar of peanut butter",
+      "Peanut butter was first introduced at the 1904 World's Fair in St. Louis",
+      "January and February are peak peanut butter-eating months",
+      "Women and children prefer creamy, while men prefer crunchy"
+    ]
+  },
+  {
+    "title": "National S'mores Day",
+    "slug": "national-smores-day-camping",
+    "date": "2025-08-10",
+    "category": "Food",
+    "description": "Gather 'round the campfire for National S'mores Day! This quintessential American treat combines graham crackers, chocolate, and marshmallows into pure nostalgic bliss. Celebrate summer traditions and outdoor memories with this beloved camping classic.",
+    "tags": [
+      "smores",
+      "camping",
+      "August",
+      "summer",
+      "american-tradition",
+      "dessert",
+      "outdoor"
+    ],
+    "image": "campfire-smores-treats.jpg",
+    "relatedDays": [
+      "national-camping-day",
+      "national-marshmallow-day",
+      "national-chocolate-day"
+    ],
+    "howToCelebrate": "Build a campfire and make traditional s'mores. Try creative s'mores variations with different chocolates. Make s'mores indoors with your oven. Host a s'mores party with a fire pit. Share camping memories on social media.",
+    "funFacts": [
+      "The first s'more recipe appeared in a 1927 Girl Scout handbook",
+      "The name comes from 'some more' because people always want more",
+      "Americans buy over 90 million pounds of marshmallows annually",
+      "S'mores are considered an American original",
+      "August 10th is peak summer camping season"
+    ]
+  },
+  {
+    "title": "National Corn on the Cob Day",
+    "slug": "national-corn-on-the-cob-day-summer",
+    "date": "2025-06-11",
+    "category": "Food",
+    "description": "Celebrate summer's sweetest vegetable on National Corn on the Cob Day! Native to the Americas and cultivated for thousands of years, corn is a cornerstone of American agriculture and cuisine. Enjoy this seasonal treat that's perfect for barbecues and summer gatherings.",
+    "tags": [
+      "corn",
+      "summer",
+      "June",
+      "american-food",
+      "vegetables",
+      "barbecue",
+      "farming"
+    ],
+    "image": "fresh-corn-on-cob.jpg",
+    "relatedDays": [
+      "national-farmers-day",
+      "national-bbq-day",
+      "national-agriculture-day"
+    ],
+    "howToCelebrate": "Grill corn on the cob with butter and seasonings. Try Mexican-style elote with lime and cheese. Visit a farmer's market for fresh corn. Learn about corn's agricultural importance. Share corn recipes on social media.",
+    "funFacts": [
+      "The US produces over 14 billion bushels of corn annually",
+      "Iowa is the largest corn-producing state",
+      "Corn was first domesticated by indigenous peoples 10,000 years ago",
+      "One ear of corn has about 800 kernels in 16 rows",
+      "Sweet corn is best eaten within 24 hours of picking"
+    ]
+  },
+  {
+    "title": "National Biscuit Day",
+    "slug": "national-biscuit-day-southern",
+    "date": "2025-05-29",
+    "category": "Food",
+    "description": "Rise to the occasion with National Biscuit Day! These fluffy, buttery delights are a Southern staple and American breakfast favorite. From biscuits and gravy to strawberry shortcake, celebrate this versatile comfort food that's perfect any time of day.",
+    "tags": [
+      "biscuits",
+      "Southern-food",
+      "May",
+      "breakfast",
+      "baking",
+      "american-food",
+      "comfort-food"
+    ],
+    "image": "fluffy-buttermilk-biscuits.jpg",
+    "relatedDays": [
+      "national-breakfast-day",
+      "national-southern-food-day",
+      "national-baking-day"
+    ],
+    "howToCelebrate": "Make homemade buttermilk biscuits from scratch. Try biscuits and gravy for breakfast. Create sweet biscuit desserts. Learn traditional Southern biscuit-making techniques. Share your biscuit recipes on social media.",
+    "funFacts": [
+      "The term 'biscuit' in America refers to a soft, fluffy quick bread",
+      "Southerners eat an average of 72 biscuits per year",
+      "White Lily flour from Tennessee is prized for biscuits",
+      "Biscuits were a staple food during the American Civil War",
+      "The secret to fluffy biscuits is not overworking the dough"
+    ]
+  },
+  {
+    "title": "National Waffle Iron Day",
+    "slug": "national-waffle-iron-day-breakfast",
+    "date": "2025-06-29",
+    "category": "Food",
+    "description": "Celebrate the kitchen tool that creates breakfast perfection on National Waffle Iron Day! The waffle iron transformed American breakfast culture, turning batter into golden, crispy squares. Honor this ingenious invention and the delicious waffles it creates.",
+    "tags": [
+      "waffles",
+      "breakfast",
+      "June",
+      "kitchen-tools",
+      "american-food",
+      "cooking",
+      "innovation"
+    ],
+    "image": "golden-waffle-iron.jpg",
+    "relatedDays": [
+      "national-waffle-day",
+      "national-pancake-day",
+      "national-breakfast-day"
+    ],
+    "howToCelebrate": "Make waffles from scratch using your waffle iron. Try creative waffle recipes (savory or sweet). Clean and season your waffle iron properly. Try chicken and waffles, a Southern classic. Share waffle creations on social media.",
+    "funFacts": [
+      "The electric waffle iron was patented in 1911",
+      "Cornelius Swartwout created the first US waffle iron patent in 1869",
+      "Belgian waffles became popular in America after the 1964 World's Fair",
+      "Americans own over 75 million waffle irons",
+      "Waffle irons can also make hash browns, eggs, and more"
+    ]
+  },
+  {
+    "title": "National Lobster Day",
+    "slug": "national-lobster-day-seafood",
+    "date": "2025-09-25",
+    "category": "Food",
+    "description": "Dive into luxury with National Lobster Day! Once considered poor man's food in colonial America, lobster has become a premium seafood delicacy. Celebrate New England's signature dish and the fishing communities that bring this ocean treasure to our tables.",
+    "tags": [
+      "lobster",
+      "seafood",
+      "September",
+      "New-England",
+      "american-food",
+      "premium",
+      "coastal"
+    ],
+    "image": "fresh-maine-lobster.jpg",
+    "relatedDays": [
+      "national-seafood-day",
+      "national-fish-day",
+      "national-crab-day"
+    ],
+    "howToCelebrate": "Enjoy a lobster roll or steamed lobster. Visit a seafood restaurant. Learn about lobster fishing and sustainability. Try cooking lobster at home. Support Maine lobster fishermen and share recipes on social media.",
+    "funFacts": [
+      "Maine produces over 130 million pounds of lobster annually",
+      "Lobsters can live to be over 100 years old",
+      "Lobster was once fed to prisoners and servants",
+      "Red lobster shells turn red only when cooked",
+      "The lobster industry contributes over $1 billion to Maine's economy"
+    ]
+  },
+  {
+    "title": "National French Fry Day",
+    "slug": "national-french-fry-day-fast-food",
+    "date": "2025-07-13",
+    "category": "Food",
+    "description": "Get crispy with National French Fry Day! Fast food chains and restaurants across America offer free fries and deals. Whether you prefer McDonald's, Five Guys, or homemade, celebrate America's favorite side dish with golden, salty perfection.",
+    "tags": [
+      "french-fries",
+      "fast-food",
+      "July",
+      "deals",
+      "potatoes",
+      "american-food",
+      "side-dish"
+    ],
+    "image": "golden-french-fries.jpg",
+    "relatedDays": [
+      "national-potato-day",
+      "national-fast-food-day",
+      "national-junk-food-day"
+    ],
+    "howToCelebrate": "Get free fries from participating restaurants. Try different fry styles (curly, waffle, sweet potato). Make homemade fries. Experiment with dipping sauces. Share your favorite fries on social media.",
+    "funFacts": [
+      "Americans eat 29 pounds of french fries per person annually",
+      "McDonald's sells 9 million pounds of fries daily worldwide",
+      "Belgium claims to have invented fries, not France",
+      "Fries are the most popular fast food item in America",
+      "Major chains offer free or discounted fries on this day"
+    ]
+  },
+  {
+    "title": "National Chicken Wing Day",
+    "slug": "national-chicken-wing-day-buffalo",
+    "date": "2025-07-29",
+    "category": "Food",
+    "description": "Celebrate America's favorite game-day food on National Chicken Wing Day! From Buffalo to BBQ, wings are a multi-billion dollar industry. Restaurants offer wing deals and specials, making this a popular day for wing lovers nationwide.",
+    "tags": [
+      "chicken-wings",
+      "buffalo-wings",
+      "July",
+      "sports-food",
+      "american-food",
+      "deals",
+      "restaurants"
+    ],
+    "image": "buffalo-chicken-wings.jpg",
+    "relatedDays": [
+      "super-bowl-sunday",
+      "national-buffalo-chicken-day",
+      "national-chicken-day"
+    ],
+    "howToCelebrate": "Visit wing restaurants for deals. Try different wing flavors and sauces. Make homemade wings. Host a wing tasting party. Share your favorite wing spots on social media.",
+    "funFacts": [
+      "Americans consume 1.4 billion wings during Super Bowl weekend",
+      "Buffalo wings were invented in Buffalo, NY in 1964",
+      "The wing industry is worth over $3 billion in America",
+      "Wingstop, Buffalo Wild Wings, and others offer major deals",
+      "Ranch vs blue cheese dressing is an ongoing debate"
+    ]
+  },
+  {
+    "title": "National Cheeseburger Day",
+    "slug": "national-cheeseburger-day-deals",
+    "date": "2025-09-18",
+    "category": "Food",
+    "description": "Sink your teeth into deals on National Cheeseburger Day! Fast food giants and burger joints compete with free and discounted cheeseburgers. This iconic American food gets its own day of celebration with delicious promotions nationwide.",
+    "tags": [
+      "cheeseburger",
+      "burgers",
+      "September",
+      "fast-food",
+      "american-food",
+      "deals",
+      "restaurants"
+    ],
+    "image": "classic-american-cheeseburger.jpg",
+    "relatedDays": [
+      "national-hamburger-day",
+      "national-fast-food-day",
+      "burger-month"
+    ],
+    "howToCelebrate": "Get cheeseburger deals from McDonald's, Wendy's, Burger King and more. Try gourmet burger restaurants. Make the perfect homemade cheeseburger. Experiment with toppings. Share burger photos on social media.",
+    "funFacts": [
+      "Americans eat 50 billion burgers annually",
+      "The cheeseburger was invented in America in the 1920s",
+      "Major chains offer BOGO and $1 cheeseburger deals",
+      "McDonald's sells 75 burgers per second",
+      "The burger industry is worth over $100 billion in the US"
+    ]
+  },
+  {
+    "title": "National Margarita Day",
+    "slug": "national-margarita-day-cocktails",
+    "date": "2025-02-22",
+    "category": "Food",
+    "description": "Raise a glass on National Margarita Day! Mexican restaurants and bars across America offer margarita specials and deals. From classic lime to creative flavors, celebrate Mexico's gift to cocktail culture with special promotions.",
+    "tags": [
+      "margaritas",
+      "cocktails",
+      "February",
+      "mexican-food",
+      "drinks",
+      "restaurants",
+      "deals"
+    ],
+    "image": "margarita-cocktails-salt-rim.jpg",
+    "relatedDays": [
+      "cinco-de-mayo",
+      "national-tequila-day",
+      "national-cocktail-day"
+    ],
+    "howToCelebrate": "Enjoy margarita specials at restaurants. Try different margarita flavors. Make margaritas at home. Visit Mexican restaurants offering deals. Share margarita recipes on social media.",
+    "funFacts": [
+      "Margaritas are the most popular cocktail in America",
+      "Americans drink over 185,000 margaritas per hour",
+      "The margarita was invented in Mexico in the 1930s-40s",
+      "Frozen margarita machines were invented in Dallas",
+      "Restaurants see 370% increase in margarita sales on this day"
+    ]
+  },
+  {
+    "title": "National Bacon Day",
+    "slug": "national-bacon-day-breakfast",
+    "date": "2025-12-30",
+    "category": "Food",
+    "description": "Everything's better with bacon on National Bacon Day! America's favorite breakfast meat gets its own celebration. From crispy strips to bacon-wrapped everything, restaurants and stores offer bacon-themed promotions and products.",
+    "tags": [
+      "bacon",
+      "breakfast",
+      "December",
+      "meat",
+      "american-food",
+      "cooking",
+      "popular"
+    ],
+    "image": "crispy-bacon-strips.jpg",
+    "relatedDays": [
+      "national-breakfast-day",
+      "international-bacon-day",
+      "bacon-lovers-day"
+    ],
+    "howToCelebrate": "Cook bacon for every meal. Try bacon-flavored products. Make bacon-wrapped appetizers. Visit restaurants with bacon specials. Share bacon creations on social media.",
+    "funFacts": [
+      "Americans consume 18 billion bacon slices annually",
+      "Bacon sales exceed $6 billion per year in the US",
+      "Bacon became mainstream breakfast food in the 1920s",
+      "There's bacon-flavored everything from ice cream to toothpaste",
+      "70% of bacon consumed in America is at breakfast"
+    ]
+  },
+  {
+    "title": "National Burrito Day",
+    "slug": "national-burrito-day-mexican-food",
+    "date": "2025-04-03",
+    "category": "Food",
+    "description": "Wrap up savings on National Burrito Day! Mexican fast-casual chains like Chipotle, Qdoba, and local taquerías offer burrito deals and promotions. Celebrate this handheld Mexican-American favorite with delicious discounts.",
+    "tags": [
+      "burritos",
+      "mexican-food",
+      "April",
+      "fast-casual",
+      "deals",
+      "chipotle",
+      "restaurants"
+    ],
+    "image": "loaded-burrito-mexican.jpg",
+    "relatedDays": [
+      "cinco-de-mayo",
+      "national-taco-day",
+      "national-guacamole-day"
+    ],
+    "howToCelebrate": "Get burrito deals from Chipotle and other chains. Try making burritos at home. Experiment with different fillings. Visit local taquerías. Share burrito photos on social media.",
+    "funFacts": [
+      "Chipotle gives away hundreds of thousands of free burritos",
+      "Americans eat over 2 billion burritos annually",
+      "The burrito originated in northern Mexico",
+      "Mission-style burritos were popularized in San Francisco",
+      "Burrito means 'little donkey' in Spanish"
+    ]
+  },
+  {
+    "title": "National Guacamole Day",
+    "slug": "national-guacamole-day-avocado",
+    "date": "2025-09-16",
+    "category": "Food",
+    "description": "Go green with National Guacamole Day! Mexican restaurants celebrate avocados' most popular form with specials and free guacamole promotions. Chipotle and other chains typically offer deals on this crowd-pleasing dip.",
+    "tags": [
+      "guacamole",
+      "avocado",
+      "September",
+      "mexican-food",
+      "dips",
+      "deals",
+      "healthy"
+    ],
+    "image": "fresh-guacamole-bowl.jpg",
+    "relatedDays": [
+      "national-avocado-day",
+      "cinco-de-mayo",
+      "national-chip-and-dip-day"
+    ],
+    "howToCelebrate": "Get free guacamole at Chipotle and other restaurants. Make homemade guacamole. Try different guacamole recipes. Host a guac-off competition. Share guacamole tips on social media.",
+    "funFacts": [
+      "Americans consume 8 billion pounds of avocados annually",
+      "Super Bowl Sunday sees the highest guacamole consumption",
+      "Guacamole dates back to the Aztecs",
+      "Chipotle uses 97,000 pounds of avocados daily",
+      "Avocados are technically a fruit, not a vegetable"
+    ]
+  },
+  {
+    "title": "National Fried Chicken Sandwich Day",
+    "slug": "national-fried-chicken-sandwich-day-fast-food",
+    "date": "2025-11-09",
+    "category": "Food",
+    "description": "Join the chicken sandwich wars on National Fried Chicken Sandwich Day! Fast food chains compete with deals on their signature chicken sandwiches. From Popeyes to Chick-fil-A, celebrate the sandwich that launched a thousand debates.",
+    "tags": [
+      "chicken-sandwich",
+      "fried-chicken",
+      "November",
+      "fast-food",
+      "deals",
+      "restaurants",
+      "trending"
+    ],
+    "image": "fried-chicken-sandwich.jpg",
+    "relatedDays": [
+      "national-fried-chicken-day",
+      "national-sandwich-day",
+      "national-fast-food-day"
+    ],
+    "howToCelebrate": "Try chicken sandwiches from different chains. Take advantage of deals and promotions. Make a homemade fried chicken sandwich. Compare and rate different sandwiches. Share your favorite on social media.",
+    "funFacts": [
+      "The Popeyes chicken sandwich caused a national craze in 2019",
+      "Chick-fil-A pioneered the chicken sandwich in 1964",
+      "The chicken sandwich market is worth billions",
+      "Social media drives chicken sandwich trends",
+      "New chains enter the chicken sandwich wars constantly"
+    ]
+  },
+  {
+    "title": "National Milkshake Day",
+    "slug": "national-milkshake-day-ice-cream",
+    "date": "2025-09-12",
+    "category": "Food",
+    "description": "Shake things up on National Milkshake Day! Ice cream shops and restaurants offer milkshake deals and specials. From classic vanilla to creative flavors, celebrate this American diner staple with thick, creamy goodness.",
+    "tags": [
+      "milkshakes",
+      "ice-cream",
+      "September",
+      "desserts",
+      "shakes",
+      "deals",
+      "diners"
+    ],
+    "image": "thick-milkshake-glass.jpg",
+    "relatedDays": [
+      "national-ice-cream-day",
+      "national-diner-day",
+      "national-chocolate-milkshake-day"
+    ],
+    "howToCelebrate": "Get milkshake deals at restaurants and ice cream shops. Make homemade milkshakes. Try creative flavor combinations. Visit classic American diners. Share milkshake photos on social media.",
+    "funFacts": [
+      "The electric blender revolutionized milkshake making in the 1920s",
+      "Americans drink hundreds of millions of milkshakes annually",
+      "Milkshakes were originally alcoholic in the late 1800s",
+      "The largest milkshake ever made was 6,000 gallons",
+      "Chocolate is the most popular milkshake flavor"
+    ]
+  },
+  {
+    "title": "National Lasagna Day",
+    "slug": "national-lasagna-day-italian-food",
+    "date": "2025-07-29",
+    "category": "Food",
+    "description": "Layer up the love on National Lasagna Day! Italian restaurants celebrate this beloved pasta dish with specials and promotions. From traditional meat sauce to creative variations, lasagna is comfort food at its finest.",
+    "tags": [
+      "lasagna",
+      "italian-food",
+      "July",
+      "pasta",
+      "comfort-food",
+      "restaurants",
+      "family-dinner"
+    ],
+    "image": "layered-lasagna-dish.jpg",
+    "relatedDays": [
+      "national-pasta-day",
+      "national-italian-food-day",
+      "national-spaghetti-day"
+    ],
+    "howToCelebrate": "Make homemade lasagna from scratch. Visit Italian restaurants for lasagna specials. Try different lasagna recipes (vegetarian, seafood). Host a lasagna dinner party. Share your lasagna on social media.",
+    "funFacts": [
+      "Lasagna is one of the oldest pasta dishes",
+      "Garfield the cat famously loves lasagna",
+      "Americans consume millions of lasagnas on this day",
+      "Frozen lasagna is a multi-million dollar market",
+      "Traditional lasagna has at least three layers"
+    ]
+  },
+  {
+    "title": "National Spinach Day",
+    "slug": "national-spinach-day-healthy",
+    "date": "2025-03-26",
+    "category": "Food",
+    "description": "Get strong like Popeye on National Spinach Day! This nutrient-packed leafy green deserves celebration. From fresh salads to sautéed sides, spinach is versatile, healthy, and delicious. Discover new ways to enjoy this superfood.",
+    "tags": [
+      "spinach",
+      "vegetables",
+      "March",
+      "healthy",
+      "nutrition",
+      "leafy-greens",
+      "superfood"
+    ],
+    "image": "fresh-spinach-leaves.jpg",
+    "relatedDays": [
+      "national-kale-day",
+      "national-salad-month",
+      "national-nutrition-month"
+    ],
+    "howToCelebrate": "Add spinach to your meals today. Try new spinach recipes like spanakopita or creamed spinach. Visit a farmers market for fresh local spinach. Learn about spinach nutrition and health benefits. Share spinach recipes on social media.",
+    "funFacts": [
+      "Spinach is 91% water",
+      "Popeye increased American spinach consumption by 33%",
+      "China produces 85% of the world's spinach",
+      "Baby spinach is just young spinach leaves",
+      "Spinach is rich in iron, vitamins, and antioxidants"
+    ]
+  },
+  {
+    "title": "National Grilled Cheese Sandwich Day",
+    "slug": "national-grilled-cheese-sandwich-day-comfort",
+    "date": "2025-04-12",
+    "category": "Food",
+    "description": "Celebrate the ultimate comfort food on National Grilled Cheese Sandwich Day! Golden, crispy bread with melted cheese inside - it's simple perfection. From classic American cheese to gourmet varieties, enjoy this beloved sandwich that brings joy to all ages.",
+    "tags": [
+      "grilled-cheese",
+      "sandwich",
+      "April",
+      "comfort-food",
+      "cheese",
+      "classic",
+      "american"
+    ],
+    "image": "grilled-cheese-sandwich.jpg",
+    "relatedDays": [
+      "national-sandwich-day",
+      "national-cheese-day",
+      "national-comfort-food-day"
+    ],
+    "howToCelebrate": "Make the perfect grilled cheese at home. Experiment with different cheese combinations. Visit restaurants serving gourmet grilled cheese. Pair with tomato soup for the classic combo. Share your grilled cheese photos and recipes.",
+    "funFacts": [
+      "Grilled cheese became popular in America in the 1920s",
+      "Americans eat an average of 2.2 billion grilled cheese sandwiches annually",
+      "The record for most expensive grilled cheese sold for $28,000",
+      "April is National Grilled Cheese Month",
+      "The best melting cheeses include American, cheddar, and Gruyère"
+    ]
+  },
+  {
+    "title": "National Strawberry Day",
+    "slug": "national-strawberry-day-berry",
+    "date": "2025-02-27",
+    "category": "Food",
+    "description": "Berry delicious! National Strawberry Day celebrates America's favorite berry. Sweet, juicy, and packed with vitamin C, strawberries are perfect fresh, in desserts, or as toppings. Celebrate this beloved fruit that signals spring and summer.",
+    "tags": [
+      "strawberry",
+      "fruit",
+      "February",
+      "berries",
+      "sweet",
+      "healthy",
+      "dessert"
+    ],
+    "image": "fresh-strawberries.jpg",
+    "relatedDays": [
+      "national-strawberry-shortcake-day",
+      "berry-month",
+      "farmers-market-week"
+    ],
+    "howToCelebrate": "Visit a strawberry farm for picking. Make strawberry desserts like shortcake or pie. Add strawberries to breakfast. Create strawberry smoothies. Share strawberry recipes and photos.",
+    "funFacts": [
+      "California produces 75% of US strawberries",
+      "Strawberries are the only fruit with seeds on the outside",
+      "Americans eat an average of 8 pounds of strawberries per year",
+      "There are over 600 varieties of strawberries",
+      "Strawberries are technically not berries - they're aggregate fruits"
+    ]
+  },
+  {
+    "title": "National Coconut Cream Pie Day",
+    "slug": "national-coconut-cream-pie-day-dessert",
+    "date": "2025-05-08",
+    "category": "Food",
+    "description": "Indulge in tropical sweetness on National Coconut Cream Pie Day! This classic American dessert features creamy coconut custard in a flaky crust, topped with whipped cream. It's a slice of paradise perfect for spring celebrations.",
+    "tags": [
+      "coconut",
+      "pie",
+      "May",
+      "dessert",
+      "tropical",
+      "cream",
+      "baking"
+    ],
+    "image": "coconut-cream-pie.jpg",
+    "relatedDays": [
+      "national-pie-day",
+      "national-dessert-day",
+      "coconut-day"
+    ],
+    "howToCelebrate": "Bake a homemade coconut cream pie. Visit bakeries for fresh coconut cream pie. Try coconut pie variations. Share pie recipes and photos. Host a pie-tasting party.",
+    "funFacts": [
+      "Coconut cream pie became popular in America in the early 1900s",
+      "It's one of the most requested diner desserts",
+      "Toasted coconut topping adds extra flavor and texture",
+      "The pie requires precise timing to prevent runny filling",
+      "Coconut pie is especially popular in the Southern United States"
+    ]
+  },
+  {
+    "title": "National Cheesesteak Day",
+    "slug": "national-cheesesteak-day-philly",
+    "date": "2025-03-24",
+    "category": "Food",
+    "description": "Get a taste of Philly on National Cheesesteak Day! This iconic Philadelphia sandwich features thinly sliced beef and melted cheese on a hoagie roll. Cheesesteak lovers nationwide celebrate this American classic with deals and new variations.",
+    "tags": [
+      "cheesesteak",
+      "sandwich",
+      "March",
+      "philadelphia",
+      "beef",
+      "cheese",
+      "american"
+    ],
+    "image": "philly-cheesesteak.jpg",
+    "relatedDays": [
+      "national-sandwich-day",
+      "national-cheese-day",
+      "philadelphia-day"
+    ],
+    "howToCelebrate": "Order from cheesesteak chains or local shops. Make homemade cheesesteaks. Debate Whiz vs. provolone. Try chicken cheesesteaks. Share cheesesteak photos and preferences.",
+    "funFacts": [
+      "The cheesesteak was invented in Philadelphia in the 1930s",
+      "Pat's and Geno's are Philadelphia's most famous cheesesteak rivals",
+      "The original didn't have cheese - it was added later",
+      "Philadelphians eat about 20 million cheesesteaks per year",
+      "The debate over Cheese Whiz vs. provolone continues"
+    ]
+  },
+  {
+    "title": "National Chocolate Chip Cookie Day",
+    "slug": "national-chocolate-chip-cookie-day-baking",
+    "date": "2025-05-15",
+    "category": "Food",
+    "description": "America's favorite cookie gets its day! National Chocolate Chip Cookie Day celebrates the accidental invention that became a baking icon. Whether soft and chewy or crispy, chocolate chip cookies bring joy to millions daily.",
+    "tags": [
+      "cookies",
+      "chocolate",
+      "May",
+      "baking",
+      "dessert",
+      "american",
+      "sweet"
+    ],
+    "image": "chocolate-chip-cookies.jpg",
+    "relatedDays": [
+      "national-cookie-day",
+      "national-chocolate-day",
+      "national-baking-day"
+    ],
+    "howToCelebrate": "Bake fresh chocolate chip cookies at home. Try new recipes like brown butter or sea salt variations. Visit bakeries for gourmet cookies. Share cookie recipes. Host a cookie exchange.",
+    "funFacts": [
+      "Chocolate chip cookies were invented by accident in 1938",
+      "Ruth Wakefield created them at the Toll House Inn",
+      "Americans eat over 7 billion chocolate chip cookies annually",
+      "The recipe is printed on Nestlé Toll House bags",
+      "National Chocolate Chip Cookie Day is also on August 4th"
+    ]
+  },
+  {
+    "title": "National Cinnamon Roll Day",
+    "slug": "national-cinnamon-roll-day-sweet",
+    "date": "2025-10-04",
+    "category": "Food",
+    "description": "Rise and shine with National Cinnamon Roll Day! These sweet, sticky, swirled pastries are breakfast perfection. From classic cinnamon sugar to cream cheese frosting, cinnamon rolls are an American bakery staple worth celebrating.",
+    "tags": [
+      "cinnamon-rolls",
+      "pastry",
+      "October",
+      "breakfast",
+      "sweet",
+      "baking",
+      "comfort"
+    ],
+    "image": "cinnamon-rolls.jpg",
+    "relatedDays": [
+      "national-cinnamon-day",
+      "national-pastry-day",
+      "national-baking-day"
+    ],
+    "howToCelebrate": "Bake homemade cinnamon rolls. Visit bakeries like Cinnabon for fresh rolls. Try cinnamon roll variations. Make overnight cinnamon rolls. Share cinnamon roll recipes and photos.",
+    "funFacts": [
+      "Cinnamon rolls originated in Sweden",
+      "Cinnabon sells over 100 million cinnamon rolls annually",
+      "The smell of cinnamon has been shown to boost memory",
+      "Cinnamon roll icing is just as important as the roll itself",
+      "October 4th celebrates this sweet pastry nationwide"
+    ]
+  },
+  {
+    "title": "National Oreo Cookie Day",
+    "slug": "national-oreo-cookie-day-march-6",
+    "date": "2025-03-06",
+    "category": "Food",
+    "description": "Twist, lick, and dunk! National Oreo Cookie Day celebrates America's favorite sandwich cookie. Since 1912, Oreos have been a beloved treat enjoyed in countless creative ways.",
+    "tags": [
+      "oreo",
+      "cookies",
+      "March",
+      "dessert",
+      "snack",
+      "american",
+      "classic"
+    ],
+    "image": "oreo-cookies.jpg",
+    "relatedDays": [
+      "national-cookie-day",
+      "milk-chocolate-day",
+      "snack-food-day"
+    ],
+    "howToCelebrate": "Enjoy Oreos in creative ways. Try Oreo recipes and desserts. Share your Oreo eating method. Make Oreo truffles or milkshakes. Stock up on different Oreo flavors.",
+    "funFacts": [
+      "Over 450 billion Oreos have been sold since 1912",
+      "Oreo is the best-selling cookie in the world",
+      "The Oreo design has barely changed in over 100 years",
+      "There are over 100 Oreo flavors worldwide",
+      "Dunking Oreos in milk is scientifically the best method"
+    ]
+  },
+  {
+    "title": "National Caramel Day",
+    "slug": "national-caramel-day-april-5",
+    "date": "2025-04-05",
+    "category": "Food",
+    "description": "Sweet and sticky! National Caramel Day celebrates this delicious confection made from sugar and cream. From caramel apples to salted caramel sauce, enjoy this versatile treat.",
+    "tags": [
+      "caramel",
+      "candy",
+      "April",
+      "dessert",
+      "sweet",
+      "sauce",
+      "treat"
+    ],
+    "image": "caramel-candy.jpg",
+    "relatedDays": [
+      "candy-day",
+      "dessert-day",
+      "caramel-popcorn-day"
+    ],
+    "howToCelebrate": "Make homemade caramel. Enjoy caramel treats like caramel apples or sauce. Try salted caramel variations. Drizzle caramel on everything. Share caramel recipes.",
+    "funFacts": [
+      "Caramel is made by heating sugar to 340°F",
+      "Adding salt to caramel was popularized in the 2000s",
+      "Caramel is different from butterscotch (which uses brown sugar)",
+      "Caramel apples were invented in the 1950s",
+      "The word caramel comes from Latin for 'cane sugar'"
+    ]
+  },
+  {
+    "title": "National Chili Day",
+    "slug": "national-chili-day-february",
+    "date": "2025-02-27",
+    "category": "Food",
+    "description": "Spice things up! National Chili Day celebrates this hearty American comfort food. Whether with beans or without, chili is perfect for cold weather and tailgating.",
+    "tags": [
+      "chili",
+      "soup",
+      "February",
+      "comfort-food",
+      "spicy",
+      "american",
+      "hearty"
+    ],
+    "image": "chili-bowl-beans.jpg",
+    "relatedDays": [
+      "chili-cook-off-day",
+      "soup-month",
+      "comfort-food-day"
+    ],
+    "howToCelebrate": "Make your signature chili recipe. Host a chili cook-off. Try different chili styles (Texas, Cincinnati, etc.). Top with cheese and sour cream. Share chili recipes.",
+    "funFacts": [
+      "Texas claims to be the birthplace of chili",
+      "Cincinnati chili is served over spaghetti",
+      "The great chili debate: beans or no beans?",
+      "Chili cook-offs are popular competitions",
+      "Chili con carne means 'chili with meat' in Spanish"
+    ]
+  },
+  {
+    "title": "National Butterscotch Pudding Day",
+    "slug": "national-butterscotch-pudding-day-september",
+    "date": "2025-09-19",
+    "category": "Food",
+    "description": "Smooth and sweet! National Butterscotch Pudding Day celebrates this nostalgic dessert. The rich, buttery flavor of butterscotch makes a perfect creamy pudding.",
+    "tags": [
+      "butterscotch",
+      "pudding",
+      "September",
+      "dessert",
+      "sweet",
+      "nostalgic",
+      "comfort"
+    ],
+    "image": "butterscotch-pudding.jpg",
+    "relatedDays": [
+      "pudding-day",
+      "dessert-day",
+      "butterscotch-day"
+    ],
+    "howToCelebrate": "Make homemade butterscotch pudding. Top with whipped cream. Try butterscotch pie or parfaits. Share pudding recipes. Enjoy this nostalgic treat.",
+    "funFacts": [
+      "Butterscotch is made from brown sugar and butter",
+      "It's different from caramel (which uses white sugar)",
+      "Butterscotch flavor became popular in Victorian England",
+      "Instant butterscotch pudding was a 1950s staple",
+      "The origin of the name 'butterscotch' is debated"
+    ]
+  },
+  {
+    "title": "National Eggs Benedict Day",
+    "slug": "national-eggs-benedict-day-april-16-brunch",
+    "date": "2025-04-16",
+    "category": "Food",
+    "description": "Brunch perfection! Eggs Benedict Day celebrates this classic American breakfast dish. English muffin, poached eggs, Canadian bacon, and hollandaise sauce - pure decadence!",
+    "tags": [
+      "eggs-benedict",
+      "brunch",
+      "April",
+      "breakfast",
+      "eggs",
+      "classic",
+      "american"
+    ],
+    "image": "eggs-benedict-brunch.jpg",
+    "relatedDays": [
+      "national-brunch-month",
+      "egg-day",
+      "breakfast-day"
+    ],
+    "howToCelebrate": "Order Eggs Benedict at brunch. Make homemade hollandaise sauce. Try variations like Florentine or Royale. Perfect your poached eggs. Share brunch photos.",
+    "funFacts": [
+      "Invented in New York City in the 1890s",
+      "Hollandaise sauce is one of five French mother sauces",
+      "Eggs Florentine substitutes spinach for the meat",
+      "Requires precise poaching technique",
+      "Popular brunch menu item nationwide"
+    ]
+  },
+  {
+    "title": "National Peanut Cluster Day",
+    "slug": "national-peanut-cluster-day-march-8-candy",
+    "date": "2025-03-08",
+    "category": "Food",
+    "description": "Sweet and salty! Peanut Cluster Day celebrates this classic candy combining roasted peanuts and chocolate. The perfect combination of crunchy, sweet, and nutty.",
+    "tags": [
+      "peanut-clusters",
+      "candy",
+      "March",
+      "chocolate",
+      "peanuts",
+      "sweet",
+      "treat"
+    ],
+    "image": "peanut-clusters-candy.jpg",
+    "relatedDays": [
+      "peanut-day",
+      "chocolate-day",
+      "candy-day"
+    ],
+    "howToCelebrate": "Make homemade peanut clusters. Try different chocolate varieties. Share peanut cluster recipes. Buy from local candy shops. Enjoy this classic treat.",
+    "funFacts": [
+      "Easy to make at home with just peanuts and chocolate",
+      "Popular since the early 1900s",
+      "Dark chocolate makes a healthier version",
+      "Salted peanuts enhance the flavor",
+      "Perfect combo of protein and sweetness"
     ]
   }
 ]

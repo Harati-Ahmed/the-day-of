@@ -778,5 +778,635 @@
       "The largest Cinco de Mayo celebration is in Los Angeles",
       "Cinco de Mayo is not Mexico's Independence Day (that's September 16)"
     ]
+  },
+  {
+    "title": "National Pearl Harbor Remembrance Day",
+    "slug": "national-pearl-harbor-remembrance-day",
+    "date": "2025-12-07",
+    "category": "Holiday",
+    "description": "Remember a date that will live in infamy on National Pearl Harbor Remembrance Day. Honor the 2,403 Americans who lost their lives in the Japanese attack on December 7, 1941, and commemorate the courage of those who served. This solemn day marks America's entry into World War II.",
+    "tags": [
+      "remembrance",
+      "military",
+      "December",
+      "history",
+      "veterans",
+      "patriotic",
+      "memorial"
+    ],
+    "image": "pearl-harbor-memorial.jpg",
+    "relatedDays": [
+      "veterans-day",
+      "memorial-day",
+      "armed-forces-day"
+    ],
+    "howToCelebrate": "Visit the Pearl Harbor National Memorial if possible. Attend local remembrance ceremonies. Learn about Pearl Harbor history. Thank World War II veterans and their families. Observe a moment of silence at 7:55 AM Hawaiian time. Share historical information on social media.",
+    "funFacts": [
+      "The USS Arizona Memorial honors 1,177 sailors who died on that ship",
+      "Five battleships sunk at Pearl Harbor were later raised and returned to service",
+      "December 7th was declared a National Day of Remembrance in 1994",
+      "Over 1.8 million visitors tour Pearl Harbor annually",
+      "The attack lasted less than two hours but changed history forever"
+    ]
+  },
+  {
+    "title": "National Flag Day",
+    "slug": "national-flag-day-america",
+    "date": "2025-06-14",
+    "category": "Holiday",
+    "description": "Wave the Stars and Stripes with pride on National Flag Day! Commemorate the adoption of the American flag on June 14, 1777. Learn flag history, proper flag etiquette, and celebrate the symbol that represents American freedom and unity.",
+    "tags": [
+      "flag",
+      "patriotic",
+      "June",
+      "American-flag",
+      "history",
+      "national-symbol",
+      "pride"
+    ],
+    "image": "american-flag-waving.jpg",
+    "relatedDays": [
+      "independence-day",
+      "memorial-day",
+      "veterans-day"
+    ],
+    "howToCelebrate": "Display the American flag properly at your home or business. Learn about flag history and etiquette. Attend Flag Day ceremonies and parades. Replace worn or faded flags. Teach children about the flag's symbolism. Share patriotic messages on social media.",
+    "funFacts": [
+      "The current 50-star flag was designed by a 17-year-old high school student",
+      "The flag has been modified 27 times since 1777",
+      "Flag Day became an official observance in 1916",
+      "The flag should never touch the ground",
+      "Six American flags have been planted on the Moon"
+    ]
+  },
+  {
+    "title": "National Constitution Day",
+    "slug": "national-constitution-day-america",
+    "date": "2025-09-17",
+    "category": "Holiday",
+    "description": "Celebrate the foundation of American democracy on National Constitution Day! Commemorating the signing of the US Constitution on September 17, 1787, this day honors the document that established our government and protects our rights. Learn about constitutional principles and civic responsibility.",
+    "tags": [
+      "constitution",
+      "civics",
+      "September",
+      "history",
+      "government",
+      "democracy",
+      "education"
+    ],
+    "image": "us-constitution-document.jpg",
+    "relatedDays": [
+      "independence-day",
+      "presidents-day",
+      "citizenship-day"
+    ],
+    "howToCelebrate": "Read the Constitution and Bill of Rights. Visit historical sites like Independence Hall. Participate in citizenship ceremonies. Attend educational programs about constitutional rights. Discuss civic duties with family. Share constitutional knowledge on social media.",
+    "funFacts": [
+      "The Constitution has only 27 amendments in over 230 years",
+      "It's the oldest written national constitution still in use",
+      "The Constitution was written in just 100 working days",
+      "The original document is four pages long",
+      "All federal employees and military personnel must take an oath to uphold it"
+    ]
+  },
+  {
+    "title": "National Arbor Day",
+    "slug": "national-arbor-day-trees",
+    "date": "2025-04-25",
+    "category": "Holiday",
+    "description": "Plant the seeds of tomorrow on National Arbor Day! Founded in Nebraska in 1872, this American tradition celebrates trees and encourages tree planting. Help beautify communities, fight climate change, and honor our natural heritage by planting and caring for trees.",
+    "tags": [
+      "trees",
+      "environment",
+      "April",
+      "planting",
+      "nature",
+      "conservation",
+      "tradition"
+    ],
+    "image": "planting-tree-arbor-day.jpg",
+    "relatedDays": [
+      "earth-day",
+      "world-environment-day",
+      "national-parks-week"
+    ],
+    "howToCelebrate": "Plant a tree in your yard or community. Join local tree-planting events. Learn about native tree species. Care for existing trees through pruning and watering. Support urban forestry initiatives. Share tree-planting activities on social media.",
+    "funFacts": [
+      "Over 1 million trees were planted on the first Arbor Day in Nebraska",
+      "Different states celebrate Arbor Day on different dates based on climate",
+      "Trees can increase property values by up to 15%",
+      "A single tree can absorb 48 pounds of CO2 per year",
+      "The US has more trees today than it did 100 years ago"
+    ]
+  },
+  {
+    "title": "National Native American Heritage Day",
+    "slug": "national-native-american-heritage-day",
+    "date": "2025-11-28",
+    "category": "Holiday",
+    "description": "Honor the rich history and contributions of Native Americans on National Native American Heritage Day. The day after Thanksgiving, this observance celebrates Indigenous cultures, traditions, and the important role Native Americans have played in shaping America.",
+    "tags": [
+      "Native-American",
+      "heritage",
+      "November",
+      "culture",
+      "history",
+      "indigenous",
+      "respect"
+    ],
+    "image": "native-american-heritage.jpg",
+    "relatedDays": [
+      "indigenous-peoples-day",
+      "native-american-heritage-month",
+      "thanksgiving-day"
+    ],
+    "howToCelebrate": "Learn about Native American history and cultures. Support Native American businesses and artists. Visit Native American museums and cultural centers. Read books by Native American authors. Attend cultural events and powwows. Share educational content on social media.",
+    "funFacts": [
+      "There are 574 federally recognized Native American tribes in the US",
+      "Native Americans have lived in North America for over 15,000 years",
+      "Many US place names come from Native American languages",
+      "Native Americans serve in the US military at higher rates than other groups",
+      "November is Native American Heritage Month"
+    ]
+  },
+  {
+    "title": "National Gold Star Mother's Day",
+    "slug": "national-gold-star-mothers-day",
+    "date": "2025-09-28",
+    "category": "Holiday",
+    "description": "Honor the mothers who have lost children serving in the US military on National Gold Star Mother's Day. This solemn observance recognizes their sacrifice and provides support to families who have given so much for our country.",
+    "tags": [
+      "military",
+      "memorial",
+      "September",
+      "mothers",
+      "sacrifice",
+      "honor",
+      "families"
+    ],
+    "image": "gold-star-family-memorial.jpg",
+    "relatedDays": [
+      "memorial-day",
+      "veterans-day",
+      "armed-forces-day"
+    ],
+    "howToCelebrate": "Thank Gold Star families in your community. Support Gold Star family organizations. Display a service flag or gold star banner. Attend memorial services. Donate to military family support charities. Share messages of gratitude on social media.",
+    "funFacts": [
+      "Gold Star Mother's Day was established in 1936",
+      "The gold star tradition dates back to World War I",
+      "Gold Star families receive special recognition and support",
+      "The American Gold Star Mothers organization was founded in 1928",
+      "Gold Star Mother's Day is observed the last Sunday of September"
+    ]
+  },
+  {
+    "title": "National Freedom Day",
+    "slug": "national-freedom-day-america",
+    "date": "2025-02-01",
+    "category": "Holiday",
+    "description": "Celebrate liberty and the signing of the 13th Amendment on National Freedom Day! Observed on February 1st, this day commemorates the abolition of slavery and promotes freedom and equality for all Americans. Reflect on civil rights progress and ongoing work for justice.",
+    "tags": [
+      "freedom",
+      "civil-rights",
+      "February",
+      "history",
+      "equality",
+      "justice",
+      "commemoration"
+    ],
+    "image": "freedom-bell-liberty.jpg",
+    "relatedDays": [
+      "martin-luther-king-jr-day",
+      "juneteenth",
+      "emancipation-day"
+    ],
+    "howToCelebrate": "Learn about the 13th Amendment and its significance. Visit civil rights museums and historical sites. Participate in community discussions about freedom and equality. Support civil rights organizations. Educate others about this important day. Share messages of freedom on social media.",
+    "funFacts": [
+      "National Freedom Day was established by President Truman in 1948",
+      "The 13th Amendment was signed by President Lincoln on February 1, 1865",
+      "Major Richard Robert Wright Sr., a former slave, championed this observance",
+      "The Liberty Bell is rung on National Freedom Day",
+      "This day celebrates freedom for all Americans, regardless of race"
+    ]
+  },
+  {
+    "title": "National Day of Prayer",
+    "slug": "national-day-of-prayer-america",
+    "date": "2025-05-01",
+    "category": "Holiday",
+    "description": "Join millions of Americans in prayer and reflection on the National Day of Prayer. Observed on the first Thursday in May, this day invites people of all faiths to pray for the nation, its leaders, and fellow citizens. Celebrate America's spiritual heritage and religious freedom.",
+    "tags": [
+      "prayer",
+      "faith",
+      "May",
+      "spiritual",
+      "reflection",
+      "community",
+      "tradition"
+    ],
+    "image": "prayer-hands-reflection.jpg",
+    "relatedDays": [
+      "national-religious-freedom-day",
+      "thanksgiving-day",
+      "national-unity-day"
+    ],
+    "howToCelebrate": "Attend local prayer gatherings or services. Pray for national leaders and unity. Participate in interfaith prayer events. Reflect on blessings and challenges. Volunteer in your community. Share messages of hope and prayer on social media.",
+    "funFacts": [
+      "The National Day of Prayer was established by Congress in 1952",
+      "President Reagan designated the first Thursday in May in 1988",
+      "Every US president since 1952 has issued a Day of Prayer proclamation",
+      "Thousands of prayer gatherings occur across America",
+      "The day promotes unity while respecting diverse faith traditions"
+    ]
+  },
+  {
+    "title": "National Public Lands Day",
+    "slug": "national-public-lands-day-conservation",
+    "date": "2025-09-27",
+    "category": "Holiday",
+    "description": "Celebrate America's natural treasures on National Public Lands Day! This day encourages volunteering to help maintain and improve public lands including national parks, forests, and wildlife refuges. Connect with nature and preserve these spaces for future generations.",
+    "tags": [
+      "public-lands",
+      "conservation",
+      "September",
+      "nature",
+      "volunteering",
+      "parks",
+      "environment"
+    ],
+    "image": "national-park-landscape.jpg",
+    "relatedDays": [
+      "national-parks-week",
+      "earth-day",
+      "arbor-day"
+    ],
+    "howToCelebrate": "Volunteer at local parks or public lands. Participate in cleanup or restoration projects. Visit a national park (many offer free admission). Learn about public land conservation. Support park foundations. Share your public lands experiences on social media.",
+    "funFacts": [
+      "The US has over 640 million acres of public lands",
+      "Public lands contribute over $600 billion to the economy annually",
+      "National Public Lands Day is the largest single-day volunteer effort",
+      "Many federal sites offer free admission on this day",
+      "Over 170,000 volunteers participate annually"
+    ]
+  },
+  {
+    "title": "National Vietnam War Veterans Day",
+    "slug": "national-vietnam-war-veterans-day",
+    "date": "2025-03-29",
+    "category": "Holiday",
+    "description": "Honor the courage and sacrifice of Vietnam War veterans on National Vietnam War Veterans Day. Observed on March 29th, this day recognizes the nearly 3 million Americans who served in Vietnam and thanks them for their service to our nation.",
+    "tags": [
+      "veterans",
+      "military",
+      "March",
+      "Vietnam",
+      "honor",
+      "service",
+      "remembrance"
+    ],
+    "image": "vietnam-veterans-memorial.jpg",
+    "relatedDays": [
+      "veterans-day",
+      "memorial-day",
+      "armed-forces-day"
+    ],
+    "howToCelebrate": "Thank Vietnam War veterans for their service. Visit the Vietnam Veterans Memorial. Attend local recognition ceremonies. Learn about the Vietnam War and its impact. Support veterans' organizations. Display the American flag. Share gratitude on social media.",
+    "funFacts": [
+      "March 29th marks the date US combat troops withdrew from Vietnam in 1973",
+      "Over 58,000 Americans died in the Vietnam War",
+      "The Vietnam Veterans Memorial has over 58,000 names inscribed",
+      "National Vietnam War Veterans Day was established in 2017",
+      "Many Vietnam veterans never received proper recognition until recent decades"
+    ]
+  },
+  {
+    "title": "Presidents' Day",
+    "slug": "presidents-day-washington-lincoln",
+    "date": "2025-02-17",
+    "category": "Holiday",
+    "description": "Honor America's leaders on Presidents' Day! This federal holiday celebrates George Washington, Abraham Lincoln, and all US presidents. It's a day to reflect on presidential leadership and American history.",
+    "tags": [
+      "presidents-day",
+      "washington",
+      "February",
+      "lincoln",
+      "federal-holiday",
+      "american-history",
+      "patriotic"
+    ],
+    "image": "presidents-day-america.jpg",
+    "relatedDays": [
+      "independence-day",
+      "constitution-day",
+      "flag-day"
+    ],
+    "howToCelebrate": "Visit presidential museums or historic sites. Learn about presidential history. Watch documentaries about presidents. Discuss presidential leadership. Take advantage of Presidents' Day sales.",
+    "funFacts": [
+      "Originally celebrated only Washington's birthday",
+      "It's officially 'Washington's Birthday' but commonly called Presidents' Day",
+      "It's always the third Monday in February",
+      "Major retail sales event",
+      "Some states celebrate it differently"
+    ]
+  },
+  {
+    "title": "Pearl Harbor Remembrance Day",
+    "slug": "pearl-harbor-remembrance-day-ww2",
+    "date": "2025-12-07",
+    "category": "Holiday",
+    "description": "Remember December 7, 1941 - a date which will live in infamy. Pearl Harbor Remembrance Day honors those who died in the surprise attack that brought America into World War II. Pay tribute to the heroes and victims.",
+    "tags": [
+      "pearl-harbor",
+      "remembrance",
+      "December",
+      "ww2",
+      "military",
+      "history",
+      "heroes"
+    ],
+    "image": "pearl-harbor-memorial.jpg",
+    "relatedDays": [
+      "veterans-day",
+      "memorial-day",
+      "d-day"
+    ],
+    "howToCelebrate": "Observe a moment of silence. Visit the Pearl Harbor Memorial (or online). Learn about the attack and its impact. Honor survivors and victims. Watch historical documentaries. Fly flags at half-staff.",
+    "funFacts": [
+      "2,403 Americans died in the attack",
+      "The attack lasted less than two hours",
+      "Eight battleships were damaged or destroyed",
+      "The USS Arizona Memorial marks where the ship sank",
+      "President Roosevelt's speech called it 'a date which will live in infamy'"
+    ]
+  },
+  {
+    "title": "Kwanzaa",
+    "slug": "kwanzaa-african-american-celebration",
+    "date": "2025-12-26",
+    "category": "Holiday",
+    "description": "Celebrate African heritage with Kwanzaa! This week-long celebration (Dec 26-Jan 1) honors African-American culture, family, and community. Based on African harvest festivals, Kwanzaa features seven principles (Nguzo Saba) promoting unity and self-determination.",
+    "tags": [
+      "kwanzaa",
+      "african-american",
+      "December",
+      "culture",
+      "heritage",
+      "celebration",
+      "tradition"
+    ],
+    "image": "kwanzaa-celebration.jpg",
+    "relatedDays": [
+      "black-history-month",
+      "juneteenth",
+      "african-heritage-day"
+    ],
+    "howToCelebrate": "Light the kinara (candle holder) for seven nights. Learn about the seven principles. Share African and African-American heritage. Exchange gifts (zawadi). Feast together (karamu). Reflect on culture and community.",
+    "funFacts": [
+      "Created in 1966 by Dr. Maulana Karenga",
+      "Name means 'first fruits' in Swahili",
+      "Celebrated by millions of African Americans",
+      "Uses seven symbols including corn, crops, and a unity cup",
+      "Colors are black, red, and green representing heritage"
+    ]
+  },
+  {
+    "title": "Passover",
+    "slug": "passover-jewish-holiday",
+    "date": "2025-04-13",
+    "category": "Holiday",
+    "description": "Observe Passover, the Jewish celebration of freedom! This eight-day festival commemorates the Exodus from Egypt. Families gather for Seder meals, retelling the liberation story and sharing symbolic foods that represent the journey to freedom.",
+    "tags": [
+      "passover",
+      "jewish",
+      "April",
+      "freedom",
+      "tradition",
+      "seder",
+      "religious"
+    ],
+    "image": "passover-seder-table.jpg",
+    "relatedDays": [
+      "hanukkah",
+      "rosh-hashanah",
+      "yom-kippur"
+    ],
+    "howToCelebrate": "Attend or host a Seder. Learn the Passover story. Eat matzah and symbolic foods. Clean your home of leavened products. Discuss themes of freedom and liberation. Support Jewish community events.",
+    "funFacts": [
+      "Passover lasts 7-8 days depending on tradition",
+      "The Seder includes four cups of wine and symbolic foods",
+      "Matzah represents bread that didn't have time to rise during the Exodus",
+      "Children search for the hidden afikomen",
+      "One of the most widely observed Jewish holidays"
+    ]
+  },
+  {
+    "title": "Ramadan",
+    "slug": "ramadan-islamic-holy-month",
+    "date": "2025-03-01",
+    "category": "Holiday",
+    "description": "Observe the holy month of Ramadan! Muslims worldwide fast from dawn to sunset, focusing on prayer, reflection, and community. Ramadan celebrates the first revelation of the Quran and emphasizes compassion, charity, and spiritual growth.",
+    "tags": [
+      "ramadan",
+      "islamic",
+      "March",
+      "fasting",
+      "prayer",
+      "holy-month",
+      "religious"
+    ],
+    "image": "ramadan-iftar-breaking-fast.jpg",
+    "relatedDays": [
+      "eid-al-fitr",
+      "eid-al-adha",
+      "islamic-new-year"
+    ],
+    "howToCelebrate": "If Muslim, observe fasting and increased prayer. Break fast (iftar) with family. Give to charity (zakat). Read the Quran. Support Muslim communities. Learn about Islamic traditions respectfully. Wish Muslims 'Ramadan Mubarak'.",
+    "funFacts": [
+      "Ramadan is the ninth month of the Islamic calendar",
+      "Muslims fast from dawn to sunset for 29-30 days",
+      "It's one of the Five Pillars of Islam",
+      "Laylat al-Qadr (Night of Power) is the holiest night",
+      "Ends with Eid al-Fitr, a joyous celebration"
+    ]
+  },
+  {
+    "title": "Diwali",
+    "slug": "diwali-festival-of-lights",
+    "date": "2025-10-20",
+    "category": "Holiday",
+    "description": "Celebrate the Festival of Lights! Diwali is one of India's biggest holidays, celebrated by Hindus, Sikhs, and Jains worldwide. Light oil lamps (diyas), enjoy sweets, exchange gifts, and celebrate the victory of light over darkness, good over evil.",
+    "tags": [
+      "diwali",
+      "indian",
+      "October",
+      "festival",
+      "lights",
+      "hindu",
+      "celebration"
+    ],
+    "image": "diwali-lights-celebration.jpg",
+    "relatedDays": [
+      "holi",
+      "lunar-new-year",
+      "lantern-festival"
+    ],
+    "howToCelebrate": "Light diyas or candles. Enjoy Indian sweets and food. Watch fireworks. Wear new clothes. Exchange gifts. Clean and decorate your home. Learn about Diwali traditions. Visit Hindu temples or cultural events.",
+    "funFacts": [
+      "Diwali means 'row of lights' in Sanskrit",
+      "Celebrated over five days",
+      "Commemorates Lord Rama's return in Hindu tradition",
+      "Indians clean homes thoroughly before Diwali",
+      "It's a national holiday in India, Nepal, and other countries"
+    ]
+  },
+  {
+    "title": "Rosh Hashanah",
+    "slug": "rosh-hashanah-jewish-new-year",
+    "date": "2025-09-23",
+    "category": "Holiday",
+    "description": "L'Shanah Tovah! Rosh Hashanah is the Jewish New Year, beginning the High Holy Days. It's a time of reflection, prayer, and eating symbolic foods like apples and honey for a sweet new year.",
+    "tags": [
+      "rosh-hashanah",
+      "jewish",
+      "September",
+      "new-year",
+      "religious",
+      "holy-days",
+      "tradition"
+    ],
+    "image": "rosh-hashanah-shofar.jpg",
+    "relatedDays": [
+      "yom-kippur",
+      "passover",
+      "hanukkah"
+    ],
+    "howToCelebrate": "Attend synagogue services. Hear the shofar (ram's horn). Eat apples dipped in honey. Reflect on the past year. Set intentions for the new year. Wish others 'L'Shanah Tovah' (Happy New Year).",
+    "funFacts": [
+      "Rosh Hashanah means 'head of the year' in Hebrew",
+      "It's celebrated for two days",
+      "The shofar is blown 100 times during services",
+      "Round challah symbolizes the cycle of the year",
+      "It begins the Ten Days of Repentance leading to Yom Kippur"
+    ]
+  },
+  {
+    "title": "Yom Kippur",
+    "slug": "yom-kippur-day-of-atonement",
+    "date": "2025-10-02",
+    "category": "Holiday",
+    "description": "The Day of Atonement. Yom Kippur is the holiest day in Judaism, a day of fasting, prayer, and repentance. Jews seek forgiveness and spiritual renewal.",
+    "tags": [
+      "yom-kippur",
+      "jewish",
+      "October",
+      "fasting",
+      "atonement",
+      "holy-day",
+      "religious"
+    ],
+    "image": "yom-kippur-prayer.jpg",
+    "relatedDays": [
+      "rosh-hashanah",
+      "high-holy-days",
+      "jewish-holidays"
+    ],
+    "howToCelebrate": "Observe a 25-hour fast. Attend Kol Nidre and Yom Kippur services. Seek forgiveness from others. Engage in self-reflection. Wear white as a symbol of purity. Break fast with loved ones.",
+    "funFacts": [
+      "Yom Kippur means 'Day of Atonement'",
+      "It's the holiest day of the Jewish year",
+      "Observant Jews fast for 25 hours",
+      "The holiday concludes with a final shofar blast",
+      "Many non-religious Jews observe Yom Kippur"
+    ]
+  },
+  {
+    "title": "Dia de los Muertos",
+    "slug": "dia-de-los-muertos-day-of-the-dead",
+    "date": "2025-11-01",
+    "category": "Holiday",
+    "description": "Celebrate life and death! Dia de los Muertos (Day of the Dead) is a Mexican tradition honoring deceased loved ones. Create altars, share favorite foods, and celebrate the memories of those who've passed.",
+    "tags": [
+      "dia-de-los-muertos",
+      "mexican",
+      "November",
+      "tradition",
+      "ancestors",
+      "celebration",
+      "culture"
+    ],
+    "image": "dia-de-los-muertos-altar.jpg",
+    "relatedDays": [
+      "halloween",
+      "all-saints-day",
+      "memorial-day"
+    ],
+    "howToCelebrate": "Create an ofrenda (altar) with photos and favorite foods of deceased loved ones. Make sugar skulls. Decorate with marigolds. Visit cemeteries. Celebrate with music and stories. Learn about Mexican culture.",
+    "funFacts": [
+      "It's a joyful celebration, not a sad occasion",
+      "Marigolds guide spirits home",
+      "Sugar skulls represent departed souls",
+      "Celebrated November 1-2 (All Saints and All Souls Days)",
+      "UNESCO recognizes it as cultural heritage"
+    ]
+  },
+  {
+    "title": "Lunar New Year",
+    "slug": "lunar-new-year-spring-festival",
+    "date": "2025-01-29",
+    "category": "Holiday",
+    "description": "Welcome the Year of the Snake! Lunar New Year is the most important celebration in Chinese culture, also celebrated across Asia. Enjoy family reunions, special foods, red envelopes, and festivities!",
+    "tags": [
+      "lunar-new-year",
+      "chinese",
+      "January",
+      "spring-festival",
+      "asian",
+      "celebration",
+      "tradition"
+    ],
+    "image": "lunar-new-year-celebration.jpg",
+    "relatedDays": [
+      "lantern-festival",
+      "mid-autumn-festival",
+      "dragon-boat-festival"
+    ],
+    "howToCelebrate": "Enjoy traditional foods like dumplings. Give red envelopes (hongbao). Clean your home. Watch lion and dragon dances. Attend cultural celebrations. Learn about your Chinese zodiac animal.",
+    "funFacts": [
+      "Also called Spring Festival",
+      "Based on the lunar calendar, dates change annually",
+      "Celebrated by over 2 billion people worldwide",
+      "Each year is associated with one of 12 zodiac animals",
+      "Celebrations last 15 days, ending with the Lantern Festival"
+    ]
+  },
+  {
+    "title": "Mardi Gras",
+    "slug": "mardi-gras-fat-tuesday-celebration",
+    "date": "2025-03-04",
+    "category": "Holiday",
+    "description": "Laissez les bons temps rouler! Mardi Gras (Fat Tuesday) is a day of celebration before Lent begins. From New Orleans parades to king cake, celebrate with purple, green, and gold!",
+    "tags": [
+      "mardi-gras",
+      "fat-tuesday",
+      "March",
+      "celebration",
+      "new-orleans",
+      "carnival",
+      "tradition"
+    ],
+    "image": "mardi-gras-celebration.jpg",
+    "relatedDays": [
+      "carnival",
+      "ash-wednesday",
+      "king-cake-day"
+    ],
+    "howToCelebrate": "Attend Mardi Gras parades. Eat king cake. Wear purple, green, and gold. Listen to New Orleans music. Learn Mardi Gras history. Enjoy festive celebrations.",
+    "funFacts": [
+      "Mardi Gras means 'Fat Tuesday' in French",
+      "New Orleans hosts the biggest celebration",
+      "Purple represents justice, green faith, and gold power",
+      "King cakes contain a hidden baby figurine",
+      "Mardi Gras dates change based on Easter"
+    ]
   }
 ]

@@ -120,36 +120,6 @@
     ]
   },
   {
-    "title": "National Thrift Shop Day",
-    "slug": "national-thrift-shop-day",
-    "date": "2025-08-17",
-    "category": "Shopping",
-    "description": "Hunt for treasures and shop sustainably on National Thrift Shop Day! Thrift shopping is not only budget-friendly but also environmentally conscious, giving pre-loved items a second life. From vintage clothing to unique home decor, thrift shops offer endless possibilities for finding one-of-a-kind items while supporting charitable causes.",
-    "tags": [
-      "thrift-shopping",
-      "sustainable",
-      "August",
-      "vintage",
-      "budget-friendly",
-      "charity",
-      "treasure-hunting"
-    ],
-    "image": "thrift-shop-treasure-hunting.jpg",
-    "relatedDays": [
-      "earth-day",
-      "national-recycling-day",
-      "world-environment-day"
-    ],
-    "howToCelebrate": "Explore local thrift shops, consignment stores, and vintage boutiques. Look for unique clothing, books, furniture, and household items. Donate items you no longer need to support thrift stores' charitable missions. Share your thrift finds and styling tips on social media. Learn about the environmental benefits of buying secondhand.",
-    "funFacts": [
-      "Thrift shopping keeps millions of pounds of clothing out of landfills each year",
-      "The average American throws away 81 pounds of clothing annually",
-      "Thrift stores support various charitable causes and community programs",
-      "Vintage and secondhand fashion has become increasingly popular with younger generations",
-      "Shopping secondhand can save up to 90% compared to buying new"
-    ]
-  },
-  {
     "title": "National Shopping Day",
     "slug": "national-shopping-day",
     "date": "2025-11-27",
@@ -417,6 +387,696 @@
       "Garage sales help reduce waste by giving items a second life",
       "Many people make a hobby out of garage sale treasure hunting",
       "Garage sales are a great way to meet neighbors and build community"
+    ]
+  },
+  {
+    "title": "National Shopping Reminder Day",
+    "slug": "national-shopping-reminder-day-november",
+    "date": "2025-11-25",
+    "category": "Shopping & Deals",
+    "description": "The Tuesday before Thanksgiving reminds you to prepare for Black Friday shopping! National Shopping Reminder Day helps Americans get organized for the biggest shopping season of the year. Make your lists, plan your budget, and get ready for amazing deals.",
+    "tags": [
+      "shopping",
+      "preparation",
+      "November",
+      "Black-Friday",
+      "deals",
+      "planning",
+      "holidays"
+    ],
+    "image": "shopping-list-preparation.jpg",
+    "relatedDays": [
+      "black-friday",
+      "cyber-monday",
+      "small-business-saturday"
+    ],
+    "howToCelebrate": "Make your holiday shopping list. Set a budget for holiday spending. Research deals and compare prices. Sign up for retailer emails and apps. Plan your Black Friday strategy. Download coupon apps and check for promo codes.",
+    "funFacts": [
+      "The average American spends over $1,000 on holiday shopping",
+      "Black Friday is one of the busiest shopping days of the year",
+      "Planning ahead can save shoppers 30-50% on purchases",
+      "Many retailers release Black Friday ads weeks in advance",
+      "Online shopping continues to grow year over year"
+    ]
+  },
+  {
+    "title": "National Free Shipping Day",
+    "slug": "national-free-shipping-day-december",
+    "date": "2025-12-18",
+    "category": "Shopping & Deals",
+    "description": "Shop online without shipping fees on National Free Shipping Day! Typically in mid-December, this shopping holiday offers free shipping with guaranteed delivery before Christmas. It's perfect for last-minute shoppers who want to avoid shipping costs.",
+    "tags": [
+      "free-shipping",
+      "online-shopping",
+      "December",
+      "deals",
+      "holidays",
+      "e-commerce",
+      "savings"
+    ],
+    "image": "free-shipping-delivery-box.jpg",
+    "relatedDays": [
+      "cyber-monday",
+      "amazon-prime-day",
+      "christmas-eve"
+    ],
+    "howToCelebrate": "Take advantage of free shipping offers from participating retailers. Complete your holiday shopping online. Compare deals across multiple stores. Use free shipping to try products risk-free. Share free shipping deals with friends and family on social media.",
+    "funFacts": [
+      "Free Shipping Day was created in 2008",
+      "Over 1,000 retailers participate annually",
+      "Shipping costs are a major reason for cart abandonment",
+      "Americans love free shipping more than fast shipping",
+      "This day helps support last-minute holiday shoppers"
+    ]
+  },
+  {
+    "title": "National Clearance Day",
+    "slug": "national-clearance-day-shopping",
+    "date": "2025-01-05",
+    "category": "Shopping & Deals",
+    "description": "Score incredible post-holiday deals on National Clearance Day! After the holidays, retailers slash prices on seasonal merchandise, decorations, and gifts. Smart shoppers stock up for next year and grab deep discounts on quality items.",
+    "tags": [
+      "clearance",
+      "sales",
+      "January",
+      "post-holiday",
+      "deals",
+      "savings",
+      "bargains"
+    ],
+    "image": "clearance-sale-discounts.jpg",
+    "relatedDays": [
+      "after-christmas-sales",
+      "national-bargain-hunting-day",
+      "new-year-sales"
+    ],
+    "howToCelebrate": "Shop post-holiday clearance sales at major retailers. Buy holiday decorations for next year at 50-90% off. Stock up on gift wrap and cards. Look for deeply discounted seasonal items. Share the best clearance finds on social media.",
+    "funFacts": [
+      "Retailers typically mark down holiday items 50-90% after Christmas",
+      "January clearance sales help stores make room for new inventory",
+      "Savvy shoppers buy next year's holiday items at clearance prices",
+      "Post-holiday sales can last throughout January",
+      "Winter clothing also goes on sale in early January"
+    ]
+  },
+  {
+    "title": "National Coupon Month",
+    "slug": "national-coupon-month-september",
+    "date": "2025-09-01",
+    "category": "Shopping & Deals",
+    "description": "Save big all month long during National Coupon Month! September celebrates the American tradition of couponing and smart shopping. Learn to maximize savings with coupons, apps, and deals. Every penny saved adds up to big savings!",
+    "tags": [
+      "coupons",
+      "savings",
+      "September",
+      "deals",
+      "budgeting",
+      "smart-shopping",
+      "frugal"
+    ],
+    "image": "coupons-savings-clipping.jpg",
+    "relatedDays": [
+      "national-thrift-shop-day",
+      "national-bargain-hunting-day",
+      "financial-literacy-month"
+    ],
+    "howToCelebrate": "Download coupon apps and browser extensions. Clip physical and digital coupons. Learn coupon stacking strategies. Join store loyalty programs. Share coupon tips with friends. Track your savings throughout the month.",
+    "funFacts": [
+      "Over 80% of Americans use coupons",
+      "The first coupon was issued by Coca-Cola in 1887",
+      "Americans save over $3 billion annually with coupons",
+      "Digital coupons are increasingly popular",
+      "Extreme couponers can save 90% or more on groceries"
+    ]
+  },
+  {
+    "title": "National Shop Small Saturday",
+    "slug": "national-shop-small-saturday-business",
+    "date": "2025-11-29",
+    "category": "Shopping & Deals",
+    "description": "Support your local community on Small Business Saturday! The Saturday after Thanksgiving, this American Express initiative encourages shopping at local small businesses. Keep dollars in your community and discover unique products you won't find at big chains.",
+    "tags": [
+      "small-business",
+      "local",
+      "November",
+      "shopping",
+      "community",
+      "support",
+      "saturday"
+    ],
+    "image": "small-business-local-shop.jpg",
+    "relatedDays": [
+      "black-friday",
+      "cyber-monday",
+      "national-entrepreneurship-day"
+    ],
+    "howToCelebrate": "Shop at local independent businesses in your community. Explore local boutiques, bookstores, and restaurants. Buy unique gifts from local artisans. Use #ShopSmall on social media. Leave positive reviews for small businesses you visit.",
+    "funFacts": [
+      "Small Business Saturday was created by American Express in 2010",
+      "Over 100 million Americans participate annually",
+      "Small businesses employ nearly half of all US workers",
+      "For every $100 spent locally, $68 stays in the community",
+      "Small businesses are the backbone of the American economy"
+    ]
+  },
+  {
+    "title": "National Secondhand Wardrobe Day",
+    "slug": "national-secondhand-wardrobe-day-thrift",
+    "date": "2025-08-25",
+    "category": "Shopping & Deals",
+    "description": "Go thrifting and embrace sustainable fashion on National Secondhand Wardrobe Day! Celebrate the joys of secondhand shopping - finding unique pieces, saving money, and reducing environmental impact. Thrift stores offer treasures for every style and budget.",
+    "tags": [
+      "thrifting",
+      "secondhand",
+      "August",
+      "fashion",
+      "sustainable",
+      "vintage",
+      "bargains"
+    ],
+    "image": "thrift-store-vintage-clothing.jpg",
+    "relatedDays": [
+      "national-thrift-shop-day",
+      "earth-day",
+      "sustainable-fashion-day"
+    ],
+    "howToCelebrate": "Visit thrift stores and consignment shops. Donate clothes you no longer wear. Try on unique vintage pieces. Share your thrift finds and styling tips. Support local thrift stores that benefit charities.",
+    "funFacts": [
+      "The secondhand clothing market is worth over $35 billion in the US",
+      "Buying secondhand reduces textile waste and carbon emissions",
+      "Thrifting has become trendy among all age groups",
+      "Many designer pieces can be found at thrift stores",
+      "Thrift shopping saves the average shopper $1,000+ annually"
+    ]
+  },
+  {
+    "title": "National Bargain Hunting Week",
+    "slug": "national-bargain-hunting-week-deals",
+    "date": "2025-08-03",
+    "category": "Shopping & Deals",
+    "description": "Hunt for the best deals during National Bargain Hunting Week! This week celebrates smart shoppers who know how to find quality products at great prices. Whether it's thrift stores, clearance racks, or online deals, bargain hunting is an American tradition.",
+    "tags": [
+      "bargains",
+      "deals",
+      "August",
+      "shopping",
+      "savings",
+      "smart-shopping",
+      "frugal"
+    ],
+    "image": "bargain-hunting-sales-rack.jpg",
+    "relatedDays": [
+      "national-thrift-shop-day",
+      "national-coupon-month",
+      "clearance-sales"
+    ],
+    "howToCelebrate": "Challenge yourself to find the best deals all week. Visit outlet malls and discount stores. Use price comparison apps. Shop clearance sections first. Join deal-sharing communities. Track and share your savings.",
+    "funFacts": [
+      "Bargain hunting releases dopamine, making it enjoyable",
+      "Smart shoppers can save 50-70% on regular purchases",
+      "Many Americans consider bargain hunting a hobby",
+      "End-of-season sales offer the deepest discounts",
+      "Bargain hunting skills can save thousands annually"
+    ]
+  },
+  {
+    "title": "National Retail Gift Card Day",
+    "slug": "national-retail-gift-card-day-cards",
+    "date": "2025-12-18",
+    "category": "Shopping & Deals",
+    "description": "Give the gift of choice on National Retail Gift Card Day! Gift cards have become America's most requested gift, offering flexibility and convenience. Perfect for last-minute shopping or when you're unsure what to buy.",
+    "tags": [
+      "gift-cards",
+      "gifts",
+      "December",
+      "shopping",
+      "holidays",
+      "convenience",
+      "retail"
+    ],
+    "image": "gift-cards-collection-retail.jpg",
+    "relatedDays": [
+      "christmas-eve",
+      "national-regifting-day",
+      "shopping-reminder-day"
+    ],
+    "howToCelebrate": "Purchase gift cards for holiday gifts. Take advantage of gift card bonus promotions. Organize and use gift cards you've received. Buy discounted gift cards from resale sites. Give gift cards to charities. Share gift card deals on social media.",
+    "funFacts": [
+      "Americans spend over $160 billion on gift cards annually",
+      "Gift cards are the most requested gift for over 10 years",
+      "About $3 billion in gift cards go unused each year",
+      "E-gift cards are increasingly popular",
+      "Many retailers offer bonus gift cards during the holidays"
+    ]
+  },
+  {
+    "title": "National Returns Day",
+    "slug": "national-returns-day-shopping",
+    "date": "2025-12-26",
+    "category": "Shopping & Deals",
+    "description": "The day after Christmas is unofficially National Returns Day! Return or exchange unwanted gifts, shop after-Christmas sales, and redeem gift cards. Retailers see massive returns and exchanges making this one of the busiest shopping days.",
+    "tags": [
+      "returns",
+      "exchanges",
+      "December",
+      "shopping",
+      "post-Christmas",
+      "customer-service",
+      "retail"
+    ],
+    "image": "returns-exchanges-shopping.jpg",
+    "relatedDays": [
+      "christmas-day",
+      "boxing-day",
+      "clearance-sales"
+    ],
+    "howToCelebrate": "Return or exchange unwanted gifts (keep receipts!). Shop after-Christmas clearance sales. Use gift cards received for Christmas. Be patient and kind to retail workers. Take advantage of price adjustments on recent purchases.",
+    "funFacts": [
+      "December 26th is one of the busiest return days of the year",
+      "Online returns have made the process much easier",
+      "Most retailers extend return periods during the holidays",
+      "Return rates are higher for online purchases",
+      "Many shoppers use this day to exchange sizes or colors"
+    ]
+  },
+  {
+    "title": "Singles' Day",
+    "slug": "singles-day-shopping-global",
+    "date": "2025-11-11",
+    "category": "Shopping & Deals",
+    "description": "Shop the world's biggest online shopping day on Singles' Day! Originally from China, this global phenomenon has become the largest 24-hour shopping event worldwide, surpassing Black Friday and Cyber Monday combined. Retailers worldwide offer massive discounts on November 11th.",
+    "tags": [
+      "singles-day",
+      "shopping",
+      "November",
+      "global",
+      "online-shopping",
+      "mega-deals",
+      "e-commerce"
+    ],
+    "image": "singles-day-shopping-event.jpg",
+    "relatedDays": [
+      "black-friday",
+      "cyber-monday",
+      "amazon-prime-day"
+    ],
+    "howToCelebrate": "Shop online for incredible Singles' Day deals. Compare prices across global retailers. Take advantage of flash sales throughout the day. Buy products from international sellers. Share the best deals on social media.",
+    "funFacts": [
+      "Singles' Day generates over $100 billion in sales globally",
+      "It's the largest shopping day in the world by sales volume",
+      "Started in China as an anti-Valentine's Day for singles",
+      "Major US retailers now participate in Singles' Day",
+      "Sales typically start at midnight and last 24 hours"
+    ]
+  },
+  {
+    "title": "Green Monday",
+    "slug": "green-monday-shopping-holiday",
+    "date": "2025-12-08",
+    "category": "Shopping & Deals",
+    "description": "Catch incredible online deals on Green Monday! The second Monday in December is one of the biggest online shopping days of the year. Retailers offer major discounts as shoppers race to complete holiday shopping with guaranteed delivery before Christmas.",
+    "tags": [
+      "green-monday",
+      "shopping",
+      "December",
+      "online-deals",
+      "holiday-shopping",
+      "e-commerce",
+      "discounts"
+    ],
+    "image": "green-monday-online-deals.jpg",
+    "relatedDays": [
+      "cyber-monday",
+      "free-shipping-day",
+      "super-saturday"
+    ],
+    "howToCelebrate": "Shop online for holiday gifts with major discounts. Complete your holiday shopping list. Take advantage of free shipping offers. Compare deals across retailers. Share savings and deals on social media.",
+    "funFacts": [
+      "Green Monday was coined by eBay in 2007",
+      "It's one of the top 10 busiest online shopping days",
+      "Falls 10 days before Christmas for shipping deadlines",
+      "Green refers to the color of money, not environmental concerns",
+      "Generates billions in e-commerce sales annually"
+    ]
+  },
+  {
+    "title": "Super Saturday",
+    "slug": "super-saturday-shopping-christmas",
+    "date": "2025-12-20",
+    "category": "Shopping & Deals",
+    "description": "Panic shop on Super Saturday! The last Saturday before Christmas is one of the busiest shopping days of the year. Last-minute shoppers flood stores and websites for final holiday purchases, and retailers offer desperate-to-sell discounts.",
+    "tags": [
+      "super-saturday",
+      "shopping",
+      "December",
+      "last-minute",
+      "Christmas",
+      "holiday-shopping",
+      "deals"
+    ],
+    "image": "super-saturday-holiday-rush.jpg",
+    "relatedDays": [
+      "christmas-eve",
+      "green-monday",
+      "black-friday"
+    ],
+    "howToCelebrate": "Complete last-minute holiday shopping. Take advantage of deep discounts on remaining inventory. Shop both online and in stores. Buy gift cards for hard-to-shop-for people. Grab wrapping supplies on sale.",
+    "funFacts": [
+      "Super Saturday is typically the second-busiest shopping day of the year",
+      "Men do the majority of Super Saturday shopping",
+      "Stores often stay open later on Super Saturday",
+      "Gift card sales peak on this day",
+      "Online shopping on Super Saturday has grown dramatically"
+    ]
+  },
+  {
+    "title": "Travel Tuesday",
+    "slug": "travel-tuesday-deals-cyber-week",
+    "date": "2025-12-02",
+    "category": "Shopping & Deals",
+    "description": "Book your dream vacation on Travel Tuesday! The Tuesday after Cyber Monday features the year's best travel deals. Airlines, hotels, and travel companies offer deep discounts on flights, accommodations, and vacation packages for the coming year.",
+    "tags": [
+      "travel-tuesday",
+      "travel-deals",
+      "December",
+      "vacations",
+      "flights",
+      "hotels",
+      "tourism"
+    ],
+    "image": "travel-tuesday-vacation-deals.jpg",
+    "relatedDays": [
+      "cyber-monday",
+      "national-plan-for-vacation-day",
+      "national-travel-day"
+    ],
+    "howToCelebrate": "Book flights and hotels for upcoming trips. Compare travel deal websites. Sign up for airline and hotel newsletters for exclusive offers. Plan your year of travel. Share travel deals with friends and family.",
+    "funFacts": [
+      "Travel Tuesday started gaining popularity in the 2010s",
+      "Airlines release their best deals on Tuesday afternoons",
+      "Travel bookings can be 20-40% cheaper on this day",
+      "It's the best day to book summer and spring break travel",
+      "Major travel sites coordinate deals for maximum impact"
+    ]
+  },
+  {
+    "title": "Restaurant Week",
+    "slug": "restaurant-week-dining-deals",
+    "date": "2025-01-20",
+    "category": "Shopping & Deals",
+    "description": "Dine out for less during Restaurant Week! Cities across America host restaurant weeks featuring prix-fixe menus at discounted prices. Experience upscale dining at affordable prices while supporting local restaurants and discovering new favorite spots.",
+    "tags": [
+      "restaurant-week",
+      "dining",
+      "January",
+      "food-deals",
+      "prix-fixe",
+      "local-restaurants",
+      "culinary"
+    ],
+    "image": "restaurant-week-fine-dining.jpg",
+    "relatedDays": [
+      "national-eat-out-day",
+      "local-restaurant-day",
+      "small-business-saturday"
+    ],
+    "howToCelebrate": "Make reservations at participating restaurants. Try restaurants you've wanted to experience. Explore different cuisines. Share your Restaurant Week experiences. Support local dining establishments.",
+    "funFacts": [
+      "NYC Restaurant Week started in 1992",
+      "Most cities now have bi-annual restaurant weeks",
+      "Typical prix-fixe menus are $20-$50 for multiple courses",
+      "Restaurant Week helps drive traffic during slow periods",
+      "Some cities extend it to two weeks due to popularity"
+    ]
+  },
+  {
+    "title": "National Coffee Day Deals",
+    "slug": "national-coffee-day-commercial-deals",
+    "date": "2025-09-29",
+    "category": "Shopping & Deals",
+    "description": "Get free coffee and deals on National Coffee Day! Coffee chains across America offer free cups, BOGO deals, and discounts. From Starbucks to Dunkin' to local cafes, caffeine lovers enjoy perks and promotions celebrating America's favorite beverage.",
+    "tags": [
+      "coffee",
+      "free-deals",
+      "September",
+      "beverages",
+      "promotions",
+      "coffee-shops",
+      "commercial"
+    ],
+    "image": "coffee-day-free-deals.jpg",
+    "relatedDays": [
+      "national-coffee-day",
+      "free-slurpee-day",
+      "national-donut-day"
+    ],
+    "howToCelebrate": "Visit multiple coffee shops for free coffee. Download coffee apps for exclusive deals. Try new coffee drinks. Stock up on coffee beans on sale. Share coffee deals with fellow caffeine addicts.",
+    "funFacts": [
+      "Americans drink 400 million cups of coffee daily",
+      "Major chains give away millions of free coffees",
+      "Coffee is a $80+ billion industry in America",
+      "Starbucks, Dunkin', and others compete with deals",
+      "Many people plan coffee shop crawls on this day"
+    ]
+  },
+  {
+    "title": "Free Slurpee Day",
+    "slug": "free-slurpee-day-7-eleven",
+    "date": "2025-07-11",
+    "category": "Shopping & Deals",
+    "description": "Cool down with a free Slurpee on 7-Eleven Day! Every July 11th (7/11), 7-Eleven stores across America give away free small Slurpees. This popular promotion draws millions of customers and has become a beloved summer tradition.",
+    "tags": [
+      "slurpee",
+      "free-deals",
+      "July",
+      "7-eleven",
+      "summer",
+      "frozen-drinks",
+      "promotions"
+    ],
+    "image": "free-slurpee-day-711.jpg",
+    "relatedDays": [
+      "national-convenience-store-day",
+      "ice-cream-day",
+      "national-coffee-day-deals"
+    ],
+    "howToCelebrate": "Visit 7-Eleven for your free Slurpee. Try different flavor combinations. Download the 7-Eleven app for additional deals. Visit multiple locations (if allowed). Share Slurpee photos on social media.",
+    "funFacts": [
+      "7-Eleven gives away millions of free Slurpees annually",
+      "The promotion started in 2002",
+      "Lines can be extremely long at popular locations",
+      "Slurpees were introduced in 1966",
+      "7/11 is 7-Eleven's birthday - the first store opened July 11, 1927"
+    ]
+  },
+  {
+    "title": "Tax Day Deals",
+    "slug": "tax-day-deals-promotions",
+    "date": "2025-04-15",
+    "category": "Shopping & Deals",
+    "description": "Ease the pain of Tax Day with deals and freebies! While Americans file taxes, many restaurants and businesses offer promotions and discounts. From free food to retail sales, companies help soften the blow of tax deadlines with special offers.",
+    "tags": [
+      "tax-day",
+      "deals",
+      "April",
+      "promotions",
+      "free-food",
+      "discounts",
+      "commercial"
+    ],
+    "image": "tax-day-deals-promotions.jpg",
+    "relatedDays": [
+      "tax-freedom-day",
+      "financial-literacy-month",
+      "national-accounting-day"
+    ],
+    "howToCelebrate": "Take advantage of Tax Day restaurant deals. Use tax-themed promotions at retailers. Treat yourself after filing taxes. Share Tax Day deal lists. Support businesses offering relief from tax stress.",
+    "funFacts": [
+      "Major chains like Arby's, Burger King, and more offer deals",
+      "Some deals require proof you filed your taxes",
+      "Tax Day generates millions in promotional traffic",
+      "April 15th falls on different days when it's a weekend",
+      "Retailers use Tax Day to drive store traffic"
+    ]
+  },
+  {
+    "title": "National Pizza Day Deals",
+    "slug": "national-pizza-day-commercial-deals",
+    "date": "2025-02-09",
+    "category": "Shopping & Deals",
+    "description": "Score pizza deals on National Pizza Day! Major pizza chains across America offer discounts, BOGO deals, and special promotions. From Domino's to Pizza Hut to local pizzerias, enjoy America's favorite food at great prices.",
+    "tags": [
+      "pizza",
+      "deals",
+      "February",
+      "food-promotions",
+      "pizza-chains",
+      "commercial",
+      "discounts"
+    ],
+    "image": "pizza-day-deals-discounts.jpg",
+    "relatedDays": [
+      "national-pizza-day",
+      "national-fast-food-day",
+      "super-bowl-sunday"
+    ],
+    "howToCelebrate": "Order pizza from chains offering deals. Try new pizza toppings or styles. Use pizza app promotions. Host a pizza party. Share pizza deal codes on social media.",
+    "funFacts": [
+      "Americans eat 3 billion pizzas annually",
+      "Pizza is a $145 billion industry globally",
+      "Major chains compete aggressively with Pizza Day deals",
+      "Pizza delivery apps offer exclusive promotions",
+      "Over 70,000 pizzerias operate in the US"
+    ]
+  },
+  {
+    "title": "National Cheesecake Day Deals",
+    "slug": "national-cheesecake-day-restaurant-deals",
+    "date": "2025-07-30",
+    "category": "Shopping & Deals",
+    "description": "Get sweet deals on National Cheesecake Day! Restaurants like The Cheesecake Factory offer freebies and discounts. From New York style to fruity varieties, enjoy cheesecake deals at bakeries and restaurants nationwide.",
+    "tags": [
+      "cheesecake",
+      "deals",
+      "July",
+      "restaurants",
+      "dessert",
+      "promotions",
+      "free"
+    ],
+    "image": "cheesecake-deals-dessert.jpg",
+    "relatedDays": [
+      "national-dessert-day",
+      "pie-day-deals",
+      "ice-cream-deals"
+    ],
+    "howToCelebrate": "Check restaurant apps for cheesecake deals. Visit The Cheesecake Factory for promotions. Try local bakery cheesecakes. Make homemade cheesecake. Share cheesecake deal alerts.",
+    "funFacts": [
+      "The Cheesecake Factory typically offers BOGO or $0.50 slices",
+      "Americans eat millions of cheesecake slices on this day",
+      "Cheesecake dates back to ancient Greece",
+      "New York cheesecake is the most popular style",
+      "Restaurant promotions drive huge traffic on Cheesecake Day"
+    ]
+  },
+  {
+    "title": "National Doughnut Day Deals",
+    "slug": "national-doughnut-day-free-donuts-deals",
+    "date": "2025-06-06",
+    "category": "Shopping & Deals",
+    "description": "Free doughnuts for everyone! The first Friday in June, chains like Krispy Kreme and Dunkin' give away free doughnuts. This sweet tradition celebrates the Salvation Army's 'doughnut lassies' who served treats to WWI soldiers.",
+    "tags": [
+      "doughnuts",
+      "free",
+      "June",
+      "deals",
+      "bakery",
+      "donuts",
+      "promotions"
+    ],
+    "image": "free-doughnuts-deals.jpg",
+    "relatedDays": [
+      "national-donut-day",
+      "free-slurpee-day",
+      "bakery-deals"
+    ],
+    "howToCelebrate": "Visit doughnut shops for free treats. Download apps for exclusive offers. Try new doughnut flavors. Share doughnut deals on social media. Visit multiple shops (if you dare!).",
+    "funFacts": [
+      "Started in 1938 by the Salvation Army",
+      "Krispy Kreme and Dunkin' give away millions of free doughnuts",
+      "Many local bakeries join in with deals",
+      "It honors Salvation Army volunteers from WWI",
+      "Americans eat over 10 billion doughnuts annually"
+    ]
+  },
+  {
+    "title": "Amazon Prime Day",
+    "slug": "amazon-prime-day-mega-sale",
+    "date": "2025-07-15",
+    "category": "Shopping & Deals",
+    "description": "Shop Amazon's biggest sale! Prime Day offers exclusive deals for Prime members - electronics, home goods, fashion, and more at deep discounts. Other retailers compete with their own sales, making it a massive shopping event.",
+    "tags": [
+      "amazon",
+      "prime-day",
+      "July",
+      "online-shopping",
+      "deals",
+      "e-commerce",
+      "discounts"
+    ],
+    "image": "amazon-prime-day-deals.jpg",
+    "relatedDays": [
+      "black-friday",
+      "cyber-monday",
+      "singles-day"
+    ],
+    "howToCelebrate": "Join Amazon Prime for exclusive deals (or use free trial). Set deal alerts for wish list items. Compare prices across retailers. Shop Lightning Deals quickly. Share best Prime Day finds.",
+    "funFacts": [
+      "Prime Day started in 2015 for Amazon's 20th anniversary",
+      "It generates billions in sales over 48 hours",
+      "Now rivals Black Friday and Cyber Monday",
+      "Other retailers launch competing sales",
+      "Best deals are on Amazon devices and electronics"
+    ]
+  },
+  {
+    "title": "National Ice Cream Day Deals",
+    "slug": "national-ice-cream-day-free-scoops",
+    "date": "2025-07-20",
+    "category": "Shopping & Deals",
+    "description": "Cool down with ice cream deals! The third Sunday in July, ice cream shops offer freebies and discounts. From Baskin-Robbins to local creameries, celebrate America's favorite frozen treat with sweet savings.",
+    "tags": [
+      "ice-cream",
+      "free",
+      "July",
+      "deals",
+      "summer",
+      "dessert",
+      "promotions"
+    ],
+    "image": "ice-cream-deals-scoops.jpg",
+    "relatedDays": [
+      "free-cone-day",
+      "national-ice-cream-month",
+      "dessert-day"
+    ],
+    "howToCelebrate": "Visit ice cream shops for deals and freebies. Try new flavors. Support local ice cream shops. Make homemade ice cream. Share ice cream deal alerts online.",
+    "funFacts": [
+      "Baskin-Robbins, Cold Stone, and others offer deals",
+      "Ronald Reagan declared National Ice Cream Day in 1984",
+      "The average American eats 23 pounds of ice cream per year",
+      "Ice cream shops see massive traffic on this day",
+      "July is National Ice Cream Month"
+    ]
+  },
+  {
+    "title": "National Thrift Store Day",
+    "slug": "national-thrift-store-day-secondhand-shopping",
+    "date": "2025-08-17",
+    "category": "Shopping & Deals",
+    "description": "Thrift and save! National Thrift Store Day celebrates secondhand shopping. Find unique treasures, save money, and support sustainability by shopping at thrift stores nationwide.",
+    "tags": [
+      "thrift-store",
+      "shopping",
+      "August",
+      "sustainable",
+      "secondhand",
+      "bargains",
+      "vintage"
+    ],
+    "image": "thrift-store-shopping.jpg",
+    "relatedDays": [
+      "national-bargain-hunting-day",
+      "secondhand-wardrobe-day",
+      "sustainable-shopping"
+    ],
+    "howToCelebrate": "Visit thrift stores and find treasures. Donate items you no longer need. Support charity thrift shops. Share thrift finds on social media. Embrace sustainable shopping.",
+    "funFacts": [
+      "Thrift shopping reduces waste and carbon footprint",
+      "The resale market is worth over $35 billion",
+      "Thrifting has become trendy among all ages",
+      "You can find designer items for pennies on the dollar",
+      "Many thrift stores support charitable causes"
     ]
   }
 ]

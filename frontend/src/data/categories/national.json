@@ -390,66 +390,6 @@
     ]
   },
   {
-    "title": "National Creativity Day",
-    "slug": "national-creativity-day-national",
-    "date": "2025-05-30",
-    "category": "National",
-    "description": "Unleash your imagination and celebrate the power of creativity on National Creativity Day! Creativity is essential for innovation, problem-solving, and personal expression. Whether you're an artist, writer, musician, or simply someone who enjoys creative pursuits, this day encourages everyone to explore their creative potential and think outside the box.",
-    "tags": [
-      "creativity",
-      "imagination",
-      "May",
-      "art",
-      "innovation",
-      "expression",
-      "inspiration"
-    ],
-    "image": "creative-art-supplies.jpg",
-    "relatedDays": [
-      "national-arts-day",
-      "national-poetry-day",
-      "national-craft-month"
-    ],
-    "howToCelebrate": "Try a new creative activity like painting, writing, or crafting. Take a creative workshop or class to learn new skills. Visit art galleries, museums, or creative spaces for inspiration. Start a creative project you've been putting off. Share your creative work and encourage others to be creative on social media.",
-    "funFacts": [
-      "Creative activities can reduce stress and improve mental health",
-      "Everyone has creative potential that can be developed with practice",
-      "Creative thinking involves both the left and right sides of the brain",
-      "Regular creative practice can improve problem-solving skills",
-      "Creativity is one of the top skills employers look for in the modern workplace"
-    ]
-  },
-  {
-    "title": "National Volunteer Day",
-    "slug": "national-volunteer-day-national",
-    "date": "2025-04-20",
-    "category": "National",
-    "description": "Make a difference in your community on National Volunteer Day! Volunteering is one of the most rewarding ways to give back, helping others while gaining valuable experience and building connections. From local food banks to environmental cleanups, discover volunteer opportunities that match your interests and skills while making a positive impact.",
-    "tags": [
-      "volunteering",
-      "community",
-      "April",
-      "service",
-      "giving-back",
-      "helping",
-      "charity"
-    ],
-    "image": "volunteers-helping-community.jpg",
-    "relatedDays": [
-      "national-random-acts-of-kindness-day",
-      "national-good-samaritan-day",
-      "national-community-service-day"
-    ],
-    "howToCelebrate": "Find local volunteer opportunities through community organizations, nonprofits, or online platforms. Organize a group volunteer activity with friends, family, or coworkers. Use your professional skills to help nonprofits with their needs. Donate time to causes you care about, whether it's animal welfare, education, or environmental protection. Share volunteer opportunities and experiences on social media.",
-    "funFacts": [
-      "Over 77 million Americans volunteer each year",
-      "Volunteering can improve physical and mental health",
-      "Volunteers contribute over $184 billion worth of services annually",
-      "Volunteering can help develop new skills and career connections",
-      "People who volunteer report higher levels of life satisfaction"
-    ]
-  },
-  {
     "title": "National Science Day",
     "slug": "national-science-day",
     "date": "2025-03-14",
@@ -507,96 +447,6 @@
       "Companies that prioritize innovation are 3.5 times more likely to outperform their peers",
       "The average person has 3-5 ideas per day that could be innovations",
       "Many successful innovations started as solutions to personal problems"
-    ]
-  },
-  {
-    "title": "National Friendship Day",
-    "slug": "national-friendship-day-national",
-    "date": "2025-08-03",
-    "category": "National",
-    "description": "Celebrate the special bonds of friendship on National Friendship Day! Friends are the family we choose, providing support, laughter, and companionship throughout life's journey. Take time to appreciate your friendships, reach out to old friends, and celebrate the meaningful connections that enrich our lives and make us better people.",
-    "tags": [
-      "friendship",
-      "relationships",
-      "August",
-      "bonds",
-      "companionship",
-      "support",
-      "connections"
-    ],
-    "image": "friends-celebrating-together.jpg",
-    "relatedDays": [
-      "international-friendship-day",
-      "national-best-friends-day",
-      "national-hug-day"
-    ],
-    "howToCelebrate": "Reach out to friends you haven't spoken to in a while. Plan a fun activity or outing with your closest friends. Write heartfelt messages or letters to friends expressing your appreciation. Share favorite memories and photos with friends on social media. Make new friends by joining clubs or community activities.",
-    "funFacts": [
-      "Strong friendships can increase lifespan by up to 50%",
-      "The average person has about 5 close friends",
-      "Friendship can reduce stress and improve mental health",
-      "Childhood friendships often last the longest",
-      "Friends who exercise together are more likely to stick to their fitness goals"
-    ]
-  },
-  {
-    "title": "National Reading Day",
-    "slug": "national-reading-day-national",
-    "date": "2025-01-23",
-    "category": "National",
-    "description": "Open a book and explore new worlds on National Reading Day! Reading is one of life's greatest pleasures, offering education, entertainment, and escape. From fiction and non-fiction to poetry and graphic novels, celebrate the power of the written word and the incredible authors who create the stories that inspire, inform, and transform us.",
-    "tags": [
-      "reading",
-      "books",
-      "January",
-      "literature",
-      "education",
-      "stories",
-      "knowledge"
-    ],
-    "image": "person-reading-book.jpg",
-    "relatedDays": [
-      "world-book-day",
-      "national-library-week",
-      "national-literacy-awareness-day"
-    ],
-    "howToCelebrate": "Read a book in a genre you don't usually explore. Visit your local library or bookstore and discover new authors. Join a book club or start one with friends. Share book recommendations on social media. Read to children in your family or community.",
-    "funFacts": [
-      "Reading can reduce stress by up to 68%",
-      "Regular readers live an average of 2 years longer than non-readers",
-      "Reading fiction can improve empathy and emotional intelligence",
-      "The average person reads 12 books per year",
-      "Reading before bed can improve sleep quality"
-    ]
-  },
-  {
-    "title": "National Fitness Day",
-    "slug": "national-fitness-day-national",
-    "date": "2025-05-07",
-    "category": "National",
-    "description": "Get moving and prioritize your health on National Fitness Day! Regular physical activity is essential for maintaining good health, preventing disease, and improving quality of life. Whether you prefer running, yoga, weightlifting, or dancing, find activities you enjoy and make fitness a fun and sustainable part of your lifestyle.",
-    "tags": [
-      "fitness",
-      "exercise",
-      "May",
-      "health",
-      "wellness",
-      "active",
-      "lifestyle"
-    ],
-    "image": "fitness-exercise-activities.jpg",
-    "relatedDays": [
-      "national-walking-day",
-      "world-health-day",
-      "national-bike-to-work-day"
-    ],
-    "howToCelebrate": "Try a new fitness activity or workout routine. Join a fitness class or sports team. Go for a hike, bike ride, or run outdoors. Set fitness goals and create a workout plan. Share fitness tips and workout videos on social media.",
-    "funFacts": [
-      "Just 150 minutes of moderate exercise per week can significantly improve health",
-      "Regular exercise can reduce the risk of chronic diseases by up to 50%",
-      "Physical activity improves mental health and cognitive function",
-      "Strength training helps maintain bone density as we age",
-      "Exercise releases endorphins that naturally boost mood"
     ]
   },
   {
@@ -690,36 +540,6 @@
     ]
   },
   {
-    "title": "National Art Day",
-    "slug": "national-art-day-national",
-    "date": "2025-10-25",
-    "category": "National",
-    "description": "Express your creativity and celebrate the power of art on National Art Day! Art enriches our lives, sparks imagination, and provides a universal language that connects people across cultures. From painting and sculpture to digital art and performance, explore different art forms and discover the artist within you.",
-    "tags": [
-      "art",
-      "creativity",
-      "October",
-      "expression",
-      "culture",
-      "imagination",
-      "beauty"
-    ],
-    "image": "artistic-creativity-expression.jpg",
-    "relatedDays": [
-      "national-creativity-day",
-      "international-art-day",
-      "national-craft-month"
-    ],
-    "howToCelebrate": "Create art in any medium - painting, drawing, sculpture, or digital art. Visit art galleries, museums, or local art shows. Take an art class or workshop. Support local artists by purchasing their work. Share your artistic creations and inspiration on social media.",
-    "funFacts": [
-      "Art therapy can help reduce stress and improve mental health",
-      "The oldest known cave paintings are over 40,000 years old",
-      "Creating art activates both sides of the brain",
-      "Art can improve problem-solving skills and creativity",
-      "The Mona Lisa is the most famous painting in the world"
-    ]
-  },
-  {
     "title": "National Education Day",
     "slug": "national-education-day",
     "date": "2025-01-24",
@@ -777,36 +597,6 @@
       "Leadership is about serving others, not being served",
       "Great leaders admit mistakes and learn from them",
       "Leadership skills are valuable in all areas of life"
-    ]
-  },
-  {
-    "title": "National Constitution Day",
-    "slug": "national-constitution-day",
-    "date": "2025-09-17",
-    "category": "National",
-    "description": "Celebrate the foundation of American democracy on National Constitution Day! This important day commemorates the signing of the US Constitution in 1787, the document that established our government and guaranteed our rights. Learn about the Constitution, the Bill of Rights, and the principles that make America a beacon of freedom and democracy.",
-    "tags": [
-      "constitution",
-      "american-democracy",
-      "September",
-      "founding-document",
-      "rights",
-      "freedom",
-      "patriotic"
-    ],
-    "image": "constitution-day-education.jpg",
-    "relatedDays": [
-      "independence-day",
-      "flag-day",
-      "presidents-day"
-    ],
-    "howToCelebrate": "Read the Constitution and Bill of Rights to understand your rights as an American. Visit historical sites related to the Constitution. Attend Constitution Day events and educational programs. Learn about the Founding Fathers and their vision for America. Share facts about the Constitution on social media.",
-    "funFacts": [
-      "The Constitution was signed on September 17, 1787, in Philadelphia",
-      "It's the oldest written constitution still in use today",
-      "The Constitution has been amended 27 times",
-      "The Bill of Rights (first 10 amendments) was added in 1791",
-      "Constitution Day became a federal observance in 2004"
     ]
   },
   {
@@ -930,66 +720,6 @@
     ]
   },
   {
-    "title": "National Freedom Day",
-    "slug": "national-freedom-day",
-    "date": "2025-02-01",
-    "category": "National",
-    "description": "Celebrate the end of slavery and the promise of freedom on National Freedom Day! This important American observance commemorates the signing of the 13th Amendment, which abolished slavery in the United States. Reflect on America's journey toward equality and the ongoing fight for civil rights and justice for all.",
-    "tags": [
-      "freedom",
-      "civil-rights",
-      "February",
-      "american-history",
-      "equality",
-      "justice",
-      "emancipation"
-    ],
-    "image": "national-freedom-day-celebration.jpg",
-    "relatedDays": [
-      "juneteenth",
-      "martin-luther-king-jr-day",
-      "black-history-month"
-    ],
-    "howToCelebrate": "Learn about the history of slavery and emancipation in America. Read about civil rights leaders and their contributions. Support organizations that promote equality and justice. Attend Freedom Day events and ceremonies. Share educational content about American history on social media.",
-    "funFacts": [
-      "National Freedom Day commemorates the signing of the 13th Amendment in 1865",
-      "The amendment was ratified on December 6, 1865",
-      "It was established as a national observance in 1948",
-      "The day honors the end of slavery and the beginning of freedom",
-      "National Freedom Day is celebrated in many communities across America"
-    ]
-  },
-  {
-    "title": "National Gold Star Mother's Day",
-    "slug": "national-gold-star-mothers-day",
-    "date": "2025-09-29",
-    "category": "National",
-    "description": "Honor the mothers who have lost children in military service on National Gold Star Mother's Day. These brave women have made the ultimate sacrifice for our country, losing their sons and daughters in defense of freedom. Show your support and gratitude for their sacrifice and the memory of their fallen heroes.",
-    "tags": [
-      "gold-star-mothers",
-      "military",
-      "September",
-      "american-patriotic",
-      "sacrifice",
-      "honor",
-      "remembrance"
-    ],
-    "image": "gold-star-mothers-day.jpg",
-    "relatedDays": [
-      "memorial-day",
-      "veterans-day",
-      "armed-forces-day"
-    ],
-    "howToCelebrate": "Attend Gold Star Mother's Day ceremonies and events. Support Gold Star families in your community. Learn about the Gold Star tradition and its significance. Share messages of support and remembrance on social media. Donate to organizations that support Gold Star families.",
-    "funFacts": [
-      "Gold Star Mother's Day was established in 1936",
-      "It's observed on the last Sunday in September",
-      "The Gold Star symbolizes a family member lost in military service",
-      "Gold Star Mothers are recognized for their sacrifice and strength",
-      "The day honors both mothers and families of fallen service members"
-    ]
-  },
-  {
     "title": "National 4th of July Weekend",
     "slug": "national-4th-of-july-weekend",
     "date": "2025-07-05",
@@ -1047,6 +777,1326 @@
       "The American Dream has inspired millions of immigrants",
       "It encompasses both material success and personal fulfillment",
       "The American Dream continues to evolve with changing times"
+    ]
+  },
+  {
+    "title": "National Space Exploration Day",
+    "slug": "national-space-exploration-day-usa",
+    "date": "2025-02-01",
+    "category": "National",
+    "description": "Reach for the stars and celebrate America's leadership in space exploration! From the Apollo moon landings to Mars rovers, American space programs have inspired generations and expanded human knowledge. Discover the achievements of NASA, learn about future missions, and dream about humanity's cosmic future.",
+    "tags": [
+      "space",
+      "exploration",
+      "February",
+      "NASA",
+      "science",
+      "astronomy",
+      "innovation"
+    ],
+    "image": "nasa-space-exploration.jpg",
+    "relatedDays": [
+      "national-astronaut-day",
+      "moon-landing-anniversary",
+      "national-stem-day"
+    ],
+    "howToCelebrate": "Visit a planetarium or space center. Watch documentaries about space missions. Learn about current NASA projects. Stargaze and identify constellations. Share space facts and images on social media.",
+    "funFacts": [
+      "The US was the first country to land humans on the Moon in 1969",
+      "NASA has launched over 200 crewed missions",
+      "American rovers have explored Mars for decades",
+      "The International Space Station has been continuously occupied since 2000",
+      "NASA's budget has contributed to countless everyday technologies"
+    ]
+  },
+  {
+    "title": "National Dentist Day",
+    "slug": "national-dentist-day-health",
+    "date": "2025-03-06",
+    "category": "National",
+    "description": "Smile bright and thank the dental professionals who keep America healthy! National Dentist Day honors the dentists, hygienists, and staff who provide essential oral healthcare. Learn about the importance of dental health and appreciate the professionals dedicated to keeping our smiles bright and healthy.",
+    "tags": [
+      "dentist",
+      "health",
+      "March",
+      "dental-care",
+      "healthcare",
+      "oral-health",
+      "prevention"
+    ],
+    "image": "dental-health-care.jpg",
+    "relatedDays": [
+      "national-childrens-dental-health-month",
+      "national-flossing-day",
+      "national-tooth-fairy-day"
+    ],
+    "howToCelebrate": "Schedule a dental checkup. Thank your dentist and dental team. Learn about proper oral hygiene techniques. Teach children about dental health. Share dental health tips on social media.",
+    "funFacts": [
+      "The first dental school in America opened in Baltimore in 1840",
+      "Americans spend over $124 billion on dental care annually",
+      "Tooth enamel is the hardest substance in the human body",
+      "The average American visits the dentist twice a year",
+      "George Washington never had wooden teeth - they were made of ivory and gold"
+    ]
+  },
+  {
+    "title": "National Agriculture Day",
+    "slug": "national-agriculture-day-farming",
+    "date": "2025-03-18",
+    "category": "National",
+    "description": "Celebrate the backbone of America on National Agriculture Day! American farmers and ranchers feed the nation and the world, working tirelessly to provide food, fiber, and fuel. Learn about modern farming, support local agriculture, and appreciate the vital role farming plays in American life.",
+    "tags": [
+      "agriculture",
+      "farming",
+      "March",
+      "food-production",
+      "rural-america",
+      "sustainability",
+      "farmers"
+    ],
+    "image": "american-farm-agriculture.jpg",
+    "relatedDays": [
+      "national-farmers-day",
+      "national-food-day",
+      "farm-to-table-month"
+    ],
+    "howToCelebrate": "Visit a local farm or farmers market. Learn about where your food comes from. Support American farmers by buying local. Teach children about agriculture. Share appreciation for farmers on social media.",
+    "funFacts": [
+      "American farms feed over 2 billion people worldwide",
+      "The US is the world's largest producer of corn and soybeans",
+      "Only 2% of Americans are farmers, down from 90% in 1790",
+      "American agriculture contributes over $1 trillion to the economy",
+      "US farms are 70% more productive than they were 50 years ago"
+    ]
+  },
+  {
+    "title": "National School Librarian Day",
+    "slug": "national-school-librarian-day-education",
+    "date": "2025-04-07",
+    "category": "National",
+    "description": "Honor the unsung heroes of education on National School Librarian Day! School librarians foster a love of reading, teach research skills, and create welcoming spaces for learning. These dedicated professionals play a crucial role in student success and literacy across America.",
+    "tags": [
+      "librarian",
+      "education",
+      "April",
+      "reading",
+      "schools",
+      "literacy",
+      "books"
+    ],
+    "image": "school-library-books.jpg",
+    "relatedDays": [
+      "national-library-week",
+      "world-book-day",
+      "national-reading-day"
+    ],
+    "howToCelebrate": "Thank your school librarian. Donate books to school libraries. Volunteer at your local school library. Promote the importance of librarians. Share favorite library memories on social media.",
+    "funFacts": [
+      "There are over 80,000 school librarians in the US",
+      "Students with access to school librarians score higher on reading tests",
+      "School libraries provide equal access to information for all students",
+      "Many librarians also teach digital literacy and research skills",
+      "School librarians help bridge the digital divide"
+    ]
+  },
+  {
+    "title": "National High Five Day",
+    "slug": "national-high-five-day-celebration",
+    "date": "2025-04-17",
+    "category": "National",
+    "description": "Raise your hand for National High Five Day! This uniquely American gesture of celebration, encouragement, and camaraderie brings people together. Whether at sporting events, in schools, or on the street, the high five represents American enthusiasm and positive energy.",
+    "tags": [
+      "high-five",
+      "celebration",
+      "April",
+      "fun",
+      "positivity",
+      "sports",
+      "encouragement"
+    ],
+    "image": "friends-high-five-celebration.jpg",
+    "relatedDays": [
+      "national-fist-bump-day",
+      "national-hugging-day",
+      "national-smile-day"
+    ],
+    "howToCelebrate": "Give high fives to everyone you meet. Organize a high five station in your community. Share high five moments on social media. Teach the history of the high five. Spread positivity with enthusiastic high fives.",
+    "funFacts": [
+      "The high five was invented in 1977 by baseball players",
+      "It originated between Dusty Baker and Glenn Burke of the LA Dodgers",
+      "High fives release endorphins and create social bonds",
+      "The gesture has become recognized worldwide",
+      "National High Five Day falls on the third Thursday of April"
+    ]
+  },
+  {
+    "title": "National Teacher Appreciation Day",
+    "slug": "national-teacher-appreciation-day-education",
+    "date": "2025-05-06",
+    "category": "National",
+    "description": "Thank the educators who shape America's future on National Teacher Appreciation Day! Teachers dedicate their lives to nurturing young minds, inspiring curiosity, and building the next generation of leaders. Show gratitude for these professionals who make a lasting impact on students and communities.",
+    "tags": [
+      "teachers",
+      "education",
+      "May",
+      "appreciation",
+      "schools",
+      "learning",
+      "gratitude"
+    ],
+    "image": "teacher-appreciation-classroom.jpg",
+    "relatedDays": [
+      "teacher-appreciation-week",
+      "national-pta-teacher-appreciation-week",
+      "world-teachers-day"
+    ],
+    "howToCelebrate": "Write a thank you note to a teacher. Give teachers gifts or cards. Share teacher appreciation posts on social media. Donate classroom supplies. Volunteer to help teachers and schools.",
+    "funFacts": [
+      "There are over 3.7 million teachers in American public schools",
+      "The average teacher impacts over 3,000 students in their career",
+      "Teachers spend an average of $500 of their own money on supplies",
+      "Teacher Appreciation Week was established in 1984",
+      "Studies show teacher quality is the most important school factor for student success"
+    ]
+  },
+  {
+    "title": "National Astronaut Day",
+    "slug": "national-astronaut-day-space",
+    "date": "2025-05-05",
+    "category": "National",
+    "description": "Honor America's space heroes on National Astronaut Day! From Alan Shepard's first American spaceflight to today's International Space Station crew, American astronauts have pushed the boundaries of human achievement. Celebrate their courage, dedication, and contributions to science and exploration.",
+    "tags": [
+      "astronauts",
+      "space",
+      "May",
+      "NASA",
+      "exploration",
+      "heroes",
+      "science"
+    ],
+    "image": "american-astronaut-space.jpg",
+    "relatedDays": [
+      "national-space-exploration-day",
+      "moon-landing-anniversary",
+      "international-day-of-human-space-flight"
+    ],
+    "howToCelebrate": "Learn about famous American astronauts. Visit a space center or museum. Watch space documentaries. Study STEM subjects. Share astronaut stories and achievements on social media.",
+    "funFacts": [
+      "Alan Shepard became the first American in space on May 5, 1961",
+      "Over 350 Americans have traveled to space",
+      "12 Americans have walked on the Moon",
+      "The first American woman in space was Sally Ride in 1983",
+      "American astronauts have spent over 16,000 days in space"
+    ]
+  },
+  {
+    "title": "National Inventors' Day",
+    "slug": "national-inventors-day-innovation",
+    "date": "2025-02-11",
+    "category": "National",
+    "description": "Celebrate American ingenuity on National Inventors' Day! Observed on Thomas Edison's birthday, this day honors the inventors whose creativity and innovation have changed the world. From the light bulb to the iPhone, American inventors lead the way.",
+    "tags": [
+      "inventors",
+      "innovation",
+      "February",
+      "technology",
+      "patents",
+      "creativity",
+      "Edison"
+    ],
+    "image": "american-inventors-innovation.jpg",
+    "relatedDays": [
+      "national-technology-day",
+      "national-stem-day",
+      "national-patent-day"
+    ],
+    "howToCelebrate": "Learn about famous American inventors. Visit science and technology museums. Work on your own inventions or ideas. Apply for a patent if you have an invention. Encourage kids to be creative and innovative. Share inventor stories on social media.",
+    "funFacts": [
+      "The US Patent Office has issued over 11 million patents",
+      "Thomas Edison held 1,093 US patents",
+      "American inventors created the telephone, airplane, and internet",
+      "The US leads the world in innovation and patents",
+      "Many everyday items were invented in America"
+    ]
+  },
+  {
+    "title": "National Book Lovers Day",
+    "slug": "national-book-lovers-day-reading",
+    "date": "2025-08-09",
+    "category": "National",
+    "description": "Get lost in a good book on National Book Lovers Day! Celebrate the joy of reading and America's rich literary tradition. From classic American literature to contemporary bestsellers, books transport us, educate us, and inspire us.",
+    "tags": [
+      "books",
+      "reading",
+      "August",
+      "literature",
+      "education",
+      "authors",
+      "libraries"
+    ],
+    "image": "book-lovers-reading.jpg",
+    "relatedDays": [
+      "world-book-day",
+      "national-library-week",
+      "national-reading-day"
+    ],
+    "howToCelebrate": "Read your favorite book or discover a new one. Visit your local library or bookstore. Join a book club or start one. Share book recommendations with friends. Donate books to schools or charities. Post about your favorite books on social media.",
+    "funFacts": [
+      "Americans buy over 2.7 billion books annually",
+      "The US publishes over 300,000 new titles each year",
+      "America has over 116,000 libraries",
+      "Many of the world's bestselling authors are American",
+      "Reading regularly improves vocabulary, focus, and empathy"
+    ]
+  },
+  {
+    "title": "National Parks Week",
+    "slug": "national-parks-week-conservation",
+    "date": "2025-04-19",
+    "category": "National",
+    "description": "Explore America's natural treasures during National Parks Week! Celebrate the 63 national parks and over 400 National Park Service sites that preserve America's most spectacular landscapes, wildlife, and history for future generations.",
+    "tags": [
+      "national-parks",
+      "conservation",
+      "April",
+      "nature",
+      "outdoors",
+      "heritage",
+      "recreation"
+    ],
+    "image": "national-parks-landscape-scenic.jpg",
+    "relatedDays": [
+      "earth-day",
+      "national-public-lands-day",
+      "arbor-day"
+    ],
+    "howToCelebrate": "Visit a national park (many offer free admission during this week). Volunteer for park clean-up or maintenance. Learn about park history and conservation. Support park foundations. Plan future park visits. Share park photos and experiences on social media.",
+    "funFacts": [
+      "America's first national park was Yellowstone, established in 1872",
+      "National parks protect over 84 million acres",
+      "Over 300 million people visit national parks annually",
+      "The National Park Service was created in 1916",
+      "Parks preserve both natural wonders and historical sites"
+    ]
+  },
+  {
+    "title": "National First Responders Day",
+    "slug": "national-first-responders-day-heroes",
+    "date": "2025-10-28",
+    "category": "National",
+    "description": "Thank the heroes who run toward danger on National First Responders Day! Honor police officers, firefighters, paramedics, and EMTs who risk their lives daily to protect and serve American communities. Their courage and dedication save countless lives.",
+    "tags": [
+      "first-responders",
+      "heroes",
+      "October",
+      "public-safety",
+      "emergency",
+      "service",
+      "gratitude"
+    ],
+    "image": "first-responders-heroes.jpg",
+    "relatedDays": [
+      "national-firefighters-day",
+      "police-officers-memorial-day",
+      "ems-week"
+    ],
+    "howToCelebrate": "Thank first responders you encounter. Donate to first responder organizations. Learn CPR and first aid. Visit local fire and police stations. Support families of fallen first responders. Share gratitude on social media.",
+    "funFacts": [
+      "Over 4.6 million Americans work as first responders",
+      "First responders risk their lives every day for strangers",
+      "Many first responders are volunteers, especially firefighters",
+      "First responders face physical and mental health challenges",
+      "Communities depend on first responders 24/7/365"
+    ]
+  },
+  {
+    "title": "National Nurses Day",
+    "slug": "national-nurses-day-healthcare",
+    "date": "2025-05-06",
+    "category": "National",
+    "description": "Honor the compassionate caregivers on National Nurses Day! Nurses are the backbone of American healthcare, providing expert care with kindness and dedication. This day begins National Nurses Week, celebrating these essential healthcare professionals.",
+    "tags": [
+      "nurses",
+      "healthcare",
+      "May",
+      "medical",
+      "caregivers",
+      "appreciation",
+      "heroes"
+    ],
+    "image": "nurses-healthcare-heroes.jpg",
+    "relatedDays": [
+      "national-nurses-week",
+      "doctors-day",
+      "national-hospital-week"
+    ],
+    "howToCelebrate": "Thank nurses you know or encounter. Give cards or small gifts to nursing staff. Support nursing scholarships. Learn about the nursing profession. Share nurse appreciation posts on social media. Donate to nursing organizations.",
+    "funFacts": [
+      "Over 4.2 million registered nurses work in the US",
+      "Nursing is one of the most trusted professions",
+      "Nurses provide direct patient care in all healthcare settings",
+      "Florence Nightingale founded modern nursing",
+      "The nursing shortage affects healthcare nationwide"
+    ]
+  },
+  {
+    "title": "National Police Week",
+    "slug": "national-police-week-law-enforcement",
+    "date": "2025-05-11",
+    "category": "National",
+    "description": "Honor fallen officers and support law enforcement during National Police Week! This week pays tribute to police officers who died in the line of duty and recognizes all officers who serve and protect American communities with courage and dedication.",
+    "tags": [
+      "police",
+      "law-enforcement",
+      "May",
+      "memorial",
+      "service",
+      "heroes",
+      "safety"
+    ],
+    "image": "police-officers-memorial.jpg",
+    "relatedDays": [
+      "peace-officers-memorial-day",
+      "national-first-responders-day",
+      "memorial-day"
+    ],
+    "howToCelebrate": "Thank police officers for their service. Attend memorial ceremonies for fallen officers. Support police families and survivors. Learn about law enforcement challenges. Display blue lights or ribbons. Share appreciation on social media.",
+    "funFacts": [
+      "Over 800,000 sworn officers serve in US law enforcement",
+      "National Police Week has been observed since 1962",
+      "May 15th is Peace Officers Memorial Day",
+      "The National Law Enforcement Memorial honors fallen officers",
+      "Police work is physically and emotionally demanding"
+    ]
+  },
+  {
+    "title": "National Disability Employment Awareness Month",
+    "slug": "national-disability-employment-awareness-month",
+    "date": "2025-10-01",
+    "category": "National",
+    "description": "Promote inclusion and opportunity during National Disability Employment Awareness Month! October celebrates the contributions of workers with disabilities and promotes inclusive employment practices. Every American deserves the opportunity to work and contribute their talents.",
+    "tags": [
+      "disability",
+      "employment",
+      "October",
+      "inclusion",
+      "accessibility",
+      "awareness",
+      "workplace"
+    ],
+    "image": "disability-employment-inclusion.jpg",
+    "relatedDays": [
+      "international-day-of-persons-with-disabilities",
+      "ada-anniversary",
+      "inclusive-employment-day"
+    ],
+    "howToCelebrate": "Promote inclusive hiring practices. Learn about disability accommodations. Support businesses that employ people with disabilities. Advocate for workplace accessibility. Share success stories of employees with disabilities. Educate others about disability employment.",
+    "funFacts": [
+      "1 in 4 American adults lives with a disability",
+      "The Americans with Disabilities Act passed in 1990",
+      "People with disabilities have high unemployment rates despite abilities",
+      "Workplace accommodations are often simple and low-cost",
+      "Inclusive workplaces benefit everyone"
+    ]
+  },
+  {
+    "title": "National STEM Day",
+    "slug": "national-stem-day-science",
+    "date": "2025-11-08",
+    "category": "National",
+    "description": "Ignite curiosity and innovation on National STEM Day! Science, Technology, Engineering, and Mathematics drive American innovation and economic growth. Encourage students to pursue STEM careers and celebrate the scientists and engineers shaping our future.",
+    "tags": [
+      "STEM",
+      "science",
+      "November",
+      "technology",
+      "education",
+      "innovation",
+      "careers"
+    ],
+    "image": "stem-science-technology.jpg",
+    "relatedDays": [
+      "national-science-day",
+      "national-engineers-week",
+      "national-inventors-day"
+    ],
+    "howToCelebrate": "Participate in STEM activities or experiments. Visit science museums or research facilities. Encourage kids to explore STEM subjects. Support STEM education programs. Learn about STEM careers. Share STEM achievements and opportunities on social media.",
+    "funFacts": [
+      "STEM jobs are projected to grow 10.5% by 2030",
+      "The US needs more STEM professionals to remain competitive",
+      "Women and minorities are underrepresented in STEM",
+      "STEM careers offer high salaries and job security",
+      "Early STEM exposure increases likelihood of STEM careers"
+    ]
+  },
+  {
+    "title": "National Doughnut Day",
+    "slug": "national-doughnut-day-free-donuts",
+    "date": "2025-06-06",
+    "category": "National",
+    "description": "Get free doughnuts on National Doughnut Day! The first Friday in June, major chains like Krispy Kreme and Dunkin' offer free donuts. Originally honoring Salvation Army volunteers, it's now a beloved commercial celebration with millions of free donuts given away.",
+    "tags": [
+      "donuts",
+      "doughnuts",
+      "June",
+      "free-food",
+      "deals",
+      "American",
+      "dessert"
+    ],
+    "image": "national-doughnut-day-free.jpg",
+    "relatedDays": [
+      "national-donut-day",
+      "national-dessert-day",
+      "free-slurpee-day"
+    ],
+    "howToCelebrate": "Get free donuts from participating chains. Try different donut flavors. Make homemade donuts. Visit local donut shops. Share donut photos on social media.",
+    "funFacts": [
+      "National Doughnut Day started in 1938",
+      "Americans eat 10 billion donuts annually",
+      "Krispy Kreme and Dunkin' give away millions of free donuts",
+      "The donut industry is worth over $7 billion in the US",
+      "Originally honored Salvation Army Lassies who served donuts in WWI"
+    ]
+  },
+  {
+    "title": "National Cinema Day",
+    "slug": "national-cinema-day-movies",
+    "date": "2025-08-31",
+    "category": "National",
+    "description": "Hit the big screen on National Cinema Day! Movie theaters across America offer discounted tickets, typically $3-4. This annual event revitalizes movie-going culture and celebrates the theatrical experience with millions of attendees.",
+    "tags": [
+      "cinema",
+      "movies",
+      "August",
+      "deals",
+      "entertainment",
+      "theaters",
+      "discounts"
+    ],
+    "image": "national-cinema-day-theater.jpg",
+    "relatedDays": [
+      "oscar-night",
+      "national-movie-night",
+      "popcorn-day"
+    ],
+    "howToCelebrate": "Watch movies at discounted prices. See multiple films. Try different genres. Visit different theater formats (IMAX, Dolby). Share movie experiences on social media.",
+    "funFacts": [
+      "Millions of tickets are sold on National Cinema Day",
+      "Tickets are typically under $4 on this day",
+      "Started to revive theater attendance post-pandemic",
+      "Theaters see record attendance on this day",
+      "Celebrates the communal movie-watching experience"
+    ]
+  },
+  {
+    "title": "National Streaming Day",
+    "slug": "national-streaming-day-entertainment",
+    "date": "2025-05-20",
+    "category": "National",
+    "description": "Binge-watch on National Streaming Day! Celebrate the streaming revolution that transformed entertainment. Netflix, Hulu, Disney+, and others have changed how Americans consume content, with streaming now surpassing cable TV.",
+    "tags": [
+      "streaming",
+      "entertainment",
+      "May",
+      "Netflix",
+      "TV",
+      "movies",
+      "technology"
+    ],
+    "image": "national-streaming-day-services.jpg",
+    "relatedDays": [
+      "national-binge-day",
+      "world-television-day",
+      "netflix-anniversary"
+    ],
+    "howToCelebrate": "Start a new series. Binge your favorite shows. Try a new streaming service. Watch movies you've been meaning to see. Share streaming recommendations.",
+    "funFacts": [
+      "Over 80% of Americans have at least one streaming subscription",
+      "Streaming has surpassed cable TV viewership",
+      "Americans spend 3+ hours daily watching streaming content",
+      "Netflix has over 230 million subscribers globally",
+      "Streaming services generate billions in revenue"
+    ]
+  },
+  {
+    "title": "National Grilling Month",
+    "slug": "national-grilling-month-summer",
+    "date": "2025-07-04",
+    "category": "National",
+    "description": "Fire up the BBQ for National Grilling Month! July is peak grilling season in America. From Independence Day to weekend cookouts, grilling is a beloved American tradition with billions spent on grills and BBQ supplies.",
+    "tags": [
+      "grilling",
+      "BBQ",
+      "July",
+      "summer",
+      "cooking",
+      "American",
+      "outdoors"
+    ],
+    "image": "national-grilling-month-bbq.jpg",
+    "relatedDays": [
+      "independence-day",
+      "national-barbecue-day",
+      "memorial-day"
+    ],
+    "howToCelebrate": "Grill your favorite foods. Try new grilling recipes and techniques. Host BBQ parties. Clean and maintain your grill. Share grilling tips and photos.",
+    "funFacts": [
+      "75% of American households own a grill",
+      "Americans grill year-round, but July is peak season",
+      "Grill and BBQ industry worth over $5 billion annually",
+      "Independence Day is the biggest grilling day",
+      "Men do 70% of the grilling in American households"
+    ]
+  },
+  {
+    "title": "National Candy Corn Day",
+    "slug": "national-candy-corn-day-halloween",
+    "date": "2025-10-30",
+    "category": "National",
+    "description": "Love it or hate it on National Candy Corn Day! This polarizing Halloween candy generates passionate debates. Despite critics, 35 million pounds are produced annually, making it an American Halloween tradition.",
+    "tags": [
+      "candy-corn",
+      "candy",
+      "October",
+      "Halloween",
+      "sweets",
+      "American",
+      "controversial"
+    ],
+    "image": "national-candy-corn-day.jpg",
+    "relatedDays": [
+      "halloween",
+      "national-candy-day",
+      "trick-or-treat-day"
+    ],
+    "howToCelebrate": "Eat candy corn. Try candy corn recipes. Debate whether candy corn is good. Make candy corn crafts. Share candy corn opinions on social media.",
+    "funFacts": [
+      "35 million pounds of candy corn produced annually",
+      "Candy corn was created in the 1880s",
+      "It's one of the most divisive candies",
+      "October 30th is the day before Halloween",
+      "Brach's produces 85% of candy corn in America"
+    ]
+  },
+  {
+    "title": "National Pumpkin Day",
+    "slug": "national-pumpkin-day-fall",
+    "date": "2025-10-26",
+    "category": "National",
+    "description": "Fall for pumpkins on National Pumpkin Day! From jack-o'-lanterns to pumpkin spice, pumpkins are synonymous with American autumn. The pumpkin industry generates billions with Americans buying millions of pumpkins each fall.",
+    "tags": [
+      "pumpkin",
+      "fall",
+      "October",
+      "autumn",
+      "Halloween",
+      "American",
+      "seasonal"
+    ],
+    "image": "national-pumpkin-day-patch.jpg",
+    "relatedDays": [
+      "halloween",
+      "pumpkin-spice-season",
+      "thanksgiving"
+    ],
+    "howToCelebrate": "Carve pumpkins. Make pumpkin recipes. Visit pumpkin patches. Try pumpkin-flavored foods. Share pumpkin photos and creations.",
+    "funFacts": [
+      "Americans spend over $700 million on pumpkins annually",
+      "Illinois produces the most pumpkins in America",
+      "80% of pumpkins are available in October",
+      "Pumpkin spice is a billion-dollar flavor trend",
+      "Pumpkin pie is a Thanksgiving tradition"
+    ]
+  },
+  {
+    "title": "National Watermelon Day",
+    "slug": "national-watermelon-day-summer",
+    "date": "2025-08-03",
+    "category": "National",
+    "description": "Cool down on National Watermelon Day! This summer essential is perfect for hot days. Americans consume billions of pounds of watermelon annually, making it the ultimate summer fruit and picnic staple.",
+    "tags": [
+      "watermelon",
+      "fruit",
+      "August",
+      "summer",
+      "healthy",
+      "American",
+      "refreshing"
+    ],
+    "image": "national-watermelon-day-slices.jpg",
+    "relatedDays": [
+      "national-picnic-day",
+      "independence-day",
+      "summer-solstice"
+    ],
+    "howToCelebrate": "Eat watermelon. Have watermelon seed-spitting contests. Make watermelon recipes. Visit farmers markets. Share watermelon moments online.",
+    "funFacts": [
+      "Americans eat 4 billion pounds of watermelon yearly",
+      "Watermelon is 92% water",
+      "China produces 70% of the world's watermelons",
+      "Watermelon is both a fruit and vegetable",
+      "Peak season is May through September"
+    ]
+  },
+  {
+    "title": "National Bicarbonate of Soda Day",
+    "slug": "national-baking-soda-day",
+    "date": "2025-12-30",
+    "category": "National",
+    "description": "Celebrate the power of baking soda! This versatile household staple has countless uses from baking to cleaning. Nearly every American household has baking soda, making it a true American pantry essential.",
+    "tags": [
+      "baking-soda",
+      "household",
+      "December",
+      "baking",
+      "cleaning",
+      "versatile",
+      "American"
+    ],
+    "image": "national-baking-soda-day.jpg",
+    "relatedDays": [
+      "national-baking-day",
+      "spring-cleaning-day",
+      "household-tips-day"
+    ],
+    "howToCelebrate": "Use baking soda in recipes. Try baking soda cleaning hacks. Learn new baking soda uses. Stock up on baking soda. Share baking soda tips online.",
+    "funFacts": [
+      "95% of American households have baking soda",
+      "Baking soda has over 100 uses",
+      "Arm & Hammer has sold baking soda since 1846",
+      "It's used in baking, cleaning, and personal care",
+      "Annual baking soda sales exceed hundreds of millions"
+    ]
+  },
+  {
+    "title": "National Iced Tea Day",
+    "slug": "national-iced-tea-day-summer",
+    "date": "2025-06-10",
+    "category": "National",
+    "description": "Sip sweetly on National Iced Tea Day! Iced tea is the unofficial drink of summer in America. From sweet tea in the South to unsweetened varieties, Americans drink billions of gallons of iced tea annually.",
+    "tags": [
+      "iced-tea",
+      "beverages",
+      "June",
+      "summer",
+      "refreshing",
+      "American",
+      "drinks"
+    ],
+    "image": "national-iced-tea-day-glass.jpg",
+    "relatedDays": [
+      "national-sweet-tea-day",
+      "national-tea-day",
+      "summer-beverage-day"
+    ],
+    "howToCelebrate": "Drink iced tea. Try different iced tea flavors. Make homemade iced tea. Visit tea shops. Share iced tea recipes and photos.",
+    "funFacts": [
+      "Americans drink over 3.8 billion gallons of iced tea yearly",
+      "80% of tea consumed in America is iced",
+      "Sweet tea is the official beverage of the South",
+      "Iced tea was popularized at the 1904 World's Fair",
+      "The iced tea industry is worth billions"
+    ]
+  },
+  {
+    "title": "National Lemonade Day",
+    "slug": "national-lemonade-day-summer",
+    "date": "2025-08-20",
+    "category": "National",
+    "description": "Pucker up on National Lemonade Day! This classic American summer drink brings back childhood memories of lemonade stands. From homemade to store-bought, lemonade is a refreshing billion-dollar industry.",
+    "tags": [
+      "lemonade",
+      "beverages",
+      "August",
+      "summer",
+      "childhood",
+      "American",
+      "refreshing"
+    ],
+    "image": "national-lemonade-day-pitcher.jpg",
+    "relatedDays": [
+      "lemonade-stand-day",
+      "national-summer-day",
+      "national-picnic-day"
+    ],
+    "howToCelebrate": "Make homemade lemonade. Try flavored lemonade varieties. Set up a lemonade stand. Support kids' lemonade stands. Share lemonade recipes online.",
+    "funFacts": [
+      "Americans drink billions of gallons of lemonade annually",
+      "Lemonade stands teach kids entrepreneurship",
+      "Pink lemonade was created by accident in the 1800s",
+      "Lemonade is the most popular summer beverage",
+      "The lemonade industry generates hundreds of millions"
+    ]
+  },
+  {
+    "title": "National Root Beer Float Day",
+    "slug": "national-root-beer-float-day",
+    "date": "2025-08-06",
+    "category": "National",
+    "description": "Float away on National Root Beer Float Day! This classic American treat combines root beer and vanilla ice cream perfectly. A&W and other chains celebrate with deals on this nostalgic summer dessert.",
+    "tags": [
+      "root-beer-float",
+      "dessert",
+      "August",
+      "summer",
+      "nostalgic",
+      "American",
+      "classic"
+    ],
+    "image": "national-root-beer-float-day.jpg",
+    "relatedDays": [
+      "national-ice-cream-day",
+      "national-soda-day",
+      "national-diner-day"
+    ],
+    "howToCelebrate": "Make root beer floats at home. Visit A&W or other chains for deals. Try different soda float combinations. Host a float party. Share float photos online.",
+    "funFacts": [
+      "The root beer float was invented in 1893",
+      "Also called a 'Black Cow' in some regions",
+      "A&W popularized root beer floats nationally",
+      "Root beer is uniquely American",
+      "Perfect combination of creamy and fizzy"
+    ]
+  },
+  {
+    "title": "National Cupcake Day",
+    "slug": "national-cupcake-day-dessert",
+    "date": "2025-12-15",
+    "category": "National",
+    "description": "Sweeten up on National Cupcake Day! These individual-sized cakes became a cultural phenomenon. From basic vanilla to gourmet flavors, cupcake bakeries and home bakers create millions of these treats daily.",
+    "tags": [
+      "cupcakes",
+      "dessert",
+      "December",
+      "baking",
+      "sweets",
+      "American",
+      "trendy"
+    ],
+    "image": "national-cupcake-day-frosted.jpg",
+    "relatedDays": [
+      "national-baking-day",
+      "national-dessert-day",
+      "national-cake-day"
+    ],
+    "howToCelebrate": "Bake cupcakes. Visit cupcake bakeries. Try unique cupcake flavors. Decorate cupcakes creatively. Share cupcake photos on social media.",
+    "funFacts": [
+      "Cupcake bakeries became a trend in the 2000s",
+      "Americans spend hundreds of millions on cupcakes",
+      "Cupcakes date back to the 1700s",
+      "Reality TV shows popularized gourmet cupcakes",
+      "Red velvet is the most popular cupcake flavor"
+    ]
+  },
+  {
+    "title": "National Ice Cream Sundae Day",
+    "slug": "national-ice-cream-sundae-day",
+    "date": "2025-07-11",
+    "category": "National",
+    "description": "Top it off on National Ice Cream Sundae Day! This American dessert classic features ice cream with toppings galore. From hot fudge to whipped cream, sundaes are a customizable treat beloved by millions.",
+    "tags": [
+      "ice-cream",
+      "sundae",
+      "July",
+      "dessert",
+      "summer",
+      "American",
+      "classic"
+    ],
+    "image": "national-sundae-day-toppings.jpg",
+    "relatedDays": [
+      "national-ice-cream-day",
+      "national-hot-fudge-day",
+      "national-whipped-cream-day"
+    ],
+    "howToCelebrate": "Make ice cream sundaes with your favorite toppings. Visit ice cream parlors. Try creative sundae combinations. Host a sundae bar party. Share sundae creations online.",
+    "funFacts": [
+      "The sundae was invented in America in the 1880s",
+      "Named 'sundae' to avoid selling ice cream on Sundays",
+      "Americans eat billions of dollars worth of ice cream yearly",
+      "Hot fudge is the most popular topping",
+      "Sundaes allow endless customization"
+    ]
+  },
+  {
+    "title": "National Peanut Day",
+    "slug": "national-peanut-day-american",
+    "date": "2025-09-13",
+    "category": "National",
+    "description": "Go nuts for National Peanut Day! Peanuts are a multi-billion dollar American crop. From peanut butter to boiled peanuts, baseball games to trail mix, peanuts are deeply embedded in American culture.",
+    "tags": [
+      "peanuts",
+      "food",
+      "September",
+      "American",
+      "farming",
+      "snacks",
+      "healthy"
+    ],
+    "image": "national-peanut-day-harvest.jpg",
+    "relatedDays": [
+      "national-peanut-butter-day",
+      "peanut-butter-lovers-day",
+      "national-nut-day"
+    ],
+    "howToCelebrate": "Eat peanuts and peanut products. Learn about peanut farming. Try different peanut varieties. Make peanut recipes. Share peanut facts online.",
+    "funFacts": [
+      "Americans eat 6 pounds of peanuts per person yearly",
+      "The peanut industry is worth over $4 billion",
+      "George Washington Carver invented 300 peanut products",
+      "Peanuts are legumes, not nuts",
+      "Two peanut farmers became US presidents"
+    ]
+  },
+  {
+    "title": "National Eat Outside Day",
+    "slug": "national-eat-outside-day-picnic",
+    "date": "2025-08-31",
+    "category": "National",
+    "description": "Dine al fresco on National Eat Outside Day! Enjoy meals in the great outdoors. From picnics to patio dining, eating outside is a beloved summer activity that Americans embrace whenever weather permits.",
+    "tags": [
+      "outdoor-dining",
+      "picnic",
+      "August",
+      "summer",
+      "nature",
+      "American",
+      "leisure"
+    ],
+    "image": "national-eat-outside-day-picnic.jpg",
+    "relatedDays": [
+      "national-picnic-day",
+      "national-parks-week",
+      "summer-solstice"
+    ],
+    "howToCelebrate": "Have a picnic in the park. Eat on your patio or balcony. Visit outdoor restaurants. Pack a lunch for outdoor eating. Share outdoor dining photos.",
+    "funFacts": [
+      "Outdoor dining increased dramatically post-pandemic",
+      "Americans spend billions at outdoor dining establishments",
+      "Eating outside improves mood and wellbeing",
+      "Parks see millions of picnickers annually",
+      "Patio dining is a restaurant revenue driver"
+    ]
+  },
+  {
+    "title": "National Farmers Market Week",
+    "slug": "national-farmers-market-week",
+    "date": "2025-08-03",
+    "category": "National",
+    "description": "Support local on National Farmers Market Week! Over 8,000 farmers markets operate in America, connecting consumers with local farmers. Fresh produce, artisan goods, and community vibes make farmers markets beloved American institutions.",
+    "tags": [
+      "farmers-market",
+      "local",
+      "August",
+      "agriculture",
+      "community",
+      "American",
+      "fresh-food"
+    ],
+    "image": "national-farmers-market-week.jpg",
+    "relatedDays": [
+      "farm-to-table-week",
+      "national-agriculture-day",
+      "buy-local-day"
+    ],
+    "howToCelebrate": "Visit your local farmers market. Buy local produce and products. Meet local farmers. Try new seasonal foods. Share farmers market finds online.",
+    "funFacts": [
+      "Over 8,600 farmers markets operate in the US",
+      "Farmers markets generate billions in sales",
+      "Markets support local economies and farmers",
+      "Farmers markets have grown 300% since the 1990s",
+      "Fresh, local food is healthier and tastier"
+    ]
+  },
+  {
+    "title": "National Roller Coaster Day",
+    "slug": "national-roller-coaster-day-thrills",
+    "date": "2025-08-16",
+    "category": "National",
+    "description": "Scream on National Roller Coaster Day! America has the most roller coasters in the world. Theme parks across the nation offer discounted tickets, celebrating these engineering marvels that thrill millions yearly.",
+    "tags": [
+      "roller-coasters",
+      "amusement-parks",
+      "August",
+      "summer",
+      "American",
+      "entertainment",
+      "thrills"
+    ],
+    "image": "national-roller-coaster-day.jpg",
+    "relatedDays": [
+      "theme-park-day",
+      "six-flags-day",
+      "disney-parks-day"
+    ],
+    "howToCelebrate": "Visit amusement parks. Ride roller coasters. Try new coasters you've never ridden. Share roller coaster videos. Take advantage of park deals.",
+    "funFacts": [
+      "America has over 800 roller coasters",
+      "Theme park industry worth billions annually",
+      "Six Flags, Cedar Fair, and Disney dominate",
+      "Americans ride millions of roller coaster rides yearly",
+      "August 16 celebrates roller coaster invention in 1878"
+    ]
+  },
+  {
+    "title": "National Waterpark Day",
+    "slug": "national-waterpark-day-summer",
+    "date": "2025-07-28",
+    "category": "National",
+    "description": "Splash into fun on National Waterpark Day! Water parks offer summer relief and entertainment for millions. From wave pools to water slides, the American waterpark industry generates billions in revenue annually.",
+    "tags": [
+      "waterparks",
+      "summer",
+      "July",
+      "family-fun",
+      "American",
+      "entertainment",
+      "aquatic"
+    ],
+    "image": "national-waterpark-day-slides.jpg",
+    "relatedDays": [
+      "national-swimming-day",
+      "summer-fun-day",
+      "theme-park-day"
+    ],
+    "howToCelebrate": "Visit waterparks. Ride water slides. Enjoy wave pools and lazy rivers. Pack waterpark essentials. Share waterpark fun on social media.",
+    "funFacts": [
+      "Over 85 million Americans visit waterparks annually",
+      "The waterpark industry is worth billions",
+      "America has over 1,000 waterparks",
+      "Wisconsin Dells is the 'Waterpark Capital of the World'",
+      "Waterparks provide summer jobs for thousands"
+    ]
+  },
+  {
+    "title": "National Fantasy Football Draft Day",
+    "slug": "national-fantasy-football-draft-day",
+    "date": "2025-09-01",
+    "category": "National",
+    "description": "Draft your team on National Fantasy Football Draft Day! Over 60 million Americans play fantasy football, making it a cultural phenomenon. Draft day kicks off months of competition, trash talk, and football obsession.",
+    "tags": [
+      "fantasy-football",
+      "football",
+      "September",
+      "sports",
+      "American",
+      "gaming",
+      "competition"
+    ],
+    "image": "national-fantasy-football-draft.jpg",
+    "relatedDays": [
+      "nfl-opening-day",
+      "super-bowl-sunday",
+      "national-sports-day"
+    ],
+    "howToCelebrate": "Draft your fantasy team. Host draft parties. Research player rankings. Join fantasy leagues. Share draft results online.",
+    "funFacts": [
+      "Over 60 million Americans play fantasy football",
+      "Fantasy football generates billions in economic impact",
+      "Draft prep consumes hours of research time",
+      "Fantasy has changed how people watch football",
+      "Workplace productivity drops during fantasy season"
+    ]
+  },
+  {
+    "title": "National Donut Day Deals",
+    "slug": "national-donut-day-free-deals",
+    "date": "2025-06-06",
+    "category": "National",
+    "description": "Double-dip on National Donut Day! Major chains compete with the best free donut offers. Krispy Kreme, Dunkin', Tim Hortons, and local shops give away millions of donuts, making this a sweet commercial holiday.",
+    "tags": [
+      "donuts",
+      "deals",
+      "June",
+      "free-food",
+      "commercial",
+      "American",
+      "dessert"
+    ],
+    "image": "national-donut-day-chains.jpg",
+    "relatedDays": [
+      "national-doughnut-day",
+      "free-breakfast-day",
+      "national-dessert-day"
+    ],
+    "howToCelebrate": "Get free donuts from all participating chains. Visit multiple locations. Try specialty donuts. Take advantage of all deals. Share donut haul photos.",
+    "funFacts": [
+      "Millions of free donuts given away on this day",
+      "Donut chains compete for biggest giveaways",
+      "Lines can be hours long at popular locations",
+      "Great marketing day for donut companies",
+      "American donut consumption spikes dramatically"
+    ]
+  },
+  {
+    "title": "National Military Appreciation Month",
+    "slug": "national-military-appreciation-month-may",
+    "date": "2025-05-01",
+    "category": "National",
+    "description": "Honor all who serve! May is dedicated to recognizing the men and women of the United States Armed Forces. From active duty to veterans, celebrate their service, sacrifice, and dedication to protecting our freedom.",
+    "tags": [
+      "military",
+      "appreciation",
+      "May",
+      "veterans",
+      "armed-forces",
+      "service",
+      "honor"
+    ],
+    "image": "military-appreciation.jpg",
+    "relatedDays": [
+      "memorial-day",
+      "veterans-day",
+      "armed-forces-day"
+    ],
+    "howToCelebrate": "Thank service members and veterans. Attend military ceremonies. Support military families. Volunteer at VA hospitals. Display the flag. Learn about military history. Donate to veteran organizations.",
+    "funFacts": [
+      "May includes several military observances",
+      "VE Day (May 8), Armed Forces Day (3rd Saturday), Memorial Day (last Monday)",
+      "Over 1.3 million Americans serve on active duty",
+      "Military service runs in many American families",
+      "The US has the world's largest military budget"
+    ]
+  },
+  {
+    "title": "National Native American Heritage Month",
+    "slug": "national-native-american-heritage-month-november",
+    "date": "2025-11-01",
+    "category": "National",
+    "description": "Celebrate Indigenous peoples and cultures! November honors Native American heritage, history, and contributions to America. Learn about tribal nations, support Native artists and businesses, and recognize the rich cultural diversity of Indigenous peoples.",
+    "tags": [
+      "native-american",
+      "indigenous",
+      "November",
+      "heritage",
+      "culture",
+      "history",
+      "awareness"
+    ],
+    "image": "native-american-heritage.jpg",
+    "relatedDays": [
+      "indigenous-peoples-day",
+      "native-american-day",
+      "tribal-culture-day"
+    ],
+    "howToCelebrate": "Learn about Native American history and cultures. Support Native-owned businesses. Visit cultural museums and heritage sites. Read Native American authors. Attend powwows and cultural events. Acknowledge whose land you're on.",
+    "funFacts": [
+      "574 federally recognized Native American tribes in the US",
+      "Each tribe has its own unique culture and language",
+      "Many English words come from Native American languages",
+      "Native Americans have served in the US military at high rates",
+      "Tribal sovereignty gives tribes self-governance rights"
+    ]
+  },
+  {
+    "title": "National Teacher Appreciation Week",
+    "slug": "national-teacher-appreciation-week-may",
+    "date": "2025-05-05",
+    "category": "National",
+    "description": "Thank America's teachers! The first full week of May celebrates educators who shape young minds. Teachers work tirelessly, often with their own money, to give students the best education. Show appreciation for these dedicated professionals!",
+    "tags": [
+      "teachers",
+      "education",
+      "May",
+      "appreciation",
+      "schools",
+      "educators",
+      "gratitude"
+    ],
+    "image": "teacher-appreciation.jpg",
+    "relatedDays": [
+      "world-teachers-day",
+      "back-to-school-day",
+      "education-week"
+    ],
+    "howToCelebrate": "Thank your child's teachers. Give thoughtful gifts or notes. Volunteer in classrooms. Advocate for teacher pay and resources. Share positive teacher stories. Support education funding.",
+    "funFacts": [
+      "US teachers spend an average of $500 of their own money on supplies",
+      "Over 3.7 million teachers work in public schools",
+      "Tuesday of the week is National Teacher Day",
+      "Many teachers work second jobs to make ends meet",
+      "Teachers impact hundreds of students over their careers"
+    ]
+  },
+  {
+    "title": "National School Lunch Week",
+    "slug": "national-school-lunch-week-nutrition",
+    "date": "2025-10-13",
+    "category": "National",
+    "description": "Fuel growing minds! National School Lunch Week celebrates the school nutrition professionals who feed millions of students daily. Recognize the importance of healthy school meals and the people who prepare them.",
+    "tags": [
+      "school-lunch",
+      "nutrition",
+      "October",
+      "children",
+      "health",
+      "education",
+      "food"
+    ],
+    "image": "school-lunch-healthy.jpg",
+    "relatedDays": [
+      "school-breakfast-week",
+      "nutrition-month",
+      "food-service-workers-day"
+    ],
+    "howToCelebrate": "Thank school cafeteria workers. Learn about school nutrition programs. Volunteer with school meal programs. Advocate for healthy school food. Support free lunch programs for low-income students.",
+    "funFacts": [
+      "The National School Lunch Program serves 30 million children daily",
+      "Started in 1946 to improve child nutrition",
+      "Many children rely on school meals as their primary nutrition",
+      "School nutrition standards have improved significantly",
+      "Cafeteria workers often know hundreds of students by name"
+    ]
+  },
+  {
+    "title": "National Drive-Thru Day",
+    "slug": "national-drive-thru-day-fast-food",
+    "date": "2025-07-24",
+    "category": "National",
+    "description": "Celebrate American convenience! National Drive-Thru Day honors the uniquely American innovation that changed how we eat. From fast food to coffee, drive-thrus offer quick service without leaving your car. Many chains offer special deals!",
+    "tags": [
+      "drive-thru",
+      "fast-food",
+      "July",
+      "convenience",
+      "american",
+      "restaurants",
+      "deals"
+    ],
+    "image": "drive-thru-service.jpg",
+    "relatedDays": [
+      "fast-food-day",
+      "customer-service-week",
+      "national-french-fry-day"
+    ],
+    "howToCelebrate": "Use drive-thrus for meals today. Thank drive-thru workers. Take advantage of special deals. Try a new drive-thru restaurant. Share your drive-thru experiences. Appreciate the convenience.",
+    "funFacts": [
+      "The first drive-thru was Red's Giant Hamburg in 1947",
+      "Drive-thrus account for 70% of fast-food sales",
+      "The average drive-thru wait is 4-5 minutes",
+      "Some banks and pharmacies offer drive-thru service",
+      "Drive-thrus became essential during the pandemic"
+    ]
+  },
+  {
+    "title": "National Family Week",
+    "slug": "national-family-week-thanksgiving",
+    "date": "2025-11-23",
+    "category": "National",
+    "description": "Family comes first! The week of Thanksgiving celebrates the importance of family bonds and togetherness. Spend quality time with loved ones, create memories, and appreciate the people who matter most.",
+    "tags": [
+      "family",
+      "thanksgiving",
+      "November",
+      "togetherness",
+      "gratitude",
+      "love",
+      "bonds"
+    ],
+    "image": "family-togetherness.jpg",
+    "relatedDays": [
+      "thanksgiving-day",
+      "family-day",
+      "parent-appreciation-day"
+    ],
+    "howToCelebrate": "Spend quality time with family. Share meals together. Create family traditions. Express gratitude for loved ones. Take family photos. Share family stories and memories. Disconnect from devices and connect with each other.",
+    "funFacts": [
+      "Proclaimed annually by the President since 1989",
+      "Always includes Thanksgiving Day",
+      "Family meals improve child development and mental health",
+      "American families are increasingly diverse",
+      "Quality family time strengthens relationships"
+    ]
+  },
+  {
+    "title": "National Grandparents Day",
+    "slug": "national-grandparents-day-family",
+    "date": "2025-09-07",
+    "category": "National",
+    "description": "Honor grandparents! The first Sunday after Labor Day celebrates grandparents and the special role they play in families. Show appreciation for their wisdom, love, and the memories they create with grandchildren.",
+    "tags": [
+      "grandparents",
+      "family",
+      "September",
+      "elderly",
+      "appreciation",
+      "generations",
+      "love"
+    ],
+    "image": "grandparents-grandchildren.jpg",
+    "relatedDays": [
+      "family-day",
+      "elderly-appreciation",
+      "grandparent-appreciation-month"
+    ],
+    "howToCelebrate": "Visit or call grandparents. Share meals or activities together. Ask them about family history. Help with tasks or errands. Create intergenerational memories. Express love and gratitude.",
+    "funFacts": [
+      "Established as a national holiday in 1978",
+      "Over 70 million grandparents in the US",
+      "Many grandparents help raise grandchildren",
+      "The official flower is the forget-me-not",
+      "Grandparents pass down family stories and traditions"
+    ]
+  },
+  {
+    "title": "National Law Enforcement Appreciation Day",
+    "slug": "national-law-enforcement-appreciation-day-january",
+    "date": "2025-01-09",
+    "category": "National",
+    "description": "Thank our officers! L.E.A.D. (Law Enforcement Appreciation Day) honors police officers who protect and serve communities. Show appreciation for these brave men and women who risk their lives daily.",
+    "tags": [
+      "law-enforcement",
+      "police",
+      "January",
+      "appreciation",
+      "officers",
+      "safety",
+      "heroes"
+    ],
+    "image": "law-enforcement-appreciation.jpg",
+    "relatedDays": [
+      "police-week",
+      "first-responders-day",
+      "peace-officers-memorial-day"
+    ],
+    "howToCelebrate": "Thank police officers you meet. Show support for law enforcement. Learn about police work. Donate to police charities. Display blue lights. Share appreciation on social media.",
+    "funFacts": [
+      "Over 800,000 law enforcement officers serve in the US",
+      "Police work is one of the most dangerous professions",
+      "Officers face physical and mental health challenges",
+      "Community policing builds trust",
+      "January 9th is always L.E.A.D."
+    ]
+  },
+  {
+    "title": "National Take a Hike Day",
+    "slug": "national-take-a-hike-day-november-17-outdoors",
+    "date": "2025-11-17",
+    "category": "National",
+    "description": "Hit the trails! Take a Hike Day encourages Americans to explore nature through hiking. From easy walks to challenging climbs, hiking offers exercise, fresh air, and beautiful views.",
+    "tags": [
+      "hiking",
+      "outdoors",
+      "November",
+      "nature",
+      "trails",
+      "exercise",
+      "recreation"
+    ],
+    "image": "hiking-trails-nature.jpg",
+    "relatedDays": [
+      "national-parks-week",
+      "get-outdoors-day",
+      "trail-running-day"
+    ],
+    "howToCelebrate": "Go for a hike on local trails. Explore state or national parks. Try a new hiking route. Bring friends or family. Practice Leave No Trace. Share hiking photos and trail recommendations.",
+    "funFacts": [
+      "America has over 200,000 miles of trails",
+      "Hiking improves physical and mental health",
+      "November is a great time for fall foliage hikes",
+      "Always tell someone your hiking plans",
+      "Proper footwear prevents injuries"
     ]
   }
 ]

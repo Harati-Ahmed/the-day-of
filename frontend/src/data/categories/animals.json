@@ -658,5 +658,1145 @@
       "They sleep 15-20 hours per day",
       "Sloths are excellent swimmers despite their slow movements"
     ]
+  },
+  {
+    "title": "National Puppy Day",
+    "slug": "national-puppy-day-celebration",
+    "date": "2025-03-23",
+    "category": "Animals & Pets",
+    "description": "Celebrate the cutest companions on National Puppy Day! This day promotes puppy adoption from shelters and rescues while raising awareness about puppy mills. Whether you have a new puppy or remember your dog's puppy days, celebrate the joy puppies bring to American families.",
+    "tags": [
+      "puppies",
+      "dogs",
+      "March",
+      "adoption",
+      "pets",
+      "rescue",
+      "animals"
+    ],
+    "image": "cute-puppies-playing.jpg",
+    "relatedDays": [
+      "national-dog-day",
+      "national-pet-adoption-day",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Visit a local animal shelter and consider adopting. Donate to puppy rescue organizations. Share puppy photos on social media. Take your dog to a dog park. Support responsible breeders and fight puppy mills. Volunteer at animal shelters.",
+    "funFacts": [
+      "Over 6.3 million pets enter US animal shelters annually",
+      "Puppies learn important social skills between 3-14 weeks",
+      "The first year of a dog's life equals about 15 human years",
+      "Puppies are born blind and deaf",
+      "America is the country with the highest pet dog population"
+    ]
+  },
+  {
+    "title": "National Ferret Day",
+    "slug": "national-ferret-day-pets",
+    "date": "2025-04-02",
+    "category": "Animals & Pets",
+    "description": "Celebrate these playful pocket pets on National Ferret Day! Ferrets are becoming increasingly popular as companion animals in America. Learn about proper ferret care, adopt from shelters, and celebrate the unique personalities of these energetic, curious creatures.",
+    "tags": [
+      "ferrets",
+      "pets",
+      "April",
+      "exotic-pets",
+      "animals",
+      "care",
+      "adoption"
+    ],
+    "image": "playful-ferret-pet.jpg",
+    "relatedDays": [
+      "national-pet-day",
+      "exotic-pet-day",
+      "national-animal-welfare-day"
+    ],
+    "howToCelebrate": "Learn about ferret care and needs. Visit ferret shelters and rescues. Share ferret photos and videos. Support ferret welfare organizations. Educate others about ferrets as pets. Give your ferret special treats and playtime.",
+    "funFacts": [
+      "Ferrets sleep 14-18 hours per day",
+      "They have been domesticated for over 2,500 years",
+      "Ferrets can live 6-10 years with proper care",
+      "Baby ferrets are called kits",
+      "Ferrets are illegal in California and New York City"
+    ]
+  },
+  {
+    "title": "National Feral Cat Day",
+    "slug": "national-feral-cat-day-awareness",
+    "date": "2025-10-16",
+    "category": "Animals & Pets",
+    "description": "Support community cats on National Feral Cat Day! This day raises awareness about feral and stray cats and promotes TNR (Trap-Neuter-Return) programs. Help control cat populations humanely while caring for cats in American communities.",
+    "tags": [
+      "feral-cats",
+      "cats",
+      "October",
+      "TNR",
+      "animal-welfare",
+      "community",
+      "rescue"
+    ],
+    "image": "feral-community-cats.jpg",
+    "relatedDays": [
+      "national-cat-day",
+      "world-animal-day",
+      "national-pet-adoption-day"
+    ],
+    "howToCelebrate": "Support local TNR programs. Volunteer with feral cat colonies. Donate to organizations that help community cats. Build or donate cat shelters. Educate others about feral cat care. Foster kittens from feral litters.",
+    "funFacts": [
+      "There are an estimated 70 million feral cats in the US",
+      "TNR is the most humane way to manage feral cat populations",
+      "Feral cats are different from stray cats - ferals are unsocialized to humans",
+      "Many communities have successful colony management programs",
+      "Feral cats help control rodent populations"
+    ]
+  },
+  {
+    "title": "National Guide Dog Day",
+    "slug": "national-guide-dog-day-service",
+    "date": "2025-04-30",
+    "category": "Animals & Pets",
+    "description": "Honor the incredible service dogs that change lives on National Guide Dog Day! Guide dogs provide independence and mobility for blind and visually impaired Americans. Celebrate these highly trained working dogs and the organizations that train them.",
+    "tags": [
+      "guide-dogs",
+      "service-dogs",
+      "April",
+      "working-dogs",
+      "accessibility",
+      "training",
+      "heroes"
+    ],
+    "image": "guide-dog-working.jpg",
+    "relatedDays": [
+      "national-service-dog-day",
+      "national-dog-day",
+      "white-cane-day"
+    ],
+    "howToCelebrate": "Learn about guide dog training and organizations. Support guide dog charities. Never distract working guide dogs. Educate others about service dog etiquette. Thank guide dog trainers and puppy raisers. Share guide dog stories on social media.",
+    "funFacts": [
+      "It costs over $50,000 to train a guide dog",
+      "Guide dogs work for about 8 years before retirement",
+      "The first guide dog school in the US opened in 1929",
+      "Labrador Retrievers and Golden Retrievers are most common breeds",
+      "Guide dogs know over 50 commands"
+    ]
+  },
+  {
+    "title": "National Chicken Month",
+    "slug": "national-chicken-month-september",
+    "date": "2025-09-01",
+    "category": "Animals & Pets",
+    "description": "Celebrate America's favorite protein during National Chicken Month! September honors chickens as both food source and backyard pets. From farm to table to family pet, chickens play an important role in American life and agriculture.",
+    "tags": [
+      "chickens",
+      "poultry",
+      "September",
+      "farming",
+      "agriculture",
+      "backyard",
+      "pets"
+    ],
+    "image": "backyard-chickens-coop.jpg",
+    "relatedDays": [
+      "national-agriculture-day",
+      "national-farmers-day",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Visit a local farm or petting zoo. Learn about chicken breeds and care. Consider raising backyard chickens (if permitted). Support local farmers. Try new chicken recipes. Learn about sustainable farming practices.",
+    "funFacts": [
+      "Americans consume over 95 pounds of chicken per person annually",
+      "There are more chickens than people in the world",
+      "Chickens were domesticated over 8,000 years ago",
+      "Backyard chicken keeping is growing in popularity in American cities",
+      "Chickens are highly social and intelligent birds"
+    ]
+  },
+  {
+    "title": "National Mutt Day",
+    "slug": "national-mutt-day-mixed-breed",
+    "date": "2025-07-31",
+    "category": "Animals & Pets",
+    "description": "Celebrate mixed breed dogs on National Mutt Day! This day promotes adoption of mutts from shelters and celebrates the unique qualities of mixed breed dogs. Mutts make wonderful, often healthier pets and deserve loving homes just like purebreds.",
+    "tags": [
+      "mutts",
+      "dogs",
+      "July",
+      "adoption",
+      "mixed-breed",
+      "rescue",
+      "pets"
+    ],
+    "image": "happy-mutt-dog.jpg",
+    "relatedDays": [
+      "national-dog-day",
+      "national-pet-adoption-day",
+      "national-puppy-day"
+    ],
+    "howToCelebrate": "Adopt a mutt from a shelter. Share your mutt's story on social media. Donate to animal rescues. Volunteer at shelters. Celebrate your mutt with special treats. Support adoption campaigns and events.",
+    "funFacts": [
+      "About 75% of dogs in shelters are mutts",
+      "Mixed breed dogs often have fewer genetic health problems",
+      "Mutts come in endless unique combinations",
+      "Many famous movie dogs were mutts",
+      "Mutts often live longer than purebred dogs"
+    ]
+  },
+  {
+    "title": "National Wildlife Rehabilitation Day",
+    "slug": "national-wildlife-rehabilitation-day-rescue",
+    "date": "2025-03-15",
+    "category": "Animals & Pets",
+    "description": "Honor the heroes who rescue and rehabilitate injured wildlife on National Wildlife Rehabilitation Day! Wildlife rehabilitators across America care for thousands of sick, injured, and orphaned wild animals each year, giving them a second chance at life.",
+    "tags": [
+      "wildlife",
+      "rehabilitation",
+      "March",
+      "rescue",
+      "conservation",
+      "animals",
+      "care"
+    ],
+    "image": "wildlife-rehabilitation-care.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "world-animal-day",
+      "earth-day"
+    ],
+    "howToCelebrate": "Support local wildlife rehabilitation centers. Volunteer or donate to wildlife rescues. Learn when and how to help injured wildlife. Never approach or handle wild animals - call professionals. Share wildlife rehabilitation stories on social media.",
+    "funFacts": [
+      "Over 5,000 licensed wildlife rehabilitators work in the US",
+      "Most wildlife rehabilitation is done by volunteers",
+      "Rehabilitators must be licensed and specially trained",
+      "The goal is always to release animals back to the wild",
+      "Many rehabilitators specialize in specific species"
+    ]
+  },
+  {
+    "title": "National K9 Veterans Day",
+    "slug": "national-k9-veterans-day-military",
+    "date": "2025-03-13",
+    "category": "Animals & Pets",
+    "description": "Honor military working dogs on National K9 Veterans Day! March 13th commemorates the date the Army K9 Corps was established in 1942. These brave dogs serve alongside American troops, saving countless lives through detection, patrol, and protection work.",
+    "tags": [
+      "k9",
+      "military-dogs",
+      "March",
+      "veterans",
+      "working-dogs",
+      "service",
+      "heroes"
+    ],
+    "image": "military-k9-working-dog.jpg",
+    "relatedDays": [
+      "veterans-day",
+      "memorial-day",
+      "national-dog-day"
+    ],
+    "howToCelebrate": "Learn about military working dogs and their handlers. Support organizations that help retired military dogs. Thank K9 veterans and their handlers. Donate to K9 veteran care programs. Visit military dog memorials. Share K9 hero stories on social media.",
+    "funFacts": [
+      "Over 1,600 military working dogs currently serve in the US military",
+      "Dogs can detect explosives and drugs better than any technology",
+      "German Shepherds and Belgian Malinois are most common military breeds",
+      "Handlers and their dogs form incredibly strong bonds",
+      "Retired military dogs can be adopted by their handlers or qualified civilians"
+    ]
+  },
+  {
+    "title": "National Kitten Day",
+    "slug": "national-kitten-day-adorable",
+    "date": "2025-07-10",
+    "category": "Animals & Pets",
+    "description": "Squee over kittens on National Kitten Day! These tiny furballs need homes. Shelters are overwhelmed during kitten season. This day promotes adoption and spaying/neutering to reduce overpopulation.",
+    "tags": [
+      "kittens",
+      "cats",
+      "July",
+      "adoption",
+      "cute",
+      "pets",
+      "awareness"
+    ],
+    "image": "national-kitten-day-cute.jpg",
+    "relatedDays": [
+      "national-cat-day",
+      "adopt-a-shelter-cat-month",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Adopt a kitten. Foster kittens. Donate to cat rescues. Share kitten photos. Spay/neuter your cats. Volunteer at shelters.",
+    "funFacts": [
+      "3.2 million cats enter shelters yearly",
+      "Kitten season is spring and summer",
+      "Kittens need special nutrition and care",
+      "Most adorable phase is 6-12 weeks",
+      "Spay/neuter prevents overpopulation"
+    ]
+  },
+  {
+    "title": "National Guinea Pig Appreciation Day",
+    "slug": "national-guinea-pig-appreciation-day",
+    "date": "2025-07-16",
+    "category": "Animals & Pets",
+    "description": "Wheek on Guinea Pig Appreciation Day! These adorable cavies make wonderful pets. They're social, vocal, and full of personality. Learn about proper guinea pig care and adoption.",
+    "tags": [
+      "guinea-pigs",
+      "cavies",
+      "July",
+      "small-pets",
+      "adoption",
+      "care",
+      "pets"
+    ],
+    "image": "guinea-pig-appreciation-day.jpg",
+    "relatedDays": [
+      "pocket-pet-day",
+      "national-hamster-day",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Spoil your guinea pig. Share guinea pig photos. Adopt guinea pigs. Learn proper care. Support guinea pig rescues. Appreciate these vocal pets.",
+    "funFacts": [
+      "Guinea pigs are social and need companions",
+      "They 'wheek' when excited",
+      "Guinea pigs need vitamin C daily",
+      "They live 5-7 years",
+      "Guinea pigs popcorn when happy"
+    ]
+  },
+  {
+    "title": "National Hamster Day",
+    "slug": "national-hamster-day-small-pets",
+    "date": "2025-04-12",
+    "category": "Animals & Pets",
+    "description": "Appreciate hamsters on their special day! These pocket-sized pets are popular with kids and adults. Learn about different hamster breeds and proper care for these nocturnal cuties.",
+    "tags": [
+      "hamsters",
+      "small-pets",
+      "April",
+      "pets",
+      "care",
+      "rodents",
+      "pocket-pets"
+    ],
+    "image": "national-hamster-day-cute.jpg",
+    "relatedDays": [
+      "pocket-pet-day",
+      "guinea-pig-day",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Give your hamster treats. Upgrade their habitat. Share hamster photos. Learn about hamster care. Support small animal rescues. Appreciate tiny pets.",
+    "funFacts": [
+      "Syrian hamsters are most popular",
+      "Hamsters are nocturnal",
+      "They store food in cheek pouches",
+      "Hamsters live 2-3 years",
+      "Dwarf hamsters stay smaller"
+    ]
+  },
+  {
+    "title": "National Reptile Awareness Day",
+    "slug": "national-reptile-awareness-day-lizards",
+    "date": "2025-10-21",
+    "category": "Animals & Pets",
+    "description": "Go cold-blooded on Reptile Awareness Day! Reptiles make fascinating pets but require specific care. From bearded dragons to ball pythons, learn about responsible reptile ownership.",
+    "tags": [
+      "reptiles",
+      "lizards",
+      "October",
+      "exotic-pets",
+      "snakes",
+      "care",
+      "education"
+    ],
+    "image": "reptile-awareness-day.jpg",
+    "relatedDays": [
+      "world-turtle-day",
+      "snake-day",
+      "exotic-pet-day"
+    ],
+    "howToCelebrate": "Visit reptile expos. Learn reptile care. Appreciate pet reptiles. Support reptile rescues. Educate about responsible ownership. Share reptile facts.",
+    "funFacts": [
+      "Over 4.5 million US households have reptiles",
+      "Bearded dragons are most popular",
+      "Reptiles need UVB lighting and heat",
+      "Ball pythons live 20-30 years",
+      "Proper care requires research and commitment"
+    ]
+  },
+  {
+    "title": "National Aquarium Day",
+    "slug": "national-aquarium-day-fish-tanks",
+    "date": "2025-06-14",
+    "category": "Animals & Pets",
+    "description": "Dive in on National Aquarium Day! Visit public aquariums or appreciate your home fish tank. Aquariums educate about marine life and inspire ocean conservation efforts worldwide.",
+    "tags": [
+      "aquariums",
+      "fish",
+      "June",
+      "marine-life",
+      "pets",
+      "conservation",
+      "education"
+    ],
+    "image": "national-aquarium-day.jpg",
+    "relatedDays": [
+      "world-ocean-day",
+      "national-fish-day",
+      "marine-conservation-day"
+    ],
+    "howToCelebrate": "Visit public aquariums. Care for aquarium fish. Learn about marine conservation. Support ocean protection. Share aquarium experiences. Appreciate aquatic life.",
+    "funFacts": [
+      "12.5 million US households have aquarium fish",
+      "Fish keeping reduces stress",
+      "Some aquarium fish live 10+ years",
+      "Public aquariums educate millions annually",
+      "Marine conservation starts with awareness"
+    ]
+  },
+  {
+    "title": "National Parakeet Day",
+    "slug": "national-parakeet-day-budgies",
+    "date": "2025-06-05",
+    "category": "Animals & Pets",
+    "description": "Tweet on Parakeet Day! Budgies are the most popular pet bird in America. These colorful, social birds can learn to talk and do tricks. Celebrate these feathered companions!",
+    "tags": [
+      "parakeets",
+      "budgies",
+      "June",
+      "birds",
+      "pets",
+      "talking-birds",
+      "care"
+    ],
+    "image": "national-parakeet-day.jpg",
+    "relatedDays": [
+      "bird-day",
+      "parrot-day",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Spoil your parakeet. Teach new tricks. Share parakeet videos. Learn bird care. Support avian rescues. Appreciate pet birds.",
+    "funFacts": [
+      "Parakeets can learn 100+ words",
+      "They're the most popular pet bird",
+      "Parakeets are highly social",
+      "They can live 10-15 years",
+      "Budgies need mental stimulation"
+    ]
+  },
+  {
+    "title": "National Parrot Day",
+    "slug": "national-parrot-day-tropical-birds",
+    "date": "2025-05-31",
+    "category": "Animals & Pets",
+    "description": "Squawk on National Parrot Day! These intelligent, colorful birds make amazing (but demanding) pets. This day raises awareness about parrot conservation and proper care for captive parrots.",
+    "tags": [
+      "parrots",
+      "birds",
+      "May",
+      "exotic-pets",
+      "conservation",
+      "intelligent-pets",
+      "tropical"
+    ],
+    "image": "national-parrot-day.jpg",
+    "relatedDays": [
+      "bird-day",
+      "endangered-species-day",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Appreciate parrots. Support parrot conservation. Learn parrot care. Visit parrot sanctuaries. Adopt don't buy. Share parrot education.",
+    "funFacts": [
+      "Many parrot species are endangered",
+      "Parrots can live 50+ years",
+      "African Greys have toddler-level intelligence",
+      "Parrots bond strongly with owners",
+      "Wild parrots need protection"
+    ]
+  },
+  {
+    "title": "National Alpaca Day",
+    "slug": "national-alpaca-day-fiber-animals",
+    "date": "2025-09-27",
+    "category": "Animals & Pets",
+    "description": "Visit alpacas on National Alpaca Day! These gentle fiber animals are gaining popularity in the US. Alpaca farms across America open for tours, showcasing these adorable camelids.",
+    "tags": [
+      "alpacas",
+      "farm-animals",
+      "September",
+      "fiber",
+      "gentle",
+      "agricultural",
+      "cute"
+    ],
+    "image": "national-alpaca-day.jpg",
+    "relatedDays": [
+      "llama-day",
+      "farm-animals-day",
+      "fiber-arts-day"
+    ],
+    "howToCelebrate": "Visit alpaca farms. Learn about alpacas. Buy alpaca products. Support alpaca farming. Appreciate these gentle animals. Take alpaca selfies.",
+    "funFacts": [
+      "Over 250,000 alpacas in North America",
+      "Alpaca fiber is hypoallergenic",
+      "They hum to communicate",
+      "Alpacas are gentle and curious",
+      "Alpaca farming is growing in popularity"
+    ]
+  },
+  {
+    "title": "National Llama Day",
+    "slug": "national-llama-day-pack-animals",
+    "date": "2025-12-09",
+    "category": "Animals & Pets",
+    "description": "Llove llamas on National Llama Day! These charismatic pack animals are larger cousins to alpacas. Llamas are used for packing, guarding, and therapy. Plus, they're hilariously photogenic!",
+    "tags": [
+      "llamas",
+      "farm-animals",
+      "December",
+      "pack-animals",
+      "quirky",
+      "agricultural",
+      "therapy"
+    ],
+    "image": "national-llama-day.jpg",
+    "relatedDays": [
+      "alpaca-day",
+      "farm-animals-day",
+      "therapy-animal-day"
+    ],
+    "howToCelebrate": "Visit llama farms. Go llama trekking. Learn about llamas. Support llama rescue. Enjoy llama memes. Appreciate llama personalities.",
+    "funFacts": [
+      "Llamas are excellent pack animals",
+      "They guard sheep and other livestock",
+      "Llamas can carry 25-30% of body weight",
+      "They're used in therapy programs",
+      "Llamas have quirky personalities"
+    ]
+  },
+  {
+    "title": "National Pygmy Goat Day",
+    "slug": "national-pygmy-goat-day-miniature",
+    "date": "2025-08-20",
+    "category": "Animals & Pets",
+    "description": "Go mini on Pygmy Goat Day! These pint-sized goats make entertaining pets. They're playful, social, and full of personality. Perfect for small farms and increasingly popular as pets.",
+    "tags": [
+      "pygmy-goats",
+      "miniature",
+      "August",
+      "farm-animals",
+      "pets",
+      "playful",
+      "cute"
+    ],
+    "image": "pygmy-goat-day.jpg",
+    "relatedDays": [
+      "farm-animals-day",
+      "goat-yoga-day",
+      "miniature-animals-day"
+    ],
+    "howToCelebrate": "Visit pygmy goats. Learn about goat care. Try goat yoga. Support goat rescues. Appreciate tiny goats. Share goat videos.",
+    "funFacts": [
+      "Pygmy goats grow to 16-23 inches tall",
+      "They're incredibly playful and social",
+      "Goat yoga is a real trend",
+      "Pygmies are excellent escape artists",
+      "They make great pets with proper care"
+    ]
+  },
+  {
+    "title": "National Miniature Horse Day",
+    "slug": "national-miniature-horse-day-tiny",
+    "date": "2025-09-15",
+    "category": "Animals & Pets",
+    "description": "Think small on Miniature Horse Day! These tiny horses stand under 34 inches tall. They're used as service animals, therapy horses, and beloved pets. They're horses, just pocket-sized!",
+    "tags": [
+      "miniature-horses",
+      "horses",
+      "September",
+      "service-animals",
+      "therapy",
+      "pets",
+      "tiny"
+    ],
+    "image": "miniature-horse-day.jpg",
+    "relatedDays": [
+      "national-horse-day",
+      "service-animal-day",
+      "therapy-animal-day"
+    ],
+    "howToCelebrate": "Visit miniature horse farms. Learn about mini horses. Support mini horse rescues. Appreciate these tiny equines. Share mini horse cuteness.",
+    "funFacts": [
+      "Some miniature horses work as service animals",
+      "They can live 25-35 years",
+      "Miniatures have all the strength of full-sized horses",
+      "They're proportionate horses, not ponies",
+      "Guide horse programs exist for the blind"
+    ]
+  },
+  {
+    "title": "National Donkey Day",
+    "slug": "national-donkey-day-burros",
+    "date": "2025-05-08",
+    "category": "Animals & Pets",
+    "description": "Hee-haw for donkeys on National Donkey Day! These intelligent, loyal animals deserve appreciation. Donkeys are used worldwide for work, companionship, and therapy. They're underrated amazing animals!",
+    "tags": [
+      "donkeys",
+      "burros",
+      "May",
+      "farm-animals",
+      "working-animals",
+      "therapy",
+      "appreciation"
+    ],
+    "image": "national-donkey-day.jpg",
+    "relatedDays": [
+      "mule-day",
+      "farm-animals-day",
+      "working-animal-day"
+    ],
+    "howToCelebrate": "Visit donkey sanctuaries. Learn about donkeys. Support donkey rescue. Appreciate working donkeys. Share donkey facts. Celebrate donkey intelligence.",
+    "funFacts": [
+      "Donkeys are incredibly intelligent",
+      "They have excellent memories",
+      "Donkeys guard livestock from predators",
+      "They can live 25-30 years",
+      "Donkeys are affectionate and loyal"
+    ]
+  },
+  {
+    "title": "National Barn Cat Day",
+    "slug": "national-barn-cat-day-working-cats",
+    "date": "2025-06-15",
+    "category": "Animals & Pets",
+    "description": "Appreciate working cats on Barn Cat Day! These feline mousers protect farms and barns from rodents. Barn cat adoption programs place cats who need outdoor homes with farms that need mousers.",
+    "tags": [
+      "barn-cats",
+      "working-cats",
+      "June",
+      "farm-animals",
+      "mousers",
+      "adoption",
+      "cats"
+    ],
+    "image": "barn-cat-day.jpg",
+    "relatedDays": [
+      "national-cat-day",
+      "farm-animals-day",
+      "working-animal-day"
+    ],
+    "howToCelebrate": "Adopt barn cats. Support barn cat programs. Care for working cats. Learn about barn cats. Appreciate feline mousers. Share barn cat stories.",
+    "funFacts": [
+      "Barn cats control rodent populations naturally",
+      "They're often feral or semi-feral",
+      "Barn cat programs match cats with farms",
+      "They save farms money on pest control",
+      "Proper care includes food, water, and shelter"
+    ]
+  },
+  {
+    "title": "National Therapy Animal Day",
+    "slug": "national-therapy-animal-day-service",
+    "date": "2025-04-30",
+    "category": "Animals & Pets",
+    "description": "Celebrate healing animals on Therapy Animal Day! Therapy animals provide comfort in hospitals, schools, and nursing homes. From dogs to miniature horses, these animals make incredible differences in lives.",
+    "tags": [
+      "therapy-animals",
+      "service",
+      "April",
+      "healing",
+      "comfort",
+      "healthcare",
+      "animals"
+    ],
+    "image": "therapy-animal-day.jpg",
+    "relatedDays": [
+      "service-dog-day",
+      "national-pet-day",
+      "animal-therapy-awareness"
+    ],
+    "howToCelebrate": "Thank therapy animal teams. Learn about animal therapy. Support therapy animal organizations. Appreciate healing power of animals. Share therapy animal stories.",
+    "funFacts": [
+      "Therapy animals reduce stress and anxiety",
+      "Dogs are most common, but many species work as therapy animals",
+      "Hospitals, schools, and nursing homes use therapy animals",
+      "Animals must be certified for therapy work",
+      "Research proves animal therapy benefits"
+    ]
+  },
+  {
+    "title": "National Foster a Pet Month",
+    "slug": "national-foster-a-pet-month-june",
+    "date": "2025-06-01",
+    "category": "Animals & Pets",
+    "description": "Foster saves lives during National Foster a Pet Month! Shelters need foster homes for puppies, kittens, sick, and shy animals. Fostering opens shelter space and gives animals loving temporary homes.",
+    "tags": [
+      "fostering",
+      "rescue",
+      "June",
+      "shelter-pets",
+      "adoption",
+      "volunteer",
+      "animals"
+    ],
+    "image": "foster-a-pet-month.jpg",
+    "relatedDays": [
+      "adopt-a-shelter-pet-day",
+      "clear-the-shelters",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Foster pets from shelters. Learn about fostering. Donate foster supplies. Share foster stories. Support rescue organizations. Consider adopting your foster!",
+    "funFacts": [
+      "Fostering saves lives by opening shelter space",
+      "Foster families teach animals how to live in homes",
+      "Kitten and puppy season overwhelms shelters",
+      "Most rescues desperately need fosters",
+      "Many people 'foster fail' and adopt their foster pets"
+    ]
+  },
+  {
+    "title": "National Black Cat Appreciation Day",
+    "slug": "national-black-cat-appreciation-day-adoption",
+    "date": "2025-08-17",
+    "category": "Animals & Pets",
+    "description": "Love black cats on Black Cat Appreciation Day! Black cats are often overlooked in shelters due to superstitions. These beautiful felines need extra adoption promotion and love.",
+    "tags": [
+      "black-cats",
+      "cats",
+      "August",
+      "adoption",
+      "superstitions",
+      "shelter-cats",
+      "awareness"
+    ],
+    "image": "black-cat-appreciation-day.jpg",
+    "relatedDays": [
+      "national-cat-day",
+      "adopt-a-shelter-cat-month",
+      "halloween"
+    ],
+    "howToCelebrate": "Adopt a black cat. Share black cat photos. Debunk black cat superstitions. Support black cat rescues. Celebrate black cat beauty. Fight adoption bias.",
+    "funFacts": [
+      "Black cats have lower adoption rates",
+      "Superstitions hurt black cat adoption",
+      "Black cats are just as loving as other cats",
+      "Many shelters promote black cat adoptions",
+      "Black cats are beautiful and photogenic"
+    ]
+  },
+  {
+    "title": "National Senior Pet Day",
+    "slug": "national-senior-pet-day-older-animals",
+    "date": "2025-11-11",
+    "category": "Animals & Pets",
+    "description": "Appreciate older pets on Senior Pet Day! Senior animals often wait longest in shelters. These calm, grateful companions make wonderful pets and deserve loving retirement homes.",
+    "tags": [
+      "senior-pets",
+      "older-animals",
+      "November",
+      "adoption",
+      "rescue",
+      "geriatric-pets",
+      "appreciation"
+    ],
+    "image": "senior-pet-day.jpg",
+    "relatedDays": [
+      "adopt-a-shelter-pet-day",
+      "national-pet-day",
+      "grey-muzzle-day"
+    ],
+    "howToCelebrate": "Adopt a senior pet. Care for aging pets. Support senior pet programs. Share senior pet benefits. Donate to senior animal care. Appreciate old friends.",
+    "funFacts": [
+      "Senior pets are often housetrained and calm",
+      "They make grateful, loving companions",
+      "Senior pets are overlooked in shelters",
+      "Many have years of love left to give",
+      "Adopting seniors saves lives"
+    ]
+  },
+  {
+    "title": "National Pet Obesity Awareness Day",
+    "slug": "national-pet-obesity-awareness-day-health",
+    "date": "2025-10-08",
+    "category": "Animals & Pets",
+    "description": "Fight fat pets on Pet Obesity Awareness Day! Over 50% of American pets are overweight. Obesity causes health problems and shortens pet lives. This day promotes healthy pet weight.",
+    "tags": [
+      "pet-obesity",
+      "pet-health",
+      "October",
+      "awareness",
+      "nutrition",
+      "exercise",
+      "wellness"
+    ],
+    "image": "pet-obesity-awareness-day.jpg",
+    "relatedDays": [
+      "national-pet-day",
+      "veterinary-day",
+      "pet-wellness-month"
+    ],
+    "howToCelebrate": "Check your pet's weight. Consult your vet about healthy weight. Increase pet exercise. Measure food portions. Cut back on treats. Share pet health tips.",
+    "funFacts": [
+      "Over 50% of US pets are overweight",
+      "Obesity causes diabetes, arthritis, and other issues",
+      "Most owners don't realize their pet is overweight",
+      "Proper portions and exercise prevent obesity",
+      "Healthy weight extends pet lifespan"
+    ]
+  },
+  {
+    "title": "National Squirrel Appreciation Day",
+    "slug": "national-squirrel-appreciation-day-wildlife",
+    "date": "2025-01-21",
+    "category": "Animals & Pets",
+    "description": "Go nuts for squirrels! January 21st celebrates these bushy-tailed backyard acrobats. Squirrels play important roles in forest ecosystems by planting trees - they forget where they bury many acorns!",
+    "tags": [
+      "squirrel",
+      "wildlife",
+      "January",
+      "backyard",
+      "nature",
+      "cute",
+      "appreciation"
+    ],
+    "image": "squirrel-backyard.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "backyard-bird-count",
+      "nature-appreciation"
+    ],
+    "howToCelebrate": "Put out nuts for squirrels (unsalted!). Watch squirrel antics in your yard. Learn about different squirrel species. Share squirrel photos. Plant oak trees for future squirrel generations.",
+    "funFacts": [
+      "Squirrels plant thousands of trees by forgetting where they buried nuts",
+      "They can fall from any height without getting hurt",
+      "Squirrels can rotate their ankles 180 degrees",
+      "Baby squirrels are called kittens or pups",
+      "There are over 200 species of squirrels worldwide"
+    ]
+  },
+  {
+    "title": "National Horse Protection Day",
+    "slug": "national-horse-protection-day-equine",
+    "date": "2025-03-01",
+    "category": "Animals & Pets",
+    "description": "Protect America's horses! This day raises awareness about horse welfare, rescue, and protection. Support efforts to end horse abuse and promote responsible horse ownership and care.",
+    "tags": [
+      "horses",
+      "equine",
+      "March",
+      "protection",
+      "welfare",
+      "rescue",
+      "advocacy"
+    ],
+    "image": "horse-protection-rescue.jpg",
+    "relatedDays": [
+      "national-horse-day",
+      "equine-therapy-day",
+      "animal-welfare-week"
+    ],
+    "howToCelebrate": "Support horse rescue organizations. Learn about horse welfare issues. Volunteer at equine sanctuaries. Advocate for horse protection laws. Share horse rescue stories.",
+    "funFacts": [
+      "Thousands of horses are abandoned or abused annually in the US",
+      "Horse rescues save and rehabilitate neglected horses",
+      "Horses are highly intelligent and emotional animals",
+      "The Wild Free-Roaming Horses Act protects wild mustangs",
+      "Therapy horses help people with physical and emotional challenges"
+    ]
+  },
+  {
+    "title": "National Wildlife Refuges Day",
+    "slug": "national-wildlife-refuges-day-conservation",
+    "date": "2025-10-10",
+    "category": "Animals & Pets",
+    "description": "Explore America's wildlife refuges! This day celebrates the National Wildlife Refuge System protecting animals and habitats across the US. Visit refuges, spot wildlife, and support conservation of these vital ecosystems.",
+    "tags": [
+      "wildlife",
+      "refuges",
+      "October",
+      "conservation",
+      "nature",
+      "habitats",
+      "protection"
+    ],
+    "image": "wildlife-refuge-nature.jpg",
+    "relatedDays": [
+      "national-wildlife-day",
+      "migratory-bird-day",
+      "conservation-week"
+    ],
+    "howToCelebrate": "Visit a local wildlife refuge. Go birdwatching or wildlife viewing. Learn about refuge conservation programs. Volunteer at refuges. Support wildlife refuge funding.",
+    "funFacts": [
+      "The US has over 560 national wildlife refuges",
+      "Refuges protect over 850 million acres",
+      "Over 700 species of birds use refuges",
+      "Refuges welcome over 50 million visitors annually",
+      "Theodore Roosevelt created the first refuge in 1903"
+    ]
+  },
+  {
+    "title": "National Dress Up Your Pet Day",
+    "slug": "national-dress-up-your-pet-day-fun-costumes",
+    "date": "2025-01-14",
+    "category": "Animals & Pets",
+    "description": "Make your pet a fashion icon! Dress Up Your Pet Day is all about safe, fun pet costumes. From Halloween holdovers to special outfits, share photos of your fashionable furry friends (as long as they're comfortable!).",
+    "tags": [
+      "pets",
+      "costumes",
+      "January",
+      "fun",
+      "dogs",
+      "cats",
+      "photos"
+    ],
+    "image": "pet-costumes-dress-up.jpg",
+    "relatedDays": [
+      "halloween",
+      "pet-photography-day",
+      "national-pet-day"
+    ],
+    "howToCelebrate": "Dress your pet in a safe, comfortable costume. Take adorable photos. Share on social media. Make sure your pet is happy and comfortable. Try DIY pet costumes.",
+    "funFacts": [
+      "The pet costume industry is worth billions",
+      "Halloween is the biggest pet costume occasion",
+      "Always ensure costumes don't restrict movement or breathing",
+      "Some pets love dressing up, others don't - respect their preferences",
+      "Pet fashion shows are held nationwide"
+    ]
+  },
+  {
+    "title": "National Answer Your Cat's Questions Day",
+    "slug": "national-answer-your-cats-questions-day-funny",
+    "date": "2025-01-22",
+    "category": "Animals & Pets",
+    "description": "What's your cat thinking? This whimsical day imagines answering all those curious cat questions. Why can't I eat your food? Why do you leave every day? Have fun interpreting feline behavior and strengthening your cat bond!",
+    "tags": [
+      "cats",
+      "humor",
+      "January",
+      "fun",
+      "pets",
+      "behavior",
+      "quirky"
+    ],
+    "image": "cat-curious-questions.jpg",
+    "relatedDays": [
+      "national-cat-day",
+      "answer-your-pets-questions",
+      "cat-behavior-day"
+    ],
+    "howToCelebrate": "Imagine what your cat wants to know. Respond to their meows and looks. Spend quality time with your cat. Learn about cat body language. Share funny cat question scenarios online.",
+    "funFacts": [
+      "Cats vocalize primarily to communicate with humans",
+      "Each cat has a unique meow vocabulary",
+      "Slow blinking means 'I love you' in cat language",
+      "Cats spend 70% of their lives sleeping",
+      "They probably do wonder why we shower instead of licking ourselves"
+    ]
+  },
+  {
+    "title": "National Miniature Donkey Day",
+    "slug": "national-miniature-donkey-day-cute",
+    "date": "2025-05-02",
+    "category": "Animals & Pets",
+    "description": "Small and adorable! National Miniature Donkey Day celebrates these pint-sized equines. Standing under 36 inches tall, mini donkeys are gentle, intelligent, and make wonderful therapy animals and companions.",
+    "tags": [
+      "donkey",
+      "miniature",
+      "May",
+      "cute",
+      "farm-animals",
+      "therapy",
+      "equine"
+    ],
+    "image": "miniature-donkey-cute.jpg",
+    "relatedDays": [
+      "national-donkey-day",
+      "farm-animal-day",
+      "therapy-animal-awareness"
+    ],
+    "howToCelebrate": "Visit a farm with miniature donkeys. Learn about their care and needs. Support donkey rescue organizations. Share cute mini donkey photos. Consider mini donkeys as therapy or farm animals.",
+    "funFacts": [
+      "Mini donkeys originated from Mediterranean islands",
+      "They're typically 32-36 inches tall",
+      "Mini donkeys are very social and bond strongly with owners",
+      "They live 25-35 years with proper care",
+      "They're used successfully as therapy animals"
+    ]
+  },
+  {
+    "title": "National Zoo Lovers Day",
+    "slug": "national-zoo-lovers-day-april-8",
+    "date": "2025-04-08",
+    "category": "Animals & Pets",
+    "description": "Visit the zoo! National Zoo Lovers Day celebrates zoos and their role in conservation, education, and animal care. Modern zoos protect endangered species and inspire love for wildlife.",
+    "tags": [
+      "zoo",
+      "conservation",
+      "April",
+      "wildlife",
+      "animals",
+      "education",
+      "family"
+    ],
+    "image": "zoo-animals-visit.jpg",
+    "relatedDays": [
+      "world-wildlife-day",
+      "endangered-species-day",
+      "conservation-day"
+    ],
+    "howToCelebrate": "Visit your local zoo. Learn about conservation programs. Support zoo memberships and donations. Take kids to see animals. Learn about endangered species breeding programs.",
+    "funFacts": [
+      "Accredited zoos contribute to species survival",
+      "Many animals in zoos are endangered or extinct in the wild",
+      "Zoos spend millions on conservation efforts",
+      "Zoo births help preserve genetic diversity",
+      "Educational programs reach millions of children annually"
+    ]
+  },
+  {
+    "title": "National Service Dog Month",
+    "slug": "national-service-dog-month-september",
+    "date": "2025-09-01",
+    "category": "Animals & Pets",
+    "description": "Honor working dogs! September celebrates service dogs who change lives daily. From guide dogs to PTSD support dogs, these highly trained animals provide independence and assistance.",
+    "tags": [
+      "service-dogs",
+      "working-dogs",
+      "September",
+      "disability",
+      "assistance",
+      "training",
+      "heroes"
+    ],
+    "image": "service-dog-working.jpg",
+    "relatedDays": [
+      "guide-dog-day",
+      "therapy-dog-day",
+      "working-dog-day"
+    ],
+    "howToCelebrate": "Learn about service dog training and laws. Don't pet working dogs without asking. Support service dog organizations. Share service dog stories. Donate to training programs.",
+    "funFacts": [
+      "Service dogs perform specific tasks for people with disabilities",
+      "Training a service dog costs $20,000-$40,000",
+      "They're protected by the Americans with Disabilities Act",
+      "Never distract or pet a working service dog",
+      "Service dogs dramatically improve quality of life"
+    ]
+  },
+  {
+    "title": "National Shelter Dog Month",
+    "slug": "national-shelter-dog-month-august",
+    "date": "2025-08-01",
+    "category": "Animals & Pets",
+    "description": "Adopt don't shop! August celebrates shelter dogs waiting for homes. Millions of amazing dogs need loving families. Visit shelters and rescue a best friend!",
+    "tags": [
+      "shelter-dogs",
+      "adoption",
+      "August",
+      "rescue",
+      "dogs",
+      "animal-welfare",
+      "pets"
+    ],
+    "image": "shelter-dog-adoption.jpg",
+    "relatedDays": [
+      "adopt-a-shelter-pet-day",
+      "national-dog-day",
+      "rescue-dog-day"
+    ],
+    "howToCelebrate": "Visit local animal shelters. Adopt or foster a dog. Donate supplies or money. Volunteer at shelters. Share adoptable dogs on social media. Spay/neuter your pets.",
+    "funFacts": [
+      "Over 3 million dogs enter shelters annually",
+      "Shelter dogs make wonderful, loving pets",
+      "Many shelter dogs are purebreds",
+      "Adoption fees are much less than buying from breeders",
+      "Rescue dogs seem to know they've been saved"
+    ]
+  },
+  {
+    "title": "National Adopt a Rescued Rabbit Month",
+    "slug": "national-adopt-rescued-rabbit-month-february",
+    "date": "2025-02-01",
+    "category": "Animals & Pets",
+    "description": "Hop to it! February is Adopt a Rescued Rabbit Month. Thousands of rabbits need homes. Learn about rabbit care and consider adopting these wonderful, intelligent pets.",
+    "tags": [
+      "rabbits",
+      "adoption",
+      "February",
+      "rescue",
+      "pets",
+      "bunnies",
+      "animal-welfare"
+    ],
+    "image": "rescued-rabbit-adoption.jpg",
+    "relatedDays": [
+      "national-rabbit-day",
+      "adopt-a-shelter-pet",
+      "bunny-day"
+    ],
+    "howToCelebrate": "Adopt or foster a rabbit. Volunteer at rabbit rescues. Donate supplies. Learn about proper rabbit care. Share adoptable rabbits. Educate about rabbits as pets.",
+    "funFacts": [
+      "Rabbits are the third most common pet",
+      "They can live 8-12 years with proper care",
+      "Rabbits are highly intelligent and social",
+      "They need companions - pairs are best",
+      "Many rabbits are abandoned after Easter"
+    ]
+  },
+  {
+    "title": "National Wildlife Federation Week",
+    "slug": "national-wildlife-federation-week-nature-conservation",
+    "date": "2025-03-16",
+    "category": "Animals & Pets",
+    "description": "Protect wildlife! This week celebrates the National Wildlife Federation's conservation work. Support wildlife conservation, create backyard habitats, and protect America's natural heritage.",
+    "tags": [
+      "wildlife",
+      "conservation",
+      "March",
+      "nature",
+      "habitats",
+      "environment",
+      "federation"
+    ],
+    "image": "wildlife-federation-conservation.jpg",
+    "relatedDays": [
+      "wildlife-day",
+      "conservation-week",
+      "nature-day"
+    ],
+    "howToCelebrate": "Create a backyard wildlife habitat. Support NWF programs. Learn about native wildlife. Plant native plants. Reduce pesticide use. Get your yard certified as a wildlife habitat.",
+    "funFacts": [
+      "NWF was founded in 1936",
+      "They protect wildlife and habitats across America",
+      "Backyard habitats provide food, water, and shelter",
+      "Native plants support local wildlife",
+      "Anyone can create a certified wildlife habitat"
+    ]
+  },
+  {
+    "title": "World Snake Day",
+    "slug": "world-snake-day-july-16-reptile-awareness",
+    "date": "2025-07-16",
+    "category": "Animals & Pets",
+    "description": "Slither into appreciation! World Snake Day celebrates these misunderstood reptiles. Learn about snake conservation, their ecological importance, and why most snakes are harmless and beneficial.",
+    "tags": [
+      "snakes",
+      "reptiles",
+      "July",
+      "conservation",
+      "wildlife",
+      "education",
+      "awareness"
+    ],
+    "image": "snake-awareness.jpg",
+    "relatedDays": [
+      "reptile-awareness",
+      "wildlife-day",
+      "conservation-day"
+    ],
+    "howToCelebrate": "Learn about local snake species. Visit reptile exhibits. Support snake conservation. Educate about snake myths. Appreciate their role in ecosystems. Never kill snakes unnecessarily.",
+    "funFacts": [
+      "Most snakes are harmless to humans",
+      "Snakes control rodent populations naturally",
+      "They're found on every continent except Antarctica",
+      "Snake venom has medical applications",
+      "Many snake species are threatened by habitat loss"
+    ]
   }
 ]

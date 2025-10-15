@@ -898,5 +898,1295 @@
       "Men can also get breast cancer, though it's rare",
       "The pink ribbon became the symbol of breast cancer awareness in 1992"
     ]
+  },
+  {
+    "title": "National Donate Life Day",
+    "slug": "national-donate-life-day-organ",
+    "date": "2025-04-11",
+    "category": "Awareness & Health",
+    "description": "Give the gift of life on National Donate Life Day! This important observance promotes organ, eye, and tissue donation, which saves and heals lives across America. One donor can save up to 8 lives and heal over 75 people. Register as a donor today!",
+    "tags": [
+      "organ-donation",
+      "health",
+      "April",
+      "lifesaving",
+      "awareness",
+      "transplant",
+      "gift-of-life"
+    ],
+    "image": "donate-life-heart-symbol.jpg",
+    "relatedDays": [
+      "national-donor-day",
+      "world-donor-day",
+      "organ-donation-awareness-month"
+    ],
+    "howToCelebrate": "Register as an organ, eye, and tissue donor. Share your donor status on social media. Learn about donation and transplantation. Thank donor families and living donors. Support organizations that promote donation. Wear blue and green to show support.",
+    "funFacts": [
+      "Over 100,000 Americans are waiting for organ transplants",
+      "One organ donor can save up to 8 lives",
+      "Tissue donation can heal up to 75 people",
+      "60% of Americans are registered donors",
+      "All major religions support organ donation"
+    ]
+  },
+  {
+    "title": "National Diabetes Awareness Month",
+    "slug": "national-diabetes-awareness-month-november",
+    "date": "2025-11-01",
+    "category": "Awareness & Health",
+    "description": "Fight diabetes and promote healthy living during National Diabetes Awareness Month! November focuses attention on diabetes prevention, management, and research. Learn about this growing epidemic affecting over 37 million Americans and take steps toward better health.",
+    "tags": [
+      "diabetes",
+      "health",
+      "November",
+      "awareness",
+      "prevention",
+      "chronic-disease",
+      "wellness"
+    ],
+    "image": "diabetes-awareness-blue-circle.jpg",
+    "relatedDays": [
+      "world-diabetes-day",
+      "american-diabetes-month",
+      "national-nutrition-month"
+    ],
+    "howToCelebrate": "Get screened for diabetes and prediabetes. Learn about diabetes management and prevention. Support diabetes research organizations. Participate in diabetes awareness walks. Share educational information. Wear blue on World Diabetes Day (Nov 14).",
+    "funFacts": [
+      "1 in 10 Americans has diabetes",
+      "96 million Americans have prediabetes",
+      "Type 2 diabetes can often be prevented through lifestyle changes",
+      "Diabetes costs the US over $327 billion annually",
+      "Early detection and management can prevent complications"
+    ]
+  },
+  {
+    "title": "National Heart Health Month",
+    "slug": "national-heart-health-month-february",
+    "date": "2025-02-01",
+    "category": "Awareness & Health",
+    "description": "Love your heart during National Heart Health Month! February focuses on cardiovascular disease prevention and heart health. Heart disease is the leading cause of death in America, but many cases are preventable through healthy lifestyle choices.",
+    "tags": [
+      "heart-health",
+      "cardiovascular",
+      "February",
+      "awareness",
+      "prevention",
+      "wellness",
+      "health"
+    ],
+    "image": "heart-health-awareness-red.jpg",
+    "relatedDays": [
+      "world-heart-day",
+      "national-wear-red-day",
+      "american-heart-month"
+    ],
+    "howToCelebrate": "Schedule a heart health screening. Learn your numbers (blood pressure, cholesterol). Start heart-healthy exercise routines. Adopt a heart-healthy diet. Quit smoking if you smoke. Wear red on National Wear Red Day (first Friday). Share heart health tips on social media.",
+    "funFacts": [
+      "Heart disease causes 1 in 4 deaths in the US",
+      "About 80% of cardiovascular disease can be prevented",
+      "Women's heart attack symptoms often differ from men's",
+      "30 minutes of daily exercise significantly reduces heart disease risk",
+      "The American Heart Association promotes Life's Essential 8 for heart health"
+    ]
+  },
+  {
+    "title": "National Alzheimer's Awareness Month",
+    "slug": "national-alzheimers-awareness-month-november",
+    "date": "2025-11-01",
+    "category": "Awareness & Health",
+    "description": "Remember and support those affected by Alzheimer's during National Alzheimer's Awareness Month! November brings attention to this devastating disease affecting over 6 million Americans. Support research, caregivers, and families facing this challenging journey.",
+    "tags": [
+      "Alzheimers",
+      "memory",
+      "November",
+      "awareness",
+      "caregiving",
+      "health",
+      "support"
+    ],
+    "image": "alzheimers-awareness-purple.jpg",
+    "relatedDays": [
+      "world-alzheimers-day",
+      "national-family-caregivers-month",
+      "brain-health-awareness-month"
+    ],
+    "howToCelebrate": "Learn about Alzheimer's warning signs. Support Alzheimer's research organizations. Participate in the Walk to End Alzheimer's. Support caregivers of those with Alzheimer's. Volunteer at memory care facilities. Share purple awareness ribbons and information on social media.",
+    "funFacts": [
+      "Over 6.7 million Americans age 65+ have Alzheimer's",
+      "It's the 6th leading cause of death in the US",
+      "Two-thirds of Americans with Alzheimer's are women",
+      "Over 11 million Americans provide unpaid care for someone with Alzheimer's",
+      "Research is making progress toward prevention and treatment"
+    ]
+  },
+  {
+    "title": "National Stroke Awareness Month",
+    "slug": "national-stroke-awareness-month-may",
+    "date": "2025-05-01",
+    "category": "Awareness & Health",
+    "description": "Act FAST and save lives during National Stroke Awareness Month! May focuses on stroke prevention, recognition, and treatment. Learn the warning signs - Face drooping, Arm weakness, Speech difficulty, Time to call 911. Quick action saves lives and reduces disability.",
+    "tags": [
+      "stroke",
+      "health",
+      "May",
+      "awareness",
+      "prevention",
+      "emergency",
+      "brain-health"
+    ],
+    "image": "stroke-awareness-fast-signs.jpg",
+    "relatedDays": [
+      "world-stroke-day",
+      "brain-awareness-week",
+      "national-heart-health-month"
+    ],
+    "howToCelebrate": "Learn and share the FAST acronym for stroke recognition. Know your risk factors and get screened. Adopt stroke-prevention lifestyle habits. Support stroke survivors and their families. Participate in awareness events. Share lifesaving information on social media.",
+    "funFacts": [
+      "Someone in the US has a stroke every 40 seconds",
+      "Stroke is the 5th leading cause of death in America",
+      "Up to 80% of strokes can be prevented",
+      "Time lost is brain lost - treatment within 3 hours is critical",
+      "Stroke is a leading cause of serious long-term disability"
+    ]
+  },
+  {
+    "title": "National Immunization Awareness Month",
+    "slug": "national-immunization-awareness-month-august",
+    "date": "2025-08-01",
+    "category": "Awareness & Health",
+    "description": "Protect yourself and your community during National Immunization Awareness Month! August highlights the importance of vaccines for people of all ages. Vaccines have saved millions of lives and continue to protect against serious diseases.",
+    "tags": [
+      "vaccines",
+      "immunization",
+      "August",
+      "prevention",
+      "health",
+      "awareness",
+      "public-health"
+    ],
+    "image": "vaccination-immunization-awareness.jpg",
+    "relatedDays": [
+      "world-immunization-week",
+      "flu-awareness-day",
+      "public-health-day"
+    ],
+    "howToCelebrate": "Check your vaccination records and get caught up. Schedule back-to-school vaccines for children. Get your annual flu shot. Learn about vaccine safety and effectiveness. Share accurate vaccine information. Thank healthcare workers who administer vaccines.",
+    "funFacts": [
+      "Vaccines prevent 2-3 million deaths worldwide annually",
+      "The US childhood vaccination program prevents 42,000 deaths per year",
+      "Vaccines have eliminated or nearly eliminated many diseases in the US",
+      "Herd immunity protects those who cannot be vaccinated",
+      "Vaccine safety is continuously monitored by multiple systems"
+    ]
+  },
+  {
+    "title": "National Obesity Awareness Month",
+    "slug": "national-obesity-awareness-month-september",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Focus on healthy weight and wellness during National Obesity Awareness Month! September brings attention to the obesity epidemic affecting millions of Americans. Learn about prevention, treatment, and reducing stigma around weight and health.",
+    "tags": [
+      "obesity",
+      "health",
+      "September",
+      "awareness",
+      "prevention",
+      "wellness",
+      "nutrition"
+    ],
+    "image": "healthy-weight-wellness.jpg",
+    "relatedDays": [
+      "national-nutrition-month",
+      "national-fitness-day",
+      "world-obesity-day"
+    ],
+    "howToCelebrate": "Schedule a health screening with your doctor. Learn about healthy eating and portion control. Start or increase physical activity. Focus on health, not just weight. Support obesity prevention programs. Reduce weight stigma. Share evidence-based health information on social media.",
+    "funFacts": [
+      "Over 42% of American adults have obesity",
+      "Obesity increases risk for many serious health conditions",
+      "Small, sustainable lifestyle changes can make a big difference",
+      "Genetics, environment, and behavior all play roles in obesity",
+      "Obesity costs the US healthcare system nearly $173 billion annually"
+    ]
+  },
+  {
+    "title": "National Depression Screening Day",
+    "slug": "national-depression-screening-day-awareness",
+    "date": "2025-10-09",
+    "category": "Awareness & Health",
+    "description": "Get screened on National Depression Screening Day! Depression affects millions of Americans, and early screening saves lives. Free screenings are offered nationwide to identify those needing mental health support.",
+    "tags": [
+      "depression",
+      "mental-health",
+      "October",
+      "screening",
+      "awareness",
+      "healthcare",
+      "support"
+    ],
+    "image": "depression-screening-day.jpg",
+    "relatedDays": [
+      "world-mental-health-day",
+      "suicide-prevention-day",
+      "mental-health-awareness-month"
+    ],
+    "howToCelebrate": "Take a depression screening test. Share screening resources. Support mental health organizations. Check in on loved ones. Reduce mental health stigma.",
+    "funFacts": [
+      "Over 21 million US adults experience depression annually",
+      "Depression is highly treatable when identified",
+      "Free confidential screenings available nationwide",
+      "Early intervention dramatically improves outcomes",
+      "Depression screening should be part of routine healthcare"
+    ]
+  },
+  {
+    "title": "National Physical Therapy Month",
+    "slug": "national-physical-therapy-month-october",
+    "date": "2025-10-01",
+    "category": "Awareness & Health",
+    "description": "Move better during National Physical Therapy Month! Physical therapists help millions recover from injuries and manage chronic conditions. PT is essential healthcare that improves quality of life for all ages.",
+    "tags": [
+      "physical-therapy",
+      "rehabilitation",
+      "October",
+      "healthcare",
+      "movement",
+      "recovery",
+      "wellness"
+    ],
+    "image": "physical-therapy-month.jpg",
+    "relatedDays": [
+      "national-fitness-day",
+      "arthritis-awareness-month",
+      "occupational-therapy-month"
+    ],
+    "howToCelebrate": "Thank your physical therapist. Learn about PT benefits. Try PT exercises. Support mobility awareness. Share PT success stories.",
+    "funFacts": [
+      "Over 350,000 physical therapists work in the US",
+      "PT helps avoid surgery for many conditions",
+      "Physical therapy treats all ages from infants to elderly",
+      "PT reduces long-term healthcare costs",
+      "Movement is medicine for countless conditions"
+    ]
+  },
+  {
+    "title": "National Cholesterol Education Month",
+    "slug": "national-cholesterol-education-month-september",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Know your numbers during National Cholesterol Education Month! High cholesterol affects 93 million American adults. Understanding and managing cholesterol levels prevents heart disease and strokes.",
+    "tags": [
+      "cholesterol",
+      "heart-health",
+      "September",
+      "prevention",
+      "awareness",
+      "healthcare",
+      "education"
+    ],
+    "image": "cholesterol-education-month.jpg",
+    "relatedDays": [
+      "world-heart-day",
+      "american-heart-month",
+      "blood-pressure-awareness"
+    ],
+    "howToCelebrate": "Get cholesterol checked. Learn about healthy cholesterol levels. Improve diet and exercise. Share heart health tips. Support cardiovascular research.",
+    "funFacts": [
+      "93 million US adults have high cholesterol",
+      "Many people don't know they have high cholesterol",
+      "Diet and exercise can significantly impact levels",
+      "High cholesterol increases heart disease risk",
+      "Regular screening saves lives"
+    ]
+  },
+  {
+    "title": "National Pain Awareness Month",
+    "slug": "national-pain-awareness-month-september",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Understand chronic pain during National Pain Awareness Month! Over 50 million Americans live with chronic pain. Raising awareness improves treatment access and reduces stigma around pain management.",
+    "tags": [
+      "chronic-pain",
+      "awareness",
+      "September",
+      "healthcare",
+      "pain-management",
+      "support",
+      "wellness"
+    ],
+    "image": "pain-awareness-month.jpg",
+    "relatedDays": [
+      "fibromyalgia-awareness-day",
+      "arthritis-awareness-month",
+      "migraine-awareness-month"
+    ],
+    "howToCelebrate": "Learn about chronic pain conditions. Support those living with pain. Advocate for pain treatment access. Share pain management resources. Reduce pain stigma.",
+    "funFacts": [
+      "Over 50 million US adults have chronic pain",
+      "Chronic pain costs over $600 billion annually",
+      "Many effective pain management strategies exist",
+      "Chronic pain affects mental and physical health",
+      "Multidisciplinary approaches work best"
+    ]
+  },
+  {
+    "title": "National Prostate Health Month",
+    "slug": "national-prostate-health-month-september",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Screen for prostate health during National Prostate Health Month! Prostate cancer is the second most common cancer in American men. Early detection through screening dramatically improves treatment outcomes.",
+    "tags": [
+      "prostate-health",
+      "mens-health",
+      "September",
+      "cancer-screening",
+      "awareness",
+      "prevention",
+      "healthcare"
+    ],
+    "image": "prostate-health-month.jpg",
+    "relatedDays": [
+      "mens-health-week",
+      "movember",
+      "cancer-awareness-month"
+    ],
+    "howToCelebrate": "Get prostate screening. Learn about prostate health. Encourage men to get checked. Support prostate cancer research. Share screening importance.",
+    "funFacts": [
+      "1 in 8 men will be diagnosed with prostate cancer",
+      "Early detection has 99% 5-year survival rate",
+      "African American men have higher prostate cancer risk",
+      "Screening recommendations start at age 50",
+      "Prostate cancer is highly treatable when caught early"
+    ]
+  },
+  {
+    "title": "National Bone and Joint Health Week",
+    "slug": "national-bone-joint-health-week-october",
+    "date": "2025-10-12",
+    "category": "Awareness & Health",
+    "description": "Strengthen bones and joints during National Bone and Joint Health Week! Musculoskeletal conditions affect 1 in 2 Americans. Maintaining bone and joint health prevents disability and improves quality of life.",
+    "tags": [
+      "bone-health",
+      "joint-health",
+      "October",
+      "musculoskeletal",
+      "awareness",
+      "prevention",
+      "wellness"
+    ],
+    "image": "bone-joint-health-week.jpg",
+    "relatedDays": [
+      "osteoporosis-awareness-day",
+      "arthritis-awareness-month",
+      "physical-therapy-month"
+    ],
+    "howToCelebrate": "Exercise for bone strength. Learn about joint health. Get bone density checked. Support arthritis research. Share bone health tips.",
+    "funFacts": [
+      "1 in 2 Americans have a musculoskeletal condition",
+      "Osteoporosis affects 10 million Americans",
+      "Weight-bearing exercise strengthens bones",
+      "Calcium and vitamin D are crucial for bones",
+      "Early intervention prevents long-term disability"
+    ]
+  },
+  {
+    "title": "National Poison Prevention Week",
+    "slug": "national-poison-prevention-week-march",
+    "date": "2025-03-16",
+    "category": "Awareness & Health",
+    "description": "Prevent poisoning during National Poison Prevention Week! Poison Control centers handle millions of calls annually. Simple prevention steps protect children and adults from accidental poisonings.",
+    "tags": [
+      "poison-prevention",
+      "safety",
+      "March",
+      "children",
+      "awareness",
+      "public-health",
+      "education"
+    ],
+    "image": "poison-prevention-week.jpg",
+    "relatedDays": [
+      "child-safety-week",
+      "medication-safety-week",
+      "carbon-monoxide-awareness"
+    ],
+    "howToCelebrate": "Childproof your home. Save Poison Control number (1-800-222-1222). Safely store medications and chemicals. Learn poison first aid. Share prevention tips.",
+    "funFacts": [
+      "Poison Control handles over 2 million cases yearly",
+      "Most poisonings happen at home",
+      "Children under 6 are at highest risk",
+      "Many poisonings are preventable",
+      "Free expert help available 24/7"
+    ]
+  },
+  {
+    "title": "National Safety Month",
+    "slug": "national-safety-month-june",
+    "date": "2025-06-01",
+    "category": "Awareness & Health",
+    "description": "Stay safe during National Safety Month! From workplace safety to driving and home hazards, preventing accidents saves lives. Safety awareness reduces injuries and saves billions in costs.",
+    "tags": [
+      "safety",
+      "prevention",
+      "June",
+      "workplace",
+      "awareness",
+      "public-health",
+      "education"
+    ],
+    "image": "national-safety-month.jpg",
+    "relatedDays": [
+      "workplace-safety-day",
+      "fire-prevention-week",
+      "emergency-preparedness-month"
+    ],
+    "howToCelebrate": "Review safety procedures. Conduct safety training. Check smoke detectors. Practice emergency plans. Share safety tips.",
+    "funFacts": [
+      "Preventable injuries cost over $1 trillion annually",
+      "Most accidents are preventable",
+      "Workplace safety programs reduce injuries dramatically",
+      "Home safety checks prevent most accidents",
+      "Safety awareness saves lives and money"
+    ]
+  },
+  {
+    "title": "National Preparedness Month",
+    "slug": "national-preparedness-month-september",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Get ready during National Preparedness Month! Emergencies and disasters can happen anytime. Having emergency plans and supplies protects families and communities during crises.",
+    "tags": [
+      "preparedness",
+      "emergency",
+      "September",
+      "safety",
+      "awareness",
+      "disaster",
+      "planning"
+    ],
+    "image": "national-preparedness-month.jpg",
+    "relatedDays": [
+      "emergency-preparedness-day",
+      "fire-prevention-week",
+      "earthquake-preparedness"
+    ],
+    "howToCelebrate": "Create emergency plans. Build emergency kits. Learn first aid and CPR. Practice evacuation routes. Share preparedness resources.",
+    "funFacts": [
+      "60% of Americans don't have emergency plans",
+      "Disasters can strike without warning",
+      "Simple preparations save lives",
+      "Emergency kits should last 72 hours minimum",
+      "Community preparedness strengthens resilience"
+    ]
+  },
+  {
+    "title": "National Yoga Month",
+    "slug": "national-yoga-month-september",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Find balance during National Yoga Month! Over 36 million Americans practice yoga for physical and mental health benefits. Yoga reduces stress, improves flexibility, and enhances overall wellbeing.",
+    "tags": [
+      "yoga",
+      "wellness",
+      "September",
+      "mindfulness",
+      "fitness",
+      "mental-health",
+      "exercise"
+    ],
+    "image": "national-yoga-month.jpg",
+    "relatedDays": [
+      "international-yoga-day",
+      "national-meditation-day",
+      "national-fitness-day"
+    ],
+    "howToCelebrate": "Practice yoga daily. Try new yoga styles. Attend yoga classes. Teach others about yoga benefits. Share yoga poses and tips.",
+    "funFacts": [
+      "Over 36 million Americans practice yoga",
+      "Yoga improves flexibility, strength, and balance",
+      "Regular yoga reduces stress and anxiety",
+      "Yoga is adaptable for all fitness levels",
+      "The yoga industry is worth billions"
+    ]
+  },
+  {
+    "title": "National Chiropractic Health Month",
+    "slug": "national-chiropractic-health-month-october",
+    "date": "2025-10-01",
+    "category": "Awareness & Health",
+    "description": "Align your spine during National Chiropractic Health Month! Chiropractors help millions manage pain and improve mobility. Chiropractic care offers drug-free treatment for many musculoskeletal conditions.",
+    "tags": [
+      "chiropractic",
+      "health",
+      "October",
+      "spine",
+      "pain-relief",
+      "wellness",
+      "alternative-medicine"
+    ],
+    "image": "chiropractic-health-month.jpg",
+    "relatedDays": [
+      "world-spine-day",
+      "physical-therapy-month",
+      "pain-awareness-month"
+    ],
+    "howToCelebrate": "Visit a chiropractor. Learn about spinal health. Practice good posture. Share chiropractic benefits. Support holistic healthcare.",
+    "funFacts": [
+      "Over 35 million Americans visit chiropractors annually",
+      "Chiropractic care treats back pain, headaches, and more",
+      "70,000+ chiropractors practice in the US",
+      "Chiropractic is the third-largest healthcare profession",
+      "Drug-free pain relief option"
+    ]
+  },
+  {
+    "title": "National Dental Hygiene Month",
+    "slug": "national-dental-hygiene-month-october",
+    "date": "2025-10-01",
+    "category": "Awareness & Health",
+    "description": "Brush and floss during National Dental Hygiene Month! Oral health affects overall health. Dental hygienists educate about prevention and provide essential dental care to millions.",
+    "tags": [
+      "dental",
+      "oral-health",
+      "October",
+      "hygiene",
+      "prevention",
+      "healthcare",
+      "teeth"
+    ],
+    "image": "dental-hygiene-month.jpg",
+    "relatedDays": [
+      "national-tooth-fairy-day",
+      "give-kids-a-smile-day",
+      "world-oral-health-day"
+    ],
+    "howToCelebrate": "Visit your dentist. Thank dental hygienists. Improve brushing and flossing habits. Teach kids about oral health. Share dental care tips.",
+    "funFacts": [
+      "Over 200,000 dental hygienists work in the US",
+      "Oral health impacts overall health",
+      "Gum disease linked to heart disease and diabetes",
+      "Preventive care saves money and teeth",
+      "Most dental problems are preventable"
+    ]
+  },
+  {
+    "title": "National Vision and Learning Month",
+    "slug": "national-vision-learning-month-august",
+    "date": "2025-08-01",
+    "category": "Awareness & Health",
+    "description": "See clearly during National Vision and Learning Month! Vision problems affect learning in 1 in 4 children. Eye exams before school starts ensure kids can see to succeed.",
+    "tags": [
+      "vision",
+      "eye-health",
+      "August",
+      "learning",
+      "children",
+      "education",
+      "healthcare"
+    ],
+    "image": "vision-learning-month.jpg",
+    "relatedDays": [
+      "children-eye-health-day",
+      "back-to-school-month",
+      "world-sight-day"
+    ],
+    "howToCelebrate": "Get children's eyes examined. Learn about vision and learning connection. Support vision screening programs. Share eye health tips. Provide glasses to those in need.",
+    "funFacts": [
+      "1 in 4 school-age children have vision problems",
+      "80% of learning is visual",
+      "Vision problems often misdiagnosed as learning disabilities",
+      "Many kids don't know they can't see well",
+      "Early detection prevents learning struggles"
+    ]
+  },
+  {
+    "title": "National Spinal Cord Injury Awareness Month",
+    "slug": "national-spinal-cord-injury-month-september",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Support spinal cord injury awareness during September! Nearly 300,000 Americans live with spinal cord injuries. Research advances and advocacy improve quality of life for those affected.",
+    "tags": [
+      "spinal-cord-injury",
+      "disability",
+      "September",
+      "awareness",
+      "research",
+      "support",
+      "healthcare"
+    ],
+    "image": "spinal-cord-injury-month.jpg",
+    "relatedDays": [
+      "disability-awareness-month",
+      "world-spine-day",
+      "paralysis-awareness-month"
+    ],
+    "howToCelebrate": "Support SCI research. Learn about spinal cord injuries. Improve accessibility. Advocate for disability rights. Share survivor stories.",
+    "funFacts": [
+      "Nearly 300,000 Americans live with SCI",
+      "17,000 new cases occur annually in the US",
+      "Motor vehicle crashes cause 38% of SCIs",
+      "Research is advancing treatment options",
+      "Accessibility improvements benefit everyone"
+    ]
+  },
+  {
+    "title": "National Hepatitis Awareness Month",
+    "slug": "national-hepatitis-awareness-month-may",
+    "date": "2025-05-01",
+    "category": "Awareness & Health",
+    "description": "Test for hepatitis during National Hepatitis Awareness Month! Millions of Americans have hepatitis and don't know it. Testing and treatment prevent liver damage and save lives.",
+    "tags": [
+      "hepatitis",
+      "liver-health",
+      "May",
+      "awareness",
+      "testing",
+      "prevention",
+      "healthcare"
+    ],
+    "image": "hepatitis-awareness-month.jpg",
+    "relatedDays": [
+      "world-hepatitis-day",
+      "liver-health-month",
+      "viral-hepatitis-testing-day"
+    ],
+    "howToCelebrate": "Get tested for hepatitis. Learn about hepatitis types. Get vaccinated. Support liver health. Share testing importance.",
+    "funFacts": [
+      "Over 4 million Americans have hepatitis",
+      "Many people don't know they're infected",
+      "Hepatitis vaccines prevent infection",
+      "Early treatment prevents liver disease",
+      "Hepatitis C is now curable"
+    ]
+  },
+  {
+    "title": "National Celiac Disease Awareness Month",
+    "slug": "national-celiac-disease-awareness-month-may",
+    "date": "2025-05-01",
+    "category": "Awareness & Health",
+    "description": "Go gluten-free awareness during National Celiac Disease Awareness Month! 1 in 100 people have celiac disease, but many are undiagnosed. Awareness improves diagnosis and support for those affected.",
+    "tags": [
+      "celiac-disease",
+      "gluten-free",
+      "May",
+      "awareness",
+      "autoimmune",
+      "diet",
+      "healthcare"
+    ],
+    "image": "celiac-disease-awareness-month.jpg",
+    "relatedDays": [
+      "gluten-free-day",
+      "food-allergy-awareness-week",
+      "digestive-health-month"
+    ],
+    "howToCelebrate": "Learn about celiac disease. Support gluten-free options. Get tested if symptomatic. Share celiac information. Advocate for better labeling.",
+    "funFacts": [
+      "1 in 100 people worldwide have celiac disease",
+      "83% of Americans with celiac are undiagnosed",
+      "Only treatment is strict gluten-free diet",
+      "Celiac is a serious autoimmune disease",
+      "Gluten-free market has grown dramatically"
+    ]
+  },
+  {
+    "title": "National Scoliosis Awareness Month",
+    "slug": "national-scoliosis-awareness-month-june",
+    "date": "2025-06-01",
+    "category": "Awareness & Health",
+    "description": "Stand up straight for National Scoliosis Awareness Month! Scoliosis affects 6-9 million Americans. Early detection through screening allows effective treatment and prevents progression.",
+    "tags": [
+      "scoliosis",
+      "spine-health",
+      "June",
+      "awareness",
+      "children",
+      "screening",
+      "healthcare"
+    ],
+    "image": "scoliosis-awareness-month.jpg",
+    "relatedDays": [
+      "world-spine-day",
+      "bone-and-joint-health-week",
+      "pediatric-health-month"
+    ],
+    "howToCelebrate": "Get scoliosis screenings. Learn about scoliosis signs. Support scoliosis research. Share screening importance. Advocate for school screenings.",
+    "funFacts": [
+      "6-9 million Americans have scoliosis",
+      "Most common in adolescent girls",
+      "Early detection prevents severe curvature",
+      "School screenings identify many cases",
+      "Treatment ranges from observation to surgery"
+    ]
+  },
+  {
+    "title": "National Healthy Skin Month",
+    "slug": "national-healthy-skin-month-november",
+    "date": "2025-11-01",
+    "category": "Awareness & Health",
+    "description": "Protect your skin during National Healthy Skin Month! Skin cancer is the most common cancer in America. Sun protection and skin checks prevent skin cancer and detect it early.",
+    "tags": [
+      "skin-health",
+      "cancer-prevention",
+      "November",
+      "awareness",
+      "sun-safety",
+      "dermatology",
+      "healthcare"
+    ],
+    "image": "healthy-skin-month.jpg",
+    "relatedDays": [
+      "melanoma-awareness-month",
+      "skin-cancer-awareness-month",
+      "sun-safety-month"
+    ],
+    "howToCelebrate": "Get skin cancer screenings. Use sunscreen daily. Perform self-skin checks. Learn about skin health. Share sun protection tips.",
+    "funFacts": [
+      "1 in 5 Americans will develop skin cancer",
+      "Skin cancer is the most common cancer",
+      "Daily sunscreen reduces skin cancer risk",
+      "Early detection has 99% cure rate",
+      "Melanoma is the deadliest skin cancer"
+    ]
+  },
+  {
+    "title": "National Lung Cancer Awareness Month",
+    "slug": "national-lung-cancer-awareness-month-november",
+    "date": "2025-11-01",
+    "category": "Awareness & Health",
+    "description": "Breathe awareness during National Lung Cancer Awareness Month! Lung cancer kills more Americans than any other cancer. Screening saves lives, and awareness reduces stigma.",
+    "tags": [
+      "lung-cancer",
+      "cancer-awareness",
+      "November",
+      "screening",
+      "prevention",
+      "healthcare",
+      "awareness"
+    ],
+    "image": "lung-cancer-awareness-month.jpg",
+    "relatedDays": [
+      "world-lung-cancer-day",
+      "great-american-smokeout",
+      "cancer-awareness-month"
+    ],
+    "howToCelebrate": "Support lung cancer research. Get screened if high-risk. Learn about early detection. Share screening guidelines. Reduce lung cancer stigma.",
+    "funFacts": [
+      "Lung cancer is the leading cancer killer",
+      "234,000+ new cases diagnosed annually in US",
+      "Screening reduces lung cancer deaths by 20%",
+      "Anyone with lungs can get lung cancer",
+      "Early detection dramatically improves survival"
+    ]
+  },
+  {
+    "title": "National Epilepsy Awareness Month",
+    "slug": "national-epilepsy-awareness-month-november",
+    "date": "2025-11-01",
+    "category": "Awareness & Health",
+    "description": "Support epilepsy awareness during November! 3.4 million Americans have epilepsy. Awareness reduces stigma, improves treatment access, and teaches seizure first aid.",
+    "tags": [
+      "epilepsy",
+      "neurological",
+      "November",
+      "awareness",
+      "seizures",
+      "support",
+      "healthcare"
+    ],
+    "image": "epilepsy-awareness-month.jpg",
+    "relatedDays": [
+      "purple-day-epilepsy",
+      "brain-awareness-week",
+      "neurological-disorders-month"
+    ],
+    "howToCelebrate": "Learn seizure first aid. Wear purple for epilepsy. Support epilepsy research. Share epilepsy facts. Reduce epilepsy stigma.",
+    "funFacts": [
+      "3.4 million Americans have epilepsy",
+      "1 in 26 people will develop epilepsy",
+      "Seizures have many causes",
+      "Most people with epilepsy control seizures with treatment",
+      "Knowing seizure first aid saves lives"
+    ]
+  },
+  {
+    "title": "National Influenza Vaccination Week",
+    "slug": "national-influenza-vaccination-week-december",
+    "date": "2025-12-07",
+    "category": "Awareness & Health",
+    "description": "Get your flu shot during National Influenza Vaccination Week! Flu hospitalizes hundreds of thousands annually. Vaccination protects you and vulnerable populations.",
+    "tags": [
+      "flu",
+      "vaccination",
+      "December",
+      "prevention",
+      "public-health",
+      "immunization",
+      "healthcare"
+    ],
+    "image": "flu-vaccination-week.jpg",
+    "relatedDays": [
+      "flu-season",
+      "immunization-awareness-month",
+      "public-health-week"
+    ],
+    "howToCelebrate": "Get flu vaccine. Encourage others to vaccinate. Share flu prevention tips. Support public health. Practice good hygiene.",
+    "funFacts": [
+      "Flu hospitalizes 200,000+ Americans yearly",
+      "Flu vaccine reduces illness risk by 40-60%",
+      "It's not too late to get vaccinated",
+      "Flu vaccine protects you and others",
+      "Annual vaccination recommended for everyone 6+ months"
+    ]
+  },
+  {
+    "title": "National Hand Washing Awareness Week",
+    "slug": "national-hand-washing-awareness-week-december",
+    "date": "2025-12-07",
+    "category": "Awareness & Health",
+    "description": "Scrub up during National Hand Washing Awareness Week! Handwashing is the single most effective way to prevent illness. Proper handwashing prevents millions of infections annually.",
+    "tags": [
+      "handwashing",
+      "hygiene",
+      "December",
+      "prevention",
+      "public-health",
+      "infection-control",
+      "awareness"
+    ],
+    "image": "hand-washing-awareness-week.jpg",
+    "relatedDays": [
+      "global-handwashing-day",
+      "flu-season",
+      "infection-prevention-week"
+    ],
+    "howToCelebrate": "Wash hands properly and frequently. Teach children handwashing. Share handwashing techniques. Promote hand hygiene. Prevent illness spread.",
+    "funFacts": [
+      "Handwashing prevents 1 in 3 diarrheal illnesses",
+      "Handwashing prevents 1 in 5 respiratory infections",
+      "Most people don't wash hands correctly",
+      "Scrub for at least 20 seconds",
+      "Simple habit with huge health impact"
+    ]
+  },
+  {
+    "title": "National Autism Awareness Month",
+    "slug": "national-autism-awareness-month-april",
+    "date": "2025-04-01",
+    "category": "Awareness & Health",
+    "description": "Light it up blue for Autism Awareness Month! April is dedicated to increasing understanding and acceptance of autism spectrum disorder. Learn about autism, support autistic individuals and their families, and promote inclusion and neurodiversity in our communities.",
+    "tags": [
+      "autism",
+      "awareness",
+      "April",
+      "neurodiversity",
+      "acceptance",
+      "health",
+      "advocacy"
+    ],
+    "image": "autism-awareness-blue.jpg",
+    "relatedDays": [
+      "world-autism-day",
+      "disability-awareness",
+      "special-education-day"
+    ],
+    "howToCelebrate": "Wear blue to show support. Learn about autism and neurodiversity. Support autism organizations. Listen to autistic voices and perspectives. Promote acceptance and inclusion in your community. Share autism resources on social media.",
+    "funFacts": [
+      "1 in 36 children in the US are diagnosed with autism",
+      "Autism affects all racial, ethnic, and socioeconomic groups",
+      "Early intervention can greatly improve outcomes",
+      "Autism is a spectrum with diverse strengths and challenges",
+      "The puzzle piece has been replaced by the infinity symbol by many advocates"
+    ]
+  },
+  {
+    "title": "National Bone Marrow Donor Awareness Month",
+    "slug": "national-bone-marrow-donor-awareness-november",
+    "date": "2025-11-01",
+    "category": "Awareness & Health",
+    "description": "Save lives by registering as a bone marrow donor! November raises awareness about the critical need for bone marrow and cord blood donors. Learn how you can become a potential match for someone battling blood cancer or other diseases.",
+    "tags": [
+      "bone-marrow",
+      "donor",
+      "November",
+      "lifesaving",
+      "health",
+      "awareness",
+      "registry"
+    ],
+    "image": "bone-marrow-donor.jpg",
+    "relatedDays": [
+      "national-donor-day",
+      "leukemia-awareness",
+      "blood-cancer-awareness"
+    ],
+    "howToCelebrate": "Register as a bone marrow donor. Learn about the donation process. Share information about bone marrow donation. Support organizations like Be The Match. Encourage others to register.",
+    "funFacts": [
+      "Every 3 minutes someone in the US is diagnosed with blood cancer",
+      "70% of patients don't have a matching donor in their family",
+      "You could be someone's only hope for survival",
+      "Registration is simple - just a cheek swab",
+      "Donors aged 18-40 are most likely to be chosen"
+    ]
+  },
+  {
+    "title": "National Glaucoma Awareness Month",
+    "slug": "national-glaucoma-awareness-january",
+    "date": "2025-01-01",
+    "category": "Awareness & Health",
+    "description": "Protect your vision during Glaucoma Awareness Month! January highlights the importance of regular eye exams to detect this silent thief of sight. Glaucoma often has no early symptoms, making awareness and screening critical for prevention.",
+    "tags": [
+      "glaucoma",
+      "eye-health",
+      "January",
+      "vision",
+      "awareness",
+      "screening",
+      "prevention"
+    ],
+    "image": "glaucoma-eye-health.jpg",
+    "relatedDays": [
+      "world-sight-day",
+      "eye-health-week",
+      "vision-screening-month"
+    ],
+    "howToCelebrate": "Schedule an eye exam. Learn about glaucoma risk factors. Share eye health information. Support glaucoma research. Remind family members to get screenings.",
+    "funFacts": [
+      "Glaucoma is the leading cause of irreversible blindness",
+      "Over 3 million Americans have glaucoma",
+      "Half don't know they have it",
+      "Regular eye exams can prevent 90% of vision loss",
+      "Everyone over 60 should be screened annually"
+    ]
+  },
+  {
+    "title": "National Kidney Month",
+    "slug": "national-kidney-month-march",
+    "date": "2025-03-01",
+    "category": "Awareness & Health",
+    "description": "Keep your kidneys healthy! March is National Kidney Month, raising awareness about kidney disease prevention and treatment. Learn how lifestyle choices affect kidney health and the importance of early detection.",
+    "tags": [
+      "kidney-health",
+      "awareness",
+      "March",
+      "prevention",
+      "chronic-disease",
+      "health",
+      "screening"
+    ],
+    "image": "kidney-health-awareness.jpg",
+    "relatedDays": [
+      "world-kidney-day",
+      "national-donor-day",
+      "diabetes-awareness"
+    ],
+    "howToCelebrate": "Get your kidney function tested. Learn about kidney-healthy diet. Stay hydrated and exercise. Control blood pressure and blood sugar. Share kidney health information.",
+    "funFacts": [
+      "37 million American adults have kidney disease",
+      "9 in 10 don't know they have it",
+      "Diabetes and high blood pressure cause most kidney disease",
+      "Your kidneys filter 200 quarts of blood daily",
+      "Early detection can slow or prevent kidney failure"
+    ]
+  },
+  {
+    "title": "National Migraine and Headache Awareness Month",
+    "slug": "national-migraine-headache-awareness-june",
+    "date": "2025-06-01",
+    "category": "Awareness & Health",
+    "description": "Shine a light on migraine! June raises awareness about migraines and chronic headaches that affect millions. Learn about triggers, treatments, and how to support those living with this invisible disability.",
+    "tags": [
+      "migraine",
+      "headache",
+      "June",
+      "chronic-pain",
+      "awareness",
+      "health",
+      "treatment"
+    ],
+    "image": "migraine-awareness.jpg",
+    "relatedDays": [
+      "chronic-pain-awareness",
+      "headache-awareness-week",
+      "invisible-disabilities-week"
+    ],
+    "howToCelebrate": "Learn about migraine triggers and treatments. Support migraine research. Share experiences or listen to those with migraines. Wear purple for awareness. Advocate for better migraine care.",
+    "funFacts": [
+      "Over 39 million Americans suffer from migraines",
+      "Migraines are the 3rd most prevalent illness worldwide",
+      "Women are 3 times more likely to suffer migraines",
+      "Migraines are a neurological disease, not just a headache",
+      "Many people with migraines are undiagnosed or undertreated"
+    ]
+  },
+  {
+    "title": "National PTSD Awareness Month",
+    "slug": "national-ptsd-awareness-june",
+    "date": "2025-06-01",
+    "category": "Awareness & Health",
+    "description": "Support those with PTSD this June! Post-Traumatic Stress Disorder affects millions of veterans, survivors, and trauma victims. Raise awareness, reduce stigma, and promote understanding and treatment of this serious mental health condition.",
+    "tags": [
+      "PTSD",
+      "mental-health",
+      "June",
+      "trauma",
+      "veterans",
+      "awareness",
+      "treatment"
+    ],
+    "image": "ptsd-awareness-support.jpg",
+    "relatedDays": [
+      "veterans-day",
+      "mental-health-awareness-month",
+      "trauma-awareness"
+    ],
+    "howToCelebrate": "Learn about PTSD symptoms and treatment. Support veterans organizations. Share mental health resources. Listen to trauma survivors. Promote stigma-free conversations about PTSD.",
+    "funFacts": [
+      "About 8 million adults have PTSD in a given year",
+      "PTSD can develop after any traumatic event",
+      "Women are twice as likely as men to develop PTSD",
+      "Effective treatments exist including therapy and medication",
+      "June 27th is National PTSD Awareness Day"
+    ]
+  },
+  {
+    "title": "National Minority Health Month",
+    "slug": "national-minority-health-month-april",
+    "date": "2025-04-01",
+    "category": "Awareness & Health",
+    "description": "Address health disparities this April! National Minority Health Month highlights the importance of improving health outcomes in minority communities. Promote health equity, access to care, and culturally competent healthcare.",
+    "tags": [
+      "health-equity",
+      "minority-health",
+      "April",
+      "disparities",
+      "access",
+      "awareness",
+      "justice"
+    ],
+    "image": "minority-health-equity.jpg",
+    "relatedDays": [
+      "health-equity-day",
+      "cultural-diversity-month",
+      "public-health-week"
+    ],
+    "howToCelebrate": "Learn about health disparities. Support community health programs. Promote health screenings in underserved communities. Advocate for health equity policies. Share minority health resources.",
+    "funFacts": [
+      "Health disparities persist across racial and ethnic lines",
+      "Minority communities often face barriers to healthcare access",
+      "Social determinants greatly impact health outcomes",
+      "Cultural competence in healthcare improves outcomes",
+      "Addressing disparities benefits everyone's health"
+    ]
+  },
+  {
+    "title": "National Healthy Vision Month",
+    "slug": "national-healthy-vision-month-may",
+    "date": "2025-05-01",
+    "category": "Awareness & Health",
+    "description": "See the importance of eye health! May promotes vision wellness and eye disease prevention. Schedule comprehensive eye exams, protect your eyes from UV damage, and learn about maintaining healthy vision throughout life.",
+    "tags": [
+      "vision",
+      "eye-health",
+      "May",
+      "prevention",
+      "screening",
+      "health",
+      "awareness"
+    ],
+    "image": "healthy-vision-eye-exam.jpg",
+    "relatedDays": [
+      "world-sight-day",
+      "glaucoma-awareness",
+      "eye-safety-month"
+    ],
+    "howToCelebrate": "Schedule a comprehensive eye exam. Wear UV-protective sunglasses. Learn about eye disease prevention. Give your eyes breaks from screens. Share eye health tips.",
+    "funFacts": [
+      "Over 11 million Americans over 12 need vision correction",
+      "Many eye diseases have no early warning signs",
+      "UV exposure increases risk of cataracts and other issues",
+      "The 20-20-20 rule helps prevent digital eye strain",
+      "Regular eye exams can detect overall health problems"
+    ]
+  },
+  {
+    "title": "National Distracted Driving Awareness Month",
+    "slug": "national-distracted-driving-awareness-april-safety",
+    "date": "2025-04-01",
+    "category": "Awareness & Health",
+    "description": "Put down the phone! April is Distracted Driving Awareness Month. Texting while driving kills thousands annually. Commit to focused, safe driving and save lives.",
+    "tags": [
+      "driving-safety",
+      "awareness",
+      "April",
+      "distraction",
+      "prevention",
+      "safety",
+      "phones"
+    ],
+    "image": "distracted-driving-awareness.jpg",
+    "relatedDays": [
+      "drive-safely-week",
+      "teen-driver-safety",
+      "seatbelt-awareness"
+    ],
+    "howToCelebrate": "Put phones away while driving. Use hands-free devices only. Educate teens about driving safety. Share distracted driving statistics. Take a safe driving pledge.",
+    "funFacts": [
+      "9 people die daily from distracted driving in the US",
+      "Texting makes you 23 times more likely to crash",
+      "Distracted driving is the leading cause of teen deaths",
+      "It takes 5 seconds to read a text - enough to travel a football field at highway speed",
+      "Many states have banned handheld phone use while driving"
+    ]
+  },
+  {
+    "title": "National Eating Disorders Awareness Week",
+    "slug": "national-eating-disorders-awareness-week-february-health",
+    "date": "2025-02-24",
+    "category": "Awareness & Health",
+    "description": "Break the silence! National Eating Disorders Awareness Week educates about eating disorders and promotes early intervention. Millions suffer from anorexia, bulimia, and binge eating - recovery is possible.",
+    "tags": [
+      "eating-disorders",
+      "mental-health",
+      "February",
+      "awareness",
+      "recovery",
+      "health",
+      "support"
+    ],
+    "image": "eating-disorders-awareness.jpg",
+    "relatedDays": [
+      "mental-health-awareness",
+      "body-positivity-day",
+      "nutrition-month"
+    ],
+    "howToCelebrate": "Learn about eating disorder signs. Support recovery programs. Promote body positivity. Share resources. Listen to recovery stories. Advocate for mental health care.",
+    "funFacts": [
+      "30 million Americans will have an eating disorder in their lifetime",
+      "Eating disorders have the highest mortality rate of any mental illness",
+      "They affect all genders, ages, and backgrounds",
+      "Early intervention significantly improves recovery rates",
+      "Treatment works and full recovery is possible"
+    ]
+  },
+  {
+    "title": "National Childhood Obesity Awareness Month",
+    "slug": "national-childhood-obesity-awareness-september-health",
+    "date": "2025-09-01",
+    "category": "Awareness & Health",
+    "description": "Fight childhood obesity! September raises awareness about this serious health crisis affecting millions of American kids. Promote healthy eating, physical activity, and family wellness.",
+    "tags": [
+      "childhood-obesity",
+      "health",
+      "September",
+      "kids",
+      "nutrition",
+      "fitness",
+      "prevention"
+    ],
+    "image": "childhood-obesity-awareness.jpg",
+    "relatedDays": [
+      "national-fitness-day",
+      "nutrition-month",
+      "family-health-month"
+    ],
+    "howToCelebrate": "Promote healthy family meals. Encourage kids to play and exercise. Limit screen time. Educate about nutrition. Support healthy school lunch programs. Model healthy habits.",
+    "funFacts": [
+      "1 in 5 American children are obese",
+      "Childhood obesity has tripled since the 1970s",
+      "It increases risk of diabetes, heart disease, and other conditions",
+      "Healthy habits in childhood lead to healthy adults",
+      "Parents' eating habits strongly influence children"
+    ]
+  },
+  {
+    "title": "World Diabetes Day",
+    "slug": "world-diabetes-day-november-14",
+    "date": "2025-11-14",
+    "category": "Awareness & Health",
+    "description": "Raise diabetes awareness! World Diabetes Day highlights this global health crisis affecting millions. Learn about prevention, management, and supporting those living with diabetes.",
+    "tags": [
+      "diabetes",
+      "health",
+      "November",
+      "awareness",
+      "chronic-disease",
+      "prevention",
+      "global"
+    ],
+    "image": "diabetes-awareness.jpg",
+    "relatedDays": [
+      "american-diabetes-month",
+      "world-health-day",
+      "chronic-disease-day"
+    ],
+    "howToCelebrate": "Get screened for diabetes. Learn about prevention. Support diabetes research. Wear blue for awareness. Educate about symptoms. Promote healthy lifestyles.",
+    "funFacts": [
+      "Over 463 million adults have diabetes worldwide",
+      "Type 2 diabetes is largely preventable",
+      "Many people have prediabetes and don't know it",
+      "Diabetes is a leading cause of blindness and amputation",
+      "Proper management allows people with diabetes to live full lives"
+    ]
+  },
+  {
+    "title": "National Colorectal Cancer Awareness Month",
+    "slug": "national-colorectal-cancer-awareness-march-health",
+    "date": "2025-03-01",
+    "category": "Awareness & Health",
+    "description": "Get screened! March is Colorectal Cancer Awareness Month. Screening saves lives - colon cancer is highly treatable when caught early. Wear blue for awareness!",
+    "tags": [
+      "colorectal-cancer",
+      "awareness",
+      "March",
+      "screening",
+      "health",
+      "prevention",
+      "blue"
+    ],
+    "image": "colorectal-cancer-awareness.jpg",
+    "relatedDays": [
+      "cancer-awareness",
+      "screening-awareness",
+      "health-month"
+    ],
+    "howToCelebrate": "Get screened if you're 45+. Learn about screening options. Wear blue. Support cancer research. Share screening importance. Promote healthy diet and exercise.",
+    "funFacts": [
+      "Third most common cancer in the US",
+      "90% survival rate when caught early",
+      "Screening recommended starting at age 45",
+      "Many cases are preventable with screening",
+      "Blue is the official awareness color"
+    ]
+  },
+  {
+    "title": "National Eye Exam Month",
+    "slug": "national-eye-exam-month-august-vision",
+    "date": "2025-08-01",
+    "category": "Awareness & Health",
+    "description": "See clearly! August is National Eye Exam Month. Regular eye exams detect vision problems and serious eye diseases early. Schedule your annual eye exam!",
+    "tags": [
+      "eye-exam",
+      "vision",
+      "August",
+      "health",
+      "eyes",
+      "screening",
+      "prevention"
+    ],
+    "image": "eye-exam-vision.jpg",
+    "relatedDays": [
+      "healthy-vision-month",
+      "glaucoma-awareness",
+      "eye-health-day"
+    ],
+    "howToCelebrate": "Schedule an eye exam. Learn about eye health. Get prescription updated. Educate kids about eye care. Donate old glasses. Support eye health programs.",
+    "funFacts": [
+      "Many eye diseases have no early symptoms",
+      "Children should have regular eye exams",
+      "Eye exams can detect diabetes and high blood pressure",
+      "Vision changes can indicate health problems",
+      "Comprehensive exams check more than just vision"
+    ]
   }
 ]

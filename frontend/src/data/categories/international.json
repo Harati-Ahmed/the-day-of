@@ -418,5 +418,995 @@
       "Families provide the foundation for child development",
       "The day promotes awareness of family-related social issues"
     ]
+  },
+  {
+    "title": "World Photography Day",
+    "slug": "world-photography-day-global",
+    "date": "2025-08-19",
+    "category": "International",
+    "description": "Capture the moment on World Photography Day! This global celebration honors the art, craft, science, and history of photography. From professional photographers to smartphone snappers, everyone celebrates the power of images to tell stories and preserve memories.",
+    "tags": [
+      "photography",
+      "art",
+      "August",
+      "global",
+      "cameras",
+      "creativity",
+      "visual-arts"
+    ],
+    "image": "world-photography-day-camera.jpg",
+    "relatedDays": [
+      "national-camera-day",
+      "world-art-day",
+      "national-selfie-day"
+    ],
+    "howToCelebrate": "Take photos and share your best shots. Learn photography techniques. Visit photography exhibitions. Support photographers. Try a new photography style. Share photos on social media with #WorldPhotographyDay.",
+    "funFacts": [
+      "Over 1.4 trillion photos are taken annually worldwide",
+      "The first photograph was taken in 1826",
+      "Smartphones have democratized photography globally",
+      "Instagram has over 2 billion users sharing photos daily",
+      "Photography is both an art form and a powerful communication tool"
+    ]
+  },
+  {
+    "title": "World Tourism Day",
+    "slug": "world-tourism-day-travel",
+    "date": "2025-09-27",
+    "category": "International",
+    "description": "Explore the world on World Tourism Day! The UN recognizes tourism's cultural and economic importance globally. Plan trips, learn about destinations, and appreciate how travel connects people across cultures and drives economies worldwide.",
+    "tags": [
+      "tourism",
+      "travel",
+      "September",
+      "global",
+      "destinations",
+      "culture",
+      "economy"
+    ],
+    "image": "world-tourism-day-travel.jpg",
+    "relatedDays": [
+      "national-travel-day",
+      "world-heritage-day",
+      "international-day-of-peace"
+    ],
+    "howToCelebrate": "Plan your next trip. Learn about different tourist destinations. Support sustainable tourism. Share travel experiences. Explore local tourist attractions. Book future travel deals.",
+    "funFacts": [
+      "Tourism generates over $9 trillion globally annually",
+      "1 in 10 jobs worldwide are in tourism",
+      "International tourist arrivals exceed 1.4 billion annually",
+      "Tourism promotes cultural exchange and understanding",
+      "The US is a top tourism destination and source of travelers"
+    ]
+  },
+  {
+    "title": "World Dance Day",
+    "slug": "world-dance-day-celebration",
+    "date": "2025-04-29",
+    "category": "International",
+    "description": "Move to the rhythm on World Dance Day! Established by UNESCO, this day celebrates dance as a universal language. From ballet to hip-hop, salsa to contemporary, dance brings people together across cultures worldwide.",
+    "tags": [
+      "dance",
+      "arts",
+      "April",
+      "global",
+      "performance",
+      "culture",
+      "movement"
+    ],
+    "image": "world-dance-day-performers.jpg",
+    "relatedDays": [
+      "national-dance-day",
+      "international-jazz-day",
+      "world-music-day"
+    ],
+    "howToCelebrate": "Take a dance class. Attend dance performances. Dance at home or with friends. Learn about different dance styles. Support dance organizations. Share dance videos on social media.",
+    "funFacts": [
+      "Dance is practiced in every culture worldwide",
+      "Dance improves physical and mental health",
+      "Professional dance is a multi-billion dollar industry",
+      "Reality TV has made dance more popular globally",
+      "Dance transcends language barriers"
+    ]
+  },
+  {
+    "title": "World Bee Day",
+    "slug": "world-bee-day-pollinators",
+    "date": "2025-05-20",
+    "category": "International",
+    "description": "Buzz for the bees on World Bee Day! The UN recognizes bees' critical role in ecosystems and food production. Learn about pollinators, support bee conservation, and understand why these tiny creatures are essential to human survival.",
+    "tags": [
+      "bees",
+      "environment",
+      "May",
+      "conservation",
+      "pollinators",
+      "nature",
+      "global"
+    ],
+    "image": "world-bee-day-pollinators.jpg",
+    "relatedDays": [
+      "world-environment-day",
+      "earth-day",
+      "national-honey-day"
+    ],
+    "howToCelebrate": "Plant bee-friendly flowers. Support local beekeepers. Buy local honey. Learn about bee conservation. Avoid pesticides. Create bee habitats. Share bee facts on social media.",
+    "funFacts": [
+      "Bees pollinate 75% of global food crops",
+      "One-third of food production depends on pollinators",
+      "Bee populations are declining worldwide",
+      "A single bee colony can pollinate 300 million flowers daily",
+      "Honey production generates billions globally"
+    ]
+  },
+  {
+    "title": "World Emoji Day",
+    "slug": "world-emoji-day-digital",
+    "date": "2025-07-17",
+    "category": "International",
+    "description": "😀 Express yourself on World Emoji Day! July 17th celebrates these digital icons that have become a universal language online. From texts to tweets, emojis help people worldwide communicate emotions and ideas across language barriers.",
+    "tags": [
+      "emoji",
+      "digital",
+      "July",
+      "communication",
+      "technology",
+      "global",
+      "social-media"
+    ],
+    "image": "world-emoji-day-icons.jpg",
+    "relatedDays": [
+      "world-social-media-day",
+      "international-internet-day",
+      "world-communication-day"
+    ],
+    "howToCelebrate": "Use your favorite emojis in messages. Learn the meaning of different emojis. Participate in emoji challenges. Vote for new emojis. Share emoji art. Celebrate with emoji-themed products.",
+    "funFacts": [
+      "Over 10 billion emojis are sent daily",
+      "😂 (Face with Tears of Joy) is the most used emoji",
+      "Emojis were created in Japan in 1999",
+      "There are over 3,600 official emojis",
+      "Apple celebrates this day because 📅 emoji shows July 17"
+    ]
+  },
+  {
+    "title": "World Chocolate Day",
+    "slug": "world-chocolate-day-global",
+    "date": "2025-07-07",
+    "category": "International",
+    "description": "Indulge in sweetness on World Chocolate Day! Celebrate the beloved treat enjoyed by billions worldwide. From dark to milk, bars to truffles, chocolate is a multi-billion dollar global industry bringing joy to people everywhere.",
+    "tags": [
+      "chocolate",
+      "dessert",
+      "July",
+      "global",
+      "sweets",
+      "treats",
+      "commercial"
+    ],
+    "image": "world-chocolate-day-treats.jpg",
+    "relatedDays": [
+      "national-chocolate-day",
+      "world-cocoa-day",
+      "national-dessert-day"
+    ],
+    "howToCelebrate": "Eat your favorite chocolate. Try chocolate from different countries. Make chocolate desserts. Learn about chocolate production. Support fair-trade chocolate. Share chocolate with friends.",
+    "funFacts": [
+      "The global chocolate industry is worth over $130 billion",
+      "Americans consume 2.8 billion pounds of chocolate annually",
+      "Switzerland has the highest chocolate consumption per capita",
+      "Chocolate contains mood-boosting compounds",
+      "The cacao tree originated in Central and South America"
+    ]
+  },
+  {
+    "title": "World Nutella Day",
+    "slug": "world-nutella-day-spread",
+    "date": "2025-02-05",
+    "category": "International",
+    "description": "Spread the love on World Nutella Day! Fans worldwide celebrate this iconic hazelnut chocolate spread. From breakfast to dessert, Nutella has become a global phenomenon with passionate followers in over 160 countries.",
+    "tags": [
+      "nutella",
+      "chocolate",
+      "February",
+      "global",
+      "spread",
+      "breakfast",
+      "dessert"
+    ],
+    "image": "world-nutella-day-jar.jpg",
+    "relatedDays": [
+      "world-chocolate-day",
+      "national-hazelnut-day",
+      "pancake-day"
+    ],
+    "howToCelebrate": "Eat Nutella on toast, pancakes, or fruit. Try Nutella recipes. Make Nutella desserts. Share Nutella creations. Post Nutella photos with #WorldNutellaDay.",
+    "funFacts": [
+      "Nutella was created in Italy in 1964",
+      "One jar of Nutella is sold every 2.5 seconds worldwide",
+      "Ferrero uses 25% of global hazelnut production for Nutella",
+      "Nutella is sold in over 160 countries",
+      "Nutella was born from WWII chocolate shortages"
+    ]
+  },
+  {
+    "title": "World Pasta Day",
+    "slug": "world-pasta-day-italian",
+    "date": "2025-10-25",
+    "category": "International",
+    "description": "Twirl into celebration on World Pasta Day! Italy's gift to global cuisine is celebrated worldwide. From spaghetti to penne, pasta is a dietary staple for billions and a multi-billion dollar industry globally.",
+    "tags": [
+      "pasta",
+      "italian-food",
+      "October",
+      "global",
+      "cooking",
+      "cuisine",
+      "carbs"
+    ],
+    "image": "world-pasta-day-dishes.jpg",
+    "relatedDays": [
+      "national-pasta-day",
+      "world-italian-cuisine-day",
+      "national-spaghetti-day"
+    ],
+    "howToCelebrate": "Cook your favorite pasta dish. Try a new pasta shape or recipe. Visit Italian restaurants. Learn about pasta-making. Host a pasta dinner party. Share pasta recipes online.",
+    "funFacts": [
+      "Italians consume 51 pounds of pasta per person annually",
+      "There are over 350 pasta shapes worldwide",
+      "Global pasta market exceeds $60 billion",
+      "Americans eat 6 billion pounds of pasta yearly",
+      "Pasta is affordable, versatile, and enjoyed globally"
+    ]
+  },
+  {
+    "title": "World Mental Health Day",
+    "slug": "world-mental-health-day-awareness",
+    "date": "2025-10-10",
+    "category": "International",
+    "description": "Prioritize wellness on World Mental Health Day! The WHO promotes mental health awareness globally. Breaking stigma, providing resources, and supporting mental health initiatives helps millions worldwide struggling with mental health conditions.",
+    "tags": [
+      "mental-health",
+      "wellness",
+      "October",
+      "global",
+      "awareness",
+      "healthcare",
+      "support"
+    ],
+    "image": "world-mental-health-day.jpg",
+    "relatedDays": [
+      "national-mental-health-day",
+      "world-health-day",
+      "suicide-prevention-day"
+    ],
+    "howToCelebrate": "Check in on your mental health. Support mental health organizations. Share mental health resources. Reduce stigma through education. Practice self-care. Share supportive messages online.",
+    "funFacts": [
+      "1 in 4 people will experience mental health issues",
+      "Depression affects over 280 million people globally",
+      "Mental health costs the global economy $1 trillion annually",
+      "Only half of people with mental health conditions receive treatment",
+      "Mental health is as important as physical health"
+    ]
+  },
+  {
+    "title": "World Sleep Day",
+    "slug": "world-sleep-day-health",
+    "date": "2025-03-14",
+    "category": "International",
+    "description": "Rest up on World Sleep Day! This global initiative raises awareness about sleep health's importance. Good sleep is essential for physical health, mental wellbeing, and quality of life for billions worldwide.",
+    "tags": [
+      "sleep",
+      "health",
+      "March",
+      "global",
+      "wellness",
+      "rest",
+      "awareness"
+    ],
+    "image": "world-sleep-day-rest.jpg",
+    "relatedDays": [
+      "national-sleep-day",
+      "daylight-saving-time",
+      "world-health-day"
+    ],
+    "howToCelebrate": "Get 8 hours of sleep. Learn about sleep hygiene. Improve your bedroom environment. Establish a sleep routine. Avoid screens before bed. Share sleep tips online.",
+    "funFacts": [
+      "1/3 of adults don't get enough sleep globally",
+      "Sleep deprivation costs economies billions in lost productivity",
+      "Adults need 7-9 hours of sleep nightly",
+      "Poor sleep increases disease risk",
+      "Sleep quality matters as much as quantity"
+    ]
+  },
+  {
+    "title": "World Coffee Day",
+    "slug": "world-coffee-day-beverage",
+    "date": "2025-10-01",
+    "category": "International",
+    "description": "Brew up celebration on World Coffee Day! Coffee is the world's most popular beverage after water. This global day celebrates coffee culture, supports farmers, and promotes sustainable coffee production worldwide.",
+    "tags": [
+      "coffee",
+      "beverages",
+      "October",
+      "global",
+      "caffeine",
+      "culture",
+      "trade"
+    ],
+    "image": "world-coffee-day-beans.jpg",
+    "relatedDays": [
+      "national-coffee-day",
+      "international-coffee-organization-day",
+      "barista-day"
+    ],
+    "howToCelebrate": "Drink coffee from different origins. Visit local coffee shops. Learn about coffee production. Support fair-trade coffee. Try new brewing methods. Share coffee moments online.",
+    "funFacts": [
+      "2.25 billion cups of coffee are consumed daily worldwide",
+      "Coffee is the second most traded commodity globally",
+      "The global coffee industry is worth over $100 billion",
+      "Coffee grows in over 70 countries",
+      "Finland has the highest coffee consumption per capita"
+    ]
+  },
+  {
+    "title": "World Vegan Day",
+    "slug": "world-vegan-day-plant-based",
+    "date": "2025-11-01",
+    "category": "International",
+    "description": "Go plant-based on World Vegan Day! This global movement celebrates vegan lifestyles and promotes animal welfare, environmental sustainability, and health benefits. The vegan market is rapidly growing worldwide.",
+    "tags": [
+      "vegan",
+      "plant-based",
+      "November",
+      "global",
+      "sustainability",
+      "animal-welfare",
+      "health"
+    ],
+    "image": "world-vegan-day-food.jpg",
+    "relatedDays": [
+      "world-vegetarian-day",
+      "earth-day",
+      "world-farm-animals-day"
+    ],
+    "howToCelebrate": "Try vegan meals. Learn about veganism. Visit vegan restaurants. Watch vegan documentaries. Support vegan businesses. Share plant-based recipes online.",
+    "funFacts": [
+      "Over 79 million people identify as vegan globally",
+      "The vegan food market is worth over $30 billion",
+      "Veganism reduces environmental impact significantly",
+      "Plant-based diets can improve health outcomes",
+      "Vegan products are increasingly mainstream"
+    ]
+  },
+  {
+    "title": "World Piano Day",
+    "slug": "world-piano-day-music",
+    "date": "2025-03-29",
+    "category": "International",
+    "description": "Tickle the ivories on World Piano Day! The 88th day of the year celebrates the 88 keys of the piano. This global celebration honors pianists, composers, and the piano's central role in music worldwide.",
+    "tags": [
+      "piano",
+      "music",
+      "March",
+      "global",
+      "instruments",
+      "arts",
+      "performance"
+    ],
+    "image": "world-piano-day-keys.jpg",
+    "relatedDays": [
+      "world-music-day",
+      "international-jazz-day",
+      "make-music-day"
+    ],
+    "howToCelebrate": "Play piano or learn to play. Attend piano concerts. Listen to piano music. Support piano education. Watch piano performances. Share piano music online.",
+    "funFacts": [
+      "The piano was invented around 1700 in Italy",
+      "There are over 21 million pianos in US homes",
+      "Piano is one of the most versatile instruments",
+      "Learning piano improves cognitive function",
+      "March 29 is the 88th day of the year (88 keys on a piano)"
+    ]
+  },
+  {
+    "title": "World Beer Day",
+    "slug": "world-beer-day-beverage",
+    "date": "2025-08-01",
+    "category": "International",
+    "description": "Raise a pint on World Beer Day! The first Friday of August celebrates beer culture globally. From craft breweries to major brands, beer is enjoyed by billions and represents a multi-hundred-billion dollar global industry.",
+    "tags": [
+      "beverages",
+      "global",
+      "August",
+      "culture",
+      "craft",
+      "industry",
+      "celebration"
+    ],
+    "image": "world-beer-day-pints.jpg",
+    "relatedDays": [
+      "oktoberfest",
+      "international-beer-day",
+      "craft-beer-day"
+    ],
+    "howToCelebrate": "Visit breweries. Try different beer styles. Learn about brewing. Support local craft brewers. Attend beer festivals. Share beer appreciation responsibly online.",
+    "funFacts": [
+      "Beer is the most consumed beverage globally after water, tea, and coffee",
+      "The global industry is worth over $600 billion",
+      "There are over 100 beer styles worldwide",
+      "Craft brewing has exploded in popularity",
+      "Beer has been brewed for over 7,000 years"
+    ]
+  },
+  {
+    "title": "World Smile Day",
+    "slug": "world-smile-day-happiness",
+    "date": "2025-10-03",
+    "category": "International",
+    "description": "Spread joy on World Smile Day! The first Friday in October promotes acts of kindness and smiling worldwide. Created by the smiley face artist, this day encourages people to make others smile through kindness.",
+    "tags": [
+      "smile",
+      "happiness",
+      "October",
+      "global",
+      "kindness",
+      "positivity",
+      "joy"
+    ],
+    "image": "world-smile-day-happy.jpg",
+    "relatedDays": [
+      "world-kindness-day",
+      "international-day-of-happiness",
+      "random-acts-of-kindness-day"
+    ],
+    "howToCelebrate": "Smile at others. Perform acts of kindness. Make someone smile. Share positivity. Support smile-related charities. Post happy photos online.",
+    "funFacts": [
+      "Smiling releases endorphins and reduces stress",
+      "Smiling is contagious and spreads happiness",
+      "The smiley face was created in 1963",
+      "Smiling uses fewer muscles than frowning",
+      "People who smile more live longer"
+    ]
+  },
+  {
+    "title": "World Meditation Day",
+    "slug": "world-meditation-day-mindfulness",
+    "date": "2025-05-21",
+    "category": "International",
+    "description": "Find inner peace on World Meditation Day! The UN recognizes meditation's benefits for mental health and wellbeing. Millions worldwide practice meditation for stress reduction, mindfulness, and spiritual growth.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "May",
+      "global",
+      "wellness",
+      "mental-health",
+      "peace"
+    ],
+    "image": "world-meditation-day-peaceful.jpg",
+    "relatedDays": [
+      "international-yoga-day",
+      "world-mental-health-day",
+      "national-mindfulness-day"
+    ],
+    "howToCelebrate": "Practice meditation. Learn meditation techniques. Attend meditation classes. Create a meditation space. Use meditation apps. Share meditation benefits online.",
+    "funFacts": [
+      "Over 500 million people meditate worldwide",
+      "Meditation reduces stress and anxiety",
+      "Regular meditation changes brain structure",
+      "Meditation apps are a billion-dollar industry",
+      "Ancient practice now supported by modern science"
+    ]
+  },
+  {
+    "title": "World Vegetarian Day",
+    "slug": "world-vegetarian-day-plant-based",
+    "date": "2025-10-01",
+    "category": "International",
+    "description": "Go meatless on World Vegetarian Day! This global day promotes vegetarian diets for health, ethics, and sustainability. Over 1 billion people worldwide follow vegetarian diets, and the movement continues growing.",
+    "tags": [
+      "vegetarian",
+      "plant-based",
+      "October",
+      "global",
+      "health",
+      "sustainability",
+      "diet"
+    ],
+    "image": "world-vegetarian-day-food.jpg",
+    "relatedDays": [
+      "world-vegan-day",
+      "meatless-monday",
+      "earth-day"
+    ],
+    "howToCelebrate": "Try vegetarian meals. Learn about vegetarianism. Visit vegetarian restaurants. Cook meat-free recipes. Watch vegetarian documentaries. Share veggie recipes online.",
+    "funFacts": [
+      "Over 375 million vegetarians worldwide",
+      "India has the highest vegetarian population",
+      "Vegetarian diets reduce environmental impact",
+      "Plant-based market growing rapidly globally",
+      "Vegetarians have lower disease rates on average"
+    ]
+  },
+  {
+    "title": "World Sandwich Day",
+    "slug": "world-sandwich-day-food",
+    "date": "2025-11-03",
+    "category": "International",
+    "description": "Celebrate layers on World Sandwich Day! Sandwiches are eaten globally, with regional variations worldwide. From subs to paninis, bánh mì to croque monsieurs, sandwiches are a universal handheld meal.",
+    "tags": [
+      "sandwiches",
+      "food",
+      "November",
+      "global",
+      "lunch",
+      "cuisine",
+      "variety"
+    ],
+    "image": "world-sandwich-day-variety.jpg",
+    "relatedDays": [
+      "national-sandwich-day",
+      "submarine-sandwich-day",
+      "grilled-cheese-day"
+    ],
+    "howToCelebrate": "Try sandwiches from different cultures. Make creative sandwich combinations. Visit sandwich shops. Learn sandwich history. Host a sandwich party. Share sandwich photos online.",
+    "funFacts": [
+      "Billions of sandwiches are consumed globally daily",
+      "Every culture has sandwich variations",
+      "The sandwich is named after the Earl of Sandwich",
+      "Sandwiches are a multi-billion dollar industry",
+      "Portable, convenient, and endlessly customizable"
+    ]
+  },
+  {
+    "title": "World AIDS Day",
+    "slug": "world-aids-day-awareness",
+    "date": "2025-12-01",
+    "category": "International",
+    "description": "Unite for awareness on World AIDS Day! The first global health day recognizes those affected by HIV/AIDS and promotes prevention, treatment, and support. Over 38 million people worldwide live with HIV.",
+    "tags": [
+      "AIDS",
+      "HIV",
+      "December",
+      "global",
+      "health",
+      "awareness",
+      "prevention"
+    ],
+    "image": "world-aids-day-ribbon.jpg",
+    "relatedDays": [
+      "world-health-day",
+      "international-day-against-homophobia",
+      "global-health-initiatives"
+    ],
+    "howToCelebrate": "Wear a red ribbon. Get tested for HIV. Support AIDS organizations. Educate others about HIV/AIDS. Fight stigma. Share awareness messages online.",
+    "funFacts": [
+      "World AIDS Day was established in 1988",
+      "38 million people live with HIV globally",
+      "Modern treatments allow people with HIV to live full lives",
+      "Prevention and education save lives",
+      "The red ribbon is the universal AIDS awareness symbol"
+    ]
+  },
+  {
+    "title": "World Art Day",
+    "slug": "world-art-day-creativity",
+    "date": "2025-04-15",
+    "category": "International",
+    "description": "Celebrate creativity on World Art Day! Leonardo da Vinci's birthday marks this UNESCO observance promoting art's role in sustainable development globally. Art connects cultures, inspires innovation, and enriches human experience worldwide.",
+    "tags": [
+      "art",
+      "creativity",
+      "April",
+      "global",
+      "culture",
+      "UNESCO",
+      "expression"
+    ],
+    "image": "world-art-day-gallery.jpg",
+    "relatedDays": [
+      "international-artists-day",
+      "world-creativity-day",
+      "museum-day"
+    ],
+    "howToCelebrate": "Visit museums and galleries. Create art. Support artists. Attend art events. Learn about art history. Share artwork online.",
+    "funFacts": [
+      "Art market worth over $60 billion globally",
+      "Art exists in every human culture",
+      "Art therapy improves mental health",
+      "Digital art is rapidly growing",
+      "Art preserves cultural heritage for future generations"
+    ]
+  },
+  {
+    "title": "World Press Freedom Day",
+    "slug": "world-press-freedom-day-journalism",
+    "date": "2025-05-03",
+    "category": "International",
+    "description": "Defend journalism on World Press Freedom Day! The UN highlights free press importance for democracy globally. Journalists risk their lives reporting truth, and press freedom varies dramatically worldwide.",
+    "tags": [
+      "press-freedom",
+      "journalism",
+      "May",
+      "global",
+      "democracy",
+      "human-rights",
+      "media"
+    ],
+    "image": "world-press-freedom-day.jpg",
+    "relatedDays": [
+      "international-day-of-democracy",
+      "human-rights-day",
+      "world-telecommunication-day"
+    ],
+    "howToCelebrate": "Support quality journalism. Subscribe to news outlets. Learn about press freedom issues. Advocate for journalist safety. Share press freedom importance online.",
+    "funFacts": [
+      "Over 50 journalists are killed annually worldwide",
+      "Press freedom is declining globally",
+      "Free press is essential for democracy",
+      "Journalism holds power accountable",
+      "Many journalists face censorship and persecution"
+    ]
+  },
+  {
+    "title": "World Refugee Day",
+    "slug": "world-refugee-day-humanitarian",
+    "date": "2025-06-20",
+    "category": "International",
+    "description": "Stand with refugees on World Refugee Day! The UN recognizes the courage of over 100 million forcibly displaced people worldwide. This day promotes awareness, support, and solutions for refugees seeking safety and new lives.",
+    "tags": [
+      "refugees",
+      "humanitarian",
+      "June",
+      "global",
+      "human-rights",
+      "displacement",
+      "UN"
+    ],
+    "image": "world-refugee-day-support.jpg",
+    "relatedDays": [
+      "international-migrants-day",
+      "human-rights-day",
+      "world-humanitarian-day"
+    ],
+    "howToCelebrate": "Support refugee organizations. Learn about refugee crises. Volunteer with refugee services. Advocate for refugee rights. Donate to humanitarian agencies. Share refugee stories online.",
+    "funFacts": [
+      "Over 100 million people are forcibly displaced globally",
+      "Refugees flee persecution, war, and violence",
+      "Most refugees are hosted by developing countries",
+      "Refugees contribute to their new communities",
+      "International law protects refugee rights"
+    ]
+  },
+  {
+    "title": "World Youth Day",
+    "slug": "world-youth-day-young-people",
+    "date": "2025-08-12",
+    "category": "International",
+    "description": "Empower young people on International Youth Day! The UN celebrates youth as agents of change globally. Over 1.8 billion young people worldwide deserve opportunities, education, and platforms to shape their futures.",
+    "tags": [
+      "youth",
+      "young-people",
+      "August",
+      "global",
+      "UN",
+      "empowerment",
+      "future"
+    ],
+    "image": "world-youth-day-empowerment.jpg",
+    "relatedDays": [
+      "international-students-day",
+      "world-childrens-day",
+      "international-education-day"
+    ],
+    "howToCelebrate": "Support youth programs. Listen to young voices. Provide youth opportunities. Advocate for youth rights. Mentor young people. Share youth achievements online.",
+    "funFacts": [
+      "1.8 billion people are aged 10-24 globally",
+      "Youth are the largest generation in history",
+      "Young people drive innovation and change",
+      "Youth unemployment remains a global challenge",
+      "Investing in youth benefits entire societies"
+    ]
+  },
+  {
+    "title": "World Animal Day",
+    "slug": "world-animal-day-welfare",
+    "date": "2025-10-04",
+    "category": "International",
+    "description": "Protect all creatures on World Animal Day! This global movement promotes animal welfare and rights worldwide. From pets to wildlife, endangered species to farm animals, all deserve compassion and protection.",
+    "tags": [
+      "animals",
+      "welfare",
+      "October",
+      "global",
+      "conservation",
+      "rights",
+      "protection"
+    ],
+    "image": "world-animal-day-wildlife.jpg",
+    "relatedDays": [
+      "world-wildlife-day",
+      "national-pet-day",
+      "endangered-species-day"
+    ],
+    "howToCelebrate": "Support animal welfare organizations. Adopt don't shop. Learn about endangered species. Volunteer at animal shelters. Reduce animal product consumption. Share animal protection messages.",
+    "funFacts": [
+      "Over 1 million species face extinction",
+      "Animals play crucial roles in ecosystems",
+      "Animal welfare laws vary globally",
+      "Humans depend on animal biodiversity",
+      "Compassion for animals reflects societal values"
+    ]
+  },
+  {
+    "title": "World Children's Day",
+    "slug": "world-childrens-day-unicef",
+    "date": "2025-11-20",
+    "category": "International",
+    "description": "Champion children's rights on World Children's Day! UNICEF promotes children's welfare globally. Over 2 billion children worldwide deserve protection, education, healthcare, and opportunities to reach their full potential.",
+    "tags": [
+      "children",
+      "kids",
+      "November",
+      "global",
+      "UNICEF",
+      "rights",
+      "welfare"
+    ],
+    "image": "world-childrens-day-unicef.jpg",
+    "relatedDays": [
+      "international-day-of-the-child",
+      "universal-childrens-day",
+      "world-youth-day"
+    ],
+    "howToCelebrate": "Support children's charities. Advocate for children's rights. Spend quality time with children. Learn about global child welfare. Donate to UNICEF. Share children's needs online.",
+    "funFacts": [
+      "Over 2 billion children live globally",
+      "1 in 6 children lives in extreme poverty",
+      "Education transforms children's futures",
+      "Children's rights are human rights",
+      "Investing in children benefits all society"
+    ]
+  },
+  {
+    "title": "World Television Day",
+    "slug": "world-television-day-media",
+    "date": "2025-11-21",
+    "category": "International",
+    "description": "Tune in on World Television Day! The UN recognizes television's role in communication and globalization. Despite streaming's rise, TV remains a powerful medium reaching billions worldwide with news, entertainment, and education.",
+    "tags": [
+      "television",
+      "media",
+      "November",
+      "global",
+      "entertainment",
+      "communication",
+      "UN"
+    ],
+    "image": "world-television-day-broadcasting.jpg",
+    "relatedDays": [
+      "world-radio-day",
+      "international-internet-day",
+      "world-telecommunications-day"
+    ],
+    "howToCelebrate": "Watch quality programming. Learn about TV history. Explore international shows. Support public broadcasting. Discuss TV's cultural impact. Share favorite shows online.",
+    "funFacts": [
+      "Over 1.7 billion households have TVs globally",
+      "Television reaches more people than internet in many regions",
+      "TV remains a primary news source for billions",
+      "Streaming has transformed TV consumption",
+      "Television shapes culture and public opinion globally"
+    ]
+  },
+  {
+    "title": "International Coffee Day",
+    "slug": "international-coffee-day-global",
+    "date": "2025-10-01",
+    "category": "International",
+    "description": "Sip and celebrate coffee culture worldwide! International Coffee Day honors coffee growers, roasters, and the global coffee community. Learn about fair trade coffee and support sustainable coffee production while enjoying your favorite brew.",
+    "tags": [
+      "coffee",
+      "international",
+      "October",
+      "fair-trade",
+      "global",
+      "beverage",
+      "culture"
+    ],
+    "image": "international-coffee-global.jpg",
+    "relatedDays": [
+      "national-coffee-day",
+      "fair-trade-day",
+      "world-farmers-day"
+    ],
+    "howToCelebrate": "Buy fair trade coffee. Learn about coffee-growing regions. Try coffee from different countries. Support ethical coffee companies. Share coffee culture facts. Visit local coffee roasters.",
+    "funFacts": [
+      "Over 2 billion cups of coffee are consumed daily worldwide",
+      "Brazil is the world's largest coffee producer",
+      "Coffee is grown in over 70 countries",
+      "Coffee is the second most traded commodity after oil",
+      "Fair trade ensures farmers receive fair wages"
+    ]
+  },
+  {
+    "title": "International Literacy Day",
+    "slug": "international-literacy-day-education",
+    "date": "2025-09-08",
+    "category": "International",
+    "description": "Read for change! International Literacy Day highlights the importance of literacy as a human right. Support literacy programs, donate books, and help ensure everyone can read and write, opening doors to opportunity.",
+    "tags": [
+      "literacy",
+      "education",
+      "September",
+      "reading",
+      "international",
+      "UN",
+      "learning"
+    ],
+    "image": "international-literacy-education.jpg",
+    "relatedDays": [
+      "world-book-day",
+      "read-across-america",
+      "international-education-day"
+    ],
+    "howToCelebrate": "Donate books to literacy programs. Volunteer as a reading tutor. Support adult literacy programs. Learn about global literacy rates. Share the importance of reading. Teach someone to read.",
+    "funFacts": [
+      "Over 770 million adults worldwide cannot read or write",
+      "Two-thirds are women",
+      "Literacy empowers individuals and transforms communities",
+      "Proclaimed by UNESCO in 1966",
+      "The theme changes annually to address current challenges"
+    ]
+  },
+  {
+    "title": "International Day of Charity",
+    "slug": "international-day-of-charity-global",
+    "date": "2025-09-05",
+    "category": "International",
+    "description": "Give back globally! International Day of Charity promotes charitable activities worldwide. Donate to causes, volunteer your time, or spread awareness about important issues. Every act of kindness counts!",
+    "tags": [
+      "charity",
+      "giving",
+      "September",
+      "international",
+      "philanthropy",
+      "UN",
+      "kindness"
+    ],
+    "image": "international-charity-giving.jpg",
+    "relatedDays": [
+      "giving-tuesday",
+      "random-acts-of-kindness-day",
+      "volunteer-day"
+    ],
+    "howToCelebrate": "Donate to charitable organizations. Volunteer your time. Organize fundraisers. Support local charities. Spread awareness about causes. Practice random acts of kindness.",
+    "funFacts": [
+      "September 5th is Mother Teresa's death anniversary",
+      "Charitable giving benefits both giver and receiver",
+      "Americans donate over $400 billion annually to charity",
+      "Volunteering improves mental and physical health",
+      "Small acts of charity create ripple effects"
+    ]
+  },
+  {
+    "title": "International Day of Older Persons",
+    "slug": "international-day-of-older-persons-elderly",
+    "date": "2025-10-01",
+    "category": "International",
+    "description": "Respect elders worldwide! This UN day honors older persons' contributions and addresses aging issues. Celebrate senior wisdom, advocate for elderly rights, and promote active aging and intergenerational bonds.",
+    "tags": [
+      "elderly",
+      "seniors",
+      "October",
+      "international",
+      "UN",
+      "aging",
+      "respect"
+    ],
+    "image": "international-older-persons.jpg",
+    "relatedDays": [
+      "grandparents-day",
+      "respect-for-the-aged-day",
+      "senior-citizens-day"
+    ],
+    "howToCelebrate": "Visit elderly family or neighbors. Volunteer with senior programs. Advocate for elderly rights. Learn from older generations. Support age-friendly communities. Combat ageism.",
+    "funFacts": [
+      "The global population is aging rapidly",
+      "By 2050, 1 in 6 people will be over 65",
+      "Older persons contribute vast knowledge and experience",
+      "Many face discrimination and poverty",
+      "Active aging benefits individuals and society"
+    ]
+  },
+  {
+    "title": "International Volunteer Day",
+    "slug": "international-volunteer-day-service",
+    "date": "2025-12-05",
+    "category": "International",
+    "description": "Volunteers change the world! International Volunteer Day recognizes volunteers' invaluable contributions globally. Give your time, share your skills, and make a difference in your community and beyond.",
+    "tags": [
+      "volunteer",
+      "service",
+      "December",
+      "international",
+      "UN",
+      "giving",
+      "community"
+    ],
+    "image": "international-volunteer-service.jpg",
+    "relatedDays": [
+      "mlk-day-of-service",
+      "make-a-difference-day",
+      "global-community-service"
+    ],
+    "howToCelebrate": "Volunteer in your community. Recognize volunteers' contributions. Organize volunteer events. Recruit new volunteers. Share volunteer opportunities. Thank volunteers for their service.",
+    "funFacts": [
+      "Over 1 billion people volunteer globally",
+      "Volunteering improves physical and mental health",
+      "Economic value of volunteering is in the trillions",
+      "Volunteering builds skills and community",
+      "Young and old alike benefit from volunteering"
+    ]
+  },
+  {
+    "title": "International Day of Human Rights",
+    "slug": "international-day-of-human-rights-december",
+    "date": "2025-12-10",
+    "category": "International",
+    "description": "Stand for rights! International Human Rights Day commemorates the adoption of the Universal Declaration of Human Rights. Promote equality, dignity, and rights for all people worldwide.",
+    "tags": [
+      "human-rights",
+      "international",
+      "December",
+      "UN",
+      "equality",
+      "dignity",
+      "justice"
+    ],
+    "image": "human-rights-day.jpg",
+    "relatedDays": [
+      "international-women's-day",
+      "international-tolerance-day",
+      "freedom-day"
+    ],
+    "howToCelebrate": "Learn about human rights issues. Support human rights organizations. Advocate for equality and justice. Educate others about rights. Stand against discrimination. Promote dignity for all.",
+    "funFacts": [
+      "The Universal Declaration was adopted December 10, 1948",
+      "It's been translated into over 500 languages",
+      "It outlines 30 fundamental human rights",
+      "Human rights belong to everyone, everywhere",
+      "Many countries still face serious human rights challenges"
+    ]
+  },
+  {
+    "title": "International Day for Biological Diversity",
+    "slug": "international-biodiversity-day-may-conservation",
+    "date": "2025-05-22",
+    "category": "International",
+    "description": "Protect nature's variety! Biodiversity Day raises awareness about the importance of biological diversity. Support conservation efforts to protect Earth's incredible variety of life.",
+    "tags": [
+      "biodiversity",
+      "conservation",
+      "May",
+      "environment",
+      "UN",
+      "nature",
+      "wildlife"
+    ],
+    "image": "biodiversity-conservation.jpg",
+    "relatedDays": [
+      "earth-day",
+      "world-environment-day",
+      "endangered-species-day"
+    ],
+    "howToCelebrate": "Learn about local ecosystems. Support conservation organizations. Plant native species. Reduce your environmental impact. Share biodiversity facts. Visit nature preserves.",
+    "funFacts": [
+      "Over 8 million species exist on Earth",
+      "We're losing species at an unprecedented rate",
+      "Biodiversity supports ecosystem health",
+      "Many medicines come from diverse species",
+      "Protecting biodiversity protects human survival"
+    ]
   }
 ]
