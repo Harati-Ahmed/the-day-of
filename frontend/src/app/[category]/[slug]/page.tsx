@@ -3,6 +3,7 @@ import { getDayBySlug, getRelatedDays, getDaysByMonth, days } from '@/lib/data';
 import { formatDate, getCategoryColor, getCategorySlug } from '@/lib/utils';
 import { Calendar, Tag, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Metadata } from 'next';
 import SocialShare from '@/components/social-share';
 
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       publishedTime: day.date,
       images: [
         {
-          url: `https://www.thedayof.net/images/events/${day.slug}.jpg`,
+          url: day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${category}.jpg`,
           width: 1200,
           height: 630,
           alt: day.title,
@@ -179,6 +180,7 @@ export default async function DayPage({ params }: PageProps) {
     "@type": "Article",
     "headline": day.title,
     "description": day.description,
+    "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
     "datePublished": day.date,
     "dateModified": day.date,
@@ -190,7 +192,11 @@ export default async function DayPage({ params }: PageProps) {
     "publisher": {
       "@type": "Organization",
       "name": "TheDayOf",
-      "url": "https://www.thedayof.net"
+      "url": "https://www.thedayof.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thedayof.net/logo.png"
+      }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -285,6 +291,23 @@ export default async function DayPage({ params }: PageProps) {
                   </div>
                 )}
               </div>
+
+              {/* Hero Image */}
+              {day.image && (
+                <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft overflow-hidden mb-8">
+                  <div className="relative w-full h-64 md:h-96 lg:h-[500px]">
+                    <Image
+                      src={day.image}
+                      alt={`${day.title} - ${day.description}`}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
+                      priority={true}
+                      quality={90}
+                    />
+                  </div>
+                </div>
+              )}
 
               {/* Content Sections */}
               <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-8 mb-8">

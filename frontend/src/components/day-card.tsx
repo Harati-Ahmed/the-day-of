@@ -22,7 +22,7 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
         {day.image ? (
           <>
             <Image
-              src={`/images/events/${day.image}`}
+              src={day.image}
               alt={day.title}
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -32,10 +32,10 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
               placeholder="blur"
               blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
               onError={(e) => {
-                // Fallback to SVG if JPG fails
+                // Fallback to SVG if image fails
                 const target = e.target as HTMLImageElement;
                 if (!target.src.endsWith('.svg')) {
-                  target.src = `/images/events/${day.image.replace(/\.(jpg|jpeg|png|gif)$/i, '.svg')}`;
+                  target.src = day.image.replace(/\.(jpg|jpeg|png|webp|gif)$/i, '.svg');
                 }
               }}
             />

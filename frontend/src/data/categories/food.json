@@ -14,7 +14,7 @@
       "morning",
       "caffeine"
     ],
-    "image": "coffee-cup-morning.jpg",
+    "image": "/images/food/coffee-day.webp",
     "relatedDays": [
       "national-cappuccino-day",
       "national-espresso-day",
@@ -44,7 +44,7 @@
       "tasting",
       "barista"
     ],
-    "image": "coffee-shop-weekend.jpg",
+    "image": "/images/food/coffee-day.webp",
     "relatedDays": [
       "national-coffee-day",
       "national-cappuccino-day",
@@ -74,7 +74,7 @@
       "culture",
       "celebration"
     ],
-    "image": "authentic-tacos.jpg",
+    "image": "/images/food/taco-day.webp",
     "relatedDays": [
       "national-mexican-food-day",
       "national-burrito-day",
@@ -104,7 +104,7 @@
       "recipes",
       "indulgence"
     ],
-    "image": "beautiful-desserts.jpg",
+    "image": "/images/food/dessert-day.webp",
     "relatedDays": [
       "national-chocolate-day",
       "national-cake-day",
@@ -134,7 +134,7 @@
       "cooking",
       "family"
     ],
-    "image": "delicious-pasta-dish.jpg",
+    "image": "/images/food/pasta-day.webp",
     "relatedDays": [
       "national-italian-food-day",
       "national-ravioli-day",
@@ -164,7 +164,7 @@
       "miniature",
       "frosting"
     ],
-    "image": "chocolate-cupcakes.jpg",
+    "image": "/images/food/chocolate-cupcake-day.webp",
     "relatedDays": [
       "national-cupcake-day",
       "national-chocolate-day",
@@ -194,7 +194,7 @@
       "recipes",
       "convenience"
     ],
-    "image": "delicious-sandwich.jpg",
+    "image": "/images/food/sandwich-day.webp",
     "relatedDays": [
       "national-grilled-cheese-day",
       "national-submarine-day",
@@ -224,7 +224,7 @@
       "foam",
       "morning"
     ],
-    "image": "perfect-cappuccino.jpg",
+    "image": "/images/food/cappuccino-day.webp",
     "relatedDays": [
       "national-coffee-day",
       "national-espresso-day",
@@ -254,7 +254,7 @@
       "versatile",
       "classic"
     ],
-    "image": "peanut-butter-jar.jpg",
+    "image": "/images/food/peanut-butter-day.webp",
     "relatedDays": [
       "national-peanut-day",
       "national-sandwich-day",
@@ -284,7 +284,7 @@
       "homemade",
       "sharing"
     ],
-    "image": "fresh-baked-cookies.jpg",
+    "image": "/images/food/cookie-day.webp",
     "relatedDays": [
       "national-chocolate-chip-cookie-day",
       "national-sugar-cookie-day",
@@ -314,7 +314,7 @@
       "fudgy",
       "squares"
     ],
-    "image": "chocolate-brownies.jpg",
+    "image": "/images/food/brownie-day.webp",
     "relatedDays": [
       "national-chocolate-day",
       "national-cookie-day",
@@ -344,7 +344,7 @@
       "pancakes",
       "vermont"
     ],
-    "image": "maple-syrup-pancakes.jpg",
+    "image": "/images/food/maple-syrup-day.webp",
     "relatedDays": [
       "national-pancake-day",
       "national-breakfast-day",
@@ -374,7 +374,7 @@
       "dense",
       "fruits"
     ],
-    "image": "traditional-fruitcake.jpg",
+    "image": "/images/food/fruitcake-day.webp",
     "relatedDays": [
       "christmas-day",
       "national-cake-day",
@@ -404,7 +404,7 @@
       "truffles",
       "indulgence"
     ],
-    "image": "chocolate-candy-collection.jpg",
+    "image": "/images/food/chocolate-candy-day.webp",
     "relatedDays": [
       "national-chocolate-day",
       "national-candy-day",
@@ -434,7 +434,7 @@
       "community",
       "baking"
     ],
-    "image": "cookie-exchange-party.jpg",
+    "image": "/images/food/cookie-day.webp",
     "relatedDays": [
       "national-cookie-day",
       "christmas-eve",
@@ -464,7 +464,7 @@
       "new-year",
       "elegant"
     ],
-    "image": "champagne-celebration.jpg",
+    "image": "/images/food/chocolate-day.webp",
     "relatedDays": [
       "new-years-eve",
       "valentines-day",
@@ -494,7 +494,7 @@
       "dining",
       "sharing"
     ],
-    "image": "delicious-pizza-slice.jpg",
+    "image": "/images/food/pizza-day.webp",
     "relatedDays": [
       "national-cheese-day",
       "national-italian-food-day",
@@ -524,7 +524,7 @@
       "frozen",
       "treat"
     ],
-    "image": "delicious-ice-cream-cones.jpg",
+    "image": "/images/food/ice-cream-day.webp",
     "relatedDays": [
       "national-vanilla-ice-cream-day",
       "national-sundae-day",
@@ -554,7 +554,7 @@
       "german",
       "bakery"
     ],
-    "image": "fresh-baked-pretzels.jpg",
+    "image": "/images/food/pretzel-day.webp",
     "relatedDays": [
       "national-german-american-day",
       "national-bakery-day",
@@ -584,7 +584,7 @@
       "comfort-food",
       "barbecue"
     ],
-    "image": "juicy-hamburger.jpg",
+    "image": "/images/food/hamburger-day.webp",
     "relatedDays": [
       "national-cheeseburger-day",
       "national-grilling-day",
@@ -614,7 +614,7 @@
       "coffee",
       "treats"
     ],
-    "image": "fresh-donuts-display.jpg",
+    "image": "/images/food/donut-day.webp",
     "relatedDays": [
       "national-coffee-day",
       "national-bakery-day",
@@ -644,7 +644,7 @@
       "grapes",
       "sophisticated"
     ],
-    "image": "wine-tasting-setup.jpg",
+    "image": "/images/food/dessert-day.webp",
     "relatedDays": [
       "national-champagne-day",
       "national-cocktail-day",
@@ -674,7 +674,7 @@
       "dessert",
       "treat"
     ],
-    "image": "luxury-chocolate-display.jpg",
+    "image": "/images/food/chocolate-day.webp",
     "relatedDays": [
       "national-chocolate-chip-cookie-day",
       "national-cocoa-day",
@@ -704,7 +704,7 @@
       "craft",
       "social"
     ],
-    "image": "craft-beer-selection.jpg",
+    "image": "/images/food/coffee-day.webp",
     "relatedDays": [
       "national-wine-day",
       "national-cocktail-day",
@@ -734,7 +734,7 @@
       "ballpark",
       "grilling"
     ],
-    "image": "delicious-hot-dogs.jpg",
+    "image": "/images/food/hot-dog-day.webp",
     "relatedDays": [
       "national-hamburger-day",
       "national-barbecue-day",
@@ -764,7 +764,7 @@
       "morning",
       "family"
     ],
-    "image": "stack-of-pancakes.jpg",
+    "image": "/images/food/pancake-day.webp",
     "relatedDays": [
       "national-breakfast-day",
       "national-waffle-day",
@@ -794,7 +794,7 @@
       "nostalgic",
       "simple"
     ],
-    "image": "delicious-grilled-cheese.jpg",
+    "image": "/images/food/grilled-cheese-sandwich-day.webp",
     "relatedDays": [
       "national-sandwich-day",
       "national-cheese-day",
@@ -824,7 +824,7 @@
       "healthy",
       "artistic"
     ],
-    "image": "beautiful-sushi-rolls.jpg",
+    "image": "/images/food/sushi-day.webp",
     "relatedDays": [
       "national-japanese-food-day",
       "national-seafood-day",
@@ -854,7 +854,7 @@
       "summer",
       "tradition"
     ],
-    "image": "delicious-barbecue-spread.jpg",
+    "image": "/images/food/barbecue-day.webp",
     "relatedDays": [
       "national-hamburger-day",
       "national-hot-dog-day",
@@ -884,7 +884,7 @@
       "pairing",
       "delicious"
     ],
-    "image": "artisan-cheese-selection.jpg",
+    "image": "/images/food/cheese-day.webp",
     "relatedDays": [
       "national-grilled-cheese-day",
       "national-wine-day",
@@ -914,7 +914,7 @@
       "nutritious",
       "refreshing"
     ],
-    "image": "colorful-smoothie-bowls.jpg",
+    "image": "/images/food/smoothie-day.webp",
     "relatedDays": [
       "national-fruit-day",
       "national-vegetable-day",
@@ -944,7 +944,7 @@
       "morning",
       "belgian"
     ],
-    "image": "golden-waffles-with-toppings.jpg",
+    "image": "/images/food/waffle-day.webp",
     "relatedDays": [
       "national-pancake-day",
       "national-breakfast-day",
@@ -974,7 +974,7 @@
       "party",
       "crunchy"
     ],
-    "image": "loaded-nachos-plate.jpg",
+    "image": "/images/food/nacho-day.webp",
     "relatedDays": [
       "national-taco-day",
       "national-mexican-food-day",
@@ -1004,7 +1004,7 @@
       "colorful",
       "nutritious"
     ],
-    "image": "colorful-smoothie-bowl-toppings.jpg",
+    "image": "/images/food/smoothie-bowl-day.webp",
     "relatedDays": [
       "national-smoothie-day",
       "national-acai-bowl-day",
@@ -1034,7 +1034,7 @@
       "nutritious",
       "versatile"
     ],
-    "image": "fresh-avocados-display.jpg",
+    "image": "/images/food/avocado-day.webp",
     "relatedDays": [
       "national-guacamole-day",
       "national-toast-day",
@@ -1064,7 +1064,7 @@
       "broth",
       "cozy"
     ],
-    "image": "delicious-soup-bowl.jpg",
+    "image": "/images/food/soup-day.webp",
     "relatedDays": [
       "national-comfort-food-day",
       "national-chicken-noodle-soup-day",
@@ -1094,7 +1094,7 @@
       "nutritious",
       "greens"
     ],
-    "image": "fresh-colorful-salad.jpg",
+    "image": "/images/food/salad-day.webp",
     "relatedDays": [
       "national-eat-your-vegetables-day",
       "national-nutrition-month",
@@ -1124,7 +1124,7 @@
       "sweet",
       "savory"
     ],
-    "image": "delicious-homemade-pies.jpg",
+    "image": "/images/food/pie-day.webp",
     "relatedDays": [
       "national-dessert-day",
       "national-apple-pie-day",
@@ -1154,7 +1154,7 @@
       "grains",
       "convenience"
     ],
-    "image": "colorful-cereal-bowls.jpg",
+    "image": "/images/food/cereal-day.webp",
     "relatedDays": [
       "national-breakfast-day",
       "national-oatmeal-day",
@@ -1184,7 +1184,7 @@
       "toppings",
       "comfort"
     ],
-    "image": "fresh-bagels-variety.jpg",
+    "image": "/images/food/bagel-day.webp",
     "relatedDays": [
       "national-breakfast-day",
       "national-bread-day",
@@ -1214,7 +1214,7 @@
       "portable",
       "treats"
     ],
-    "image": "delicious-fresh-muffins.jpg",
+    "image": "/images/food/muffin-day.webp",
     "relatedDays": [
       "national-blueberry-muffin-day",
       "national-baking-day",
@@ -1244,7 +1244,7 @@
       "versatile",
       "cultural"
     ],
-    "image": "rice-varieties-display.jpg",
+    "image": "/images/food/rice-day.webp",
     "relatedDays": [
       "world-food-day",
       "national-sushi-day",
@@ -1274,7 +1274,7 @@
       "nutritious",
       "energy"
     ],
-    "image": "healthy-oatmeal-bowl.jpg",
+    "image": "/images/food/oatmeal-day.webp",
     "relatedDays": [
       "national-breakfast-day",
       "national-nutrition-month",
@@ -1304,7 +1304,7 @@
       "sustainable",
       "compassionate"
     ],
-    "image": "vegetarian-plant-based-meal.jpg",
+    "image": "/images/food/vegetarian-day.webp",
     "relatedDays": [
       "world-vegan-day",
       "national-eat-your-vegetables-day",
@@ -1334,7 +1334,7 @@
       "culinary",
       "seasoning"
     ],
-    "image": "colorful-spices-display.jpg",
+    "image": "/images/food/spice-day.webp",
     "relatedDays": [
       "national-herb-day",
       "international-curry-day",
@@ -1364,7 +1364,7 @@
       "herbal",
       "ceremony"
     ],
-    "image": "tea-ceremony-setup.jpg",
+    "image": "/images/food/tea-day.webp",
     "relatedDays": [
       "national-coffee-day",
       "national-hot-tea-month",
@@ -1394,7 +1394,7 @@
       "versatile",
       "fun"
     ],
-    "image": "fresh-popcorn-bowl.jpg",
+    "image": "/images/food/popcorn-day.webp",
     "relatedDays": [
       "national-movie-day",
       "national-snack-day",
@@ -1424,7 +1424,7 @@
       "breakfast",
       "protein"
     ],
-    "image": "fresh-yogurt-bowls.jpg",
+    "image": "/images/food/yogurt-day.webp",
     "relatedDays": [
       "national-breakfast-day",
       "national-dairy-month",
@@ -1454,7 +1454,7 @@
       "nuts",
       "trail-mix"
     ],
-    "image": "homemade-granola-mix.jpg",
+    "image": "/images/food/granola-day.webp",
     "relatedDays": [
       "national-oatmeal-day",
       "national-cereal-day",
@@ -1484,7 +1484,7 @@
       "homemade",
       "nostalgic"
     ],
-    "image": "homemade-apple-pie.jpg",
+    "image": "/images/food/pie-day.webp",
     "relatedDays": [
       "national-pie-day",
       "national-apple-day",
@@ -1514,7 +1514,7 @@
       "community",
       "stadium-food"
     ],
-    "image": "baseball-stadium-celebration.jpg",
+    "image": "/images/food/coffee-day.webp",
     "relatedDays": [
       "national-hot-dog-day",
       "opening-day",
@@ -1544,7 +1544,7 @@
       "regional",
       "community"
     ],
-    "image": "american-bbq-grill.jpg",
+    "image": "/images/food/bbq-day.webp",
     "relatedDays": [
       "independence-day",
       "national-hamburger-day",
@@ -1574,7 +1574,7 @@
       "game-day",
       "finger-food"
     ],
-    "image": "buffalo-wings-plate.jpg",
+    "image": "/images/food/wings-day.webp",
     "relatedDays": [
       "super-bowl-sunday",
       "national-hot-sauce-day",
@@ -1604,7 +1604,7 @@
       "nostalgic",
       "homemade"
     ],
-    "image": "homemade-mac-and-cheese.jpg",
+    "image": "/images/food/cheese-day.webp",
     "relatedDays": [
       "national-cheese-day",
       "national-comfort-food-day",
@@ -1634,7 +1634,7 @@
       "comfort-food",
       "family"
     ],
-    "image": "southern-fried-chicken.jpg",
+    "image": "/images/food/fried-chicken-day.webp",
     "relatedDays": [
       "national-chicken-day",
       "national-soul-food-month",
@@ -1664,7 +1664,7 @@
       "comfort-food",
       "heritage"
     ],
-    "image": "soul-food-traditional-dishes.jpg",
+    "image": "/images/food/soul-food-day.webp",
     "relatedDays": [
       "national-fried-chicken-day",
       "national-mac-and-cheese-day",
@@ -1694,7 +1694,7 @@
       "snacks",
       "protein"
     ],
-    "image": "creamy-peanut-butter-jar.jpg",
+    "image": "/images/food/peanut-butter-day.webp",
     "relatedDays": [
       "national-peanut-butter-lovers-day",
       "national-peanut-day",
@@ -1724,7 +1724,7 @@
       "dessert",
       "outdoor"
     ],
-    "image": "campfire-smores-treats.jpg",
+    "image": "/images/food/s'mores-day.webp",
     "relatedDays": [
       "national-camping-day",
       "national-marshmallow-day",
@@ -1754,7 +1754,7 @@
       "barbecue",
       "farming"
     ],
-    "image": "fresh-corn-on-cob.jpg",
+    "image": "/images/food/corn-on-the-cob-day.webp",
     "relatedDays": [
       "national-farmers-day",
       "national-bbq-day",
@@ -1784,7 +1784,7 @@
       "american-food",
       "comfort-food"
     ],
-    "image": "fluffy-buttermilk-biscuits.jpg",
+    "image": "/images/food/biscuit-day.webp",
     "relatedDays": [
       "national-breakfast-day",
       "national-southern-food-day",
@@ -1814,7 +1814,7 @@
       "cooking",
       "innovation"
     ],
-    "image": "golden-waffle-iron.jpg",
+    "image": "/images/food/waffle-day.webp",
     "relatedDays": [
       "national-waffle-day",
       "national-pancake-day",
@@ -1844,7 +1844,7 @@
       "premium",
       "coastal"
     ],
-    "image": "fresh-maine-lobster.jpg",
+    "image": "/images/food/lobster-day.webp",
     "relatedDays": [
       "national-seafood-day",
       "national-fish-day",
@@ -1874,7 +1874,7 @@
       "american-food",
       "side-dish"
     ],
-    "image": "golden-french-fries.jpg",
+    "image": "/images/food/french-fry-day.webp",
     "relatedDays": [
       "national-potato-day",
       "national-fast-food-day",
@@ -1904,7 +1904,7 @@
       "deals",
       "restaurants"
     ],
-    "image": "buffalo-chicken-wings.jpg",
+    "image": "/images/food/chicken-wing-day.webp",
     "relatedDays": [
       "super-bowl-sunday",
       "national-buffalo-chicken-day",
@@ -1934,7 +1934,7 @@
       "deals",
       "restaurants"
     ],
-    "image": "classic-american-cheeseburger.jpg",
+    "image": "/images/food/cheeseburger-day.webp",
     "relatedDays": [
       "national-hamburger-day",
       "national-fast-food-day",
@@ -1964,7 +1964,7 @@
       "restaurants",
       "deals"
     ],
-    "image": "margarita-cocktails-salt-rim.jpg",
+    "image": "/images/food/food-placeholder.webp",
     "relatedDays": [
       "cinco-de-mayo",
       "national-tequila-day",
@@ -1994,7 +1994,7 @@
       "cooking",
       "popular"
     ],
-    "image": "crispy-bacon-strips.jpg",
+    "image": "/images/food/food-placeholder.webp",
     "relatedDays": [
       "national-breakfast-day",
       "international-bacon-day",
@@ -2024,7 +2024,7 @@
       "chipotle",
       "restaurants"
     ],
-    "image": "loaded-burrito-mexican.jpg",
+    "image": "/images/food/burrito-day.webp",
     "relatedDays": [
       "cinco-de-mayo",
       "national-taco-day",
@@ -2054,7 +2054,7 @@
       "deals",
       "healthy"
     ],
-    "image": "fresh-guacamole-bowl.jpg",
+    "image": "/images/food/guacamole-day.webp",
     "relatedDays": [
       "national-avocado-day",
       "cinco-de-mayo",
@@ -2084,7 +2084,7 @@
       "restaurants",
       "trending"
     ],
-    "image": "fried-chicken-sandwich.jpg",
+    "image": "/images/food/sandwich-day.webp",
     "relatedDays": [
       "national-fried-chicken-day",
       "national-sandwich-day",
@@ -2114,7 +2114,7 @@
       "deals",
       "diners"
     ],
-    "image": "thick-milkshake-glass.jpg",
+    "image": "/images/food/milkshake-day.webp",
     "relatedDays": [
       "national-ice-cream-day",
       "national-diner-day",
@@ -2144,7 +2144,7 @@
       "restaurants",
       "family-dinner"
     ],
-    "image": "layered-lasagna-dish.jpg",
+    "image": "/images/food/lasagna-day.webp",
     "relatedDays": [
       "national-pasta-day",
       "national-italian-food-day",
@@ -2174,7 +2174,7 @@
       "leafy-greens",
       "superfood"
     ],
-    "image": "fresh-spinach-leaves.jpg",
+    "image": "/images/food/spinach-day.webp",
     "relatedDays": [
       "national-kale-day",
       "national-salad-month",
@@ -2204,7 +2204,7 @@
       "classic",
       "american"
     ],
-    "image": "grilled-cheese-sandwich.jpg",
+    "image": "/images/food/sandwich-day.webp",
     "relatedDays": [
       "national-sandwich-day",
       "national-cheese-day",
@@ -2234,7 +2234,7 @@
       "healthy",
       "dessert"
     ],
-    "image": "fresh-strawberries.jpg",
+    "image": "/images/food/strawberry-day.webp",
     "relatedDays": [
       "national-strawberry-shortcake-day",
       "berry-month",
@@ -2264,7 +2264,7 @@
       "cream",
       "baking"
     ],
-    "image": "coconut-cream-pie.jpg",
+    "image": "/images/food/pie-day.webp",
     "relatedDays": [
       "national-pie-day",
       "national-dessert-day",
@@ -2294,7 +2294,7 @@
       "cheese",
       "american"
     ],
-    "image": "philly-cheesesteak.jpg",
+    "image": "/images/food/tea-day.webp",
     "relatedDays": [
       "national-sandwich-day",
       "national-cheese-day",
@@ -2324,7 +2324,7 @@
       "american",
       "sweet"
     ],
-    "image": "chocolate-chip-cookies.jpg",
+    "image": "/images/food/cookie-day.webp",
     "relatedDays": [
       "national-cookie-day",
       "national-chocolate-day",
@@ -2354,7 +2354,7 @@
       "baking",
       "comfort"
     ],
-    "image": "cinnamon-rolls.jpg",
+    "image": "/images/food/cinnamon-roll-day.webp",
     "relatedDays": [
       "national-cinnamon-day",
       "national-pastry-day",
@@ -2384,7 +2384,7 @@
       "american",
       "classic"
     ],
-    "image": "oreo-cookies.jpg",
+    "image": "/images/food/cookie-day.webp",
     "relatedDays": [
       "national-cookie-day",
       "milk-chocolate-day",
@@ -2414,7 +2414,7 @@
       "sauce",
       "treat"
     ],
-    "image": "caramel-candy.jpg",
+    "image": "/images/food/caramel-day.webp",
     "relatedDays": [
       "candy-day",
       "dessert-day",
@@ -2444,7 +2444,7 @@
       "american",
       "hearty"
     ],
-    "image": "chili-bowl-beans.jpg",
+    "image": "/images/food/chili-day.webp",
     "relatedDays": [
       "chili-cook-off-day",
       "soup-month",
@@ -2474,7 +2474,7 @@
       "nostalgic",
       "comfort"
     ],
-    "image": "butterscotch-pudding.jpg",
+    "image": "/images/food/butterscotch-pudding-day.webp",
     "relatedDays": [
       "pudding-day",
       "dessert-day",
@@ -2504,7 +2504,7 @@
       "classic",
       "american"
     ],
-    "image": "eggs-benedict-brunch.jpg",
+    "image": "/images/food/eggs-benedict-day.webp",
     "relatedDays": [
       "national-brunch-month",
       "egg-day",
@@ -2534,7 +2534,7 @@
       "sweet",
       "treat"
     ],
-    "image": "peanut-clusters-candy.jpg",
+    "image": "/images/food/peanut-cluster-day.webp",
     "relatedDays": [
       "peanut-day",
       "chocolate-day",

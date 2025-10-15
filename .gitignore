@@ -98,3 +98,6 @@ jspm_packages/
 
 # TernJS port file
 .tern-port
+
+# Personal reference files
+frontend/events-list.txt
