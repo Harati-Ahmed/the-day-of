@@ -66,7 +66,7 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
         </div>
 
         {/* Title */}
-        <Link href={`/${categorySlug}/${day.slug}`}>
+        <Link href={`/${categorySlug}/${day.slug}/`}>
           <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-4 line-clamp-2 leading-tight">
             {day.title}
           </h3>
@@ -99,7 +99,7 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
 
         {/* Read More Link */}
         <Link
-          href={`/${categorySlug}/${day.slug}`}
+          href={`/${categorySlug}/${day.slug}/`}
           className="inline-flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold transition-colors group/link"
         >
           Discover More

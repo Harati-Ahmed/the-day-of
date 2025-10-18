@@ -52,13 +52,13 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "startDate": day.date,
     "endDate": day.date,
     "description": day.description,
-    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
+    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "location": {
       "@type": "VirtualLocation",
-      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`
     },
     "organizer": {
       "@type": "Organization",
@@ -80,7 +80,7 @@ export function generateStructuredData(day: { title: string; date: string; descr
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
       "validFrom": day.date,
-      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`
     }
   };
 

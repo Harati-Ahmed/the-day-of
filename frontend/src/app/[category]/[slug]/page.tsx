@@ -86,14 +86,14 @@ export default async function DayPage({ params }: PageProps) {
     "startDate": day.date,
     "endDate": day.date,
     "description": day.description,
-    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
+    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "keywords": day.tags.join(', '),
     "location": {
       "@type": "VirtualLocation",
-      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`
     },
     "organizer": {
       "@type": "Organization",
@@ -115,7 +115,7 @@ export default async function DayPage({ params }: PageProps) {
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
       "validFrom": day.date,
-      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+      "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`
     },
     ...(day.nextOccurrences && day.nextOccurrences.length > 0 && {
       "recurringEvent": {
@@ -170,7 +170,7 @@ export default async function DayPage({ params }: PageProps) {
         "@type": "ListItem",
         "position": 4,
         "name": day.title,
-        "item": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+        "item": `https://www.thedayof.net/${categorySlug}/${day.slug}/`
       }
     ]
   };
@@ -181,7 +181,7 @@ export default async function DayPage({ params }: PageProps) {
     "headline": day.title,
     "description": day.description,
     "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
-    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}`,
+    "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "datePublished": day.date,
     "dateModified": day.date,
     "keywords": day.tags.join(', '),
@@ -200,7 +200,7 @@ export default async function DayPage({ params }: PageProps) {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://www.thedayof.net/${categorySlug}/${day.slug}`
+      "@id": `https://www.thedayof.net/${categorySlug}/${day.slug}/`
     }
   };
 
@@ -382,13 +382,13 @@ export default async function DayPage({ params }: PageProps) {
                 <div className="space-y-4">
                   <SocialShare
                     title={day.title}
-                    url={`https://www.thedayof.net/${categorySlug}/${day.slug}`}
+                    url={`https://www.thedayof.net/${categorySlug}/${day.slug}/`}
                     description={day.description}
                     variant="dropdown"
                   />
                   <SocialShare
                     title={day.title}
-                    url={`https://www.thedayof.net/${categorySlug}/${day.slug}`}
+                    url={`https://www.thedayof.net/${categorySlug}/${day.slug}/`}
                     description={day.description}
                     variant="inline"
                     className="mt-4"

@@ -249,7 +249,7 @@ export default function TodayPage() {
                         {/* Action Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4">
                           <Link 
-                            href={`/${categorySlug}/${day.slug}`}
+                            href={`/${categorySlug}/${day.slug}/`}
                             className="btn-primary text-center"
                           >
                             Learn More About {day.title}
@@ -257,7 +257,7 @@ export default function TodayPage() {
                           <div className="flex-1">
                             <SocialShare
                               title={day.title}
-                              url={`https://www.thedayof.net/${categorySlug}/${day.slug}`}
+                              url={`https://www.thedayof.net/${categorySlug}/${day.slug}/`}
                               description={day.description}
                               variant="dropdown"
                             />
@@ -308,7 +308,7 @@ export default function TodayPage() {
                       return (
                         <Link
                           key={day.slug}
-                          href={`/${categorySlug}/${day.slug}`}
+                          href={`/${categorySlug}/${day.slug}/`}
                           className="group block"
                         >
                           <div className="bg-white dark:bg-dark-800 rounded-xl shadow-md hover:shadow-lg dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all duration-300 p-6 h-full">
