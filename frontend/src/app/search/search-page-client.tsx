@@ -294,7 +294,7 @@ export default function SearchPageClient() {
                   {categories.slice(0, 6).map((cat) => (
                     <Link
                       key={cat.slug}
-                      href={`/category/${cat.slug}`}
+                      href={`/category/${cat.slug}/`}
                       className="px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-lg hover:bg-primary-200 dark:hover:bg-primary-900/50 transition-colors"
                     >
                       {cat.name}
@@ -322,7 +322,7 @@ export default function SearchPageClient() {
               {categories.slice(0, 6).map((cat) => (
                 <Link
                   key={cat.slug}
-                  href={`/category/${cat.slug}`}
+                  href={`/category/${cat.slug}/`}
                   className="px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-lg hover:bg-primary-200 dark:hover:bg-primary-900/50 transition-colors"
                 >
                   {cat.name}

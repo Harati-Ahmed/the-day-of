@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: `Discover all ${category.name.toLowerCase()} days and holidays in ${currentYear}. ${category.description} Find dates, celebration ideas, and history for ${categoryDays.length}+ special days.`,
     keywords: `${category.name.toLowerCase()} holidays, ${category.name.toLowerCase()} days ${currentYear}, national ${category.name.toLowerCase()} days, ${category.name.toLowerCase()} observances`,
     alternates: {
-      canonical: `https://www.thedayof.net/category/${slug}`,
+      canonical: `https://www.thedayof.net/category/${slug}/`,
     },
     openGraph: {
       title: `${category.name} Days & Holidays ${currentYear} – Complete Guide`,
@@ -72,7 +72,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@type": "CollectionPage",
     "name": `${category.name} Days`,
     "description": `Discover all ${category.name.toLowerCase()} days, holidays, and celebrations. ${category.description}`,
-    "url": `https://www.thedayof.net/category/${slug}`,
+    "url": `https://www.thedayof.net/category/${slug}/`,
     "mainEntity": {
       "@type": "ItemList",
       "name": `${category.name} Days and Celebrations`,
@@ -87,13 +87,13 @@ export default async function CategoryPage({ params }: PageProps) {
           "description": day.description,
           "startDate": day.date,
           "endDate": day.date,
-          "url": `https://www.thedayof.net/${slug}/${day.slug}`,
+          "url": `https://www.thedayof.net/${slug}/${day.slug}/`,
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${slug}.jpg`,
           "location": {
             "@type": "VirtualLocation",
-            "url": `https://www.thedayof.net/${slug}/${day.slug}`
+            "url": `https://www.thedayof.net/${slug}/${day.slug}/`
           },
           "organizer": {
             "@type": "Organization",
@@ -110,7 +110,7 @@ export default async function CategoryPage({ params }: PageProps) {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "validFrom": day.date,
-            "url": `https://www.thedayof.net/${slug}/${day.slug}`
+            "url": `https://www.thedayof.net/${slug}/${day.slug}/`
           }
         }
       }))

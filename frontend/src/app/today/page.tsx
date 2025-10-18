@@ -43,7 +43,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description,
     keywords: `today's national day, what national day is today, today's holiday, ${formattedDate}, current celebrations`,
     alternates: {
-      canonical: 'https://www.thedayof.net/today',
+      canonical: 'https://www.thedayof.net/today/',
     },
     openGraph: {
       title,
@@ -80,7 +80,7 @@ export default function TodayPage() {
     "@type": "WebPage",
     "name": "Today's National Days",
     "description": `Discover what national days and holidays are celebrated today, ${formattedDate}.`,
-    "url": "https://www.thedayof.net/today",
+    "url": "https://www.thedayof.net/today/",
     "mainEntity": todaysDays.length > 0 ? {
       "@type": "ItemList",
       "name": "Today's Special Days",
@@ -95,13 +95,13 @@ export default function TodayPage() {
           "description": day.description,
           "startDate": todayDateString,
           "endDate": todayDateString,
-          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
+          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`,
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : "https://www.thedayof.net/images/og-today.jpg",
           "location": {
             "@type": "VirtualLocation",
-            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`
           },
           "organizer": {
             "@type": "Organization",
@@ -118,7 +118,7 @@ export default function TodayPage() {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "validFrom": todayDateString,
-            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`
           }
         }
       }))
@@ -274,7 +274,7 @@ export default function TodayPage() {
                               {relatedDays.map((relatedDay) => (
                                 <Link
                                   key={relatedDay.slug}
-                                  href={`/${getCategorySlug(relatedDay.category)}/${relatedDay.slug}`}
+                                  href={`/${getCategorySlug(relatedDay.category)}/${relatedDay.slug}/`}
                                   className="block p-4 rounded-lg bg-gray-50 dark:bg-dark-700 hover:bg-gray-100 dark:hover:bg-dark-600 transition-colors"
                                 >
                                   <h5 className="font-medium text-gray-900 dark:text-neutral-100 mb-2 line-clamp-2">
@@ -355,11 +355,11 @@ export default function TodayPage() {
                 every day is special! Check back tomorrow or explore our full calendar.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/calendar" className="btn-primary">
+                <Link href="/calendar/" className="btn-primary">
                   <Calendar className="inline h-5 w-5 mr-2" />
                   View Full Calendar
                 </Link>
-                <Link href="/categories" className="btn-secondary">
+                <Link href="/categories/" className="btn-secondary">
                   Browse Categories
                 </Link>
               </div>
@@ -369,7 +369,7 @@ export default function TodayPage() {
           {/* Quick Links */}
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link
-              href="/calendar"
+              href="/calendar/"
               className="block p-6 bg-white dark:bg-dark-800 rounded-xl shadow-md hover:shadow-lg dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all"
             >
               <Calendar className="h-8 w-8 text-primary-600 dark:text-primary-400 mb-3" />
@@ -382,7 +382,7 @@ export default function TodayPage() {
             </Link>
 
             <Link
-              href="/categories"
+              href="/categories/"
               className="block p-6 bg-white dark:bg-dark-800 rounded-xl shadow-md hover:shadow-lg dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all"
             >
               <Tag className="h-8 w-8 text-primary-600 dark:text-primary-400 mb-3" />
@@ -395,7 +395,7 @@ export default function TodayPage() {
             </Link>
 
             <Link
-              href="/search"
+              href="/search/"
               className="block p-6 bg-white dark:bg-dark-800 rounded-xl shadow-md hover:shadow-lg dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all"
             >
               <TrendingUp className="h-8 w-8 text-primary-600 dark:text-primary-400 mb-3" />

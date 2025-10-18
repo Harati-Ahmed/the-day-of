@@ -45,17 +45,17 @@ export default function Header() {
             <Link href="/" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
               Home
             </Link>
-            <Link href="/today" className="px-4 py-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:from-primary-600 hover:to-secondary-600 rounded-lg transition-all duration-200 font-semibold flex items-center gap-2 shadow-md hover:shadow-lg">
+            <Link href="/today/" className="px-4 py-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:from-primary-600 hover:to-secondary-600 rounded-lg transition-all duration-200 font-semibold flex items-center gap-2 shadow-md hover:shadow-lg">
               <Clock className="h-4 w-4" />
               Today
             </Link>
-            <Link href="/categories" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
+            <Link href="/categories/" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
               Categories
             </Link>
-            <Link href="/calendar" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
+            <Link href="/calendar/" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
               Calendar
             </Link>
-            <Link href="/about" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
+            <Link href="/about/" className="px-4 py-2 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium">
               About
             </Link>
           </nav>
@@ -94,7 +94,7 @@ export default function Header() {
                 Home
               </Link>
               <Link 
-                href="/today" 
+                href="/today/" 
                 className="px-4 py-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:from-primary-600 hover:to-secondary-600 rounded-lg transition-all duration-200 font-semibold flex items-center gap-2 shadow-md"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -102,21 +102,21 @@ export default function Header() {
                 Today&apos;s National Days
               </Link>
               <Link 
-                href="/categories" 
+                href="/categories/" 
                 className="px-4 py-3 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Categories
               </Link>
               <Link 
-                href="/calendar" 
+                href="/calendar/" 
                 className="px-4 py-3 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Calendar
               </Link>
               <Link 
-                href="/about" 
+                href="/about/" 
                 className="px-4 py-3 text-neutral-700 dark:text-neutral-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -132,7 +132,7 @@ export default function Header() {
                   {categories.map((category) => (
                     <Link
                       key={category.slug}
-                      href={`/category/${category.slug}`}
+                      href={`/category/${category.slug}/`}
                       className="flex items-center gap-2 px-4 py-3 text-sm text-neutral-600 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-dark-700 rounded-lg transition-all duration-200"
                       onClick={() => setIsMenuOpen(false)}
                     >

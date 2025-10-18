@@ -36,17 +36,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/categories" className="text-neutral-300 hover:text-primary-400 transition-colors font-medium">
+                <Link href="/categories/" className="text-neutral-300 hover:text-primary-400 transition-colors font-medium">
                   Categories
                 </Link>
               </li>
               <li>
-                <Link href="/calendar" className="text-neutral-300 hover:text-primary-400 transition-colors font-medium">
+                <Link href="/calendar/" className="text-neutral-300 hover:text-primary-400 transition-colors font-medium">
                   Calendar
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-neutral-300 hover:text-primary-400 transition-colors font-medium">
+                <Link href="/about/" className="text-neutral-300 hover:text-primary-400 transition-colors font-medium">
                   About
                 </Link>
               </li>
@@ -91,13 +91,13 @@ export default function Footer() {
               © 2025 TheDayOf. All rights reserved.
             </p>
             <div className="flex space-x-8 mt-4 md:mt-0">
-              <Link href="/privacy" className="text-neutral-400 hover:text-primary-400 text-base font-medium transition-colors">
+              <Link href="/privacy/" className="text-neutral-400 hover:text-primary-400 text-base font-medium transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-neutral-400 hover:text-primary-400 text-base font-medium transition-colors">
+              <Link href="/terms/" className="text-neutral-400 hover:text-primary-400 text-base font-medium transition-colors">
                 Terms of Service
               </Link>
-              <Link href="/contact" className="text-neutral-400 hover:text-primary-400 text-base font-medium transition-colors">
+              <Link href="/contact/" className="text-neutral-400 hover:text-primary-400 text-base font-medium transition-colors">
                 Contact
               </Link>
             </div>

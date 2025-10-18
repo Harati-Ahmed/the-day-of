@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: day.description,
     keywords: day.tags.join(', '),
     alternates: {
-      canonical: `https://www.thedayof.net/${category}/${slug}`,
+      canonical: `https://www.thedayof.net/${category}/${slug}/`,
     },
     openGraph: {
       title: `${day.title} ${year}`,
@@ -164,7 +164,7 @@ export default async function DayPage({ params }: PageProps) {
         "@type": "ListItem",
         "position": 3,
         "name": day.category,
-        "item": `https://www.thedayof.net/category/${categorySlug}`
+        "item": `https://www.thedayof.net/category/${categorySlug}/`
       },
       {
         "@type": "ListItem",
@@ -232,9 +232,9 @@ export default async function DayPage({ params }: PageProps) {
             <nav className="flex items-center space-x-2 text-sm">
               <Link href="/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Home</Link>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
-              <Link href="/categories" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Categories</Link>
+              <Link href="/categories/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Categories</Link>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
-              <Link href={`/category/${categorySlug}`} className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">
+              <Link href={`/category/${categorySlug}/`} className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">
                 {day.category}
               </Link>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
@@ -249,7 +249,7 @@ export default async function DayPage({ params }: PageProps) {
             <div className="lg:col-span-2">
               {/* Back Button */}
               <Link 
-                href={`/category/${categorySlug}`}
+                href={`/category/${categorySlug}/`}
                 className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 mb-6 transition-colors"
               >
                 <ArrowLeft className="h-4 w-4 mr-2" />
@@ -407,7 +407,7 @@ export default async function DayPage({ params }: PageProps) {
                     {relatedDays.map((relatedDay) => (
                       <div key={relatedDay.slug} className="border-b border-gray-200 dark:border-dark-600 pb-4 last:border-b-0">
                         <Link 
-                          href={`/${getCategorySlug(relatedDay.category)}/${relatedDay.slug}`}
+                          href={`/${getCategorySlug(relatedDay.category)}/${relatedDay.slug}/`}
                           className="block hover:bg-gray-50 dark:hover:bg-dark-700 p-2 rounded transition-colors"
                         >
                           <h4 className="font-medium text-gray-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
@@ -428,7 +428,7 @@ export default async function DayPage({ params }: PageProps) {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Related Collections</h3>
                 <div className="space-y-3">
                   <Link 
-                    href={`/category/${categorySlug}`}
+                    href={`/category/${categorySlug}/`}
                     className="block p-3 rounded-lg bg-gray-50 dark:bg-dark-700 hover:bg-gray-100 dark:hover:bg-dark-600 transition-colors"
                   >
                     <div className="font-medium text-gray-900 dark:text-neutral-100">All {day.category} Days</div>
@@ -454,7 +454,7 @@ export default async function DayPage({ params }: PageProps) {
                     .map((monthDay) => (
                       <Link
                         key={monthDay.slug}
-                        href={`/${getCategorySlug(monthDay.category)}/${monthDay.slug}`}
+                        href={`/${getCategorySlug(monthDay.category)}/${monthDay.slug}/`}
                         className="block p-3 rounded-lg bg-gray-50 dark:bg-dark-700 hover:bg-gray-100 dark:hover:bg-dark-600 transition-colors"
                       >
                         <div className="font-medium text-gray-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">

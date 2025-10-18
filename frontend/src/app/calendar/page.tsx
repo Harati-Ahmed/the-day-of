@@ -108,7 +108,7 @@ export default function CalendarPage() {
             {['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'].map((month, index) => (
               <Link
                 key={month}
-                href={`/month/${month}`}
+                href={`/month/${month}/`}
                 className="p-2 sm:p-4 rounded-lg border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800 text-center transition-colors group"
               >
                 <div className="font-medium text-sm sm:text-base text-neutral-900 dark:text-neutral-100 capitalize group-hover:text-primary-600 dark:group-hover:text-primary-400">
@@ -196,7 +196,7 @@ export default function CalendarPage() {
                           return (
                             <Link
                               key={event.slug}
-                              href={`/${getCategorySlug(event.category)}/${event.slug}`}
+                              href={`/${getCategorySlug(event.category)}/${event.slug}/`}
                               className={`block text-[10px] sm:text-xs p-1 sm:p-2 rounded-md sm:rounded-lg truncate text-white font-medium ${colorClass} hover:opacity-80 transition-opacity cursor-pointer ${eventIndex > 0 ? 'hidden sm:block' : ''}`}
                               title={event.title}
                               style={{ 
@@ -245,7 +245,7 @@ export default function CalendarPage() {
               {monthDays.map((day) => (
                 <Link
                   key={day.slug}
-                  href={`/${getCategorySlug(day.category)}/${day.slug}`}
+                  href={`/${getCategorySlug(day.category)}/${day.slug}/`}
                   className="group block p-6 border border-neutral-200 dark:border-dark-600 rounded-xl hover:shadow-medium dark:hover:shadow-dark-medium hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-700 bg-white dark:bg-dark-800"
                 >
                   <div className="flex items-center justify-between mb-4">
@@ -299,7 +299,7 @@ export default function CalendarPage() {
                 >
                   Next Month
                 </button>
-                <Link href="/categories" className="btn-secondary px-6 py-3">
+                <Link href="/categories/" className="btn-secondary px-6 py-3">
                   Browse Categories
                 </Link>
               </div>
@@ -330,7 +330,7 @@ export default function CalendarPage() {
                   {getDaysForDate(selectedDay).map((event) => (
                     <Link
                       key={event.slug}
-                      href={`/${getCategorySlug(event.category)}/${event.slug}`}
+                      href={`/${getCategorySlug(event.category)}/${event.slug}/`}
                       className="block p-4 border border-neutral-200 dark:border-dark-600 rounded-xl hover:border-primary-300 dark:hover:border-primary-600 hover:shadow-md dark:hover:shadow-dark-soft transition-all group"
                     >
                       <div className="flex items-start justify-between mb-2">

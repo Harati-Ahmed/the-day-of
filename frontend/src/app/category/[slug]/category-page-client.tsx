@@ -91,7 +91,7 @@ export default function CategoryPageClient({ category, allDays }: CategoryPageCl
           <nav className="flex items-center space-x-2 text-sm">
             <Link href="/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Home</Link>
             <span className="text-gray-400 dark:text-neutral-500">/</span>
-            <Link href="/categories" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Categories</Link>
+            <Link href="/categories/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Categories</Link>
             <span className="text-gray-400 dark:text-neutral-500">/</span>
             <span className="text-gray-900 dark:text-neutral-100 font-medium">{category.name}</span>
           </nav>
@@ -101,7 +101,7 @@ export default function CategoryPageClient({ category, allDays }: CategoryPageCl
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Back Button */}
         <Link 
-          href="/categories"
+          href="/categories/"
           className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 mb-6 transition-colors"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
@@ -191,7 +191,7 @@ export default function CategoryPageClient({ category, allDays }: CategoryPageCl
               {filterType === 'thisMonth' && 'No days this month in this category. Try a different month or filter.'}
               {filterType === 'all' && 'No days found in this category.'}
             </p>
-            <Link href="/categories" className="btn-primary">
+            <Link href="/categories/" className="btn-primary">
               Browse Other Categories
             </Link>
           </div>

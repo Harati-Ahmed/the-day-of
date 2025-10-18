@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: `Discover all the special days, holidays, and celebrations happening in ${month.name} ${currentYear}. From national observances to fun themed days, find out what to celebrate this month.`,
     keywords: `${month.name} holidays, ${month.name} special days, ${month.name} ${currentYear}, national days in ${month.name}`,
     alternates: {
-      canonical: `https://www.thedayof.net/month/${monthSlug}`,
+      canonical: `https://www.thedayof.net/month/${monthSlug}/`,
     },
     openGraph: {
       title: `${month.name} ${currentYear} Special Days & Holidays`,
@@ -97,7 +97,7 @@ export default async function MonthPage({ params }: PageProps) {
     "@type": "CollectionPage",
     "name": `${month.name} ${currentYear} Special Days & Holidays`,
     "description": `Complete guide to special days, holidays, and celebrations in ${month.name} ${currentYear}`,
-    "url": `https://www.thedayof.net/month/${monthSlug}`,
+    "url": `https://www.thedayof.net/month/${monthSlug}/`,
     "mainEntity": {
       "@type": "ItemList",
       "numberOfItems": monthDays.length,
@@ -110,13 +110,13 @@ export default async function MonthPage({ params }: PageProps) {
           "description": day.description,
           "startDate": day.date,
           "endDate": day.date,
-          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
+          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`,
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/months/${monthSlug}.jpg`,
           "location": {
             "@type": "VirtualLocation",
-            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`
           },
           "organizer": {
             "@type": "Organization",
@@ -133,7 +133,7 @@ export default async function MonthPage({ params }: PageProps) {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "validFrom": day.date,
-            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`
           }
         }
       }))
@@ -154,7 +154,7 @@ export default async function MonthPage({ params }: PageProps) {
             <nav className="flex items-center space-x-2 text-sm">
               <Link href="/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Home</Link>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
-              <Link href="/calendar" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Calendar</Link>
+              <Link href="/calendar/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Calendar</Link>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
               <span className="text-gray-900 dark:text-neutral-100 font-medium">{month.name} {currentYear}</span>
             </nav>
@@ -216,7 +216,7 @@ export default async function MonthPage({ params }: PageProps) {
                   {category} Days in {month.name}
                 </h2>
                 <Link 
-                  href={`/category/${getCategorySlug(category)}`}
+                  href={`/category/${getCategorySlug(category)}/`}
                   className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium"
                 >
                   View all {category} →
@@ -238,7 +238,7 @@ export default async function MonthPage({ params }: PageProps) {
               {MONTHS.map((m) => (
                 <Link
                   key={m.slug}
-                  href={`/month/${m.slug}`}
+                  href={`/month/${m.slug}/`}
                   className={`p-4 rounded-lg border text-center transition-colors ${
                     m.slug === monthSlug
                       ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-200 dark:border-blue-700 text-blue-900 dark:text-blue-100'

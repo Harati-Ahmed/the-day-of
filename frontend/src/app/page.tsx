@@ -43,13 +43,13 @@ export default function HomePage() {
           "description": day.description,
           "startDate": day.date,
           "endDate": day.date,
-          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`,
+          "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`,
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "image": day.image ? `https://www.thedayof.net${day.image}` : "https://www.thedayof.net/images/og-homepage.jpg",
           "location": {
             "@type": "VirtualLocation",
-            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`
           },
           "organizer": {
             "@type": "Organization",
@@ -66,7 +66,7 @@ export default function HomePage() {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "validFrom": day.date,
-            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}`
+            "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`
           }
         }
       }))
@@ -110,12 +110,12 @@ export default function HomePage() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12 md:mb-16">
-              <Link href="/calendar" className="btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4 group">
+              <Link href="/calendar/" className="btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4 group">
                 <Calendar className="inline h-4 w-4 md:h-5 md:w-5 mr-2" />
                 Explore Calendar
                 <ArrowRight className="inline h-3 w-3 md:h-4 md:w-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link href="/categories" className="btn-secondary text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
+              <Link href="/categories/" className="btn-secondary text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
                 Browse Categories
               </Link>
             </div>
@@ -169,7 +169,7 @@ export default function HomePage() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
-                  href="/today" 
+                  href="/today/" 
                   className="inline-flex items-center justify-center gap-2 bg-white text-primary-600 hover:bg-gray-50 px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
                 >
                   <Clock className="h-5 w-5" />
@@ -193,7 +193,7 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">The Latest</h2>
-            <Link href="/calendar" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-semibold flex items-center gap-2">
+            <Link href="/calendar/" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-semibold flex items-center gap-2">
               See More
               <ArrowRight className="h-4 w-4" />
             </Link>
@@ -230,7 +230,7 @@ export default function HomePage() {
                           </span>
                         ))}
                       </div>
-                      <Link href={`/${getCategorySlug(day.category)}/${day.slug}`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold">
+                      <Link href={`/${getCategorySlug(day.category)}/${day.slug}/`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold">
                         Read More →
                       </Link>
                     </div>
@@ -247,7 +247,7 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">Trending Now</h2>
-            <Link href="/categories" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-semibold flex items-center gap-2">
+            <Link href="/categories/" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-semibold flex items-center gap-2">
               View All
               <ArrowRight className="h-4 w-4" />
             </Link>
@@ -309,7 +309,7 @@ export default function HomePage() {
                         <p className="text-sm text-neutral-600 dark:text-neutral-300 line-clamp-2 mb-3">
                           {day.description}
                         </p>
-                        <Link href={`/${getCategorySlug(day.category)}/${day.slug}`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold">
+                        <Link href={`/${getCategorySlug(day.category)}/${day.slug}/`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold">
                           Discover More →
                         </Link>
                       </div>
@@ -360,7 +360,7 @@ export default function HomePage() {
           </div>
           
           <div className="text-center">
-            <Link href="/categories" className="btn-secondary text-lg px-8 py-4">
+            <Link href="/categories/" className="btn-secondary text-lg px-8 py-4">
               <Globe className="inline h-5 w-5 mr-2" />
               View All Categories
             </Link>
@@ -407,7 +407,7 @@ export default function HomePage() {
                         </span>
                       ))}
                     </div>
-                    <Link href={`/${getCategorySlug(day.category)}/${day.slug}`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold">
+                    <Link href={`/${getCategorySlug(day.category)}/${day.slug}/`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold">
                       Read More →
                     </Link>
                   </div>
@@ -417,7 +417,7 @@ export default function HomePage() {
           </div>
           
           <div className="text-center">
-            <Link href="/calendar" className="btn-primary text-lg px-8 py-4">
+            <Link href="/calendar/" className="btn-primary text-lg px-8 py-4">
               <Calendar className="inline h-5 w-5 mr-2" />
               View Full Calendar
             </Link>

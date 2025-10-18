@@ -53,7 +53,7 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
         <div className="flex items-center justify-between mb-6">
           {showCategory && (
             <Link
-              href={`/category/${categorySlug}`}
+              href={`/category/${categorySlug}/`}
               className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold text-white shadow-soft ${categoryColor} hover:shadow-medium transition-all duration-300`}
             >
               {day.category}
