@@ -63,12 +63,20 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "organizer": {
       "@type": "Organization",
       "name": "TheDayOf",
-      "url": "https://www.thedayof.net"
+      "url": "https://www.thedayof.net/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thedayof.net/logo.png"
+      }
     },
     "publisher": {
       "@type": "Organization",
       "name": "TheDayOf",
-      "url": "https://www.thedayof.net"
+      "url": "https://www.thedayof.net/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thedayof.net/logo.png"
+      }
     },
     "performer": {
       "@type": "Organization",

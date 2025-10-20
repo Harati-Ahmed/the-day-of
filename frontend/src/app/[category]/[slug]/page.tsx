@@ -152,13 +152,13 @@ export default async function DayPage({ params }: PageProps) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.thedayof.net"
+        "item": "https://www.thedayof.net/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Categories",
-        "item": "https://www.thedayof.net/categories"
+        "item": "https://www.thedayof.net/categories/"
       },
       {
         "@type": "ListItem",
@@ -314,43 +314,106 @@ export default async function DayPage({ params }: PageProps) {
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-neutral-100 mb-6">About {day.title}</h2>
                 
                 <div className="prose max-w-none">
-                  <p className="text-gray-700 dark:text-neutral-300 mb-6">
+                  <p className="text-gray-700 dark:text-neutral-300 mb-6 text-lg leading-relaxed">
                     {day.description}
                   </p>
+
+                  {/* Introduction/Overview - Always show substantial content */}
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">What is {day.title}?</h3>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      {day.title} is {day.category.toLowerCase() === 'international' ? 'an internationally recognized' : 'a special'} day celebrated on {formatDate(day.date)}. 
+                      This {day.category.toLowerCase().includes('national') ? 'national' : 'special'} observance brings together people to {day.description.toLowerCase()}.
+                    </p>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      Whether you&apos;re a long-time enthusiast or just discovering this special day, {day.title} offers a unique opportunity to engage with the {day.category.toLowerCase()} community and participate in meaningful activities.
+                    </p>
+                  </div>
                   
                   {day.history && (
-                    <>
-                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">History & Origins</h3>
-                      <p className="text-gray-700 dark:text-neutral-300 mb-6">
+                    <div className="mb-8">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">History & Origins</h3>
+                      <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
                         {day.history}
                       </p>
-                    </>
+                    </div>
                   )}
                   
                   {day.whyItMatters && (
-                    <>
-                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">Why It Matters</h3>
-                      <p className="text-gray-700 dark:text-neutral-300 mb-6">
+                    <div className="mb-8">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Why {day.title} Matters</h3>
+                      <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
                         {day.whyItMatters}
                       </p>
-                    </>
+                    </div>
                   )}
                   
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">How to Celebrate</h3>
-                  <p className="text-gray-700 dark:text-neutral-300 mb-6">
-                    {day.howToCelebrate || "There are countless ways to celebrate this special day. Whether you're looking for traditional activities, modern twists, or creative ideas, this special day offers opportunities to connect with others, learn something new, or simply enjoy the moment."}
-                  </p>
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">How to Celebrate {day.title}</h3>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      {day.howToCelebrate || `There are many wonderful ways to participate in ${day.title}. Whether you choose to celebrate individually, with family and friends, or as part of a larger community event, your participation helps raise awareness and spreads joy.`}
+                    </p>
+                    {!day.howToCelebrate && (
+                      <>
+                        <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                          Consider sharing your experiences on social media using relevant hashtags, organizing or attending local events, or simply taking time to reflect on the significance of this day. Every act of participation, no matter how small, contributes to the spirit of {day.title}.
+                        </p>
+                        <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                          Many people also use this day as an opportunity to learn more about the {day.category.toLowerCase()} aspects related to {day.title}, connect with like-minded individuals, or support relevant organizations and causes.
+                        </p>
+                      </>
+                    )}
+                  </div>
                   
                   {day.funFacts && day.funFacts.length > 0 && (
-                    <>
-                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-3">Fun Facts</h3>
-                      <ul className="list-disc list-inside text-gray-700 dark:text-neutral-300 space-y-2 mb-6">
+                    <div className="mb-8">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Interesting Facts About {day.title}</h3>
+                      <ul className="list-disc list-inside text-gray-700 dark:text-neutral-300 space-y-3">
                         {day.funFacts.map((fact, index) => (
-                          <li key={index}>{fact}</li>
+                          <li key={index} className="leading-relaxed">{fact}</li>
                         ))}
                       </ul>
-                    </>
+                    </div>
                   )}
+
+                  {/* Additional Context Section */}
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Getting Involved with {day.title}</h3>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      Participating in {day.title} can be both meaningful and enjoyable. Here are some ways you can get involved and make the most of this special occasion:
+                    </p>
+                    <ul className="list-disc list-inside text-gray-700 dark:text-neutral-300 space-y-2 mb-4">
+                      <li>Learn more about the history and significance of {day.title}</li>
+                      <li>Share information about this day with friends, family, and colleagues</li>
+                      <li>Engage with online communities celebrating {day.title}</li>
+                      <li>Create or participate in local events and activities</li>
+                      <li>Use social media to spread awareness using relevant hashtags</li>
+                    </ul>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      Remember that celebrating {day.title} doesn&apos;t have to be elaborate or expensive. Even small gestures of recognition and participation can contribute to the broader celebration and help keep the spirit of this day alive for future generations.
+                    </p>
+                  </div>
+
+                  {/* When and Where Section */}
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">When is {day.title}?</h3>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      {day.title} is celebrated annually on {formatDate(day.date)}. Mark your calendar and set a reminder so you don&apos;t miss this special occasion!
+                    </p>
+                    {day.nextOccurrences && day.nextOccurrences.length > 0 && (
+                      <>
+                        <p className="text-gray-700 dark:text-neutral-300 mb-2 font-medium">Upcoming dates:</p>
+                        <ul className="list-disc list-inside text-gray-700 dark:text-neutral-300 space-y-1 mb-4">
+                          {day.nextOccurrences.slice(0, 3).map((date, index) => (
+                            <li key={index}>{formatDate(date)}</li>
+                          ))}
+                        </ul>
+                      </>
+                    )}
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      Whether you celebrate individually or as part of a larger community, {day.title} provides an opportunity to connect with others who share your interests and values. Check back regularly for updates on events and activities happening in your area.
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -374,7 +437,7 @@ export default async function DayPage({ params }: PageProps) {
               )}
 
               {/* Share Section */}
-              <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-8">
+              <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft p-8 mb-8">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Share This Day</h3>
                 <p className="text-gray-600 dark:text-neutral-300 mb-6">
                   Help others discover this special day by sharing it with your friends and family.
@@ -393,6 +456,39 @@ export default async function DayPage({ params }: PageProps) {
                     variant="inline"
                     className="mt-4"
                   />
+                </div>
+              </div>
+
+              {/* Quick Links Section for Internal Linking */}
+              <div className="bg-blue-50 dark:bg-dark-700 rounded-lg shadow-md dark:shadow-dark-soft p-6 border-l-4 border-blue-500">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-neutral-100 mb-4">Explore More</h3>
+                <div className="space-y-3 text-sm">
+                  <Link 
+                    href="/calendar/" 
+                    className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                  >
+                    <Calendar className="h-4 w-4 mr-2" />
+                    View Full Calendar of Events
+                  </Link>
+                  <Link 
+                    href={`/category/${categorySlug}/`}
+                    className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                  >
+                    <Tag className="h-4 w-4 mr-2" />
+                    More {day.category} Events
+                  </Link>
+                  <Link 
+                    href="/categories/" 
+                    className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                  >
+                    Browse All Categories
+                  </Link>
+                  <Link 
+                    href="/" 
+                    className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                  >
+                    Discover Today&apos;s Special Days
+                  </Link>
                 </div>
               </div>
             </div>

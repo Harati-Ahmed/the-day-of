@@ -87,16 +87,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Day pages with better lastModified dates
+  // Day pages with better lastModified dates and prioritization
+  const now = new Date();
   const dayPages = days.map((day) => {
     const dayDate = new Date(day.date);
-    const isUpcoming = dayDate >= new Date();
+    const dayOfYear = Math.floor((dayDate.getTime() - new Date(dayDate.getFullYear(), 0, 0).getTime()) / 86400000);
+    const currentDayOfYear = Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86400000);
+    
+    // Calculate days until/since event
+    const daysUntilEvent = dayOfYear - currentDayOfYear;
+    
+    // Determine priority and update frequency based on proximity
+    let priority = 0.5;
+    let changeFrequency: 'daily' | 'weekly' | 'monthly' | 'yearly' = 'yearly';
+    
+    if (Math.abs(daysUntilEvent) <= 7) {
+      // Within a week of the event
+      priority = 0.9;
+      changeFrequency = 'daily';
+    } else if (Math.abs(daysUntilEvent) <= 30) {
+      // Within a month
+      priority = 0.8;
+      changeFrequency = 'weekly';
+    } else if (daysUntilEvent > 0 && daysUntilEvent <= 90) {
+      // Upcoming within 3 months
+      priority = 0.7;
+      changeFrequency = 'weekly';
+    } else if (daysUntilEvent > 0) {
+      // Future events
+      priority = 0.6;
+      changeFrequency = 'monthly';
+    }
     
     return {
       url: `${baseUrl}/${getCategorySlug(day.category)}/${day.slug}/`,
-      lastModified: isUpcoming ? new Date() : dayDate,
-      changeFrequency: isUpcoming ? 'weekly' as const : 'yearly' as const,
-      priority: isUpcoming ? 0.8 : 0.5,
+      lastModified: Math.abs(daysUntilEvent) <= 30 ? now : dayDate,
+      changeFrequency,
+      priority,
     };
   });
 

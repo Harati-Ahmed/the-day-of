@@ -5,4 +5,18 @@ Disallow: /api/
 Disallow: /_next/data/
 Disallow: /admin/
 
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://www.thedayof.net/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
