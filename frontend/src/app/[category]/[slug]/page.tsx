@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       publishedTime: day.date,
       images: [
         {
-          url: day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${category}.jpg`,
+          url: day.image ? (day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`) : `https://www.thedayof.net/images/categories/${category}.jpg`,
           width: 1200,
           height: 630,
           alt: day.title,
@@ -87,7 +87,7 @@ export default async function DayPage({ params }: PageProps) {
     "endDate": day.date,
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
-    "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
+    "image": day.image ? (day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`) : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "keywords": day.tags.join(', '),
@@ -180,7 +180,7 @@ export default async function DayPage({ params }: PageProps) {
     "@type": "Article",
     "headline": day.title,
     "description": day.description,
-    "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
+    "image": day.image ? (day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`) : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "datePublished": day.date,
     "dateModified": day.date,
