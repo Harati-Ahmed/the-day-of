@@ -37,10 +37,14 @@ export function getCategorySlug(category: string): string {
   const categoryMap: Record<string, string> = {
     'Food': 'food',
     'Awareness': 'awareness-health',
+    'Awareness & Health': 'awareness-health',
     'Animals': 'animals-pets',
+    'Animals & Pets': 'animals-pets',
     'Fun': 'fun-weird',
+    'Fun & Weird': 'fun-weird',
     'Holiday': 'holiday',
     'Shopping': 'shopping-deals',
+    'Shopping & Deals': 'shopping-deals',
     'National': 'national',
     'International': 'international'
   };
