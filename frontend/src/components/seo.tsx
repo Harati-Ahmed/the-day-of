@@ -53,7 +53,9 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "endDate": day.date,
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
-    "image": day.image ? (day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`) : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
+    ...(day.image && {
+      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`
+    }),
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "location": {

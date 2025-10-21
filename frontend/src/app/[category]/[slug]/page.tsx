@@ -48,14 +48,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: 'TheDayOf',
       locale: 'en_US',
       publishedTime: day.date,
-      images: [
-        {
-          url: day.image ? (day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`) : `https://www.thedayof.net/images/categories/${category}.jpg`,
-          width: 1200,
-          height: 630,
-          alt: day.title,
-        }
-      ],
+      ...(day.image && {
+        images: [
+          {
+            url: day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`,
+            width: 1200,
+            height: 630,
+            alt: day.title,
+          }
+        ],
+      }),
     },
     twitter: {
       card: 'summary_large_image',
@@ -87,7 +89,9 @@ export default async function DayPage({ params }: PageProps) {
     "endDate": day.date,
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
-    "image": day.image ? (day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`) : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
+    ...(day.image && {
+      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`
+    }),
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "keywords": day.tags.join(', '),
@@ -180,7 +184,9 @@ export default async function DayPage({ params }: PageProps) {
     "@type": "Article",
     "headline": day.title,
     "description": day.description,
-    "image": day.image ? (day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`) : `https://www.thedayof.net/images/categories/${categorySlug}.jpg`,
+    ...(day.image && {
+      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`
+    }),
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "datePublished": day.date,
     "dateModified": day.date,
