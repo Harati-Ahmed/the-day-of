@@ -54,7 +54,7 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     ...(day.image && {
-      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`
+      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${categorySlug}/${day.image}`
     }),
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",

@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ...(day.image && {
         images: [
           {
-            url: day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`,
+            url: day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${category}/${day.image}`,
             width: 1200,
             height: 630,
             alt: day.title,
@@ -90,7 +90,7 @@ export default async function DayPage({ params }: PageProps) {
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     ...(day.image && {
-      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`
+      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${categorySlug}/${day.image}`
     }),
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
@@ -185,7 +185,7 @@ export default async function DayPage({ params }: PageProps) {
     "headline": day.title,
     "description": day.description,
     ...(day.image && {
-      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/events/${day.image}`
+      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${categorySlug}/${day.image}`
     }),
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "datePublished": day.date,
@@ -303,7 +303,7 @@ export default async function DayPage({ params }: PageProps) {
                 <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft overflow-hidden mb-8">
                   <div className="relative w-full h-64 md:h-96 lg:h-[500px]">
                     <Image
-                      src={day.image}
+                      src={day.image.startsWith('/') ? day.image : `/images/${categorySlug}/${day.image}`}
                       alt={`${day.title} - ${day.description}`}
                       fill
                       className="object-cover"
