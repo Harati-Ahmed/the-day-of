@@ -270,36 +270,6 @@
     ]
   },
   {
-    "title": "National Yoga Day",
-    "slug": "national-yoga-day",
-    "date": "2025-06-21",
-    "category": "Awareness",
-    "description": "Find your zen and celebrate the ancient practice of yoga on National Yoga Day! This mind-body practice combines physical postures, breathing techniques, and meditation to promote physical and mental well-being. Whether you're a beginner or experienced practitioner, embrace the benefits of yoga for flexibility, strength, and inner peace.",
-    "tags": [
-      "yoga",
-      "mindfulness",
-      "June",
-      "flexibility",
-      "meditation",
-      "wellness",
-      "balance"
-    ],
-    "image": "person-practicing-yoga.jpg",
-    "relatedDays": [
-      "national-meditation-day",
-      "national-fitness-day",
-      "national-stress-awareness-day"
-    ],
-    "howToCelebrate": "Attend a yoga class or practice at home. Try different styles of yoga like Hatha, Vinyasa, or Yin. Learn about the history and philosophy of yoga. Practice breathing exercises and meditation. Share your yoga journey and tips on social media.",
-    "funFacts": [
-      "Yoga originated in India over 5,000 years ago",
-      "Regular yoga practice can improve flexibility by 35%",
-      "Yoga can reduce chronic pain and improve sleep quality",
-      "There are over 100 different yoga styles",
-      "Yoga is practiced by over 300 million people worldwide"
-    ]
-  },
-  {
     "title": "National Mental Health Day",
     "slug": "national-mental-health-day",
     "date": "2025-10-10",
@@ -704,7 +674,7 @@
       "management",
       "support"
     ],
-    "image": "diabetes-awareness-education.jpg",
+    "image": "national-diabetes-awareness-day-optimized.webp",
     "relatedDays": [
       "world-diabetes-day",
       "national-nutrition-month",
@@ -734,7 +704,7 @@
       "research",
       "support"
     ],
-    "image": "alzheimers-awareness-support.jpg",
+    "image": "national-alzheimers-awareness-day-optimized.webp",
     "relatedDays": [
       "world-alzheimers-day",
       "national-memory-day",
@@ -1634,7 +1604,7 @@
       "dermatology",
       "healthcare"
     ],
-    "image": "healthy-skin-month.jpg",
+    "image": "national-healthy-skin-month-november-optimized.webp",
     "relatedDays": [
       "melanoma-awareness-month",
       "skin-cancer-awareness-month",
@@ -1664,7 +1634,7 @@
       "healthcare",
       "awareness"
     ],
-    "image": "lung-cancer-awareness-month.jpg",
+    "image": "national-lung-cancer-awareness-month-november-optimized.webp",
     "relatedDays": [
       "world-lung-cancer-day",
       "great-american-smokeout",
@@ -1694,7 +1664,7 @@
       "support",
       "healthcare"
     ],
-    "image": "epilepsy-awareness-month.jpg",
+    "image": "national-epilepsy-awareness-month-november-optimized.webp",
     "relatedDays": [
       "purple-day-epilepsy",
       "brain-awareness-week",
@@ -1814,7 +1784,7 @@
       "awareness",
       "registry"
     ],
-    "image": "bone-marrow-donor.jpg",
+    "image": "national-bone-marrow-donor-awareness-november-optimized.webp",
     "relatedDays": [
       "national-donor-day",
       "leukemia-awareness",

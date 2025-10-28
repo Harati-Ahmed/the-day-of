@@ -44,7 +44,7 @@
       "spooky",
       "celebration"
     ],
-    "image": "halloween-celebration.jpg",
+    "image": "halloween-optimized.webp",
     "relatedDays": [
       "day-of-the-dead",
       "all-saints-day",
@@ -74,7 +74,7 @@
       "federal-holiday",
       "gratitude"
     ],
-    "image": "veterans-day-ceremony.jpg",
+    "image": "veterans-day-optimized.webp",
     "relatedDays": [
       "memorial-day",
       "armed-forces-day",
@@ -780,66 +780,6 @@
     ]
   },
   {
-    "title": "National Pearl Harbor Remembrance Day",
-    "slug": "national-pearl-harbor-remembrance-day",
-    "date": "2025-12-07",
-    "category": "Holiday",
-    "description": "Remember a date that will live in infamy on National Pearl Harbor Remembrance Day. Honor the 2,403 Americans who lost their lives in the Japanese attack on December 7, 1941, and commemorate the courage of those who served. This solemn day marks America's entry into World War II.",
-    "tags": [
-      "remembrance",
-      "military",
-      "December",
-      "history",
-      "veterans",
-      "patriotic",
-      "memorial"
-    ],
-    "image": "pearl-harbor-memorial.jpg",
-    "relatedDays": [
-      "veterans-day",
-      "memorial-day",
-      "armed-forces-day"
-    ],
-    "howToCelebrate": "Visit the Pearl Harbor National Memorial if possible. Attend local remembrance ceremonies. Learn about Pearl Harbor history. Thank World War II veterans and their families. Observe a moment of silence at 7:55 AM Hawaiian time. Share historical information on social media.",
-    "funFacts": [
-      "The USS Arizona Memorial honors 1,177 sailors who died on that ship",
-      "Five battleships sunk at Pearl Harbor were later raised and returned to service",
-      "December 7th was declared a National Day of Remembrance in 1994",
-      "Over 1.8 million visitors tour Pearl Harbor annually",
-      "The attack lasted less than two hours but changed history forever"
-    ]
-  },
-  {
-    "title": "National Flag Day",
-    "slug": "national-flag-day-america",
-    "date": "2025-06-14",
-    "category": "Holiday",
-    "description": "Wave the Stars and Stripes with pride on National Flag Day! Commemorate the adoption of the American flag on June 14, 1777. Learn flag history, proper flag etiquette, and celebrate the symbol that represents American freedom and unity.",
-    "tags": [
-      "flag",
-      "patriotic",
-      "June",
-      "American-flag",
-      "history",
-      "national-symbol",
-      "pride"
-    ],
-    "image": "american-flag-waving.jpg",
-    "relatedDays": [
-      "independence-day",
-      "memorial-day",
-      "veterans-day"
-    ],
-    "howToCelebrate": "Display the American flag properly at your home or business. Learn about flag history and etiquette. Attend Flag Day ceremonies and parades. Replace worn or faded flags. Teach children about the flag's symbolism. Share patriotic messages on social media.",
-    "funFacts": [
-      "The current 50-star flag was designed by a 17-year-old high school student",
-      "The flag has been modified 27 times since 1777",
-      "Flag Day became an official observance in 1916",
-      "The flag should never touch the ground",
-      "Six American flags have been planted on the Moon"
-    ]
-  },
-  {
     "title": "National Constitution Day",
     "slug": "national-constitution-day-america",
     "date": "2025-09-17",
@@ -867,36 +807,6 @@
       "The Constitution was written in just 100 working days",
       "The original document is four pages long",
       "All federal employees and military personnel must take an oath to uphold it"
-    ]
-  },
-  {
-    "title": "National Arbor Day",
-    "slug": "national-arbor-day-trees",
-    "date": "2025-04-25",
-    "category": "Holiday",
-    "description": "Plant the seeds of tomorrow on National Arbor Day! Founded in Nebraska in 1872, this American tradition celebrates trees and encourages tree planting. Help beautify communities, fight climate change, and honor our natural heritage by planting and caring for trees.",
-    "tags": [
-      "trees",
-      "environment",
-      "April",
-      "planting",
-      "nature",
-      "conservation",
-      "tradition"
-    ],
-    "image": "planting-tree-arbor-day.jpg",
-    "relatedDays": [
-      "earth-day",
-      "world-environment-day",
-      "national-parks-week"
-    ],
-    "howToCelebrate": "Plant a tree in your yard or community. Join local tree-planting events. Learn about native tree species. Care for existing trees through pruning and watering. Support urban forestry initiatives. Share tree-planting activities on social media.",
-    "funFacts": [
-      "Over 1 million trees were planted on the first Arbor Day in Nebraska",
-      "Different states celebrate Arbor Day on different dates based on climate",
-      "Trees can increase property values by up to 15%",
-      "A single tree can absorb 48 pounds of CO2 per year",
-      "The US has more trees today than it did 100 years ago"
     ]
   },
   {

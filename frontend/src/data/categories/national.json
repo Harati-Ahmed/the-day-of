@@ -90,36 +90,6 @@
     ]
   },
   {
-    "title": "National Volunteer Day",
-    "slug": "national-volunteer-day",
-    "date": "2025-12-05",
-    "category": "National",
-    "description": "Give back to your community and make a difference on National Volunteer Day! This special day celebrates the spirit of volunteerism and encourages people to dedicate their time and skills to helping others. From local charities to international causes, volunteering creates positive change and strengthens communities while providing personal fulfillment.",
-    "tags": [
-      "volunteer",
-      "service",
-      "December",
-      "community",
-      "helping",
-      "charity",
-      "giving"
-    ],
-    "image": "people-volunteering-together.jpg",
-    "relatedDays": [
-      "national-good-samaritan-day",
-      "world-kindness-day",
-      "national-giving-tuesday"
-    ],
-    "howToCelebrate": "Volunteer at a local charity, food bank, or community organization. Organize a volunteer project with friends, family, or colleagues. Donate your professional skills to help nonprofits. Participate in community clean-up events or environmental projects. Share your volunteer experiences on social media to inspire others.",
-    "funFacts": [
-      "Over 62 million Americans volunteer each year",
-      "Volunteers contribute over 8 billion hours of service annually",
-      "Volunteering can improve mental health and reduce depression",
-      "People who volunteer live longer than those who don't",
-      "The economic value of volunteer work is estimated at $184 billion per year"
-    ]
-  },
-  {
     "title": "National Astronomy Day",
     "slug": "national-astronomy-day",
     "date": "2025-05-10",
@@ -597,36 +567,6 @@
       "Leadership is about serving others, not being served",
       "Great leaders admit mistakes and learn from them",
       "Leadership skills are valuable in all areas of life"
-    ]
-  },
-  {
-    "title": "National Veterans Day",
-    "slug": "national-veterans-day",
-    "date": "2025-11-11",
-    "category": "National",
-    "description": "Honor those who served our nation on National Veterans Day! This solemn day pays tribute to all American veterans who have served in the armed forces, defending our freedom and way of life. From World War II heroes to modern-day service members, recognize their sacrifice, courage, and dedication to our country.",
-    "tags": [
-      "veterans",
-      "military",
-      "November",
-      "service",
-      "sacrifice",
-      "patriotic",
-      "honor"
-    ],
-    "image": "veterans-day-memorial.jpg",
-    "relatedDays": [
-      "memorial-day",
-      "armed-forces-day",
-      "independence-day"
-    ],
-    "howToCelebrate": "Thank veterans in your community for their service. Attend Veterans Day ceremonies and parades. Visit veterans' memorials and cemeteries. Support veteran organizations and charities. Share stories of veterans you know on social media.",
-    "funFacts": [
-      "Veterans Day was originally called Armistice Day, marking the end of World War I",
-      "It became Veterans Day in 1954 to honor all American veterans",
-      "There are about 18 million veterans living in the United States",
-      "The Tomb of the Unknown Soldier is guarded 24/7 by the US Army",
-      "Veterans Day is observed on November 11th regardless of the day of the week"
     ]
   },
   {
@@ -1214,7 +1154,7 @@
       "innovation",
       "careers"
     ],
-    "image": "stem-science-technology.jpg",
+    "image": "national-stem-day-science-optimized.webp",
     "relatedDays": [
       "national-science-day",
       "national-engineers-week",
@@ -1874,7 +1814,7 @@
       "history",
       "awareness"
     ],
-    "image": "native-american-heritage.jpg",
+    "image": "national-native-american-heritage-month-november-optimized.webp",
     "relatedDays": [
       "indigenous-peoples-day",
       "native-american-day",
