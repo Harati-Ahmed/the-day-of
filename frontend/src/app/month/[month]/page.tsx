@@ -83,11 +83,21 @@ export default async function MonthPage({ params }: PageProps) {
   const monthDays = getDaysByMonth(month.number, currentYear);
   
   // Group by categories for better organization
+  // Normalize category names to consolidate related categories
+  const normalizeCategoryForDisplay = (category: string): string => {
+    if (category === 'Awareness & Health') return 'Awareness';
+    if (category === 'Animals & Pets') return 'Animals';
+    if (category === 'Fun & Weird') return 'Fun';
+    if (category === 'Shopping & Deals') return 'Shopping';
+    return category;
+  };
+  
   const daysByCategory = monthDays.reduce((acc, day) => {
-    if (!acc[day.category]) {
-      acc[day.category] = [];
+    const displayCategory = normalizeCategoryForDisplay(day.category);
+    if (!acc[displayCategory]) {
+      acc[displayCategory] = [];
     }
-    acc[day.category].push(day);
+    acc[displayCategory].push(day);
     return acc;
   }, {} as Record<string, typeof monthDays>);
 

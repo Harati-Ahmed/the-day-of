@@ -112,7 +112,22 @@ export const categories: Category[] = [
 ];
 
 export function getDaysByCategory(category: string): Day[] {
-  return days.filter(day => day.category === category);
+  // Map category names to handle both short and long formats
+  const categoryMap: Record<string, string[]> = {
+    'Food': ['Food'],
+    'Awareness': ['Awareness', 'Awareness & Health'],
+    'Animals': ['Animals', 'Animals & Pets'],
+    'Fun': ['Fun', 'Fun & Weird'],
+    'Holiday': ['Holiday'],
+    'Shopping': ['Shopping', 'Shopping & Deals'],
+    'National': ['National'],
+    'International': ['International']
+  };
+  
+  // Get all possible category name variations for this category
+  const possibleNames = categoryMap[category] || [category];
+  
+  return days.filter(day => possibleNames.includes(day.category));
 }
 
 // Helper functions to get days from specific categories directly
