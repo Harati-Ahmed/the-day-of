@@ -7,65 +7,22 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  // Enable compression for static assets
-  compress: true,
-  // Optimizations for static sites
+  
+  // Experimental optimizations following Next.js best practices
   experimental: {
     optimizeServerReact: false, // Not needed for static sites
     webVitalsAttribution: ['CLS', 'LCP', 'FCP', 'FID', 'TTFB'],
+    optimizePackageImports: ['lucide-react', 'react-hot-toast'], // Tree-shake heavy packages
   },
-  // Compiler optimizations for static build
-  compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
-  },
-  // Performance optimizations
-  poweredByHeader: false,
-  generateEtags: true,
   
-  // Webpack optimizations for static builds
-  webpack: (config, { dev, isServer }) => {
-    // Only optimize for production builds
-    if (!dev && !isServer) {
-      // Enable tree shaking
-      config.optimization.usedExports = true;
-      config.optimization.sideEffects = false;
-      
-      // Optimize chunk splitting for mobile performance
-      config.optimization.splitChunks = {
-        chunks: 'all',
-        minSize: 10000, // Smaller chunks for mobile
-        maxSize: 50000, // Smaller max size for mobile
-        cacheGroups: {
-          default: {
-            minChunks: 2,
-            priority: -20,
-            reuseExistingChunk: true,
-          },
-          vendor: {
-            test: /[\\/]node_modules[\\/]/,
-            name: 'vendors',
-            priority: -10,
-            chunks: 'all',
-            maxSize: 30000, // Smaller vendor chunks
-          },
-          // Separate chunk for heavy libraries
-          heavy: {
-            test: /[\\/]node_modules[\\/](react|next|framer-motion|lucide-react)[\\/]/,
-            name: 'heavy',
-            priority: 10,
-            chunks: 'all',
-            maxSize: 25000,
-          },
-        },
-      };
-      
-      // Optimize for mobile performance
-      config.optimization.concatenateModules = true;
-      config.optimization.providedExports = true;
-    }
-    
-    return config;
+  // Compiler optimizations for production
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production', // Remove console logs in production
   },
+  
+  // Performance optimizations
+  poweredByHeader: false, // Remove X-Powered-By header
+  generateEtags: true, // Generate ETags for caching
 };
 
 export default nextConfig;

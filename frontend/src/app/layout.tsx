@@ -4,21 +4,17 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from '@/contexts/theme-context';
 import ThemeSpread from '@/components/theme-spread';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import LazyToaster from '@/components/lazy-toaster';
+import { LazyAnalytics, LazySpeedInsights } from '@/components/lazy-analytics';
 
+// Optimized font loading - Next.js automatically optimizes and self-hosts Google Fonts
 const inter = Inter({ 
   subsets: ['latin'],
-  display: 'swap',
-  preload: true,
-  fallback: ['system-ui', 'arial'],
-  adjustFontFallback: true,
+  display: 'swap', // Prevent flash of unstyled text (FOUT)
   variable: '--font-inter',
-  // Optimize font loading for mobile - reduce weights
-  weight: ['400', '600'], // Only essential weights for mobile
+  weight: ['400', '600'], // Only load essential weights
 });
 
 export const metadata: Metadata = {
@@ -110,16 +106,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Critical Resource hints optimized for static sites */}
+        {/* DNS prefetch for third-party domains - improves performance */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
-        
-        {/* Preload critical static assets */}
-        <link rel="preload" href="/next.svg" as="image" />
-        <link rel="preload" href="/vercel.svg" as="image" />
-        
-        {/* Remove duplicate font loading - Next.js handles this */}
+        <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
         
         {/* Schema.org structured data - load early for SEO */}
         <Script
@@ -130,7 +120,7 @@ export default function RootLayout({
           {JSON.stringify(websiteStructuredData)}
         </Script>
         
-        {/* Google Analytics - Lazy loaded to reduce TBT */}
+        {/* Google Analytics - Lazy loaded per Google's recommendations */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BLYYB9LCXW"
           strategy="lazyOnload"
@@ -146,15 +136,14 @@ export default function RootLayout({
           `}
         </Script>
         
-        {/* Google AdSense */}
+        {/* Google AdSense - Lazy loaded to reduce render blocking */}
         <Script
-          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
       </head>
-      <body className={`${inter.variable} font-sans`}>
+      <body className={`${inter.variable} font-sans antialiased`}>
         <ThemeProvider>
           <ThemeSpread>
             <div className="min-h-screen flex flex-col">
@@ -164,18 +153,9 @@ export default function RootLayout({
               </main>
               <Footer />
             </div>
-            <Toaster 
-              position="top-right"
-              toastOptions={{
-                duration: 4000,
-                style: {
-                  background: '#363636',
-                  color: '#fff',
-                },
-              }}
-            />
-            <Analytics />
-            <SpeedInsights />
+            <LazyToaster />
+            <LazyAnalytics />
+            <LazySpeedInsights />
           </ThemeSpread>
         </ThemeProvider>
       </body>
