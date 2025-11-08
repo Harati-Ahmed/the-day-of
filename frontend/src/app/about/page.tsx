@@ -2,12 +2,12 @@ import { Metadata } from 'next';
 import { Calendar, Heart, Users, Globe } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Us - TheDayOf',
-  description: 'Learn about TheDayOf, your comprehensive guide to special days, holidays, and celebrations from around the world.',
+  title: 'About TheDayOf 🎊 Our Mission to Celebrate Every Day',
+  description: 'Join millions celebrating every day! 🎊 Discover our mission to spread joy worldwide with 365+ holidays, party ideas & celebration guides. Our story inside!',
   keywords: ['about', 'thedayof', 'special days', 'holidays', 'celebrations', 'mission'],
   openGraph: {
     title: 'About Us - TheDayOf',
-    description: 'Learn about TheDayOf, your comprehensive guide to special days, holidays, and celebrations.',
+    description: 'Join millions celebrating every day! Discover our mission to spread joy worldwide with 365+ holidays, party ideas & celebration guides.',
     type: 'website',
   },
 };

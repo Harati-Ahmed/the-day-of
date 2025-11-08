@@ -31,12 +31,12 @@ export async function generateMetadata(): Promise<Metadata> {
   const formattedDate = formatDate(getTodayDateString());
   
   const title = todaysDays.length > 0
-    ? `Today's National Days: ${todaysDays[0].title} & More – ${formattedDate}`
-    : `Today's National Days – ${formattedDate} – TheDayOf`;
+    ? `Today's Celebrations: ${todaysDays[0].title} + ${todaysDays.length - 1} More! 🎉 ${formattedDate}`
+    : `What's Happening Today? ${formattedDate} 🗓️ National Days & Holidays`;
   
   const description = todaysDays.length > 0
-    ? `Discover what national days and holidays are celebrated today, ${formattedDate}. ${todaysDays.map(d => d.title).join(', ')}. Find celebration ideas and history.`
-    : `Check out what national days and special holidays are being celebrated today, ${formattedDate}. Your daily guide to celebrations.`;
+    ? `🎉 It's ${todaysDays[0].title}! Plus ${todaysDays.length - 1} more celebrations happening RIGHT NOW (${formattedDate}). Get party ideas, deals & join the fun before it's too late!`
+    : `What's special about ${formattedDate}? Find out what's trending TODAY! Daily celebration ideas, exclusive deals & party inspiration. Don't miss out!`;
 
   return {
     title,
@@ -79,7 +79,7 @@ export default function TodayPage() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Today's National Days",
-    "description": `Discover what national days and holidays are celebrated today, ${formattedDate}.`,
+    "description": `Find out what's special about ${formattedDate}! Discover trending celebrations happening today with party ideas, deals & inspiration.`,
     "url": "https://www.thedayof.net/today/",
     "mainEntity": todaysDays.length > 0 ? {
       "@type": "ItemList",
@@ -142,11 +142,49 @@ export default function TodayPage() {
     }
   };
 
+  // FAQ Schema for Today page
+  const todayFAQStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `What national days are today, ${formattedDate}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": todaysDays.length > 0 
+            ? `Today, ${formattedDate}, we're celebrating ${todaysDays.map(d => d.title).slice(0, 5).join(', ')}${todaysDays.length > 5 ? ` and ${todaysDays.length - 5} more celebrations` : ''}!`
+            : `Check our calendar daily to discover what national days and celebrations are happening on ${formattedDate}.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I find out what day it is today?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Visit TheDayOf.net/today to see all national days, food holidays, and special celebrations happening today. We update daily with new celebrations, party ideas, and celebration tips!"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are there multiple national days celebrated on the same date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! Many dates throughout the year celebrate multiple national days, holidays, and observances simultaneously. Today alone has " + todaysDays.length + " different celebrations!"
+        }
+      }
+    ]
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(todayStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(todayFAQStructuredData) }}
       />
       
       <div className="min-h-screen bg-gray-50 dark:bg-dark-900">

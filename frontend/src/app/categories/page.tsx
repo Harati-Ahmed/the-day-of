@@ -4,12 +4,12 @@ import { Calendar, TrendingUp, Star } from 'lucide-react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Categories - TheDayOf',
-  description: 'Browse all categories of special days, holidays, and celebrations. From food days to awareness campaigns, find celebrations that match your interests.',
+  title: 'Browse All Celebration Categories 🎯 Food, Holidays & More',
+  description: 'Explore 10+ celebration categories! 🎯 Food holidays, awareness days, international events & more. Find YOUR perfect celebration with instant dates & party ideas!',
   keywords: ['categories', 'holidays', 'special days', 'food days', 'awareness days', 'celebrations'],
   openGraph: {
     title: 'Categories - TheDayOf',
-    description: 'Browse all categories of special days, holidays, and celebrations.',
+    description: 'Explore 10+ celebration categories! Food holidays, awareness days, international events & more. Find YOUR perfect celebration with instant dates & party ideas!',
     type: 'website',
   },
 };

@@ -44,17 +44,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const currentYear = new Date().getFullYear();
+  const monthDaysCount = getDaysByMonth(month.number, currentYear).length;
   
   return {
-    title: `${month.name} ${currentYear} Special Days & Holidays – TheDayOf`,
-    description: `Discover all the special days, holidays, and celebrations happening in ${month.name} ${currentYear}. From national observances to fun themed days, find out what to celebrate this month.`,
+    title: `${month.name} ${currentYear} Calendar: ${monthDaysCount} Celebrations 🗓️ Dates & Ideas`,
+    description: `${monthDaysCount} epic celebrations packed into ${month.name} ${currentYear}! 🗓️ Don't miss trending holidays, party ideas & exclusive deals. Plan your month NOW and celebrate every day!`,
     keywords: `${month.name} holidays, ${month.name} special days, ${month.name} ${currentYear}, national days in ${month.name}`,
     alternates: {
       canonical: `https://www.thedayof.net/month/${monthSlug}/`,
     },
     openGraph: {
-      title: `${month.name} ${currentYear} Special Days & Holidays`,
-      description: `Discover all the special days, holidays, and celebrations happening in ${month.name} ${currentYear}.`,
+      title: `${month.name} ${currentYear}: ${monthDaysCount} Celebrations 🗓️`,
+      description: `${monthDaysCount} epic celebrations packed into ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month NOW and celebrate every day!`,
       type: 'website',
       url: `https://www.thedayof.net/month/${monthSlug}/`,
       siteName: 'TheDayOf',
@@ -106,7 +107,7 @@ export default async function MonthPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": `${month.name} ${currentYear} Special Days & Holidays`,
-    "description": `Complete guide to special days, holidays, and celebrations in ${month.name} ${currentYear}`,
+    "description": `Complete guide to ${monthDays.length} special days, holidays, and celebrations in ${month.name} ${currentYear} with party ideas and celebration tips`,
     "url": `https://www.thedayof.net/month/${monthSlug}/`,
     "mainEntity": {
       "@type": "ItemList",
@@ -150,11 +151,47 @@ export default async function MonthPage({ params }: PageProps) {
     }
   };
 
+  // FAQ Schema for Month pages
+  const monthFAQStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `What special days are in ${month.name} ${currentYear}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `${month.name} ${currentYear} has ${monthDays.length} special days and celebrations, including ${monthDays.slice(0, 5).map(d => d.title).join(', ')}${monthDays.length > 5 ? ', and many more' : ''}!`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `How many national days are celebrated in ${month.name}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `There are ${monthDays.length} national days, international observances, and special celebrations in ${month.name} ${currentYear} across various categories including food, awareness, holidays, and more.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `Where can I find the complete ${month.name} calendar of celebrations?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `TheDayOf.net provides a complete, interactive calendar for ${month.name} ${currentYear} with all ${monthDays.length} special days, including dates, celebration ideas, and background information for each event.`
+        }
+      }
+    ]
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(monthFAQStructuredData) }}
       />
       
       <div className="min-h-screen bg-gray-50 dark:bg-dark-900">

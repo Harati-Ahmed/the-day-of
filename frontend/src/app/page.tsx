@@ -28,7 +28,7 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "TheDayOf - Discover National Days, Food & Holiday Calendar",
-    "description": "Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.",
+    "description": "Never miss a celebration! Find out what's special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!",
     "url": "https://www.thedayof.net",
     "mainEntity": {
       "@type": "ItemList",

@@ -30,16 +30,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const categoryDays = getDaysByCategory(category.name);
   const currentYear = new Date().getFullYear();
   
+  // Get category emoji
+  const categoryEmojis: Record<string, string> = {
+    'Food': '🍕',
+    'Holiday': '🎊',
+    'Animals & Pets': '🐾',
+    'Awareness & Health': '💚',
+    'International': '🌍',
+    'Fun & Weird': '🎉',
+    'Shopping & Deals': '🛍️',
+    'National': '🇺🇸',
+  };
+  const emoji = categoryEmojis[category.name] || '📅';
+  
   return {
-    title: `${category.name} Days & Holidays ${currentYear} – Complete Guide – TheDayOf`,
-    description: `Discover all ${category.name.toLowerCase()} days and holidays in ${currentYear}. ${category.description} Find dates, celebration ideas, and history for ${categoryDays.length}+ special days.`,
+    title: `${categoryDays.length}+ ${category.name} Days ${currentYear} ${emoji} - Complete Calendar & Ideas`,
+    description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations you can't miss in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals. ${category.description} Start celebrating now! 🎊`,
     keywords: `${category.name.toLowerCase()} holidays, ${category.name.toLowerCase()} days ${currentYear}, national ${category.name.toLowerCase()} days, ${category.name.toLowerCase()} observances`,
     alternates: {
       canonical: `https://www.thedayof.net/category/${slug}/`,
     },
     openGraph: {
-      title: `${category.name} Days & Holidays ${currentYear} – Complete Guide`,
-      description: `Discover all ${category.name.toLowerCase()} days and holidays in ${currentYear}. ${category.description}`,
+      title: `${categoryDays.length}+ ${category.name} Days ${currentYear} ${emoji}`,
+      description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations you can't miss in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals. Start celebrating now!`,
       type: 'website',
       url: `https://www.thedayof.net/category/${slug}/`,
       siteName: 'TheDayOf',
@@ -71,7 +84,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": `${category.name} Days`,
-    "description": `Discover all ${category.name.toLowerCase()} days, holidays, and celebrations. ${category.description}`,
+    "description": `Complete guide to ${allDays.length}+ ${category.name.toLowerCase()} celebrations with dates, party ideas, and celebration tips. ${category.description}`,
     "url": `https://www.thedayof.net/category/${slug}/`,
     "mainEntity": {
       "@type": "ItemList",
@@ -140,11 +153,48 @@ export default async function CategoryPage({ params }: PageProps) {
     }
   };
 
+  // FAQ Schema for Category pages
+  const currentYear = new Date().getFullYear();
+  const categoryFAQStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `How many ${category.name.toLowerCase()} days are there in ${currentYear}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `There are ${allDays.length} ${category.name.toLowerCase()} days and celebrations in ${currentYear}. ${category.description}`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `What are the most popular ${category.name.toLowerCase()} days?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Popular ${category.name.toLowerCase()} celebrations include ${allDays.slice(0, 5).map((d: Day) => d.title).join(', ')}, and many more throughout the year!`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `Where can I find a complete list of ${category.name.toLowerCase()} days?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `TheDayOf.net provides a complete, searchable calendar of all ${allDays.length}+ ${category.name.toLowerCase()} days with dates, celebration ideas, and historical information.`
+        }
+      }
+    ]
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(categoryStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(categoryFAQStructuredData) }}
       />
       <CategoryPageClient 
         category={category} 

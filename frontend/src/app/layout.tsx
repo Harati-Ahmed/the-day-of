@@ -22,8 +22,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'TheDayOf - Discover National Days, Food & Holiday Calendar',
-  description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.',
+  title: 'TheDayOf: 365+ National Days, Food Holidays & Celebration Calendar 🎉',
+  description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now! 🎉',
   keywords: ['national days', 'food days', 'holidays', 'coffee day', 'celebrations', 'awareness days', 'discover', 'calendar', 'world celebrations'],
   authors: [{ name: 'TheDayOf Team' }],
   manifest: '/manifest.json',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'TheDayOf - National Days, Food & Holiday Calendar',
-    description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns.',
+    description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!',
     type: 'website',
     url: 'https://www.thedayof.net/',
     siteName: 'TheDayOf',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'TheDayOf - National Days, Food & Holiday Calendar',
-    description: 'Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns.',
+    description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!',
   },
   robots: {
     index: true,
@@ -66,6 +66,7 @@ export const metadata: Metadata = {
   },
   other: {
     'google-adsense-account': 'ca-pub-2160043117224167',
+    'last-modified': new Date().toISOString(),
   },
 };
 
@@ -89,7 +90,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "TheDayOf",
-    "description": "Discover national days, food holidays & celebrations worldwide. From coffee day to awareness campaigns - your complete calendar guide.",
+    "description": "Never miss a celebration! Find out what's special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!",
     "url": "https://www.thedayof.net",
     "publisher": {
       "@type": "Organization",

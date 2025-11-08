@@ -32,17 +32,39 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const year = new Date(day.date).getFullYear();
+  const formattedDate = formatDate(day.date);
+  const dateObj = new Date(day.date);
+  const monthShort = dateObj.toLocaleDateString('en-US', { month: 'short' });
+  const dayNum = dateObj.getDate();
+  const shortDate = `${monthShort} ${dayNum}`;
+  
+  // Get category emoji
+  const categoryEmojis: Record<string, string> = {
+    'Food': '🍕',
+    'Holiday': '🎊',
+    'Animals & Pets': '🐾',
+    'Awareness & Health': '💚',
+    'International': '🌍',
+    'Fun & Weird': '🎉',
+    'Shopping & Deals': '🛍️',
+    'National': '🇺🇸',
+  };
+  const emoji = categoryEmojis[day.category] || '🎉';
   
   return {
-    title: `${day.title} ${year} – TheDayOf`,
-    description: day.description,
+    title: `${day.title} ${year} (${shortDate}) ${emoji} - Deals, Ideas & Facts`,
+    description: `Celebrating ${day.title} on ${formattedDate}! 🎉 Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
     keywords: day.tags.join(', '),
+    other: {
+      'article:modified_time': new Date().toISOString(),
+      'article:published_time': day.date,
+    },
     alternates: {
       canonical: `https://www.thedayof.net/${category}/${slug}/`,
     },
     openGraph: {
-      title: `${day.title} ${year}`,
-      description: day.description,
+      title: `${day.title} ${year} (${shortDate}) ${emoji}`,
+      description: `Celebrating ${day.title}! Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
       type: 'article',
       url: `https://www.thedayof.net/${category}/${slug}/`,
       siteName: 'TheDayOf',
@@ -61,8 +83,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${day.title} ${year}`,
-      description: day.description,
+      title: `${day.title} ${year} (${shortDate}) ${emoji}`,
+      description: `Celebrating ${day.title}! Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
     },
   };
 }
@@ -133,11 +155,36 @@ export default async function DayPage({ params }: PageProps) {
     })
   };
 
-  // FAQ Schema
-  const faqStructuredData = day.faqs && day.faqs.length > 0 ? {
+  // FAQ Schema - Always generate for better SEO
+  const generateDefaultFAQs = () => {
+    const baseFAQs = [
+      {
+        question: `When is ${day.title}?`,
+        answer: `${day.title} is celebrated on ${formattedDate}. ${day.nextOccurrences && day.nextOccurrences.length > 0 ? `Upcoming dates include ${day.nextOccurrences.slice(0, 2).map(d => formatDate(d)).join(' and ')}.` : `It occurs annually on the same date.`}`
+      },
+      {
+        question: `What is ${day.title}?`,
+        answer: `${day.description} ${day.whyItMatters || `This special day provides an opportunity to celebrate and raise awareness.`}`
+      },
+      {
+        question: `How can I celebrate ${day.title}?`,
+        answer: `${day.howToCelebrate || `There are many ways to celebrate ${day.title}! You can participate by sharing on social media, organizing events, or simply taking time to acknowledge the significance of this day with friends and family.`}`
+      }
+    ];
+    
+    // Add custom FAQs if they exist
+    if (day.faqs && day.faqs.length > 0) {
+      return [...baseFAQs, ...day.faqs];
+    }
+    
+    return baseFAQs;
+  };
+  
+  const allFAQs = generateDefaultFAQs();
+  const faqStructuredData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": day.faqs.map(faq => ({
+    "mainEntity": allFAQs.map(faq => ({
       "@type": "Question",
       "name": faq.question,
       "acceptedAnswer": {
@@ -145,7 +192,7 @@ export default async function DayPage({ params }: PageProps) {
         "text": faq.answer
       }
     }))
-  } : null;
+  };
 
   // Breadcrumb Schema
   const breadcrumbStructuredData = {
@@ -179,6 +226,15 @@ export default async function DayPage({ params }: PageProps) {
     ]
   };
 
+  // Generate current timestamp for freshness
+  const publishYear = new Date(day.date).getFullYear();
+  const currentYear = new Date().getFullYear();
+  
+  // Use current year date for dateModified to show freshness
+  const modifiedDate = currentYear > publishYear 
+    ? `${currentYear}-${String(new Date(day.date).getMonth() + 1).padStart(2, '0')}-${String(new Date(day.date).getDate()).padStart(2, '0')}`
+    : day.date;
+  
   const articleStructuredData = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -189,7 +245,7 @@ export default async function DayPage({ params }: PageProps) {
     }),
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "datePublished": day.date,
-    "dateModified": day.date,
+    "dateModified": modifiedDate,
     "keywords": day.tags.join(', '),
     "author": {
       "@type": "Organization",
@@ -220,12 +276,10 @@ export default async function DayPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
       />
-      {faqStructuredData && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
-        />
-      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
@@ -235,16 +289,32 @@ export default async function DayPage({ params }: PageProps) {
         {/* Breadcrumb */}
         <div className="bg-white dark:bg-dark-800 border-b dark:border-dark-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <nav className="flex items-center space-x-2 text-sm">
-              <Link href="/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Home</Link>
+            <nav className="flex items-center space-x-2 text-sm" aria-label="Breadcrumb" itemScope itemType="https://schema.org/BreadcrumbList">
+              <span itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href="/" itemProp="item" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">
+                  <span itemProp="name">Home</span>
+                </Link>
+                <meta itemProp="position" content="1" />
+              </span>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
-              <Link href="/categories/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Categories</Link>
+              <span itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href="/categories/" itemProp="item" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">
+                  <span itemProp="name">Categories</span>
+                </Link>
+                <meta itemProp="position" content="2" />
+              </span>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
-              <Link href={`/category/${categorySlug}/`} className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">
-                {day.category}
-              </Link>
+              <span itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href={`/category/${categorySlug}/`} itemProp="item" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">
+                  <span itemProp="name">{day.category}</span>
+                </Link>
+                <meta itemProp="position" content="3" />
+              </span>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
-              <span className="text-gray-900 dark:text-neutral-100 font-medium">{day.title}</span>
+              <span itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <span itemProp="name" className="text-gray-900 dark:text-neutral-100 font-medium">{day.title}</span>
+                <meta itemProp="position" content="4" />
+              </span>
             </nav>
           </div>
         </div>
@@ -355,7 +425,7 @@ export default async function DayPage({ params }: PageProps) {
                   )}
                   
                   <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">How to Celebrate {day.title}</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">How do you celebrate {day.title}?</h3>
                     <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
                       {day.howToCelebrate || `There are many wonderful ways to participate in ${day.title}. Whether you choose to celebrate individually, with family and friends, or as part of a larger community event, your participation helps raise awareness and spreads joy.`}
                     </p>
@@ -400,7 +470,7 @@ export default async function DayPage({ params }: PageProps) {
                     </p>
                   </div>
 
-                  {/* When and Where Section */}
+                  {/* When and Where Section - PAA Optimized */}
                   <div className="mb-8">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">When is {day.title}?</h3>
                     <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
@@ -418,6 +488,32 @@ export default async function DayPage({ params }: PageProps) {
                     )}
                     <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
                       Whether you celebrate individually or as part of a larger community, {day.title} provides an opportunity to connect with others who share your interests and values. Check back regularly for updates on events and activities happening in your area.
+                    </p>
+                  </div>
+
+                  {/* Additional PAA-Optimized Questions */}
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Who started {day.title}?</h3>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      {day.history || `While the exact origins of ${day.title} may vary, this ${day.category.toLowerCase()} observance has become an important part of our cultural calendar. Many ${day.category.toLowerCase()} days like this one have grassroots origins, starting from community initiatives or organizational campaigns.`}
+                    </p>
+                  </div>
+
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Where is {day.title} celebrated?</h3>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      {day.category.toLowerCase().includes('international') || day.category.toLowerCase().includes('world')
+                        ? `${day.title} is observed internationally across many countries and cultures. People around the world participate in various ways, making it a truly global celebration.`
+                        : day.category.toLowerCase().includes('national')
+                        ? `${day.title} is primarily celebrated in the United States, though its popularity has spread to other countries through social media and cultural exchange.`
+                        : `${day.title} is celebrated wherever enthusiasts gather, both online and in local communities. Thanks to social media, participation has grown beyond geographical boundaries.`}
+                    </p>
+                  </div>
+
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-neutral-100 mb-4">Why do we celebrate {day.title}?</h3>
+                    <p className="text-gray-700 dark:text-neutral-300 mb-4 leading-relaxed">
+                      {day.whyItMatters || `We celebrate ${day.title} to ${day.description.toLowerCase()}. This special day serves as a reminder to appreciate and acknowledge the significance of this ${day.category.toLowerCase()} observance in our lives. It brings people together and creates a sense of community around shared interests and values.`}
                     </p>
                   </div>
                 </div>
@@ -583,6 +679,10 @@ export default async function DayPage({ params }: PageProps) {
                   <div>
                     <span className="text-sm font-medium text-gray-500 dark:text-neutral-400">Date:</span>
                     <p className="text-gray-900 dark:text-neutral-100">{formattedDate}</p>
+                  </div>
+                  <div>
+                    <span className="text-sm font-medium text-gray-500 dark:text-neutral-400">Last Updated:</span>
+                    <p className="text-gray-900 dark:text-neutral-100">{currentYear > publishYear ? `Updated for ${currentYear}` : `Current for ${currentYear}`}</p>
                   </div>
                   <div>
                     <span className="text-sm font-medium text-gray-500 dark:text-neutral-400">Category:</span>

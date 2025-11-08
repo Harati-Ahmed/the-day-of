@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 import SearchPageClient from './search-page-client';
 
 export const metadata: Metadata = {
-  title: 'Search Results - TheDayOf',
-  description: 'Search for national days, holidays, and celebrations. Find your favorite days and discover new ones.',
+  title: 'Search 365+ National Days & Holidays 🔍 Find Any Celebration',
+  description: 'Find ANY celebration instantly! 🔍 Search 365+ national days, trending holidays & special events. Discover dates, party ideas & deals in seconds!',
   robots: {
     index: true,
     follow: true,
@@ -17,7 +17,7 @@ export default function SearchPage() {
     "@context": "https://schema.org",
     "@type": "SearchResultsPage",
     "name": "Search Results",
-    "description": "Search results for national days, holidays, and celebrations on TheDayOf",
+    "description": "Instantly find any national day, holiday, or celebration from 365+ events with dates, party ideas, and deals",
     "url": "https://www.thedayof.net/search",
     "mainEntity": {
       "@type": "ItemList",
