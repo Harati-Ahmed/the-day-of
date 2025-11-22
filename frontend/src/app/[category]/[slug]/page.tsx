@@ -70,19 +70,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: 'TheDayOf',
       locale: 'en_US',
       publishedTime: day.date,
-      ...(day.image && {
-        images: [
-          {
-            url: day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${category}/${day.image}`,
-            width: 1200,
-            height: 630,
-            alt: day.title,
-          }
-        ],
-      }),
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title: `${day.title} ${year} (${shortDate}) ${emoji}`,
       description: `Celebrating ${day.title}! Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
     },
@@ -111,9 +101,6 @@ export default async function DayPage({ params }: PageProps) {
     "endDate": day.date,
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
-    ...(day.image && {
-      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${categorySlug}/${day.image}`
-    }),
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "keywords": day.tags.join(', '),
@@ -240,9 +227,6 @@ export default async function DayPage({ params }: PageProps) {
     "@type": "Article",
     "headline": day.title,
     "description": day.description,
-    ...(day.image && {
-      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${categorySlug}/${day.image}`
-    }),
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
     "datePublished": day.date,
     "dateModified": modifiedDate,

@@ -57,14 +57,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `https://www.thedayof.net/category/${slug}/`,
       siteName: 'TheDayOf',
       locale: 'en_US',
-      images: [
-        {
-          url: `https://www.thedayof.net/images/categories/${slug}.jpg`,
-          width: 1200,
-          height: 630,
-          alt: `${category.name} Days & Holidays`,
-        }
-      ],
     },
   };
 }
@@ -103,7 +95,6 @@ export default async function CategoryPage({ params }: PageProps) {
           "url": `https://www.thedayof.net/${slug}/${day.slug}/`,
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "image": day.image ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/categories/${slug}.jpg`,
           "location": {
             "@type": "VirtualLocation",
             "url": `https://www.thedayof.net/${slug}/${day.slug}/`

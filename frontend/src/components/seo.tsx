@@ -10,7 +10,6 @@ export default function SEO({ data }: SEOProps) {
     title,
     description,
     keywords,
-    image = '/og-image.jpg',
     url,
     type = 'website'
   } = data;
@@ -26,15 +25,13 @@ export default function SEO({ data }: SEOProps) {
       <meta property="og:type" content={type} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={image} />
       <meta property="og:url" content={url} />
       <meta property="og:site_name" content="TheDayOf" />
       
       {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
       
       {/* Additional */}
       <link rel="canonical" href={url} />
@@ -53,9 +50,6 @@ export function generateStructuredData(day: { title: string; date: string; descr
     "endDate": day.date,
     "description": day.description,
     "url": `https://www.thedayof.net/${categorySlug}/${day.slug}/`,
-    ...(day.image && {
-      "image": day.image.startsWith('/') ? `https://www.thedayof.net${day.image}` : `https://www.thedayof.net/images/${categorySlug}/${day.image}`
-    }),
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "location": {

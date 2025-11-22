@@ -39,17 +39,9 @@ export const metadata: Metadata = {
     url: 'https://www.thedayof.net/',
     siteName: 'TheDayOf',
     locale: 'en_US',
-    images: [
-      {
-        url: 'https://www.thedayof.net/images/og-homepage.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'TheDayOf - National Days, Food & Holiday Calendar',
-      }
-    ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'TheDayOf - National Days, Food & Holiday Calendar',
     description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!',
   },

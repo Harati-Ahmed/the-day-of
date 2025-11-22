@@ -52,17 +52,9 @@ export async function generateMetadata(): Promise<Metadata> {
       url: 'https://www.thedayof.net/today/',
       siteName: 'TheDayOf',
       locale: 'en_US',
-      images: [
-        {
-          url: 'https://www.thedayof.net/images/og-today.jpg',
-          width: 1200,
-          height: 630,
-          alt: "Today's National Days",
-        }
-      ],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title,
       description,
     },
@@ -98,7 +90,6 @@ export default function TodayPage() {
           "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`,
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "image": day.image ? `https://www.thedayof.net${day.image}` : "https://www.thedayof.net/images/og-today.jpg",
           "location": {
             "@type": "VirtualLocation",
             "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`

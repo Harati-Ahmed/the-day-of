@@ -6,7 +6,6 @@ export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.thedayof.net';
-  const currentYear = new Date().getFullYear();
   
   // Static pages
   const staticPages = [
@@ -127,21 +126,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  // Year-specific pages for better organization
-  const yearPages = [
-    {
-      url: `${baseUrl}/year/${currentYear}/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/year/${currentYear + 1}/`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-  ];
+  // Note: Year pages removed - route doesn't exist, was causing 404s
 
-  return [...staticPages, ...categoryPages, ...monthPages, ...dayPages, ...yearPages];
+  return [...staticPages, ...categoryPages, ...monthPages, ...dayPages];
 }

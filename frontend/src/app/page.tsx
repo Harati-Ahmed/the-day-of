@@ -46,7 +46,6 @@ export default function HomePage() {
           "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`,
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "image": day.image ? `https://www.thedayof.net${day.image}` : "https://www.thedayof.net/images/og-homepage.jpg",
           "location": {
             "@type": "VirtualLocation",
             "url": `https://www.thedayof.net/${getCategorySlug(day.category)}/${day.slug}/`

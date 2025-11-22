@@ -63,10 +63,7 @@ function generateAllUrls() {
     urls.push(`${SITE_URL}/${categorySlug}/${day.slug}/`);
   });
   
-  // Year pages
-  const currentYear = new Date().getFullYear();
-  urls.push(`${SITE_URL}/year/${currentYear}/`);
-  urls.push(`${SITE_URL}/year/${currentYear + 1}/`);
+  // Note: Year pages removed - route doesn't exist, was causing 404s
   
   return urls;
 }
