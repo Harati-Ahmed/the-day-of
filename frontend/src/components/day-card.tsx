@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 import { Day } from '@/types';
 import { formatDate, getCategorySlug, getCategoryColor } from '@/lib/utils';
 import { Calendar, Tag, Sparkles } from 'lucide-react';
@@ -14,39 +15,37 @@ interface DayCardProps {
 export default function DayCard({ day, showCategory = true }: DayCardProps) {
   const categorySlug = getCategorySlug(day.category);
   const categoryColor = getCategoryColor(day.category);
+  const [imageError, setImageError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  // Only show image if it exists and hasn't errored
+  const shouldShowImage = day.image && !imageError;
 
   return (
     <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-soft dark:shadow-dark-soft border border-neutral-100 dark:border-dark-700 hover:shadow-medium dark:hover:shadow-dark-medium group overflow-hidden transition-all duration-300">
-      {/* Image or Icon */}
-      <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20">
-        {day.image ? (
-          <>
-            <Image
-              src={day.image}
-              alt={day.title}
-              fill
-              className="object-cover group-hover:scale-105 transition-transform duration-300"
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
-              priority={false} // Lazy load images below the fold
-              quality={85} // Optimize quality for mobile
-              placeholder="blur"
-              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-              onError={(e) => {
-                // Fallback to SVG if image fails
-                const target = e.target as HTMLImageElement;
-                if (!target.src.endsWith('.svg')) {
-                  target.src = day.image.replace(/\.(jpg|jpeg|png|webp|gif)$/i, '.svg');
-                }
-              }}
-            />
+      {/* Image - Only show if image exists and loads successfully */}
+      {shouldShowImage ? (
+        <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20">
+          <Image
+            src={day.image}
+            alt={day.title}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+            priority={false}
+            quality={85}
+            onError={() => {
+              setImageError(true);
+            }}
+            onLoad={() => {
+              setImageLoaded(true);
+            }}
+          />
+          {imageLoaded && (
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-          </>
-        ) : (
-          <div className="flex items-center justify-center h-full">
-            <Sparkles className="h-16 w-16 text-primary-400 dark:text-primary-500" />
-          </div>
-        )}
-      </div>
+          )}
+        </div>
+      ) : null}
       
       <div className="p-8">
         {/* Category Badge and Date */}

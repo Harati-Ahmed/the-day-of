@@ -52,11 +52,20 @@ export async function generateMetadata(): Promise<Metadata> {
       url: 'https://www.thedayof.net/today/',
       siteName: 'TheDayOf',
       locale: 'en_US',
+      images: [
+        {
+          url: 'https://www.thedayof.net/images/og-today.svg',
+          width: 1200,
+          height: 630,
+          alt: "Today's National Days",
+        }
+      ],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title,
       description,
+      images: ['https://www.thedayof.net/images/og-today.svg'],
     },
   };
 }

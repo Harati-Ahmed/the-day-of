@@ -3,9 +3,9 @@ import { getDayBySlug, getRelatedDays, getDaysByMonth, days } from '@/lib/data';
 import { formatDate, getCategoryColor, getCategorySlug } from '@/lib/utils';
 import { Calendar, Tag, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Metadata } from 'next';
 import SocialShare from '@/components/social-share';
+import DayHeroImage from '@/components/day-hero-image';
 
 interface PageProps {
   params: Promise<{
@@ -70,11 +70,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: 'TheDayOf',
       locale: 'en_US',
       publishedTime: day.date,
+      images: [
+        {
+          url: 'https://www.thedayof.net/images/og-default.svg',
+          width: 1200,
+          height: 630,
+          alt: day.title,
+        }
+      ],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title: `${day.title} ${year} (${shortDate}) ${emoji}`,
       description: `Celebrating ${day.title}! Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
+      images: ['https://www.thedayof.net/images/og-default.svg'],
     },
   };
 }
@@ -352,21 +361,13 @@ export default async function DayPage({ params }: PageProps) {
                 )}
               </div>
 
-              {/* Hero Image */}
+              {/* Hero Image - Only shows if image exists and loads successfully */}
               {day.image && (
-                <div className="bg-white dark:bg-dark-800 rounded-lg shadow-md dark:shadow-dark-soft overflow-hidden mb-8">
-                  <div className="relative w-full h-64 md:h-96 lg:h-[500px]">
-                    <Image
-                      src={day.image.startsWith('/') ? day.image : `/images/${categorySlug}/${day.image}`}
-                      alt={`${day.title} - ${day.description}`}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
-                      priority={true}
-                      quality={90}
-                    />
-                  </div>
-                </div>
+                <DayHeroImage
+                  src={day.image}
+                  alt={`${day.title} - ${day.description}`}
+                  categorySlug={categorySlug}
+                />
               )}
 
               {/* Content Sections */}

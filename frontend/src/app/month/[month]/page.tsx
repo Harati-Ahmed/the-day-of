@@ -60,6 +60,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `https://www.thedayof.net/month/${monthSlug}/`,
       siteName: 'TheDayOf',
       locale: 'en_US',
+      images: [
+        {
+          url: 'https://www.thedayof.net/images/og-default.svg',
+          width: 1200,
+          height: 630,
+          alt: `${month.name} Special Days & Holidays`,
+        }
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${month.name} ${currentYear}: ${monthDaysCount} Celebrations 🗓️`,
+      description: `${monthDaysCount} epic celebrations packed into ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month NOW and celebrate every day!`,
+      images: ['https://www.thedayof.net/images/og-default.svg'],
     },
   };
 }
