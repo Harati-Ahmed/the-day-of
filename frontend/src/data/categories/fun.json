@@ -2458,5 +2458,34 @@
       "Bath bombs create fizzy, colorful water",
       "This is one of the quirkiest holidays"
     ]
+  },
+  {
+    "title": "National Do Something Nice Day",
+    "slug": "national-do-something-nice-day-october",
+    "date": "2025-10-05",
+    "category": "Fun",
+    "description": "Make someone's day brighter on National Do Something Nice Day! This simple but powerful day reminds us that small gestures can make a big difference. Do something nice for a friend, family member, coworker, or even a stranger - kindness costs nothing but means everything.",
+    "tags": [
+      "kindness",
+      "nice",
+      "October",
+      "good-deeds",
+      "compassion",
+      "generosity",
+      "community"
+    ],
+    "relatedDays": [
+      "national-random-acts-of-kindness-day",
+      "world-kindness-day",
+      "national-good-deeds-day"
+    ],
+    "howToCelebrate": "Do something nice for someone without expecting anything in return. Help a neighbor with a task. Send a thoughtful message to someone you care about. Donate to a cause you believe in. Offer to help a coworker. Smile and be friendly to everyone you meet.",
+    "funFacts": [
+      "Doing nice things for others activates the brain's reward centers",
+      "Kindness can lower blood pressure and reduce stress",
+      "People who regularly do nice things report higher life satisfaction",
+      "Acts of kindness create a ripple effect in communities",
+      "Being nice to others can improve your own mental health"
+    ]
   }
 ]

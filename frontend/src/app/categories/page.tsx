@@ -7,10 +7,29 @@ export const metadata: Metadata = {
   title: 'Browse All Celebration Categories 🎯 Food, Holidays & More',
   description: 'Explore 10+ celebration categories! 🎯 Food holidays, awareness days, international events & more. Find YOUR perfect celebration with instant dates & party ideas!',
   keywords: ['categories', 'holidays', 'special days', 'food days', 'awareness days', 'celebrations'],
+  alternates: {
+    canonical: 'https://www.thedayof.net/categories/',
+  },
   openGraph: {
     title: 'Categories - TheDayOf',
     description: 'Explore 10+ celebration categories! Food holidays, awareness days, international events & more. Find YOUR perfect celebration with instant dates & party ideas!',
     type: 'website',
+    url: 'https://www.thedayof.net/categories/',
+    siteName: 'TheDayOf',
+    images: [
+      {
+        url: 'https://www.thedayof.net/images/og-default.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Celebration Categories - TheDayOf',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Categories - TheDayOf',
+    description: 'Explore 10+ celebration categories! Food holidays, awareness days, international events & more.',
+    images: ['https://www.thedayof.net/images/og-default.svg'],
   },
 };
 

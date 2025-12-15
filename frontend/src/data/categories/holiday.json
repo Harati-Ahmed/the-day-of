@@ -1318,5 +1318,34 @@
       "King cakes contain a hidden baby figurine",
       "Mardi Gras dates change based on Easter"
     ]
+  },
+  {
+    "title": "Bastille Day",
+    "slug": "bastille-day-july",
+    "date": "2025-07-14",
+    "category": "Holiday",
+    "description": "Celebrate French culture and history on Bastille Day! This French national holiday commemorates the storming of the Bastille prison in 1789, a pivotal event in the French Revolution. Enjoy French cuisine, learn about French history, and celebrate the values of liberty, equality, and fraternity.",
+    "tags": [
+      "france",
+      "french",
+      "July",
+      "revolution",
+      "history",
+      "culture",
+      "celebration"
+    ],
+    "relatedDays": [
+      "independence-day",
+      "french-heritage-day",
+      "international-day"
+    ],
+    "howToCelebrate": "Enjoy French cuisine and wine. Learn about French history and the French Revolution. Attend Bastille Day celebrations in your area. Watch French films or listen to French music. Learn some French phrases. Share French culture and history with others.",
+    "funFacts": [
+      "Bastille Day is France's national holiday, similar to Independence Day in the US",
+      "The storming of the Bastille marked the beginning of the French Revolution",
+      "Bastille Day is celebrated with parades, fireworks, and parties in France",
+      "The French flag's colors represent liberty (blue), equality (white), and fraternity (red)",
+      "Bastille Day celebrations occur in many cities around the world with French communities"
+    ]
   }
 ]

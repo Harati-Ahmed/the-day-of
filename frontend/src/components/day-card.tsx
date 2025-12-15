@@ -16,7 +16,6 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
   const categorySlug = getCategorySlug(day.category);
   const categoryColor = getCategoryColor(day.category);
   const [imageError, setImageError] = useState(false);
-  const [imageLoaded, setImageLoaded] = useState(false);
 
   // Only show image if it exists and hasn't errored
   const shouldShowImage = day.image && !imageError;
@@ -37,13 +36,9 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
             onError={() => {
               setImageError(true);
             }}
-            onLoad={() => {
-              setImageLoaded(true);
-            }}
           />
-          {imageLoaded && (
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-          )}
+          {/* Gradient overlay - always visible when image container is shown */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
         </div>
       ) : null}
       

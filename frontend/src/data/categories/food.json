@@ -2548,5 +2548,179 @@
       "Salted peanuts enhance the flavor",
       "Perfect combo of protein and sweetness"
     ]
+  },
+  {
+    "title": "National Quinoa Day",
+    "slug": "national-quinoa-day",
+    "date": "2025-01-16",
+    "category": "Food",
+    "description": "Discover the superfood power of quinoa on National Quinoa Day! This ancient grain is packed with protein, fiber, and essential nutrients. Learn about quinoa's origins in the Andes, explore delicious recipes from breakfast bowls to dinner salads, and discover why this versatile grain has become a staple in healthy kitchens worldwide.",
+    "tags": [
+      "quinoa",
+      "superfood",
+      "January",
+      "healthy",
+      "grain",
+      "protein",
+      "gluten-free"
+    ],
+    "relatedDays": [
+      "national-whole-grain-month",
+      "national-healthy-eating-day",
+      "national-salad-day"
+    ],
+    "howToCelebrate": "Try a new quinoa recipe - from breakfast bowls to stuffed peppers. Learn about quinoa's nutritional benefits and cooking techniques. Visit a health food store to explore different quinoa varieties. Share your favorite quinoa dishes on social media. Cook a quinoa-based meal for family or friends.",
+    "funFacts": [
+      "Quinoa is technically a seed, not a grain",
+      "It contains all nine essential amino acids, making it a complete protein",
+      "Quinoa has been cultivated in the Andes for over 5,000 years",
+      "NASA considers quinoa a potential crop for long-duration space missions",
+      "Quinoa is naturally gluten-free and easy to digest"
+    ]
+  },
+  {
+    "title": "National Artichoke Day",
+    "slug": "national-artichoke-day",
+    "date": "2025-03-16",
+    "category": "Food",
+    "description": "Celebrate the unique and delicious artichoke on National Artichoke Day! This thistle-like vegetable is not only tasty but also packed with fiber, antioxidants, and vitamins. Learn how to prepare and cook artichokes, discover new recipes, and explore the health benefits of this Mediterranean delicacy.",
+    "tags": [
+      "artichoke",
+      "vegetable",
+      "March",
+      "mediterranean",
+      "healthy",
+      "cooking",
+      "antioxidants"
+    ],
+    "relatedDays": [
+      "national-vegetable-day",
+      "national-mediterranean-diet-month",
+      "national-cooking-day"
+    ],
+    "howToCelebrate": "Learn how to properly prepare and steam artichokes. Try artichoke dip, pasta, or pizza recipes. Visit a farmers market to find fresh artichokes. Share artichoke cooking tips and recipes online. Host an artichoke-themed dinner party.",
+    "funFacts": [
+      "Artichokes are actually flower buds that haven't bloomed yet",
+      "California produces 99% of the artichokes grown in the United States",
+      "The artichoke is the official vegetable of California",
+      "Artichokes are one of the oldest known foods, dating back to ancient Greece",
+      "The heart of the artichoke is considered the most tender and flavorful part"
+    ]
+  },
+  {
+    "title": "National Falafel Day",
+    "slug": "national-falafel-day",
+    "date": "2025-06-12",
+    "category": "Food",
+    "description": "Enjoy the crispy, flavorful goodness of falafel on National Falafel Day! These Middle Eastern chickpea fritters are a beloved street food and vegetarian favorite. Discover the history of falafel, learn to make them at home, and explore different regional variations of this delicious dish.",
+    "tags": [
+      "falafel",
+      "middle-eastern",
+      "June",
+      "vegetarian",
+      "chickpeas",
+      "street-food",
+      "mediterranean"
+    ],
+    "relatedDays": [
+      "national-hummus-day",
+      "national-vegetarian-day",
+      "national-mediterranean-diet-month"
+    ],
+    "howToCelebrate": "Visit a Middle Eastern restaurant for authentic falafel. Try making homemade falafel with fresh ingredients. Experiment with different sauces and toppings. Share falafel recipes and photos on social media. Learn about the cultural significance of falafel in Middle Eastern cuisine.",
+    "funFacts": [
+      "Falafel is believed to have originated in Egypt over 1,000 years ago",
+      "It's a popular street food throughout the Middle East and Mediterranean",
+      "Falafel is naturally vegan and high in protein",
+      "The word 'falafel' comes from the Arabic word for 'pepper'",
+      "Falafel is often served in pita bread with tahini sauce and vegetables"
+    ]
+  },
+  {
+    "title": "National Kombucha Day",
+    "slug": "national-kombucha-day",
+    "date": "2025-02-21",
+    "category": "Food",
+    "description": "Toast to gut health on National Kombucha Day! This fermented tea beverage has gained popularity for its probiotic benefits and unique tangy flavor. Learn about kombucha's ancient origins, discover different flavors, and explore how to brew your own at home.",
+    "tags": [
+      "kombucha",
+      "fermented",
+      "February",
+      "probiotics",
+      "healthy",
+      "tea",
+      "gut-health"
+    ],
+    "relatedDays": [
+      "national-tea-day",
+      "national-healthy-eating-day",
+      "national-fermentation-day"
+    ],
+    "howToCelebrate": "Try different kombucha flavors at a local store or brewery. Learn about the fermentation process and health benefits. Start brewing your own kombucha at home. Share your favorite kombucha brands and flavors. Visit a kombucha brewery for a tasting.",
+    "funFacts": [
+      "Kombucha originated in Northeast China around 220 BCE",
+      "It's made by fermenting sweetened tea with a SCOBY (Symbiotic Culture of Bacteria and Yeast)",
+      "Kombucha contains probiotics that support gut health",
+      "The fermentation process creates natural carbonation",
+      "Kombucha has been consumed for over 2,000 years for its health benefits"
+    ]
+  },
+  {
+    "title": "National Edamame Day",
+    "slug": "national-edamame-day-september",
+    "date": "2025-09-12",
+    "category": "Food",
+    "description": "Enjoy the nutritious goodness of edamame on National Edamame Day! These young soybeans are packed with protein, fiber, and essential nutrients. Discover delicious ways to prepare edamame, learn about their health benefits, and explore why this Japanese favorite has become popular worldwide.",
+    "tags": [
+      "edamame",
+      "soybeans",
+      "September",
+      "healthy",
+      "protein",
+      "japanese",
+      "snack"
+    ],
+    "relatedDays": [
+      "national-soy-foods-month",
+      "national-healthy-eating-day",
+      "national-vegetarian-day"
+    ],
+    "howToCelebrate": "Try edamame as a snack or appetizer. Learn how to prepare edamame at home. Add edamame to salads, stir-fries, or pasta dishes. Visit a Japanese restaurant to enjoy traditional edamame. Share edamame recipes and preparation tips. Learn about the nutritional benefits of soybeans.",
+    "funFacts": [
+      "Edamame means 'stem beans' in Japanese, referring to how they're sold on the stem",
+      "Edamame are immature soybeans harvested before they harden",
+      "They're a complete protein, containing all nine essential amino acids",
+      "Edamame is rich in fiber, folate, and vitamin K",
+      "Soybeans have been cultivated in Asia for over 5,000 years"
+    ]
+  },
+  {
+    "title": "National Miso Soup Day",
+    "slug": "national-miso-soup-day-january",
+    "date": "2025-01-25",
+    "category": "Food",
+    "description": "Warm up with a bowl of miso soup on National Miso Soup Day! This traditional Japanese soup is not only delicious but also packed with probiotics and nutrients. Learn about different types of miso, discover how to make authentic miso soup, and explore the health benefits of this fermented soybean paste.",
+    "tags": [
+      "miso",
+      "soup",
+      "January",
+      "japanese",
+      "fermented",
+      "healthy",
+      "probiotics"
+    ],
+    "relatedDays": [
+      "national-soup-day",
+      "national-japanese-food-day",
+      "national-fermentation-day"
+    ],
+    "howToCelebrate": "Enjoy miso soup at a Japanese restaurant. Learn to make miso soup at home with traditional ingredients. Try different types of miso - white, yellow, and red. Add miso to other dishes for umami flavor. Learn about the fermentation process that creates miso. Share miso soup recipes and variations.",
+    "funFacts": [
+      "Miso is made from fermented soybeans, rice, or barley",
+      "It's been a staple in Japanese cuisine for over 1,000 years",
+      "Miso contains probiotics that support gut health",
+      "There are over 1,000 varieties of miso in Japan",
+      "Miso soup is traditionally eaten for breakfast in Japan"
+    ]
   }
 ]

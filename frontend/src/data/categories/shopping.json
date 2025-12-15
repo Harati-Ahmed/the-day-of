@@ -1078,5 +1078,92 @@
       "You can find designer items for pennies on the dollar",
       "Many thrift stores support charitable causes"
     ]
+  },
+  {
+    "title": "National Bookstore Day",
+    "slug": "national-bookstore-day-august",
+    "date": "2025-08-09",
+    "category": "Shopping",
+    "description": "Celebrate the joy of browsing physical bookstores on National Bookstore Day! Support local independent bookstores, discover new authors, and enjoy the unique experience of browsing shelves filled with stories waiting to be discovered. Bookstores are community hubs that connect readers with great literature.",
+    "tags": [
+      "bookstore",
+      "books",
+      "August",
+      "shopping",
+      "reading",
+      "literature",
+      "local-business"
+    ],
+    "relatedDays": [
+      "national-book-day",
+      "national-reading-month",
+      "small-business-saturday"
+    ],
+    "howToCelebrate": "Visit your local independent bookstore. Browse the shelves and discover new books. Attend author events or book signings. Purchase books as gifts for friends and family. Support local bookstores by buying from them instead of online. Join a book club or reading group.",
+    "funFacts": [
+      "Independent bookstores have seen a resurgence in recent years",
+      "Bookstores often host community events and author readings",
+      "Browsing physical books helps you discover titles you might not find online",
+      "Many bookstores offer personalized recommendations from knowledgeable staff",
+      "Supporting local bookstores helps keep communities vibrant"
+    ]
+  },
+  {
+    "title": "National Antique Day",
+    "slug": "national-antique-day-april",
+    "date": "2025-04-09",
+    "category": "Shopping",
+    "description": "Discover treasures from the past on National Antique Day! Antiques tell stories of history, craftsmanship, and bygone eras. Visit antique shops, flea markets, or estate sales to find unique pieces that add character and history to your home. Celebrate the art of collecting and preserving the past.",
+    "tags": [
+      "antiques",
+      "collectibles",
+      "April",
+      "shopping",
+      "vintage",
+      "history",
+      "treasures"
+    ],
+    "relatedDays": [
+      "national-thrift-store-day",
+      "national-garage-sale-day",
+      "national-collectibles-day"
+    ],
+    "howToCelebrate": "Visit antique shops, flea markets, or estate sales in your area. Learn about identifying authentic antiques and their value. Start or add to your own antique collection. Research the history behind antique items. Share photos of your favorite antique finds. Support local antique dealers and collectors.",
+    "funFacts": [
+      "Items must be at least 100 years old to be considered antiques",
+      "Antique collecting is one of the world's oldest hobbies",
+      "The value of antiques depends on condition, rarity, and provenance",
+      "Antique furniture often increases in value over time",
+      "Many antiques are handcrafted with techniques no longer used today"
+    ]
+  },
+  {
+    "title": "National Record Store Day",
+    "slug": "national-record-store-day-april",
+    "date": "2025-04-19",
+    "category": "Shopping",
+    "description": "Celebrate the culture of independent record stores on National Record Store Day! This special day honors the unique experience of browsing physical music, discovering new artists, and supporting local record shops. Join music lovers worldwide in celebrating vinyl records and the communities they create.",
+    "tags": [
+      "record-store",
+      "music",
+      "April",
+      "vinyl",
+      "shopping",
+      "local-business",
+      "music-culture"
+    ],
+    "relatedDays": [
+      "national-music-day",
+      "national-vinyl-record-day",
+      "small-business-saturday"
+    ],
+    "howToCelebrate": "Visit your local independent record store. Browse vinyl records and discover new music. Purchase albums from your favorite artists. Attend Record Store Day special events and exclusive releases. Support local record stores by buying from them. Share your record store finds on social media.",
+    "funFacts": [
+      "Record Store Day was established in 2007 to celebrate independent record stores",
+      "Vinyl record sales have been growing steadily since 2006",
+      "Many record stores host live performances and meet-and-greets",
+      "Record Store Day features exclusive releases available only at participating stores",
+      "Independent record stores are cultural hubs for music communities"
+    ]
   }
 ]

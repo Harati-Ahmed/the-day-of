@@ -4,7 +4,11 @@ Allow: /_next/static/
 Disallow: /api/
 Disallow: /_next/data/
 Disallow: /admin/
+Disallow: /search?*
 
+# Crawl-delay for aggressive crawlers
+User-agent: *
+Crawl-delay: 1
 
 # Sitemap location
 Sitemap: https://www.thedayof.net/sitemap.xml
@@ -12,9 +16,12 @@ Sitemap: https://www.thedayof.net/sitemap.xml
 # Allow all major search engines
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 0
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1

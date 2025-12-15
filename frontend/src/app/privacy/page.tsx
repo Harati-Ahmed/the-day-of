@@ -3,7 +3,32 @@ import { Shield, Eye, Lock, Database } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | TheDayOf',
-  description: 'Learn how TheDayOf protects your privacy and handles your data.',
+  description: 'Learn how TheDayOf protects your privacy and handles your data. Read our privacy policy to understand how we collect, use, and safeguard your information.',
+  keywords: ['privacy policy', 'data protection', 'privacy', 'thedayof'],
+  alternates: {
+    canonical: 'https://www.thedayof.net/privacy/',
+  },
+  openGraph: {
+    title: 'Privacy Policy - TheDayOf',
+    description: 'Learn how TheDayOf protects your privacy and handles your data. Read our comprehensive privacy policy.',
+    type: 'website',
+    url: 'https://www.thedayof.net/privacy/',
+    siteName: 'TheDayOf',
+    images: [
+      {
+        url: 'https://www.thedayof.net/images/og-default.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Privacy Policy - TheDayOf',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy - TheDayOf',
+    description: 'Learn how TheDayOf protects your privacy and handles your data.',
+    images: ['https://www.thedayof.net/images/og-default.svg'],
+  },
 };
 
 export default function PrivacyPolicy() {

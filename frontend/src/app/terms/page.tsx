@@ -3,7 +3,32 @@ import { FileText, Scale, Users, AlertTriangle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Terms of Service | TheDayOf',
-  description: 'Read our terms of service and user agreement for TheDayOf.',
+  description: 'Read our terms of service and user agreement for TheDayOf. Understand your rights and responsibilities when using our celebration calendar and content.',
+  keywords: ['terms of service', 'user agreement', 'terms', 'thedayof'],
+  alternates: {
+    canonical: 'https://www.thedayof.net/terms/',
+  },
+  openGraph: {
+    title: 'Terms of Service - TheDayOf',
+    description: 'Read our terms of service and user agreement for TheDayOf. Understand your rights and responsibilities.',
+    type: 'website',
+    url: 'https://www.thedayof.net/terms/',
+    siteName: 'TheDayOf',
+    images: [
+      {
+        url: 'https://www.thedayof.net/images/og-default.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Terms of Service - TheDayOf',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms of Service - TheDayOf',
+    description: 'Read our terms of service and user agreement for TheDayOf.',
+    images: ['https://www.thedayof.net/images/og-default.svg'],
+  },
 };
 
 export default function TermsOfService() {

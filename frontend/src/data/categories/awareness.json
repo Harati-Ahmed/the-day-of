@@ -2158,5 +2158,121 @@
       "Vision changes can indicate health problems",
       "Comprehensive exams check more than just vision"
     ]
+  },
+  {
+    "title": "National Sleep Awareness Week",
+    "slug": "national-sleep-awareness-week-march",
+    "date": "2025-03-10",
+    "category": "Awareness",
+    "description": "Prioritize your sleep health during National Sleep Awareness Week! This important week raises awareness about the critical role sleep plays in our physical and mental well-being. Learn about sleep disorders, discover healthy sleep habits, and understand how quality rest impacts every aspect of your life.",
+    "tags": [
+      "sleep",
+      "health",
+      "March",
+      "wellness",
+      "awareness",
+      "rest",
+      "mental-health"
+    ],
+    "relatedDays": [
+      "national-sleep-day",
+      "world-mental-health-day",
+      "national-wellness-month"
+    ],
+    "howToCelebrate": "Establish a consistent sleep schedule and stick to it. Create a relaxing bedtime routine to signal your body it's time to rest. Make your bedroom a sleep-friendly environment - cool, dark, and quiet. Limit screen time before bed. Learn about sleep disorders and when to seek professional help.",
+    "funFacts": [
+      "Adults need 7-9 hours of sleep per night for optimal health",
+      "Sleep deprivation can impair cognitive function as much as alcohol intoxication",
+      "Your brain cleans itself during deep sleep, removing toxins",
+      "Chronic sleep deprivation increases the risk of obesity, diabetes, and heart disease",
+      "Most people need 15-20 minutes to fall asleep - if you fall asleep instantly, you're likely sleep-deprived"
+    ]
+  },
+  {
+    "title": "National Kidney Health Month",
+    "slug": "national-kidney-health-month-march",
+    "date": "2025-03-01",
+    "category": "Awareness",
+    "description": "Protect your kidneys during National Kidney Health Month! Your kidneys are vital organs that filter waste from your blood. Learn about kidney disease prevention, recognize early warning signs, and discover how to maintain optimal kidney health through diet, exercise, and regular checkups.",
+    "tags": [
+      "kidney",
+      "health",
+      "March",
+      "awareness",
+      "prevention",
+      "organ-health",
+      "wellness"
+    ],
+    "relatedDays": [
+      "world-kidney-day",
+      "national-healthy-eating-day",
+      "national-exercise-day"
+    ],
+    "howToCelebrate": "Schedule a checkup and ask about kidney function tests. Stay hydrated by drinking plenty of water throughout the day. Reduce sodium intake to protect kidney function. Exercise regularly to maintain healthy blood pressure. Learn about risk factors for kidney disease and how to prevent them.",
+    "funFacts": [
+      "Your kidneys filter about 200 quarts of blood daily",
+      "Kidney disease affects over 37 million Americans",
+      "High blood pressure and diabetes are the leading causes of kidney disease",
+      "Your kidneys produce hormones that regulate blood pressure and red blood cell production",
+      "Early kidney disease often has no symptoms, making regular screening important"
+    ]
+  },
+  {
+    "title": "National Stress Awareness Month",
+    "slug": "national-stress-awareness-month-april",
+    "date": "2025-04-01",
+    "category": "Awareness",
+    "description": "Take control of stress during National Stress Awareness Month! Stress affects everyone, but chronic stress can have serious health consequences. Learn effective stress management techniques, discover healthy coping strategies, and prioritize your mental well-being this month.",
+    "tags": [
+      "stress",
+      "mental-health",
+      "April",
+      "awareness",
+      "wellness",
+      "self-care",
+      "health"
+    ],
+    "relatedDays": [
+      "world-mental-health-day",
+      "national-meditation-day",
+      "national-wellness-month"
+    ],
+    "howToCelebrate": "Practice stress-reduction techniques like meditation, deep breathing, or yoga. Identify your stress triggers and develop healthy coping strategies. Make time for activities you enjoy and that help you relax. Connect with friends and family for social support. Consider talking to a mental health professional if stress is overwhelming.",
+    "funFacts": [
+      "Chronic stress can weaken your immune system and increase disease risk",
+      "Exercise is one of the most effective ways to reduce stress",
+      "Stress can cause physical symptoms like headaches, muscle tension, and digestive issues",
+      "Laughing releases endorphins that help combat stress",
+      "Chronic stress can contribute to anxiety, depression, and other mental health conditions"
+    ]
+  },
+  {
+    "title": "National Skin Cancer Awareness Month",
+    "slug": "national-skin-cancer-awareness-month-may",
+    "date": "2025-05-01",
+    "category": "Awareness",
+    "description": "Protect your skin during National Skin Cancer Awareness Month! Skin cancer is the most common cancer in the United States, but it's also highly preventable. Learn about sun safety, recognize warning signs, and take steps to protect yourself and your loved ones from harmful UV radiation.",
+    "tags": [
+      "skin-cancer",
+      "cancer",
+      "May",
+      "awareness",
+      "prevention",
+      "sun-safety",
+      "health"
+    ],
+    "relatedDays": [
+      "national-melanoma-day",
+      "national-sun-safety-week",
+      "cancer-awareness-day"
+    ],
+    "howToCelebrate": "Schedule a skin check with a dermatologist. Learn the ABCDEs of melanoma detection. Always wear sunscreen with SPF 30 or higher when outdoors. Wear protective clothing, hats, and sunglasses. Avoid tanning beds and seek shade during peak sun hours (10 AM - 4 PM).",
+    "funFacts": [
+      "One in five Americans will develop skin cancer by age 70",
+      "Melanoma is the deadliest form of skin cancer but highly treatable when caught early",
+      "UV radiation from tanning beds is classified as a human carcinogen",
+      "Just one blistering sunburn in childhood doubles your risk of melanoma",
+      "Regular use of SPF 15 sunscreen can reduce your risk of melanoma by 50%"
+    ]
   }
 ]

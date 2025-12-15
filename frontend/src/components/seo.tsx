@@ -64,7 +64,9 @@ export function generateStructuredData(day: { title: string; date: string; descr
       "url": "https://www.thedayof.net/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.thedayof.net/logo.png"
+        "url": "https://www.thedayof.net/icon.svg",
+        "width": 512,
+        "height": 512
       }
     },
     "publisher": {
@@ -73,7 +75,9 @@ export function generateStructuredData(day: { title: string; date: string; descr
       "url": "https://www.thedayof.net/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.thedayof.net/logo.png"
+        "url": "https://www.thedayof.net/icon.svg",
+        "width": 512,
+        "height": 512
       }
     },
     "performer": {

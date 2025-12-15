@@ -2038,5 +2038,92 @@
       "Always tell someone your hiking plans",
       "Proper footwear prevents injuries"
     ]
+  },
+  {
+    "title": "National Volunteer Month",
+    "slug": "national-volunteer-month-april",
+    "date": "2025-04-01",
+    "category": "National",
+    "description": "Give back to your community during National Volunteer Month! Volunteering strengthens communities, helps those in need, and provides personal fulfillment. Discover volunteer opportunities in your area, find causes you're passionate about, and make a positive impact in your community.",
+    "tags": [
+      "volunteer",
+      "community",
+      "April",
+      "service",
+      "giving-back",
+      "charity",
+      "helping"
+    ],
+    "relatedDays": [
+      "national-volunteer-day",
+      "international-volunteer-day",
+      "national-service-day"
+    ],
+    "howToCelebrate": "Find volunteer opportunities that match your interests and skills. Commit to regular volunteer service at a local organization. Organize a group volunteer project with friends or coworkers. Donate your time to causes you care about. Share your volunteer experiences to inspire others. Recognize and thank volunteers in your community.",
+    "funFacts": [
+      "Over 60 million Americans volunteer annually",
+      "Volunteers contribute over 8 billion hours of service each year",
+      "Volunteering can improve mental and physical health",
+      "Many volunteers report increased life satisfaction and purpose",
+      "Volunteer work can help develop new skills and career opportunities"
+    ]
+  },
+  {
+    "title": "National Small Business Week",
+    "slug": "national-small-business-week-may",
+    "date": "2025-05-05",
+    "category": "National",
+    "description": "Celebrate the backbone of the American economy during National Small Business Week! Small businesses create jobs, drive innovation, and strengthen local communities. Support small businesses in your area, learn about entrepreneurship, and recognize the hardworking business owners who make our communities thrive.",
+    "tags": [
+      "small-business",
+      "entrepreneurship",
+      "May",
+      "local",
+      "economy",
+      "community",
+      "business"
+    ],
+    "relatedDays": [
+      "small-business-saturday",
+      "national-entrepreneurs-day",
+      "national-retail-day"
+    ],
+    "howToCelebrate": "Shop at local small businesses instead of big chains. Leave positive reviews for small businesses you love. Share small business recommendations with friends. Attend small business events and networking opportunities. Learn about starting your own small business. Support small business owners on social media.",
+    "funFacts": [
+      "Small businesses employ nearly half of all private sector workers",
+      "There are over 33 million small businesses in the United States",
+      "Small businesses create two-thirds of new jobs",
+      "Small businesses are often more innovative than large corporations",
+      "Supporting small businesses keeps money in local communities"
+    ]
+  },
+  {
+    "title": "National Library Week",
+    "slug": "national-library-week-april",
+    "date": "2025-04-06",
+    "category": "National",
+    "description": "Celebrate the invaluable role of libraries in our communities during National Library Week! Libraries provide free access to information, resources, and programs that enrich lives and strengthen communities. Visit your local library, discover its services, and show appreciation for librarians and library staff.",
+    "tags": [
+      "library",
+      "books",
+      "April",
+      "education",
+      "community",
+      "reading",
+      "resources"
+    ],
+    "relatedDays": [
+      "national-library-day",
+      "national-reading-month",
+      "world-book-day"
+    ],
+    "howToCelebrate": "Visit your local library and explore its resources. Get a library card if you don't have one. Attend library programs and events. Check out books, movies, or other materials. Support library funding and advocacy efforts. Thank librarians and library staff for their service.",
+    "funFacts": [
+      "There are over 116,000 libraries in the United States",
+      "Libraries offer much more than books - from digital resources to community programs",
+      "Public libraries provide free internet access to millions of Americans",
+      "Libraries serve as community hubs and gathering places",
+      "Library usage increases during economic downturns"
+    ]
   }
 ]

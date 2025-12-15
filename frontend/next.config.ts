@@ -10,7 +10,6 @@ const nextConfig: NextConfig = {
   
   // Experimental optimizations following Next.js best practices
   experimental: {
-    optimizeServerReact: false, // Not needed for static sites
     webVitalsAttribution: ['CLS', 'LCP', 'FCP', 'FID', 'TTFB'],
     optimizePackageImports: ['lucide-react', 'react-hot-toast'], // Tree-shake heavy packages
   },

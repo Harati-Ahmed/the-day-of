@@ -52,8 +52,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const emoji = categoryEmojis[day.category] || '🎉';
   
   return {
-    title: `${day.title} ${year} (${shortDate}) ${emoji} - Deals, Ideas & Facts`,
-    description: `Celebrating ${day.title} on ${formattedDate}! 🎉 Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
+    title: `${day.title} ${year} ${emoji} - TheDayOf`,
+    description: `Celebrate ${day.title} on ${formattedDate}! Get celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating now!`,
     keywords: day.tags.join(', '),
     other: {
       'article:modified_time': new Date().toISOString(),
@@ -63,8 +63,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `https://www.thedayof.net/${category}/${slug}/`,
     },
     openGraph: {
-      title: `${day.title} ${year} (${shortDate}) ${emoji}`,
-      description: `Celebrating ${day.title}! Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
+      title: `${day.title} ${year} ${emoji}`,
+      description: `Celebrate ${day.title}! Get celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating now!`,
       type: 'article',
       url: `https://www.thedayof.net/${category}/${slug}/`,
       siteName: 'TheDayOf',
@@ -81,8 +81,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${day.title} ${year} (${shortDate}) ${emoji}`,
-      description: `Celebrating ${day.title}! Find out WHY this day matters, get creative celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating right now!`,
+      title: `${day.title} ${year} ${emoji}`,
+      description: `Celebrate ${day.title}! Get celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating now!`,
       images: ['https://www.thedayof.net/images/og-default.svg'],
     },
   };
@@ -242,7 +242,8 @@ export default async function DayPage({ params }: PageProps) {
     "keywords": day.tags.join(', '),
     "author": {
       "@type": "Organization",
-      "name": "TheDayOf"
+      "name": "TheDayOf",
+      "url": "https://www.thedayof.net"
     },
     "publisher": {
       "@type": "Organization",
@@ -250,9 +251,12 @@ export default async function DayPage({ params }: PageProps) {
       "url": "https://www.thedayof.net",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.thedayof.net/logo.png"
+        "url": "https://www.thedayof.net/icon.svg",
+        "width": 512,
+        "height": 512
       }
     },
+    "articleSection": day.category,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://www.thedayof.net/${categorySlug}/${day.slug}/`

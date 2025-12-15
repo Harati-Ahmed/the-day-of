@@ -5,10 +5,29 @@ export const metadata: Metadata = {
   title: 'About TheDayOf 🎊 Our Mission to Celebrate Every Day',
   description: 'Join millions celebrating every day! 🎊 Discover our mission to spread joy worldwide with 365+ holidays, party ideas & celebration guides. Our story inside!',
   keywords: ['about', 'thedayof', 'special days', 'holidays', 'celebrations', 'mission'],
+  alternates: {
+    canonical: 'https://www.thedayof.net/about/',
+  },
   openGraph: {
     title: 'About Us - TheDayOf',
     description: 'Join millions celebrating every day! Discover our mission to spread joy worldwide with 365+ holidays, party ideas & celebration guides.',
     type: 'website',
+    url: 'https://www.thedayof.net/about/',
+    siteName: 'TheDayOf',
+    images: [
+      {
+        url: 'https://www.thedayof.net/images/og-default.svg',
+        width: 1200,
+        height: 630,
+        alt: 'About TheDayOf',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us - TheDayOf',
+    description: 'Join millions celebrating every day! Discover our mission to spread joy worldwide with 365+ holidays, party ideas & celebration guides.',
+    images: ['https://www.thedayof.net/images/og-default.svg'],
   },
 };
 

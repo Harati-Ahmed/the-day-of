@@ -48,14 +48,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   
   return {
     title: `${month.name} ${currentYear} Calendar: ${monthDaysCount} Celebrations 🗓️ Dates & Ideas`,
-    description: `${monthDaysCount} epic celebrations packed into ${month.name} ${currentYear}! 🗓️ Don't miss trending holidays, party ideas & exclusive deals. Plan your month NOW and celebrate every day!`,
+    description: `${monthDaysCount} celebrations in ${month.name} ${currentYear}! 🗓️ Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
     keywords: `${month.name} holidays, ${month.name} special days, ${month.name} ${currentYear}, national days in ${month.name}`,
     alternates: {
       canonical: `https://www.thedayof.net/month/${monthSlug}/`,
     },
     openGraph: {
       title: `${month.name} ${currentYear}: ${monthDaysCount} Celebrations 🗓️`,
-      description: `${monthDaysCount} epic celebrations packed into ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month NOW and celebrate every day!`,
+      description: `${monthDaysCount} celebrations in ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
       type: 'website',
       url: `https://www.thedayof.net/month/${monthSlug}/`,
       siteName: 'TheDayOf',
@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     twitter: {
       card: 'summary_large_image',
       title: `${month.name} ${currentYear}: ${monthDaysCount} Celebrations 🗓️`,
-      description: `${monthDaysCount} epic celebrations packed into ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month NOW and celebrate every day!`,
+      description: `${monthDaysCount} celebrations in ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
       images: ['https://www.thedayof.net/images/og-default.svg'],
     },
   };

@@ -19,7 +19,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'TheDayOf: 365+ National Days, Food Holidays & Celebration Calendar 🎉',
-  description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now! 🎉',
+  description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!',
   keywords: ['national days', 'food days', 'holidays', 'coffee day', 'celebrations', 'awareness days', 'discover', 'calendar', 'world celebrations'],
   authors: [{ name: 'TheDayOf Team' }],
   manifest: '/manifest.json',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'TheDayOf - National Days, Food & Holiday Calendar',
-    description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!',
+    description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas.',
     type: 'website',
     url: 'https://www.thedayof.net/',
     siteName: 'TheDayOf',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'TheDayOf - National Days, Food & Holiday Calendar',
-    description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas. Join millions celebrating now!',
+    description: 'Never miss a celebration! Find out what\'s special TODAY with 365+ national days, trending food holidays, exclusive deals & party ideas.',
     images: ['https://www.thedayof.net/images/og-homepage.svg'],
   },
   robots: {
@@ -105,12 +105,15 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <head>
-        {/* DNS prefetch for third-party domains - improves performance */}
+        {/* DNS prefetch and preconnect for third-party domains - improves performance */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
         
         {/* Schema.org structured data - load early for SEO */}
         <Script
@@ -145,11 +148,18 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
+        {/* Skip to main content link for accessibility */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary-600 focus:text-white focus:rounded-lg focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2"
+        >
+          Skip to main content
+        </a>
         <ThemeProvider>
           <ThemeSpread>
             <div className="min-h-screen flex flex-col">
               <Header />
-              <main className="flex-1 pt-20">
+              <main id="main-content" className="flex-1 pt-20" tabIndex={-1}>
                 {children}
               </main>
               <Footer />

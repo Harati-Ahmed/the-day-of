@@ -3,7 +3,32 @@ import { Mail, MessageCircle, MapPin, Send, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Contact Us | TheDayOf',
-  description: 'Get in touch with TheDayOf team. We\'d love to hear from you!',
+  description: 'Get in touch with TheDayOf team! Have questions, suggestions, or want to collaborate? We\'d love to hear from you. Reach out today!',
+  keywords: ['contact', 'thedayof', 'get in touch', 'support', 'feedback'],
+  alternates: {
+    canonical: 'https://www.thedayof.net/contact/',
+  },
+  openGraph: {
+    title: 'Contact Us - TheDayOf',
+    description: 'Get in touch with TheDayOf team! Have questions, suggestions, or want to collaborate? We\'d love to hear from you.',
+    type: 'website',
+    url: 'https://www.thedayof.net/contact/',
+    siteName: 'TheDayOf',
+    images: [
+      {
+        url: 'https://www.thedayof.net/images/og-default.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Contact TheDayOf',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Us - TheDayOf',
+    description: 'Get in touch with TheDayOf team! Have questions, suggestions, or want to collaborate?',
+    images: ['https://www.thedayof.net/images/og-default.svg'],
+  },
 };
 
 export default function Contact() {

@@ -5,9 +5,34 @@ import SearchPageClient from './search-page-client';
 export const metadata: Metadata = {
   title: 'Search 365+ National Days & Holidays 🔍 Find Any Celebration',
   description: 'Find ANY celebration instantly! 🔍 Search 365+ national days, trending holidays & special events. Discover dates, party ideas & deals in seconds!',
+  keywords: ['search', 'find holidays', 'national days search', 'celebration search'],
+  alternates: {
+    canonical: 'https://www.thedayof.net/search/',
+  },
   robots: {
     index: true,
     follow: true,
+  },
+  openGraph: {
+    title: 'Search 365+ National Days & Holidays - TheDayOf',
+    description: 'Find ANY celebration instantly! Search 365+ national days, trending holidays & special events. Discover dates, party ideas & deals in seconds!',
+    type: 'website',
+    url: 'https://www.thedayof.net/search/',
+    siteName: 'TheDayOf',
+    images: [
+      {
+        url: 'https://www.thedayof.net/images/og-default.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Search Celebrations - TheDayOf',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Search 365+ National Days & Holidays - TheDayOf',
+    description: 'Find ANY celebration instantly! Search 365+ national days, trending holidays & special events.',
+    images: ['https://www.thedayof.net/images/og-default.svg'],
   },
 };
 

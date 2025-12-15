@@ -1408,5 +1408,63 @@
       "Many medicines come from diverse species",
       "Protecting biodiversity protects human survival"
     ]
+  },
+  {
+    "title": "International Day of Forests",
+    "slug": "international-day-of-forests-march",
+    "date": "2025-03-21",
+    "category": "International",
+    "description": "Celebrate the vital role of forests in sustaining life on Earth on International Day of Forests! Forests provide clean air, water, biodiversity, and countless resources. Learn about forest conservation, support reforestation efforts, and discover how forests contribute to climate regulation and human well-being.",
+    "tags": [
+      "forests",
+      "environment",
+      "March",
+      "conservation",
+      "trees",
+      "climate",
+      "nature"
+    ],
+    "relatedDays": [
+      "earth-day",
+      "arbor-day",
+      "world-environment-day"
+    ],
+    "howToCelebrate": "Learn about forest conservation and the importance of trees. Support organizations working to protect and restore forests. Plant trees in your community or support reforestation projects. Reduce paper consumption and choose sustainable wood products. Visit a forest or nature preserve. Share information about forest conservation on social media.",
+    "funFacts": [
+      "Forests cover about 31% of the Earth's land surface",
+      "Forests are home to 80% of the world's terrestrial biodiversity",
+      "Trees absorb carbon dioxide and produce oxygen",
+      "Deforestation contributes significantly to climate change",
+      "One mature tree can absorb up to 48 pounds of CO2 per year"
+    ]
+  },
+  {
+    "title": "International Day of Clean Air",
+    "slug": "international-day-of-clean-air-september",
+    "date": "2025-09-07",
+    "category": "International",
+    "description": "Breathe easier and take action for clean air on International Day of Clean Air! Air pollution affects billions of people worldwide and contributes to climate change. Learn about air quality, support clean air initiatives, and discover ways to reduce your personal contribution to air pollution.",
+    "tags": [
+      "clean-air",
+      "environment",
+      "September",
+      "pollution",
+      "health",
+      "climate",
+      "sustainability"
+    ],
+    "relatedDays": [
+      "earth-day",
+      "world-environment-day",
+      "national-clean-air-month"
+    ],
+    "howToCelebrate": "Learn about air quality in your area and how to protect yourself. Reduce your carbon footprint by walking, biking, or using public transportation. Support clean energy initiatives and policies. Plant trees and support green spaces in your community. Share information about air pollution and solutions. Advocate for clean air policies.",
+    "funFacts": [
+      "Air pollution causes an estimated 7 million premature deaths annually",
+      "Indoor air can be more polluted than outdoor air",
+      "Clean air is essential for human health and well-being",
+      "Air pollution affects climate change and vice versa",
+      "Simple actions like reducing car use can significantly improve air quality"
+    ]
   }
 ]

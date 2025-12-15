@@ -5,19 +5,76 @@
  */
 
 const https = require('https');
-const { days, categories } = require('../src/lib/data.ts');
+const fs = require('fs');
+const path = require('path');
+
+// Read all category JSON files
+const dataDir = path.join(__dirname, '../src/data/categories');
+const categoryFiles = [
+  'food.json',
+  'awareness.json',
+  'animals.json',
+  'fun.json',
+  'holiday.json',
+  'shopping.json',
+  'national.json',
+  'international.json'
+];
+
+// Load all days from category files
+const days = [];
+categoryFiles.forEach(file => {
+  const filePath = path.join(dataDir, file);
+  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  days.push(...data);
+});
+
+// Define categories
+const categories = [
+  { name: 'Food', slug: 'food' },
+  { name: 'Awareness', slug: 'awareness-health' },
+  { name: 'Animals', slug: 'animals-pets' },
+  { name: 'Fun', slug: 'fun-weird' },
+  { name: 'Holiday', slug: 'holiday' },
+  { name: 'Shopping', slug: 'shopping-deals' },
+  { name: 'National', slug: 'national' },
+  { name: 'International', slug: 'international' }
+];
 
 // Your IndexNow API Key
 const API_KEY = '4d6622cdf7544226b205126f222df023';
 const SITE_URL = 'https://www.thedayof.net';
 const KEY_LOCATION = `${SITE_URL}/${API_KEY}.txt`;
 
-// Helper function to get category slug
+// Helper function to get category slug - matches utils.ts logic
 function getCategorySlug(category) {
+  const categoryMap = {
+    'Food': 'food',
+    'Awareness': 'awareness-health',
+    'Awareness & Health': 'awareness-health',
+    'Animals': 'animals-pets',
+    'Animals & Pets': 'animals-pets',
+    'Fun': 'fun-weird',
+    'Fun & Weird': 'fun-weird',
+    'Holiday': 'holiday',
+    'Shopping': 'shopping-deals',
+    'Shopping & Deals': 'shopping-deals',
+    'National': 'national',
+    'International': 'international'
+  };
+  
+  // First try exact match
+  if (categoryMap[category]) {
+    return categoryMap[category];
+  }
+  
+  // Fallback: remove ampersand first, then replace spaces
   return category
     .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[&]/g, '')
+    .replace(/[&]/g, '')  // Remove ampersand first
+    .replace(/\s+/g, '-')  // Then replace spaces with dashes
+    .replace(/-+/g, '-')   // Replace multiple dashes with single dash
+    .replace(/^-+|-+$/g, '') // Remove leading/trailing dashes
     .trim();
 }
 

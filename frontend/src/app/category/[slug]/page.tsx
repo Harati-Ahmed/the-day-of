@@ -45,14 +45,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   
   return {
     title: `${categoryDays.length}+ ${category.name} Days ${currentYear} ${emoji} - Complete Calendar & Ideas`,
-    description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations you can't miss in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals. ${category.description} Start celebrating now! 🎊`,
+    description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals. ${category.description}`,
     keywords: `${category.name.toLowerCase()} holidays, ${category.name.toLowerCase()} days ${currentYear}, national ${category.name.toLowerCase()} days, ${category.name.toLowerCase()} observances`,
     alternates: {
       canonical: `https://www.thedayof.net/category/${slug}/`,
     },
     openGraph: {
       title: `${categoryDays.length}+ ${category.name} Days ${currentYear} ${emoji}`,
-      description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations you can't miss in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals. Start celebrating now!`,
+      description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals.`,
       type: 'website',
       url: `https://www.thedayof.net/category/${slug}/`,
       siteName: 'TheDayOf',
@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     twitter: {
       card: 'summary_large_image',
       title: `${categoryDays.length}+ ${category.name} Days ${currentYear} ${emoji}`,
-      description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations you can't miss in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals. Start celebrating now!`,
+      description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals.`,
       images: ['https://www.thedayof.net/images/og-default.svg'],
     },
   };

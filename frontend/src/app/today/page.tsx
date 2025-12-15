@@ -35,8 +35,8 @@ export async function generateMetadata(): Promise<Metadata> {
     : `What's Happening Today? ${formattedDate} 🗓️ National Days & Holidays`;
   
   const description = todaysDays.length > 0
-    ? `🎉 It's ${todaysDays[0].title}! Plus ${todaysDays.length - 1} more celebrations happening RIGHT NOW (${formattedDate}). Get party ideas, deals & join the fun before it's too late!`
-    : `What's special about ${formattedDate}? Find out what's trending TODAY! Daily celebration ideas, exclusive deals & party inspiration. Don't miss out!`;
+    ? `🎉 It's ${todaysDays[0].title}! Plus ${todaysDays.length - 1} more celebrations happening TODAY (${formattedDate}). Get party ideas, deals & join the fun!`
+    : `What's special about ${formattedDate}? Find out what's trending TODAY! Daily celebration ideas, exclusive deals & party inspiration.`;
 
   return {
     title,
