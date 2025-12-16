@@ -246,35 +246,39 @@ export default function CalendarPage() {
                 <Link
                   key={day.slug}
                   href={`/${getCategorySlug(day.category)}/${day.slug}/`}
-                  className="group block p-6 border border-neutral-200 dark:border-dark-600 rounded-xl hover:shadow-medium dark:hover:shadow-dark-medium hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-700 bg-white dark:bg-dark-800"
+                  className="group block p-6 border border-neutral-200 dark:border-dark-600 rounded-xl hover:shadow-medium dark:hover:shadow-dark-medium hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-700 bg-white dark:bg-dark-800 flex flex-col h-full"
                 >
-                  <div className="flex items-center justify-between mb-4">
+                  <div className="flex items-center justify-between gap-3 mb-4">
                     <span 
-                      className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(day.category)}`}
+                      className={`px-3 py-1 rounded-full text-sm font-semibold text-white whitespace-nowrap ${getCategoryColor(day.category)}`}
                       style={{ 
                         backgroundColor: day.category === 'Food' ? '#f97316' : 
                                        day.category === 'Awareness' ? '#ec4899' : 
+                                       day.category === 'Awareness & Health' ? '#ec4899' :
                                        day.category === 'Animals' ? '#22c55e' : 
+                                       day.category === 'Animals & Pets' ? '#22c55e' :
                                        day.category === 'Shopping' ? '#3b82f6' :
+                                       day.category === 'Shopping & Deals' ? '#3b82f6' :
                                        day.category === 'National' ? '#6366f1' :
                                        day.category === 'International' ? '#14b8a6' :
                                        day.category === 'Holiday' ? '#ef4444' :
-                                       day.category === 'Fun' ? '#a855f7' : '#6b7280'
+                                       day.category === 'Fun' ? '#a855f7' :
+                                       day.category === 'Fun & Weird' ? '#a855f7' : '#6b7280'
                       }}
                     >
                       {day.category}
                     </span>
-                    <span className="text-sm text-neutral-500 dark:text-neutral-400 font-medium">
+                    <span className="text-sm text-neutral-500 dark:text-neutral-400 font-medium whitespace-nowrap flex-shrink-0">
                       {formatDate(day.date)}
                     </span>
                   </div>
                   <h4 className="text-lg font-bold text-neutral-900 dark:text-neutral-100 mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400">
                     {day.title}
                   </h4>
-                  <p className="text-sm text-neutral-600 dark:text-neutral-300 line-clamp-3 leading-relaxed mb-4">
+                  <p className="text-sm text-neutral-600 dark:text-neutral-300 line-clamp-3 leading-relaxed mb-4 flex-grow">
                     {day.description}
                   </p>
-                  <div className="flex items-center text-primary-600 dark:text-primary-400 text-sm font-semibold group-hover:text-primary-700 dark:group-hover:text-primary-300">
+                  <div className="flex items-center text-primary-600 dark:text-primary-400 text-sm font-semibold group-hover:text-primary-700 dark:group-hover:text-primary-300 mt-auto">
                     Read More
                     <ArrowRight className="h-4 w-4 ml-1 group-hover:translate-x-1" />
                   </div>
@@ -339,12 +343,16 @@ export default function CalendarPage() {
                           style={{ 
                             backgroundColor: event.category === 'Food' ? '#f97316' : 
                                            event.category === 'Awareness' ? '#ec4899' : 
+                                           event.category === 'Awareness & Health' ? '#ec4899' :
                                            event.category === 'Animals' ? '#22c55e' : 
+                                           event.category === 'Animals & Pets' ? '#22c55e' :
                                            event.category === 'Shopping' ? '#3b82f6' :
+                                           event.category === 'Shopping & Deals' ? '#3b82f6' :
                                            event.category === 'National' ? '#6366f1' :
                                            event.category === 'International' ? '#14b8a6' :
                                            event.category === 'Holiday' ? '#ef4444' :
-                                           event.category === 'Fun' ? '#a855f7' : '#6b7280'
+                                           event.category === 'Fun' ? '#a855f7' :
+                                           event.category === 'Fun & Weird' ? '#a855f7' : '#6b7280'
                           }}
                         >
                           {event.category}

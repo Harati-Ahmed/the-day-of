@@ -200,16 +200,16 @@ export default function HomePage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {upcomingDays.map((day) => (
-              <div key={day.slug} className="group">
-                <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all duration-300 overflow-hidden border border-neutral-100 dark:border-dark-700 group-hover:border-primary-200 dark:group-hover:border-primary-700">
-                  <div className="p-6">
-                    <div className="flex items-center justify-between mb-4">
-                      <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(day.category)}`}>
+              <div key={day.slug} className="group flex">
+                <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all duration-300 overflow-hidden border border-neutral-100 dark:border-dark-700 group-hover:border-primary-200 dark:group-hover:border-primary-700 flex flex-col w-full">
+                  <div className="p-6 flex flex-col flex-grow">
+                    <div className="flex items-center justify-between gap-3 mb-4">
+                      <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white whitespace-nowrap ${getCategoryColor(day.category)}`}>
                         {day.category}
                       </span>
-                      <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400">
+                      <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400 flex-shrink-0">
                         <Clock className="h-4 w-4 mr-1" />
-                        {formatDate(day.date)}
+                        <span className="whitespace-nowrap">{formatDate(day.date)}</span>
                       </div>
                     </div>
                     
@@ -217,11 +217,11 @@ export default function HomePage() {
                       {day.title}
                     </h3>
                     
-                    <p className="text-neutral-600 dark:text-neutral-300 text-sm mb-4 line-clamp-3 leading-relaxed">
+                    <p className="text-neutral-600 dark:text-neutral-300 text-sm mb-4 line-clamp-3 leading-relaxed flex-grow">
                       {day.description}
                     </p>
                     
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between mt-auto">
                       <div className="flex flex-wrap gap-1">
                         {day.tags.slice(0, 2).map((tag, tagIndex) => (
                           <span key={tagIndex} className="px-2 py-1 bg-neutral-100 dark:bg-dark-700 text-neutral-600 dark:text-neutral-300 text-xs rounded-md">
@@ -229,7 +229,7 @@ export default function HomePage() {
                           </span>
                         ))}
                       </div>
-                      <Link href={`/${getCategorySlug(day.category)}/${day.slug}/`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold">
+                      <Link href={`/${getCategorySlug(day.category)}/${day.slug}/`} className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm font-semibold whitespace-nowrap">
                         Read More →
                       </Link>
                     </div>
@@ -383,11 +383,11 @@ export default function HomePage() {
             {thisWeekDays.map((day) => (
               <div key={day.slug} className="group">
                 <div className="bg-white dark:bg-dark-800 rounded-xl shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all duration-300 p-6 border border-neutral-100 dark:border-dark-700 group-hover:border-primary-200 dark:group-hover:border-primary-700">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${getCategoryColor(day.category)}`}>
+                  <div className="flex items-center justify-between gap-3 mb-4">
+                    <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white whitespace-nowrap ${getCategoryColor(day.category)}`}>
                       {day.category}
                     </span>
-                    <span className="text-sm text-neutral-500 dark:text-neutral-400 font-medium">{formatDate(day.date)}</span>
+                    <span className="text-sm text-neutral-500 dark:text-neutral-400 font-medium whitespace-nowrap flex-shrink-0">{formatDate(day.date)}</span>
                   </div>
                   
                   <h3 className="text-lg font-bold text-neutral-900 dark:text-neutral-100 mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors line-clamp-2">

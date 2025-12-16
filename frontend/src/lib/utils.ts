@@ -55,10 +55,14 @@ export function getCategoryColor(category: string): string {
   const colorMap: Record<string, string> = {
     'Food': 'bg-orange-500',
     'Awareness': 'bg-pink-500',
+    'Awareness & Health': 'bg-pink-500',
     'Animals': 'bg-green-500',
+    'Animals & Pets': 'bg-green-500',
     'Fun': 'bg-purple-500',
+    'Fun & Weird': 'bg-purple-500',
     'Holiday': 'bg-red-500',
     'Shopping': 'bg-blue-500',
+    'Shopping & Deals': 'bg-blue-500',
     'National': 'bg-indigo-500',
     'International': 'bg-teal-500'
   };

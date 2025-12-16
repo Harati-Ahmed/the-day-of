@@ -44,18 +44,18 @@ export default function DayCard({ day, showCategory = true }: DayCardProps) {
       
       <div className="p-8">
         {/* Category Badge and Date */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between gap-3 mb-6">
           {showCategory && (
             <Link
               href={`/category/${categorySlug}/`}
-              className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold text-white shadow-soft ${categoryColor} hover:shadow-medium transition-all duration-300`}
+              className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold text-white shadow-soft whitespace-nowrap ${categoryColor} hover:shadow-medium transition-all duration-300`}
             >
               {day.category}
             </Link>
           )}
-          <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400 font-medium">
+          <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400 font-medium flex-shrink-0">
             <Calendar className="h-4 w-4 mr-2" />
-            {formatDate(day.date)}
+            <span className="whitespace-nowrap">{formatDate(day.date)}</span>
           </div>
         </div>
 
