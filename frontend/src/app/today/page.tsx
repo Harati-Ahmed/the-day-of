@@ -42,6 +42,17 @@ export async function generateMetadata(): Promise<Metadata> {
     title,
     description,
     keywords: `today's national day, what national day is today, today's holiday, ${formattedDate}, current celebrations`,
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: 'https://www.thedayof.net/today/',
     },

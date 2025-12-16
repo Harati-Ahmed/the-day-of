@@ -50,6 +50,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${month.name} ${currentYear} Calendar: ${monthDaysCount} Celebrations 🗓️ Dates & Ideas`,
     description: `${monthDaysCount} celebrations in ${month.name} ${currentYear}! 🗓️ Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
     keywords: `${month.name} holidays, ${month.name} special days, ${month.name} ${currentYear}, national days in ${month.name}`,
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: `https://www.thedayof.net/month/${monthSlug}/`,
     },

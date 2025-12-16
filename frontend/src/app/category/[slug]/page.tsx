@@ -47,6 +47,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${categoryDays.length}+ ${category.name} Days ${currentYear} ${emoji} - Complete Calendar & Ideas`,
     description: `${categoryDays.length}+ ${category.name.toLowerCase()} celebrations in ${currentYear}! Get dates, party ideas, trending hashtags & exclusive deals. ${category.description}`,
     keywords: `${category.name.toLowerCase()} holidays, ${category.name.toLowerCase()} days ${currentYear}, national ${category.name.toLowerCase()} days, ${category.name.toLowerCase()} observances`,
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: `https://www.thedayof.net/category/${slug}/`,
     },

@@ -55,6 +55,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${day.title} ${year} ${emoji} - TheDayOf`,
     description: `Celebrate ${day.title} on ${formattedDate}! Get celebration ideas, trending hashtags & exclusive deals. Join thousands celebrating now!`,
     keywords: day.tags.join(', '),
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     other: {
       'article:modified_time': new Date().toISOString(),
       'article:published_time': day.date,
