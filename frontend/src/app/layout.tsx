@@ -140,13 +140,13 @@ export default function RootLayout({
           `}
         </Script>
         
-        {/* Google AdSense Auto Ads - Load early for better ad placement */}
+        {/* Google AdSense Auto Ads - Lazy loaded to not impact performance */}
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="adsense-auto-ads" strategy="afterInteractive">
+        <Script id="adsense-auto-ads" strategy="lazyOnload">
           {`
             (adsbygoogle = window.adsbygoogle || []).push({
               google_ad_client: "ca-pub-2160043117224167",

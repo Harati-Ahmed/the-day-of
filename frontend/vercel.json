@@ -4,6 +4,18 @@
   "framework": null,
   "installCommand": "cd frontend && npm install",
   "devCommand": "cd frontend && npm run dev",
+  "redirects": [
+    {
+      "source": "/year/:year*",
+      "destination": "/calendar/",
+      "permanent": true
+    },
+    {
+      "source": "/home.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

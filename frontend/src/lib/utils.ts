@@ -48,7 +48,15 @@ export function getCategorySlug(category: string): string {
     'National': 'national',
     'International': 'international'
   };
-  return categoryMap[category] || 'other';
+  
+  const slug = categoryMap[category];
+  
+  if (!slug) {
+    console.error(`❌ Unknown category: "${category}" - defaulting to 'fun-weird'`);
+    return 'fun-weird'; // Default fallback instead of 'other'
+  }
+  
+  return slug;
 }
 
 export function getCategoryColor(category: string): string {
