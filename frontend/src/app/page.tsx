@@ -179,7 +179,7 @@ export default function HomePage() {
                   href={`/${getCategorySlug(todaysDays[0].category)}/${todaysDays[0].slug}`}
                   className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/50 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300"
                 >
-                  Learn More
+                  Learn More About {todaysDays[0].title}
                 </Link>
               </div>
             </div>
@@ -193,7 +193,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">The Latest</h2>
             <Link href="/calendar/" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-semibold flex items-center gap-2">
-              See More
+              See More Celebrations
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

@@ -8,13 +8,17 @@ import { ThemeProvider } from '@/contexts/theme-context';
 import ThemeSpread from '@/components/theme-spread';
 import LazyToaster from '@/components/lazy-toaster';
 import { LazyAnalytics, LazySpeedInsights } from '@/components/lazy-analytics';
+import MobileOptimizedAdSense from '@/components/mobile-optimized-adsense';
 
 // Optimized font loading - Next.js automatically optimizes and self-hosts Google Fonts
+// Using 'optional' display for better mobile performance - prevents render blocking
 const inter = Inter({ 
   subsets: ['latin'],
-  display: 'swap', // Prevent flash of unstyled text (FOUT)
+  display: 'optional', // Better for mobile - prevents render blocking, uses system font fallback
   variable: '--font-inter',
   weight: ['400', '600'], // Only load essential weights
+  preload: true, // Preload font files for faster rendering
+  adjustFontFallback: true, // Automatically adjust fallback font metrics
 });
 
 export const metadata: Metadata = {
@@ -108,12 +112,13 @@ export default function RootLayout({
     <html lang="en" data-scroll-behavior="smooth">
       <head>
         {/* DNS prefetch and preconnect for third-party domains - improves performance */}
+        {/* Mobile-optimized: Only preconnect to critical resources on mobile */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
+        {/* Preconnect only for critical resources - reduces mobile overhead */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
         
         {/* Schema.org structured data - load early for SEO */}
         <Script
@@ -140,20 +145,8 @@ export default function RootLayout({
           `}
         </Script>
         
-        {/* Google AdSense Auto Ads - Load immediately after page becomes interactive for better impressions */}
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-        <Script id="adsense-auto-ads" strategy="afterInteractive">
-          {`
-            (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-2160043117224167",
-              enable_page_level_ads: true
-            });
-          `}
-        </Script>
+        {/* Google AdSense Auto Ads - Mobile-optimized loading */}
+        {/* Desktop: afterInteractive for better impressions, Mobile: lazyOnload for better performance */}
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {/* Skip to main content link for accessibility */}
@@ -175,6 +168,7 @@ export default function RootLayout({
             <LazyToaster />
             <LazyAnalytics />
             <LazySpeedInsights />
+            <MobileOptimizedAdSense />
           </ThemeSpread>
         </ThemeProvider>
       </body>

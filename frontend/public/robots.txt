@@ -5,9 +5,6 @@ Disallow: /api/
 Disallow: /_next/data/
 Disallow: /admin/
 Disallow: /search?*
-
-# Crawl-delay for aggressive crawlers
-User-agent: *
 Crawl-delay: 1
 
 # Sitemap location

@@ -3,6 +3,7 @@
 import { useTheme } from '@/contexts/theme-context';
 import { Sun, Moon } from 'lucide-react';
 import { motion } from 'framer-motion';
+// framer-motion is optimized via optimizePackageImports in next.config.ts
 
 export default function ThemeToggle() {
   const themeContext = useTheme();
