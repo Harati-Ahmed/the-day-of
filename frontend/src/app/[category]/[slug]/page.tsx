@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import SocialShare from '@/components/social-share';
 import DayHeroImage from '@/components/day-hero-image';
+import AdSenseAd from '@/components/adsense-ad';
 
 interface PageProps {
   params: Promise<{
@@ -405,6 +406,16 @@ export default async function DayPage({ params }: PageProps) {
                       Whether you&apos;re a long-time enthusiast or just discovering this special day, {day.title} offers a unique opportunity to engage with the {day.category.toLowerCase()} community and participate in meaningful activities.
                     </p>
                   </div>
+
+                  {/* In-Article Ad - After first paragraph, lazy loaded for performance */}
+                  <div className="my-8">
+                    <AdSenseAd 
+                      adSlot="2995625508" 
+                      format="auto" 
+                      fullWidth 
+                      lazy={true} 
+                    />
+                  </div>
                   
                   {day.history && (
                     <div className="mb-8">
@@ -451,6 +462,16 @@ export default async function DayPage({ params }: PageProps) {
                       </ul>
                     </div>
                   )}
+
+                  {/* In-Article Ad - Mid-content, lazy loaded */}
+                  <div className="my-8">
+                    <AdSenseAd 
+                      adSlot="2995625508" 
+                      format="auto" 
+                      fullWidth 
+                      lazy={true} 
+                    />
+                  </div>
 
                   {/* Additional Context Section */}
                   <div className="mb-8">

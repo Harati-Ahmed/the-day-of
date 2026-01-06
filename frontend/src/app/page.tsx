@@ -6,6 +6,7 @@ import Link from 'next/link';
 // Import components directly for static site - no dynamic loading needed
 import NewsletterSubscribe from '@/components/newsletter-subscribe';
 import LazySection from '@/components/lazy-section';
+import AdSenseAd from '@/components/adsense-ad';
 
 export default function HomePage() {
   // Get today's celebrations
@@ -181,11 +182,23 @@ export default function HomePage() {
                 >
                   Learn More About {todaysDays[0].title}
                 </Link>
-              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
       )}
+
+      {/* Display Ad - Above the fold, immediate load for impressions */}
+      <section className="bg-white dark:bg-dark-900 py-4">
+        <div className="container-custom">
+          <AdSenseAd 
+            adSlot="6719248096" 
+            format="auto" 
+            fullWidth 
+            lazy={false} 
+          />
+        </div>
+      </section>
 
       {/* The Latest - Allrecipes Style */}
       <section className="bg-white dark:bg-dark-900 py-12 md:py-16">
@@ -196,6 +209,16 @@ export default function HomePage() {
               See More Celebrations
               <ArrowRight className="h-4 w-4" />
             </Link>
+          </div>
+          
+          {/* In-feed Ad - Between content sections, lazy loaded */}
+          <div className="mb-8">
+            <AdSenseAd 
+              adSlot="3709941377" 
+              format="auto" 
+              fullWidth 
+              lazy={true} 
+            />
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">

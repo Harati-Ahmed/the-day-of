@@ -8,7 +8,6 @@ import { ThemeProvider } from '@/contexts/theme-context';
 import ThemeSpread from '@/components/theme-spread';
 import LazyToaster from '@/components/lazy-toaster';
 import { LazyAnalytics, LazySpeedInsights } from '@/components/lazy-analytics';
-import MobileOptimizedAdSense from '@/components/mobile-optimized-adsense';
 
 // Optimized font loading - Next.js automatically optimizes and self-hosts Google Fonts
 // Using 'optional' display for better mobile performance - prevents render blocking
@@ -145,8 +144,13 @@ export default function RootLayout({
           `}
         </Script>
         
-        {/* Google AdSense Auto Ads - Mobile-optimized loading */}
-        {/* Desktop: afterInteractive for better impressions, Mobile: lazyOnload for better performance */}
+        {/* Google AdSense Script - Load once for manual ads (better performance) */}
+        {/* Manual ads are faster, prevent CLS, and improve Core Web Vitals */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {/* Skip to main content link for accessibility */}
@@ -168,7 +172,6 @@ export default function RootLayout({
             <LazyToaster />
             <LazyAnalytics />
             <LazySpeedInsights />
-            <MobileOptimizedAdSense />
           </ThemeSpread>
         </ThemeProvider>
       </body>
