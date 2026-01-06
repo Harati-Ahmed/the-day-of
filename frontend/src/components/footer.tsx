@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="border-t border-dark-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-neutral-400 text-base font-medium">
-              © 2025 TheDayOf. All rights reserved.
+              © 2026 TheDayOf. All rights reserved.
             </p>
             <div className="flex space-x-8 mt-4 md:mt-0">
               <Link href="/privacy/" className="text-neutral-400 hover:text-primary-400 text-base font-medium transition-colors">

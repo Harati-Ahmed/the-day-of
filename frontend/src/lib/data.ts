@@ -163,11 +163,124 @@ export function getInternationalDays(): Day[] {
   return internationalData as Day[];
 }
 
+/**
+ * Get the year that has the most data for a given month.
+ * Useful for determining what year to display when the requested year has no data.
+ * 
+ * @param month - Month number (1-12)
+ * @param preferredYear - Optional preferred year to use if it has data
+ * @returns The year with the most data, or preferredYear if it has data
+ */
+export function getYearWithDataForMonth(month: number, preferredYear?: number): number {
+  const yearCounts = new Map<number, number>();
+  days.forEach(day => {
+    const date = new Date(day.date);
+    if (date.getMonth() === month - 1) {
+      const dayYear = date.getFullYear();
+      yearCounts.set(dayYear, (yearCounts.get(dayYear) || 0) + 1);
+    }
+  });
+
+  if (yearCounts.size === 0) {
+    return preferredYear || new Date().getFullYear();
+  }
+
+  // If preferred year has data, use it
+  if (preferredYear && yearCounts.has(preferredYear)) {
+    return preferredYear;
+  }
+
+  // Otherwise, find the year with the most data
+  let bestYear = preferredYear || new Date().getFullYear();
+  let maxCount = 0;
+  yearCounts.forEach((count, y) => {
+    if (count > maxCount) {
+      maxCount = count;
+      bestYear = y;
+    }
+  });
+
+  return bestYear;
+}
+
+/**
+ * Generate a day entry for a specific year based on a base day entry.
+ * This creates a recurring event for the requested year.
+ */
+function generateDayForYear(baseDay: Day, targetYear: number): Day {
+  // Parse the base date string (YYYY-MM-DD) to avoid timezone issues
+  const [baseYear, baseMonth, baseDayNum] = baseDay.date.split('-').map(Number);
+  
+  // Create the target date string directly in YYYY-MM-DD format
+  // This avoids timezone conversion issues
+  const targetDateString = `${targetYear}-${String(baseMonth).padStart(2, '0')}-${String(baseDayNum).padStart(2, '0')}`;
+  
+  // Create a new day entry with the target year's date
+  const generatedDay: Day = {
+    ...baseDay,
+    date: targetDateString,
+  };
+  
+  // Update nextOccurrences to reflect the new year
+  if (isRecurringEvent(baseDay)) {
+    generatedDay.nextOccurrences = generateNextOccurrences(generatedDay.date, 5);
+  }
+  
+  return generatedDay;
+}
+
+/**
+ * Get days for a specific month and year.
+ * 
+ * Strategy:
+ * 1. First, try to get data that exists for the requested year
+ * 2. If no data exists for the requested year, generate recurring events from base data
+ * 3. For years before the base data, fall back to the year with the most data
+ * 
+ * This ensures:
+ * - 2026 and future years show generated recurring events
+ * - Years before base data (like 2024) fall back to available data
+ * - The calendar always shows content
+ */
 export function getDaysByMonth(month: number, year: number): Day[] {
-  return days.filter(day => {
+  // First, try to get data that exists for the requested year
+  const daysForRequestedYear = days.filter(day => {
     const date = new Date(day.date);
     return date.getMonth() === month - 1 && date.getFullYear() === year;
   });
+
+  // If we have data for the requested year, return it
+  if (daysForRequestedYear.length > 0) {
+    return daysForRequestedYear;
+  }
+
+  // Find the base year that has data for this month (for generating recurring events)
+  // We don't pass preferredYear here because we want the actual base year with data
+  const baseYear = getYearWithDataForMonth(month);
+  
+  // Get all days from the base year for this month
+  const baseDays = days.filter(day => {
+    const date = new Date(day.date);
+    return date.getMonth() === month - 1 && date.getFullYear() === baseYear;
+  });
+
+  if (baseDays.length === 0) {
+    return []; // No data exists for this month at all
+  }
+
+  // If the requested year is after the base year, generate recurring events for that year
+  if (year > baseYear) {
+    return baseDays.map(baseDay => {
+      // Generate all events for the requested year (treat all as recurring for future years)
+      // This ensures 2026 and beyond show events with correct dates
+      return generateDayForYear(baseDay, year);
+    });
+  }
+
+  // For years before or equal to the base year, return the base year's data as fallback
+  // This handles cases where someone views 2024 or earlier, or if baseYear === year
+  // (though year === baseYear should have been caught in the first check)
+  return baseDays;
 }
 
 export function getUpcomingDays(limit: number = 10): Day[] {

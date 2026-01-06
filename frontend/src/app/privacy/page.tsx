@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
               use, and protect your information when you use TheDayOf.
             </p>
             <p className="text-sm text-gray-500 dark:text-neutral-400 mt-4">
-              Last updated: January 2025
+              Last updated: January 2026
             </p>
           </div>
 

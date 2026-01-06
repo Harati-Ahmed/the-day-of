@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { getDaysByMonth } from '@/lib/data';
+import { getDaysByMonth, getYearWithDataForMonth } from '@/lib/data';
 import { getMonthName, getCategorySlug, getCategoryColor, formatDate } from '@/lib/utils';
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Clock, ArrowRight, X } from 'lucide-react';
 import Link from 'next/link';
@@ -115,7 +115,7 @@ export default function CalendarPage() {
                   {month}
                 </div>
                 <div className="text-xs sm:text-sm text-neutral-500 dark:text-neutral-400 mt-1">
-                  {getDaysByMonth(index + 1, selectedYear).length} days
+                  {getDaysByMonth(index + 1, currentDate.getFullYear()).length} days
                 </div>
               </Link>
             ))}

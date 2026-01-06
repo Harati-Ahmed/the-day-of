@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getDaysByMonth } from '@/lib/data';
+import { getDaysByMonth, getYearWithDataForMonth } from '@/lib/data';
 import { getCategoryColor, getCategorySlug, getCategoryColorStyle } from '@/lib/utils';
 import { Calendar } from 'lucide-react';
 import Link from 'next/link';
@@ -44,12 +44,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const currentYear = new Date().getFullYear();
-  const monthDaysCount = getDaysByMonth(month.number, currentYear).length;
+  const monthDaysForMetadata = getDaysByMonth(month.number, currentYear);
+  const monthDaysCount = monthDaysForMetadata.length;
+  // Use current year if we have data (generated or real), otherwise fall back
+  const displayYear = monthDaysCount > 0 
+    ? currentYear 
+    : getYearWithDataForMonth(month.number, currentYear);
   
   return {
-    title: `${month.name} ${currentYear} Calendar: ${monthDaysCount} Celebrations 🗓️ Dates & Ideas`,
-    description: `${monthDaysCount} celebrations in ${month.name} ${currentYear}! 🗓️ Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
-    keywords: `${month.name} holidays, ${month.name} special days, ${month.name} ${currentYear}, national days in ${month.name}`,
+    title: `${month.name} ${displayYear} Calendar: ${monthDaysCount} Celebrations 🗓️ Dates & Ideas`,
+    description: `${monthDaysCount} celebrations in ${month.name} ${displayYear}! 🗓️ Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
+    keywords: `${month.name} holidays, ${month.name} special days, ${month.name} ${displayYear}, national days in ${month.name}`,
     robots: {
       index: true,
       follow: true,
@@ -65,8 +70,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `https://www.thedayof.net/month/${monthSlug}/`,
     },
     openGraph: {
-      title: `${month.name} ${currentYear}: ${monthDaysCount} Celebrations 🗓️`,
-      description: `${monthDaysCount} celebrations in ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
+      title: `${month.name} ${displayYear}: ${monthDaysCount} Celebrations 🗓️`,
+      description: `${monthDaysCount} celebrations in ${month.name} ${displayYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
       type: 'website',
       url: `https://www.thedayof.net/month/${monthSlug}/`,
       siteName: 'TheDayOf',
@@ -82,8 +87,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${month.name} ${currentYear}: ${monthDaysCount} Celebrations 🗓️`,
-      description: `${monthDaysCount} celebrations in ${month.name} ${currentYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
+      title: `${month.name} ${displayYear}: ${monthDaysCount} Celebrations 🗓️`,
+      description: `${monthDaysCount} celebrations in ${month.name} ${displayYear}! Don't miss trending holidays, party ideas & exclusive deals. Plan your month and celebrate every day!`,
       images: ['https://www.thedayof.net/images/og-default.svg'],
     },
   };
@@ -98,7 +103,14 @@ export default async function MonthPage({ params }: PageProps) {
   }
 
   const currentYear = new Date().getFullYear();
+  // Get days for the current year (will generate recurring events if needed)
   const monthDays = getDaysByMonth(month.number, currentYear);
+  
+  // Determine the display year: use current year if we have data (generated or real),
+  // otherwise fall back to the year with the most data
+  const displayYear = monthDays.length > 0 
+    ? currentYear 
+    : getYearWithDataForMonth(month.number, currentYear);
   
   // Group by categories for better organization
   // Normalize category names to consolidate related categories
@@ -123,8 +135,8 @@ export default async function MonthPage({ params }: PageProps) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": `${month.name} ${currentYear} Special Days & Holidays`,
-    "description": `Complete guide to ${monthDays.length} special days, holidays, and celebrations in ${month.name} ${currentYear} with party ideas and celebration tips`,
+    "name": `${month.name} ${displayYear} Special Days & Holidays`,
+    "description": `Complete guide to ${monthDays.length} special days, holidays, and celebrations in ${month.name} ${displayYear} with party ideas and celebration tips`,
     "url": `https://www.thedayof.net/month/${monthSlug}/`,
     "mainEntity": {
       "@type": "ItemList",
@@ -174,10 +186,10 @@ export default async function MonthPage({ params }: PageProps) {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": `What special days are in ${month.name} ${currentYear}?`,
+        "name": `What special days are in ${month.name} ${displayYear}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `${month.name} ${currentYear} has ${monthDays.length} special days and celebrations, including ${monthDays.slice(0, 5).map(d => d.title).join(', ')}${monthDays.length > 5 ? ', and many more' : ''}!`
+          "text": `${month.name} ${displayYear} has ${monthDays.length} special days and celebrations, including ${monthDays.slice(0, 5).map(d => d.title).join(', ')}${monthDays.length > 5 ? ', and many more' : ''}!`
         }
       },
       {
@@ -185,7 +197,7 @@ export default async function MonthPage({ params }: PageProps) {
         "name": `How many national days are celebrated in ${month.name}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `There are ${monthDays.length} national days, international observances, and special celebrations in ${month.name} ${currentYear} across various categories including food, awareness, holidays, and more.`
+          "text": `There are ${monthDays.length} national days, international observances, and special celebrations in ${month.name} ${displayYear} across various categories including food, awareness, holidays, and more.`
         }
       },
       {
@@ -193,7 +205,7 @@ export default async function MonthPage({ params }: PageProps) {
         "name": `Where can I find the complete ${month.name} calendar of celebrations?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `TheDayOf.net provides a complete, interactive calendar for ${month.name} ${currentYear} with all ${monthDays.length} special days, including dates, celebration ideas, and background information for each event.`
+          "text": `TheDayOf.net provides a complete, interactive calendar for ${month.name} ${displayYear} with all ${monthDays.length} special days, including dates, celebration ideas, and background information for each event.`
         }
       }
     ]
@@ -219,7 +231,7 @@ export default async function MonthPage({ params }: PageProps) {
               <span className="text-gray-400 dark:text-neutral-500">/</span>
               <Link href="/calendar/" className="text-gray-500 dark:text-neutral-400 hover:text-gray-700 dark:hover:text-neutral-200">Calendar</Link>
               <span className="text-gray-400 dark:text-neutral-500">/</span>
-              <span className="text-gray-900 dark:text-neutral-100 font-medium">{month.name} {currentYear}</span>
+              <span className="text-gray-900 dark:text-neutral-100 font-medium">{month.name} {displayYear}</span>
             </nav>
           </div>
         </div>
@@ -231,7 +243,7 @@ export default async function MonthPage({ params }: PageProps) {
               <div className="flex items-center">
                 <Calendar className="h-8 w-8 text-blue-600 dark:text-blue-400 mr-3" />
                 <h1 className="text-4xl font-bold text-gray-900 dark:text-neutral-100">
-                  {month.name} {currentYear}
+                  {month.name} {displayYear}
                 </h1>
               </div>
               <div className="text-gray-500 dark:text-neutral-400">
@@ -240,7 +252,7 @@ export default async function MonthPage({ params }: PageProps) {
             </div>
 
             <p className="text-xl text-gray-600 dark:text-neutral-300 mb-6">
-              Discover all the special days, holidays, and celebrations happening in {month.name} {currentYear}. 
+              Discover all the special days, holidays, and celebrations happening in {month.name} {displayYear}. 
               From national observances to international awareness days, find out what makes this month special.
             </p>
 
@@ -310,7 +322,7 @@ export default async function MonthPage({ params }: PageProps) {
                 >
                   <div className="font-medium">{m.name}</div>
                   <div className="text-sm text-gray-500 dark:text-neutral-400 mt-1">
-                    {getDaysByMonth(m.number, currentYear).length} days
+                    {getDaysByMonth(m.number, getYearWithDataForMonth(m.number, currentYear)).length} days
                   </div>
                 </Link>
               ))}

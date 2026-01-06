@@ -2,7 +2,7 @@
   {
     "title": "Columbus Day",
     "slug": "columbus-day",
-    "date": "2025-10-13",
+    "date": "2026-10-13",
     "category": "Holiday",
     "description": "Commemorate Christopher Columbus' historic voyage to the Americas on Columbus Day. This federal holiday marks the anniversary of Columbus' landing in 1492, celebrating Italian-American heritage and the spirit of exploration. Learn about the historical significance, discover local parades and festivals, and explore the complex legacy of this pivotal moment in world history.",
     "tags": [
@@ -32,7 +32,7 @@
   {
     "title": "Halloween",
     "slug": "halloween",
-    "date": "2025-10-31",
+    "date": "2026-10-31",
     "category": "Holiday",
     "description": "Get ready for the spookiest night of the year! Halloween brings out the kid in all of us with costumes, trick-or-treating, haunted houses, and pumpkin carving. From ancient Celtic traditions to modern celebrations, discover the rich history behind this beloved holiday. Whether you're planning a party, decorating your home, or just enjoying some candy, Halloween is all about fun, creativity, and a little bit of fright!",
     "tags": [
@@ -62,7 +62,7 @@
   {
     "title": "Veterans Day",
     "slug": "veterans-day",
-    "date": "2025-11-11",
+    "date": "2026-11-11",
     "category": "Holiday",
     "description": "Honor those who served our country on Veterans Day! This federal holiday pays tribute to all American military veterans who have bravely served in the armed forces. Attend local ceremonies, visit veterans' memorials, or simply thank a veteran for their service. Learn about the history of this important day and discover ways to support veterans in your community.",
     "tags": [
@@ -92,7 +92,7 @@
   {
     "title": "Thanksgiving Day",
     "slug": "thanksgiving-day",
-    "date": "2025-11-27",
+    "date": "2026-11-27",
     "category": "Holiday",
     "description": "Gather with family and friends to give thanks on Thanksgiving Day! This beloved American holiday is all about gratitude, delicious food, and spending quality time with loved ones. From the traditional turkey dinner to football games and parades, Thanksgiving brings communities together to celebrate the blessings in our lives. Discover new recipes, learn about the holiday's history, and create lasting memories.",
     "tags": [
@@ -120,9 +120,9 @@
     ]
   },
   {
-    "title": "Hanukkah 2025",
-    "slug": "hanukkah-2025",
-    "date": "2025-12-25",
+    "title": "Hanukkah 2026",
+    "slug": "hanukkah-2026",
+    "date": "2026-12-25",
     "category": "Holiday",
     "description": "Celebrate the Festival of Lights! Hanukkah commemorates the miracle of the oil that lasted eight days in the ancient Temple. Light the menorah, enjoy traditional foods like latkes and sufganiyot, play dreidel games, and exchange gifts with family and friends. Learn about the rich traditions, history, and meaning behind this beautiful Jewish holiday that brings light and joy to the darkest time of year.",
     "tags": [
@@ -152,7 +152,7 @@
   {
     "title": "Christmas Eve",
     "slug": "christmas-eve",
-    "date": "2025-12-24",
+    "date": "2026-12-24",
     "category": "Holiday",
     "description": "The magic is in the air on Christmas Eve! This special night is filled with anticipation, wonder, and the joy of giving. From hanging stockings and leaving cookies for Santa to attending midnight mass or enjoying a quiet family dinner, Christmas Eve traditions vary but all share the same spirit of love and togetherness. Create lasting memories and embrace the wonder of the season.",
     "tags": [
@@ -167,7 +167,7 @@
     "image": "christmas-eve-magic.jpg",
     "relatedDays": [
       "christmas-day",
-      "hanukkah-2025",
+      "hanukkah-2026",
       "new-years-eve"
     ],
     "howToCelebrate": "Hang stockings by the fireplace and leave cookies and milk for Santa. Attend Christmas Eve church services or watch them online. Enjoy a special family dinner together. Read Christmas stories or watch classic holiday movies. Drive around to look at Christmas light displays in your neighborhood. Spend quality time with loved ones and create new traditions.",
@@ -182,7 +182,7 @@
   {
     "title": "Christmas Day",
     "slug": "christmas-day",
-    "date": "2025-12-25",
+    "date": "2026-12-25",
     "category": "Holiday",
     "description": "Merry Christmas! Celebrate the most wonderful time of the year with family, friends, and the joy of giving. From opening presents under the tree to enjoying a festive feast, Christmas Day is about love, gratitude, and creating precious memories. Whether you're celebrating the religious significance or simply enjoying the magic of the season, may your day be filled with peace, joy, and happiness.",
     "tags": [
@@ -212,7 +212,7 @@
   {
     "title": "New Year's Eve",
     "slug": "new-years-eve",
-    "date": "2025-12-31",
+    "date": "2026-12-31",
     "category": "Holiday",
     "description": "Ring in the New Year with style and celebration! New Year's Eve is the perfect time to reflect on the past year and look forward to new beginnings. From glamorous parties and fireworks displays to quiet gatherings with loved ones, celebrate the end of one year and the start of another. Make resolutions, count down to midnight, and toast to new possibilities and fresh starts.",
     "tags": [
@@ -242,7 +242,7 @@
   {
     "title": "Presidents Day",
     "slug": "presidents-day",
-    "date": "2025-02-17",
+    "date": "2026-02-17",
     "category": "Holiday",
     "description": "Honor the legacy of American presidents on Presidents Day! This federal holiday celebrates the contributions and leadership of all U.S. presidents, with special recognition for George Washington and Abraham Lincoln. Learn about presidential history, visit historical sites, and reflect on the importance of leadership and public service in American democracy.",
     "tags": [
@@ -272,7 +272,7 @@
   {
     "title": "Labor Day",
     "slug": "labor-day",
-    "date": "2025-09-01",
+    "date": "2026-09-01",
     "category": "Holiday",
     "description": "Celebrate the contributions of workers and the labor movement on Labor Day! This federal holiday honors the achievements of American workers and their role in building the nation's strength and prosperity. From its origins in the labor movement to modern celebrations, Labor Day marks the unofficial end of summer and recognizes the dignity of work.",
     "tags": [
@@ -302,7 +302,7 @@
   {
     "title": "Martin Luther King Jr. Day",
     "slug": "martin-luther-king-jr-day",
-    "date": "2025-01-20",
+    "date": "2026-01-20",
     "category": "Holiday",
     "description": "Honor the legacy of civil rights leader Dr. Martin Luther King Jr. on this federal holiday! This day celebrates Dr. King's contributions to the civil rights movement and his dream of equality and justice for all. Reflect on his powerful message of nonviolent resistance, love, and unity while continuing the work toward a more just and equitable society.",
     "tags": [
@@ -332,7 +332,7 @@
   {
     "title": "Memorial Day",
     "slug": "memorial-day",
-    "date": "2025-05-26",
+    "date": "2026-05-26",
     "category": "Holiday",
     "description": "Honor and remember the brave men and women who died serving in the U.S. military on Memorial Day. This solemn federal holiday is a time to reflect on the ultimate sacrifice made by service members to protect our freedoms. From visiting cemeteries to participating in parades, join in remembering those who gave their lives for our country.",
     "tags": [
@@ -362,7 +362,7 @@
   {
     "title": "Independence Day",
     "slug": "independence-day",
-    "date": "2025-07-04",
+    "date": "2026-07-04",
     "category": "Holiday",
     "description": "Celebrate America's birthday on Independence Day! This patriotic federal holiday commemorates the adoption of the Declaration of Independence on July 4, 1776, marking the birth of the United States of America. From fireworks and parades to barbecues and family gatherings, join in celebrating freedom, democracy, and the American spirit.",
     "tags": [
@@ -392,7 +392,7 @@
   {
     "title": "Earth Day",
     "slug": "earth-day",
-    "date": "2025-04-22",
+    "date": "2026-04-22",
     "category": "Holiday",
     "description": "Show love for our planet on Earth Day! This global environmental movement encourages people to take action to protect the environment and address climate change. From tree planting to beach cleanups, Earth Day is about making positive changes for our planet and inspiring others to join the fight for a cleaner, healthier world.",
     "tags": [
@@ -422,7 +422,7 @@
   {
     "title": "Flag Day",
     "slug": "flag-day",
-    "date": "2025-06-14",
+    "date": "2026-06-14",
     "category": "Holiday",
     "description": "Honor the Stars and Stripes on Flag Day! This patriotic observance commemorates the adoption of the American flag on June 14, 1777. Learn about flag history, proper flag etiquette, and the symbolism behind the red, white, and blue. Display your flag proudly and reflect on what it represents - freedom, unity, and the American spirit.",
     "tags": [
@@ -452,7 +452,7 @@
   {
     "title": "Arbor Day",
     "slug": "arbor-day",
-    "date": "2025-04-25",
+    "date": "2026-04-25",
     "category": "Holiday",
     "description": "Plant trees and celebrate nature on Arbor Day! This environmental holiday encourages tree planting and forest conservation. Trees provide oxygen, clean air and water, prevent erosion, and create habitats for wildlife. Join community tree-planting events and learn about the vital role trees play in maintaining a healthy environment.",
     "tags": [
@@ -482,7 +482,7 @@
   {
     "title": "Juneteenth",
     "slug": "juneteenth",
-    "date": "2025-06-19",
+    "date": "2026-06-19",
     "category": "Holiday",
     "description": "Celebrate freedom and African American culture on Juneteenth! This federal holiday commemorates the end of slavery in the United States, marking when news of emancipation reached Texas on June 19, 1865. Learn about this important moment in American history, celebrate African American achievements, and reflect on the ongoing journey toward equality and justice.",
     "tags": [
@@ -512,7 +512,7 @@
   {
     "title": "Valentine's Day",
     "slug": "valentines-day",
-    "date": "2025-02-14",
+    "date": "2026-02-14",
     "category": "Holiday",
     "description": "Celebrate love and romance on Valentine's Day! This beloved holiday is all about expressing affection for the special people in your life. From romantic dinners to heartfelt gifts, Valentine's Day reminds us to cherish our relationships and show appreciation for those we love most.",
     "tags": [
@@ -542,7 +542,7 @@
   {
     "title": "New Year's Day",
     "slug": "new-years-day",
-    "date": "2025-01-01",
+    "date": "2026-01-01",
     "category": "Holiday",
     "description": "Ring in the new year with hope and celebration on New Year's Day! This global holiday marks the beginning of a fresh year and symbolizes new beginnings, resolutions, and opportunities. Whether you're making resolutions or simply celebrating with loved ones, embrace the promise of a new year ahead.",
     "tags": [
@@ -572,7 +572,7 @@
   {
     "title": "St. Patrick's Day",
     "slug": "st-patricks-day",
-    "date": "2025-03-17",
+    "date": "2026-03-17",
     "category": "Holiday",
     "description": "Wear green and celebrate Irish culture on St. Patrick's Day! This festive holiday honors Saint Patrick, the patron saint of Ireland, and has become a global celebration of Irish heritage. From parades and traditional music to green beer and shamrocks, join in the fun and embrace the luck of the Irish!",
     "tags": [
@@ -602,7 +602,7 @@
   {
     "title": "Easter",
     "slug": "easter",
-    "date": "2025-04-20",
+    "date": "2026-04-20",
     "category": "Holiday",
     "description": "Celebrate renewal and new beginnings on Easter! This important Christian holiday commemorates the resurrection of Jesus Christ and is also celebrated as a spring festival of rebirth and renewal. From Easter eggs and bunnies to church services and family gatherings, embrace the joy and hope of this special season.",
     "tags": [
@@ -632,7 +632,7 @@
   {
     "title": "Groundhog Day",
     "slug": "groundhog-day",
-    "date": "2025-02-02",
+    "date": "2026-02-02",
     "category": "Holiday",
     "description": "Will he see his shadow? Celebrate Groundhog Day, America's quirky weather-predicting tradition! This beloved American holiday centers around Punxsutawney Phil and his annual weather forecast. From Pennsylvania to your local celebrations, join in the fun of this unique American tradition that brings communities together each February.",
     "tags": [
@@ -662,7 +662,7 @@
   {
     "title": "Super Bowl Sunday",
     "slug": "super-bowl-sunday",
-    "date": "2025-02-09",
+    "date": "2026-02-09",
     "category": "Holiday",
     "description": "Get ready for the biggest sports event in America on Super Bowl Sunday! This unofficial American holiday brings families and friends together for football, food, and commercials. From the big game to the halftime show, Super Bowl Sunday is about more than just football - it's about community, tradition, and the American spirit of competition.",
     "tags": [
@@ -692,7 +692,7 @@
   {
     "title": "Mother's Day",
     "slug": "mothers-day",
-    "date": "2025-05-11",
+    "date": "2026-05-11",
     "category": "Holiday",
     "description": "Honor the amazing women who raised us on Mother's Day! This beloved American holiday celebrates mothers, grandmothers, and mother figures who have shaped our lives. From breakfast in bed to heartfelt cards, show your appreciation for the unconditional love, sacrifice, and guidance that mothers provide every day.",
     "tags": [
@@ -722,7 +722,7 @@
   {
     "title": "Father's Day",
     "slug": "fathers-day",
-    "date": "2025-06-15",
+    "date": "2026-06-15",
     "category": "Holiday",
     "description": "Celebrate the dads who make a difference on Father's Day! This special American holiday honors fathers, grandfathers, and father figures who have guided, supported, and loved us. From grilling together to sharing stories, show your appreciation for the wisdom, strength, and love that fathers bring to our lives.",
     "tags": [
@@ -752,7 +752,7 @@
   {
     "title": "Cinco de Mayo",
     "slug": "cinco-de-mayo",
-    "date": "2025-05-05",
+    "date": "2026-05-05",
     "category": "Holiday",
     "description": "¡Viva México! Celebrate Cinco de Mayo, the vibrant American-Mexican cultural celebration! While it commemorates Mexico's victory at the Battle of Puebla, in the US it has become a celebration of Mexican culture, heritage, and community. From tacos and margaritas to music and dancing, embrace the festive spirit of this beloved American holiday.",
     "tags": [
@@ -782,7 +782,7 @@
   {
     "title": "National Constitution Day",
     "slug": "national-constitution-day-america",
-    "date": "2025-09-17",
+    "date": "2026-09-17",
     "category": "Holiday",
     "description": "Celebrate the foundation of American democracy on National Constitution Day! Commemorating the signing of the US Constitution on September 17, 1787, this day honors the document that established our government and protects our rights. Learn about constitutional principles and civic responsibility.",
     "tags": [
@@ -812,7 +812,7 @@
   {
     "title": "National Native American Heritage Day",
     "slug": "national-native-american-heritage-day",
-    "date": "2025-11-28",
+    "date": "2026-11-28",
     "category": "Holiday",
     "description": "Honor the rich history and contributions of Native Americans on National Native American Heritage Day. The day after Thanksgiving, this observance celebrates Indigenous cultures, traditions, and the important role Native Americans have played in shaping America.",
     "tags": [
@@ -842,7 +842,7 @@
   {
     "title": "National Gold Star Mother's Day",
     "slug": "national-gold-star-mothers-day",
-    "date": "2025-09-28",
+    "date": "2026-09-28",
     "category": "Holiday",
     "description": "Honor the mothers who have lost children serving in the US military on National Gold Star Mother's Day. This solemn observance recognizes their sacrifice and provides support to families who have given so much for our country.",
     "tags": [
@@ -872,7 +872,7 @@
   {
     "title": "National Freedom Day",
     "slug": "national-freedom-day-america",
-    "date": "2025-02-01",
+    "date": "2026-02-01",
     "category": "Holiday",
     "description": "Celebrate liberty and the signing of the 13th Amendment on National Freedom Day! Observed on February 1st, this day commemorates the abolition of slavery and promotes freedom and equality for all Americans. Reflect on civil rights progress and ongoing work for justice.",
     "tags": [
@@ -902,7 +902,7 @@
   {
     "title": "National Day of Prayer",
     "slug": "national-day-of-prayer-america",
-    "date": "2025-05-01",
+    "date": "2026-05-01",
     "category": "Holiday",
     "description": "Join millions of Americans in prayer and reflection on the National Day of Prayer. Observed on the first Thursday in May, this day invites people of all faiths to pray for the nation, its leaders, and fellow citizens. Celebrate America's spiritual heritage and religious freedom.",
     "tags": [
@@ -932,7 +932,7 @@
   {
     "title": "National Public Lands Day",
     "slug": "national-public-lands-day-conservation",
-    "date": "2025-09-27",
+    "date": "2026-09-27",
     "category": "Holiday",
     "description": "Celebrate America's natural treasures on National Public Lands Day! This day encourages volunteering to help maintain and improve public lands including national parks, forests, and wildlife refuges. Connect with nature and preserve these spaces for future generations.",
     "tags": [
@@ -962,7 +962,7 @@
   {
     "title": "National Vietnam War Veterans Day",
     "slug": "national-vietnam-war-veterans-day",
-    "date": "2025-03-29",
+    "date": "2026-03-29",
     "category": "Holiday",
     "description": "Honor the courage and sacrifice of Vietnam War veterans on National Vietnam War Veterans Day. Observed on March 29th, this day recognizes the nearly 3 million Americans who served in Vietnam and thanks them for their service to our nation.",
     "tags": [
@@ -992,7 +992,7 @@
   {
     "title": "Presidents' Day",
     "slug": "presidents-day-washington-lincoln",
-    "date": "2025-02-17",
+    "date": "2026-02-17",
     "category": "Holiday",
     "description": "Honor America's leaders on Presidents' Day! This federal holiday celebrates George Washington, Abraham Lincoln, and all US presidents. It's a day to reflect on presidential leadership and American history.",
     "tags": [
@@ -1022,7 +1022,7 @@
   {
     "title": "Pearl Harbor Remembrance Day",
     "slug": "pearl-harbor-remembrance-day-ww2",
-    "date": "2025-12-07",
+    "date": "2026-12-07",
     "category": "Holiday",
     "description": "Remember December 7, 1941 - a date which will live in infamy. Pearl Harbor Remembrance Day honors those who died in the surprise attack that brought America into World War II. Pay tribute to the heroes and victims.",
     "tags": [
@@ -1052,7 +1052,7 @@
   {
     "title": "Kwanzaa",
     "slug": "kwanzaa-african-american-celebration",
-    "date": "2025-12-26",
+    "date": "2026-12-26",
     "category": "Holiday",
     "description": "Celebrate African heritage with Kwanzaa! This week-long celebration (Dec 26-Jan 1) honors African-American culture, family, and community. Based on African harvest festivals, Kwanzaa features seven principles (Nguzo Saba) promoting unity and self-determination.",
     "tags": [
@@ -1082,7 +1082,7 @@
   {
     "title": "Passover",
     "slug": "passover-jewish-holiday",
-    "date": "2025-04-13",
+    "date": "2026-04-13",
     "category": "Holiday",
     "description": "Observe Passover, the Jewish celebration of freedom! This eight-day festival commemorates the Exodus from Egypt. Families gather for Seder meals, retelling the liberation story and sharing symbolic foods that represent the journey to freedom.",
     "tags": [
@@ -1112,7 +1112,7 @@
   {
     "title": "Ramadan",
     "slug": "ramadan-islamic-holy-month",
-    "date": "2025-03-01",
+    "date": "2026-03-01",
     "category": "Holiday",
     "description": "Observe the holy month of Ramadan! Muslims worldwide fast from dawn to sunset, focusing on prayer, reflection, and community. Ramadan celebrates the first revelation of the Quran and emphasizes compassion, charity, and spiritual growth.",
     "tags": [
@@ -1142,7 +1142,7 @@
   {
     "title": "Diwali",
     "slug": "diwali-festival-of-lights",
-    "date": "2025-10-20",
+    "date": "2026-10-20",
     "category": "Holiday",
     "description": "Celebrate the Festival of Lights! Diwali is one of India's biggest holidays, celebrated by Hindus, Sikhs, and Jains worldwide. Light oil lamps (diyas), enjoy sweets, exchange gifts, and celebrate the victory of light over darkness, good over evil.",
     "tags": [
@@ -1172,7 +1172,7 @@
   {
     "title": "Rosh Hashanah",
     "slug": "rosh-hashanah-jewish-new-year",
-    "date": "2025-09-23",
+    "date": "2026-09-23",
     "category": "Holiday",
     "description": "L'Shanah Tovah! Rosh Hashanah is the Jewish New Year, beginning the High Holy Days. It's a time of reflection, prayer, and eating symbolic foods like apples and honey for a sweet new year.",
     "tags": [
@@ -1202,7 +1202,7 @@
   {
     "title": "Yom Kippur",
     "slug": "yom-kippur-day-of-atonement",
-    "date": "2025-10-02",
+    "date": "2026-10-02",
     "category": "Holiday",
     "description": "The Day of Atonement. Yom Kippur is the holiest day in Judaism, a day of fasting, prayer, and repentance. Jews seek forgiveness and spiritual renewal.",
     "tags": [
@@ -1232,7 +1232,7 @@
   {
     "title": "Dia de los Muertos",
     "slug": "dia-de-los-muertos-day-of-the-dead",
-    "date": "2025-11-01",
+    "date": "2026-11-01",
     "category": "Holiday",
     "description": "Celebrate life and death! Dia de los Muertos (Day of the Dead) is a Mexican tradition honoring deceased loved ones. Create altars, share favorite foods, and celebrate the memories of those who've passed.",
     "tags": [
@@ -1262,7 +1262,7 @@
   {
     "title": "Lunar New Year",
     "slug": "lunar-new-year-spring-festival",
-    "date": "2025-01-29",
+    "date": "2026-01-29",
     "category": "Holiday",
     "description": "Welcome the Year of the Snake! Lunar New Year is the most important celebration in Chinese culture, also celebrated across Asia. Enjoy family reunions, special foods, red envelopes, and festivities!",
     "tags": [
@@ -1292,7 +1292,7 @@
   {
     "title": "Mardi Gras",
     "slug": "mardi-gras-fat-tuesday-celebration",
-    "date": "2025-03-04",
+    "date": "2026-03-04",
     "category": "Holiday",
     "description": "Laissez les bons temps rouler! Mardi Gras (Fat Tuesday) is a day of celebration before Lent begins. From New Orleans parades to king cake, celebrate with purple, green, and gold!",
     "tags": [
@@ -1322,7 +1322,7 @@
   {
     "title": "Bastille Day",
     "slug": "bastille-day-july",
-    "date": "2025-07-14",
+    "date": "2026-07-14",
     "category": "Holiday",
     "description": "Celebrate French culture and history on Bastille Day! This French national holiday commemorates the storming of the Bastille prison in 1789, a pivotal event in the French Revolution. Enjoy French cuisine, learn about French history, and celebrate the values of liberty, equality, and fraternity.",
     "tags": [

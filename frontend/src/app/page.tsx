@@ -297,7 +297,7 @@ export default function HomePage() {
                   </p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-4 text-sm text-neutral-500 dark:text-neutral-400">
-                      <span>September 29, 2025</span>
+                      <span>September 29, 2026</span>
                       <span>•</span>
                       <span>Food</span>
                     </div>
