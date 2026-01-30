@@ -5,7 +5,6 @@ import DayCard from '@/components/day-card';
 import { ArrowLeft, Calendar, Filter } from 'lucide-react';
 import Link from 'next/link';
 import { Day } from '@/types';
-import AdSenseAd from '@/components/adsense-ad';
 
 interface CategoryPageClientProps {
   category: {
@@ -179,15 +178,6 @@ export default function CategoryPageClient({ category, allDays }: CategoryPageCl
               {displayedDays.map((day, index) => (
                 <DayCard key={day.slug} day={day} showCategory={false} />
               ))}
-            </div>
-            {/* In-Feed Ad - After all cards, lazy loaded for better performance */}
-            <div className="mt-8">
-              <AdSenseAd 
-                adSlot="3709941377" 
-                format="auto" 
-                fullWidth 
-                lazy={true} 
-              />
             </div>
           </>
         ) : (

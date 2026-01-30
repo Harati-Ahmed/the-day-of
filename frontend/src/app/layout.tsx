@@ -144,13 +144,20 @@ export default function RootLayout({
           `}
         </Script>
         
-        {/* Google AdSense Script - Load once for manual ads (better performance) */}
-        {/* Manual ads are faster, prevent CLS, and improve Core Web Vitals */}
+        {/* Google AdSense Auto Ads - Load early for better ad placement */}
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
           crossOrigin="anonymous"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
+        <Script id="adsense-auto-ads" strategy="afterInteractive">
+          {`
+            (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-2160043117224167",
+              enable_page_level_ads: true
+            });
+          `}
+        </Script>
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {/* Skip to main content link for accessibility */}
