@@ -2,10 +2,10 @@
   "name": "thedayof",
   "version": "1.0.0",
   "browserslist": [
-    "last 2 Chrome versions",
-    "last 2 Safari versions",
-    "last 2 Firefox versions",
-    "last 2 Edge versions"
+    "Chrome >= 91",
+    "Safari >= 15",
+    "Firefox >= 90",
+    "Edge >= 91"
   ],
   "private": true,
   "description": "A comprehensive website covering all US national days, holidays, fun days, food days, awareness days, and more.",

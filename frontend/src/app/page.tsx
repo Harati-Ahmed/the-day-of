@@ -99,7 +99,7 @@ export default function HomePage() {
               holidays, food days, awareness campaigns, and unique celebrations from around the world.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12 md:mb-16">
+            <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12 md:mb-16 min-h-[7rem] sm:min-h-[3.5rem]">
               <Link href="/calendar/" className="btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4 group">
                 <Calendar className="inline h-4 w-4 md:h-5 md:w-5 mr-2" />
                 Explore Calendar

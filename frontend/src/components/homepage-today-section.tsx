@@ -37,9 +37,13 @@ export default function HomepageTodaySection({ days }: HomepageTodaySectionProps
     setMounted(true);
   }, [days]);
 
-  if (!mounted || todaysDays.length === 0) {
-    return null;
+  // Reserve layout space while loading to prevent CLS when content appears (0.11 CLS fix)
+  if (!mounted) {
+    return (
+      <section className="bg-gradient-to-br from-primary-600 to-secondary-600 dark:from-primary-700 dark:to-secondary-700 py-12 md:py-16 min-h-[280px] md:min-h-[320px]" aria-hidden="true" />
+    );
   }
+  if (todaysDays.length === 0) return null;
 
   return (
     <section className="bg-gradient-to-br from-primary-600 to-secondary-600 dark:from-primary-700 dark:to-secondary-700 py-12 md:py-16">

@@ -10,13 +10,13 @@ import LazyToaster from '@/components/lazy-toaster';
 import DeferredScripts from '@/components/deferred-scripts';
 import DeferredAnalytics from '@/components/deferred-analytics';
 
-// Optimized font loading for mobile - swap shows text immediately, no preload to unblock LCP
+// Optimized font loading - optional avoids CLS from font swap; no preload to unblock LCP
 const inter = Inter({ 
   subsets: ['latin'],
-  display: 'swap', // Show fallback instantly, swap when loaded - no render blocking
+  display: 'optional', // Use font only if cached/fast; otherwise keep fallback (no CLS from swap)
   variable: '--font-inter',
   weight: ['400', '600'],
-  preload: false, // Don't preload - reduces critical path on mobile (font loads in background)
+  preload: false,
   adjustFontFallback: true,
 });
 
