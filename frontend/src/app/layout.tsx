@@ -9,15 +9,14 @@ import ThemeSpread from '@/components/theme-spread';
 import LazyToaster from '@/components/lazy-toaster';
 import { LazyAnalytics, LazySpeedInsights } from '@/components/lazy-analytics';
 
-// Optimized font loading - Next.js automatically optimizes and self-hosts Google Fonts
-// Using 'optional' display for better mobile performance - prevents render blocking
+// Optimized font loading for mobile - swap shows text immediately, no preload to unblock LCP
 const inter = Inter({ 
   subsets: ['latin'],
-  display: 'optional', // Better for mobile - prevents render blocking, uses system font fallback
+  display: 'swap', // Show fallback instantly, swap when loaded - no render blocking
   variable: '--font-inter',
-  weight: ['400', '600'], // Only load essential weights
-  preload: true, // Preload font files for faster rendering
-  adjustFontFallback: true, // Automatically adjust fallback font metrics
+  weight: ['400', '600'],
+  preload: false, // Don't preload - reduces critical path on mobile (font loads in background)
+  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
@@ -110,14 +109,10 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <head>
-        {/* DNS prefetch and preconnect for third-party domains - improves performance */}
-        {/* Mobile-optimized: Only preconnect to critical resources on mobile */}
+        {/* DNS prefetch only - defer preconnect to reduce mobile critical path */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
-        {/* Preconnect only for critical resources - reduces mobile overhead */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
         
         {/* Schema.org structured data - load early for SEO */}
         <Script
@@ -144,13 +139,13 @@ export default function RootLayout({
           `}
         </Script>
         
-        {/* Google AdSense Auto Ads - Load early for better ad placement */}
+        {/* Google AdSense - lazyOnload for better mobile LCP (loads after page interactive) */}
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="adsense-auto-ads" strategy="afterInteractive">
+        <Script id="adsense-auto-ads" strategy="lazyOnload">
           {`
             (adsbygoogle = window.adsbygoogle || []).push({
               google_ad_client: "ca-pub-2160043117224167",
