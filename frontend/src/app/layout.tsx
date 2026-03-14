@@ -7,8 +7,8 @@ import Footer from '@/components/footer';
 import { ThemeProvider } from '@/contexts/theme-context';
 import ThemeSpread from '@/components/theme-spread';
 import LazyToaster from '@/components/lazy-toaster';
-import { LazyAnalytics, LazySpeedInsights } from '@/components/lazy-analytics';
 import DeferredScripts from '@/components/deferred-scripts';
+import DeferredAnalytics from '@/components/deferred-analytics';
 
 // Optimized font loading for mobile - swap shows text immediately, no preload to unblock LCP
 const inter = Inter({ 
@@ -115,44 +115,13 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="//vitals.vercel-insights.com" />
         
-        {/* Schema.org structured data - load early for SEO */}
+        {/* Schema.org structured data - afterInteractive to avoid blocking first paint */}
         <Script
           id="website-structured-data"
           type="application/ld+json"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
         >
           {JSON.stringify(websiteStructuredData)}
-        </Script>
-        
-        {/* Google Analytics - Lazy loaded per Google's recommendations */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-BLYYB9LCXW"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-BLYYB9LCXW', {
-              send_page_view: false
-            });
-          `}
-        </Script>
-        
-        {/* Google AdSense - lazyOnload for better mobile LCP (loads after page interactive) */}
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160043117224167"
-          crossOrigin="anonymous"
-          strategy="lazyOnload"
-        />
-        <Script id="adsense-auto-ads" strategy="lazyOnload">
-          {`
-            (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-2160043117224167",
-              enable_page_level_ads: true
-            });
-          `}
         </Script>
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
@@ -173,8 +142,8 @@ export default function RootLayout({
               <Footer />
             </div>
             <LazyToaster />
-            <LazyAnalytics />
-            <LazySpeedInsights />
+            <DeferredAnalytics />
+            <DeferredScripts />
           </ThemeSpread>
         </ThemeProvider>
       </body>

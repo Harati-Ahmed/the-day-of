@@ -27,10 +27,11 @@
     @apply border-neutral-200 dark:border-dark-700;
   }
 
-  /* Critical viewport optimization for mobile */
+  /* Critical viewport optimization for mobile - system font eliminates font load + CLS */
   @media (max-width: 640px) {
     body {
       font-size: 16px; /* Prevent iOS zoom */
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
     }
   }
 
