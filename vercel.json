@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend && npm run build",
+  "buildCommand": "node frontend/scripts/generate-404-redirects.js && cd frontend && npm run build",
   "outputDirectory": "frontend/out",
   "framework": null,
   "installCommand": "cd frontend && npm install",
@@ -47,6 +47,5178 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/year/:year*",
+      "destination": "/calendar/",
+      "permanent": true
+    },
+    {
+      "source": "/home.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coffee-day",
+      "destination": "/food/national-coffee-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coffee-day-weekend-specials",
+      "destination": "/food/national-coffee-day-weekend-specials/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-taco-day",
+      "destination": "/food/national-taco-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dessert-day",
+      "destination": "/food/national-dessert-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pasta-day",
+      "destination": "/food/national-pasta-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-cupcake-day",
+      "destination": "/food/national-chocolate-cupcake-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sandwich-day",
+      "destination": "/food/national-sandwich-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cappuccino-day",
+      "destination": "/food/national-cappuccino-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-butter-lovers-day",
+      "destination": "/food/national-peanut-butter-lovers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cookie-day",
+      "destination": "/food/national-cookie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-brownie-day",
+      "destination": "/food/national-brownie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-maple-syrup-day",
+      "destination": "/food/national-maple-syrup-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fruitcake-day",
+      "destination": "/food/national-fruitcake-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-candy-day",
+      "destination": "/food/national-chocolate-candy-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cookie-exchange-day",
+      "destination": "/food/national-cookie-exchange-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-champagne-day",
+      "destination": "/food/national-champagne-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pizza-day",
+      "destination": "/food/national-pizza-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-day",
+      "destination": "/food/national-ice-cream-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pretzel-day",
+      "destination": "/food/national-pretzel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hamburger-day",
+      "destination": "/food/national-hamburger-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donut-day",
+      "destination": "/food/national-donut-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wine-day",
+      "destination": "/food/national-wine-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-day",
+      "destination": "/food/national-chocolate-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-beer-day",
+      "destination": "/food/national-beer-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hot-dog-day",
+      "destination": "/food/national-hot-dog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pancake-day",
+      "destination": "/food/national-pancake-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grilled-cheese-day",
+      "destination": "/food/national-grilled-cheese-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sushi-day",
+      "destination": "/food/national-sushi-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-barbecue-day",
+      "destination": "/food/national-barbecue-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheese-day",
+      "destination": "/food/national-cheese-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smoothie-day",
+      "destination": "/food/national-smoothie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-waffle-day",
+      "destination": "/food/national-waffle-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-nacho-day",
+      "destination": "/food/national-nacho-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smoothie-bowl-day",
+      "destination": "/food/national-smoothie-bowl-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-avocado-day",
+      "destination": "/food/national-avocado-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-soup-day",
+      "destination": "/food/national-soup-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-salad-day",
+      "destination": "/food/national-salad-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pie-day",
+      "destination": "/food/national-pie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cereal-day",
+      "destination": "/food/national-cereal-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bagel-day",
+      "destination": "/food/national-bagel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-muffin-day",
+      "destination": "/food/national-muffin-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-rice-day",
+      "destination": "/food/national-rice-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-oatmeal-day",
+      "destination": "/food/national-oatmeal-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-vegetarian-day",
+      "destination": "/food/national-vegetarian-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-spice-day",
+      "destination": "/food/national-spice-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tea-day",
+      "destination": "/food/national-tea-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-popcorn-day",
+      "destination": "/food/national-popcorn-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-yogurt-day",
+      "destination": "/food/national-yogurt-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-granola-day",
+      "destination": "/food/national-granola-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-apple-pie-day",
+      "destination": "/food/national-apple-pie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-baseball-day",
+      "destination": "/food/national-baseball-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bbq-day",
+      "destination": "/food/national-bbq-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wings-day",
+      "destination": "/food/national-wings-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mac-and-cheese-day",
+      "destination": "/food/national-mac-and-cheese-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fried-chicken-day",
+      "destination": "/food/national-fried-chicken-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-soul-food-day",
+      "destination": "/food/national-soul-food-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-butter-day-spread",
+      "destination": "/food/national-peanut-butter-day-spread/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smores-day-camping",
+      "destination": "/food/national-smores-day-camping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-corn-on-the-cob-day-summer",
+      "destination": "/food/national-corn-on-the-cob-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-biscuit-day-southern",
+      "destination": "/food/national-biscuit-day-southern/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-waffle-iron-day-breakfast",
+      "destination": "/food/national-waffle-iron-day-breakfast/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lobster-day-seafood",
+      "destination": "/food/national-lobster-day-seafood/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-french-fry-day-fast-food",
+      "destination": "/food/national-french-fry-day-fast-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chicken-wing-day-buffalo",
+      "destination": "/food/national-chicken-wing-day-buffalo/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheeseburger-day-deals",
+      "destination": "/food/national-cheeseburger-day-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-margarita-day-cocktails",
+      "destination": "/food/national-margarita-day-cocktails/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bacon-day-breakfast",
+      "destination": "/food/national-bacon-day-breakfast/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-burrito-day-mexican-food",
+      "destination": "/food/national-burrito-day-mexican-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-guacamole-day-avocado",
+      "destination": "/food/national-guacamole-day-avocado/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fried-chicken-sandwich-day-fast-food",
+      "destination": "/food/national-fried-chicken-sandwich-day-fast-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-milkshake-day-ice-cream",
+      "destination": "/food/national-milkshake-day-ice-cream/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lasagna-day-italian-food",
+      "destination": "/food/national-lasagna-day-italian-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-spinach-day-healthy",
+      "destination": "/food/national-spinach-day-healthy/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grilled-cheese-sandwich-day-comfort",
+      "destination": "/food/national-grilled-cheese-sandwich-day-comfort/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-strawberry-day-berry",
+      "destination": "/food/national-strawberry-day-berry/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coconut-cream-pie-day-dessert",
+      "destination": "/food/national-coconut-cream-pie-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheesesteak-day-philly",
+      "destination": "/food/national-cheesesteak-day-philly/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-chip-cookie-day-baking",
+      "destination": "/food/national-chocolate-chip-cookie-day-baking/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cinnamon-roll-day-sweet",
+      "destination": "/food/national-cinnamon-roll-day-sweet/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-oreo-cookie-day-march-6",
+      "destination": "/food/national-oreo-cookie-day-march-6/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-caramel-day-april-5",
+      "destination": "/food/national-caramel-day-april-5/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chili-day-february",
+      "destination": "/food/national-chili-day-february/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-butterscotch-pudding-day-september",
+      "destination": "/food/national-butterscotch-pudding-day-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eggs-benedict-day-april-16-brunch",
+      "destination": "/food/national-eggs-benedict-day-april-16-brunch/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-cluster-day-march-8-candy",
+      "destination": "/food/national-peanut-cluster-day-march-8-candy/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-quinoa-day",
+      "destination": "/food/national-quinoa-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-artichoke-day",
+      "destination": "/food/national-artichoke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-falafel-day",
+      "destination": "/food/national-falafel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kombucha-day",
+      "destination": "/food/national-kombucha-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-edamame-day-september",
+      "destination": "/food/national-edamame-day-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-miso-soup-day-january",
+      "destination": "/food/national-miso-soup-day-january/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-heart-day",
+      "destination": "/awareness-health/world-heart-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-teachers-day",
+      "destination": "/awareness-health/world-teachers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mammography-day",
+      "destination": "/awareness-health/national-mammography-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-health-day",
+      "destination": "/awareness-health/world-health-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stress-awareness-day",
+      "destination": "/awareness-health/national-stress-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-meditation-day",
+      "destination": "/awareness-health/national-meditation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fitness-day",
+      "destination": "/awareness-health/national-fitness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sleep-day",
+      "destination": "/awareness-health/national-sleep-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-nutrition-month",
+      "destination": "/awareness-health/national-nutrition-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mental-health-day",
+      "destination": "/awareness-health/national-mental-health-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mindfulness-day",
+      "destination": "/awareness-health/national-mindfulness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-digital-wellness-day",
+      "destination": "/awareness-health/national-digital-wellness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-literacy-awareness-day",
+      "destination": "/awareness-health/national-literacy-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cybersecurity-awareness-day",
+      "destination": "/awareness-health/national-cybersecurity-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-environmental-education-day",
+      "destination": "/awareness-health/national-environmental-education-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-autism-awareness-day",
+      "destination": "/awareness-health/national-autism-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-disaster-preparedness-day",
+      "destination": "/awareness-health/national-disaster-preparedness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-blood-donor-day",
+      "destination": "/awareness-health/national-blood-donor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-organ-donor-day",
+      "destination": "/awareness-health/national-organ-donor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cancer-awareness-day",
+      "destination": "/awareness-health/national-cancer-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mental-health-awareness-day",
+      "destination": "/awareness-health/national-mental-health-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-recycling-day",
+      "destination": "/awareness-health/national-recycling-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-diabetes-awareness-day",
+      "destination": "/awareness-health/national-diabetes-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-alzheimers-awareness-day",
+      "destination": "/awareness-health/national-alzheimers-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cancer-survivors-day",
+      "destination": "/awareness-health/national-cancer-survivors-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-suicide-prevention-day",
+      "destination": "/awareness-health/national-suicide-prevention-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-recovery-month",
+      "destination": "/awareness-health/national-recovery-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donate-life-month",
+      "destination": "/awareness-health/national-donate-life-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-breast-cancer-awareness-month",
+      "destination": "/awareness-health/national-breast-cancer-awareness-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donate-life-day-organ",
+      "destination": "/awareness-health/national-donate-life-day-organ/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-diabetes-awareness-month-november",
+      "destination": "/awareness-health/national-diabetes-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-heart-health-month-february",
+      "destination": "/awareness-health/national-heart-health-month-february/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-alzheimers-awareness-month-november",
+      "destination": "/awareness-health/national-alzheimers-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stroke-awareness-month-may",
+      "destination": "/awareness-health/national-stroke-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-immunization-awareness-month-august",
+      "destination": "/awareness-health/national-immunization-awareness-month-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-obesity-awareness-month-september",
+      "destination": "/awareness-health/national-obesity-awareness-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-depression-screening-day-awareness",
+      "destination": "/awareness-health/national-depression-screening-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-physical-therapy-month-october",
+      "destination": "/awareness-health/national-physical-therapy-month-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cholesterol-education-month-september",
+      "destination": "/awareness-health/national-cholesterol-education-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pain-awareness-month-september",
+      "destination": "/awareness-health/national-pain-awareness-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-prostate-health-month-september",
+      "destination": "/awareness-health/national-prostate-health-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bone-joint-health-week-october",
+      "destination": "/awareness-health/national-bone-joint-health-week-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-poison-prevention-week-march",
+      "destination": "/awareness-health/national-poison-prevention-week-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-safety-month-june",
+      "destination": "/awareness-health/national-safety-month-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-preparedness-month-september",
+      "destination": "/awareness-health/national-preparedness-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-yoga-month-september",
+      "destination": "/awareness-health/national-yoga-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chiropractic-health-month-october",
+      "destination": "/awareness-health/national-chiropractic-health-month-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dental-hygiene-month-october",
+      "destination": "/awareness-health/national-dental-hygiene-month-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-vision-learning-month-august",
+      "destination": "/awareness-health/national-vision-learning-month-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-spinal-cord-injury-month-september",
+      "destination": "/awareness-health/national-spinal-cord-injury-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hepatitis-awareness-month-may",
+      "destination": "/awareness-health/national-hepatitis-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-celiac-disease-awareness-month-may",
+      "destination": "/awareness-health/national-celiac-disease-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-scoliosis-awareness-month-june",
+      "destination": "/awareness-health/national-scoliosis-awareness-month-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-healthy-skin-month-november",
+      "destination": "/awareness-health/national-healthy-skin-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lung-cancer-awareness-month-november",
+      "destination": "/awareness-health/national-lung-cancer-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-epilepsy-awareness-month-november",
+      "destination": "/awareness-health/national-epilepsy-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-influenza-vaccination-week-december",
+      "destination": "/awareness-health/national-influenza-vaccination-week-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hand-washing-awareness-week-december",
+      "destination": "/awareness-health/national-hand-washing-awareness-week-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-autism-awareness-month-april",
+      "destination": "/awareness-health/national-autism-awareness-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bone-marrow-donor-awareness-november",
+      "destination": "/awareness-health/national-bone-marrow-donor-awareness-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-glaucoma-awareness-january",
+      "destination": "/awareness-health/national-glaucoma-awareness-january/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kidney-month-march",
+      "destination": "/awareness-health/national-kidney-month-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-migraine-headache-awareness-june",
+      "destination": "/awareness-health/national-migraine-headache-awareness-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ptsd-awareness-june",
+      "destination": "/awareness-health/national-ptsd-awareness-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-minority-health-month-april",
+      "destination": "/awareness-health/national-minority-health-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-healthy-vision-month-may",
+      "destination": "/awareness-health/national-healthy-vision-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-distracted-driving-awareness-april-safety",
+      "destination": "/awareness-health/national-distracted-driving-awareness-april-safety/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eating-disorders-awareness-week-february-health",
+      "destination": "/awareness-health/national-eating-disorders-awareness-week-february-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-childhood-obesity-awareness-september-health",
+      "destination": "/awareness-health/national-childhood-obesity-awareness-september-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-diabetes-day-november-14",
+      "destination": "/awareness-health/world-diabetes-day-november-14/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-colorectal-cancer-awareness-march-health",
+      "destination": "/awareness-health/national-colorectal-cancer-awareness-march-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eye-exam-month-august-vision",
+      "destination": "/awareness-health/national-eye-exam-month-august-vision/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sleep-awareness-week-march",
+      "destination": "/awareness-health/national-sleep-awareness-week-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kidney-health-month-march",
+      "destination": "/awareness-health/national-kidney-health-month-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stress-awareness-month-april",
+      "destination": "/awareness-health/national-stress-awareness-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-skin-cancer-awareness-month-may",
+      "destination": "/awareness-health/national-skin-cancer-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pet-day",
+      "destination": "/animals-pets/national-pet-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dog-day",
+      "destination": "/animals-pets/national-dog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cat-day",
+      "destination": "/animals-pets/national-cat-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bird-day",
+      "destination": "/animals-pets/national-bird-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fish-day",
+      "destination": "/animals-pets/national-fish-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pet-adoption-day",
+      "destination": "/animals-pets/national-pet-adoption-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-day",
+      "destination": "/animals-pets/national-wildlife-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-elephant-day",
+      "destination": "/animals-pets/national-elephant-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-rabbit-day",
+      "destination": "/animals-pets/national-rabbit-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-horse-day",
+      "destination": "/animals-pets/national-horse-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-turtle-day",
+      "destination": "/animals-pets/national-turtle-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-butterfly-day",
+      "destination": "/animals-pets/national-butterfly-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-penguin-day",
+      "destination": "/animals-pets/national-penguin-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bee-day",
+      "destination": "/animals-pets/national-bee-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-koala-day",
+      "destination": "/animals-pets/national-koala-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shark-day",
+      "destination": "/animals-pets/national-shark-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-squirrel-day",
+      "destination": "/animals-pets/national-squirrel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dolphin-day",
+      "destination": "/animals-pets/national-dolphin-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-panda-day",
+      "destination": "/animals-pets/national-panda-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hedgehog-day",
+      "destination": "/animals-pets/national-hedgehog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-whale-day",
+      "destination": "/animals-pets/national-whale-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sloth-day",
+      "destination": "/animals-pets/national-sloth-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-puppy-day-celebration",
+      "destination": "/animals-pets/national-puppy-day-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ferret-day-pets",
+      "destination": "/animals-pets/national-ferret-day-pets/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-feral-cat-day-awareness",
+      "destination": "/animals-pets/national-feral-cat-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-guide-dog-day-service",
+      "destination": "/animals-pets/national-guide-dog-day-service/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chicken-month-september",
+      "destination": "/animals-pets/national-chicken-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mutt-day-mixed-breed",
+      "destination": "/animals-pets/national-mutt-day-mixed-breed/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-rehabilitation-day-rescue",
+      "destination": "/animals-pets/national-wildlife-rehabilitation-day-rescue/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-k9-veterans-day-military",
+      "destination": "/animals-pets/national-k9-veterans-day-military/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kitten-day-adorable",
+      "destination": "/animals-pets/national-kitten-day-adorable/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-guinea-pig-appreciation-day",
+      "destination": "/animals-pets/national-guinea-pig-appreciation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hamster-day-small-pets",
+      "destination": "/animals-pets/national-hamster-day-small-pets/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-reptile-awareness-day-lizards",
+      "destination": "/animals-pets/national-reptile-awareness-day-lizards/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-aquarium-day-fish-tanks",
+      "destination": "/animals-pets/national-aquarium-day-fish-tanks/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-parakeet-day-budgies",
+      "destination": "/animals-pets/national-parakeet-day-budgies/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-parrot-day-tropical-birds",
+      "destination": "/animals-pets/national-parrot-day-tropical-birds/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-alpaca-day-fiber-animals",
+      "destination": "/animals-pets/national-alpaca-day-fiber-animals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-llama-day-pack-animals",
+      "destination": "/animals-pets/national-llama-day-pack-animals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pygmy-goat-day-miniature",
+      "destination": "/animals-pets/national-pygmy-goat-day-miniature/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-miniature-horse-day-tiny",
+      "destination": "/animals-pets/national-miniature-horse-day-tiny/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donkey-day-burros",
+      "destination": "/animals-pets/national-donkey-day-burros/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-barn-cat-day-working-cats",
+      "destination": "/animals-pets/national-barn-cat-day-working-cats/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-therapy-animal-day-service",
+      "destination": "/animals-pets/national-therapy-animal-day-service/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-foster-a-pet-month-june",
+      "destination": "/animals-pets/national-foster-a-pet-month-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-black-cat-appreciation-day-adoption",
+      "destination": "/animals-pets/national-black-cat-appreciation-day-adoption/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-senior-pet-day-older-animals",
+      "destination": "/animals-pets/national-senior-pet-day-older-animals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pet-obesity-awareness-day-health",
+      "destination": "/animals-pets/national-pet-obesity-awareness-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-squirrel-appreciation-day-wildlife",
+      "destination": "/animals-pets/national-squirrel-appreciation-day-wildlife/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-horse-protection-day-equine",
+      "destination": "/animals-pets/national-horse-protection-day-equine/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-refuges-day-conservation",
+      "destination": "/animals-pets/national-wildlife-refuges-day-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dress-up-your-pet-day-fun-costumes",
+      "destination": "/animals-pets/national-dress-up-your-pet-day-fun-costumes/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-answer-your-cats-questions-day-funny",
+      "destination": "/animals-pets/national-answer-your-cats-questions-day-funny/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-miniature-donkey-day-cute",
+      "destination": "/animals-pets/national-miniature-donkey-day-cute/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-zoo-lovers-day-april-8",
+      "destination": "/animals-pets/national-zoo-lovers-day-april-8/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-service-dog-month-september",
+      "destination": "/animals-pets/national-service-dog-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shelter-dog-month-august",
+      "destination": "/animals-pets/national-shelter-dog-month-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-adopt-rescued-rabbit-month-february",
+      "destination": "/animals-pets/national-adopt-rescued-rabbit-month-february/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-save-the-elephant-day-april",
+      "destination": "/animals-pets/national-save-the-elephant-day-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-iguana-awareness-day-september",
+      "destination": "/animals-pets/national-iguana-awareness-day-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-federation-week-nature-conservation",
+      "destination": "/animals-pets/national-wildlife-federation-week-nature-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-snake-day-july-16-reptile-awareness",
+      "destination": "/animals-pets/world-snake-day-july-16-reptile-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-boss-day",
+      "destination": "/fun-weird/national-boss-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/daylight-saving-time-ends",
+      "destination": "/fun-weird/daylight-saving-time-ends/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ugly-christmas-sweater-day",
+      "destination": "/fun-weird/national-ugly-christmas-sweater-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-siblings-day",
+      "destination": "/fun-weird/national-siblings-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-work-from-home-day",
+      "destination": "/fun-weird/national-work-from-home-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-random-acts-of-kindness-day",
+      "destination": "/fun-weird/national-random-acts-of-kindness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-employee-appreciation-day",
+      "destination": "/fun-weird/national-employee-appreciation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gardening-day",
+      "destination": "/fun-weird/national-gardening-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-picnic-day",
+      "destination": "/fun-weird/national-picnic-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-joke-day",
+      "destination": "/fun-weird/national-joke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-take-a-walk-day",
+      "destination": "/fun-weird/national-take-a-walk-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-laugh-day",
+      "destination": "/fun-weird/national-laugh-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smile-day",
+      "destination": "/fun-weird/national-smile-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-happiness-day",
+      "destination": "/fun-weird/national-happiness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pajama-day",
+      "destination": "/fun-weird/national-pajama-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-board-game-day",
+      "destination": "/fun-weird/national-board-game-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bubble-wrap-day",
+      "destination": "/fun-weird/national-bubble-wrap-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-backwards-day",
+      "destination": "/fun-weird/national-backwards-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-video-game-day",
+      "destination": "/fun-weird/national-video-game-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dance-day",
+      "destination": "/fun-weird/national-dance-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-puzzle-day",
+      "destination": "/fun-weird/national-puzzle-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-karaoke-day",
+      "destination": "/fun-weird/national-karaoke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-magic-day",
+      "destination": "/fun-weird/national-magic-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-trivia-day",
+      "destination": "/fun-weird/national-trivia-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-opposite-day",
+      "destination": "/fun-weird/national-opposite-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-compliment-day",
+      "destination": "/fun-weird/national-compliment-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tell-a-joke-day",
+      "destination": "/fun-weird/national-tell-a-joke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-play-outside-day",
+      "destination": "/fun-weird/national-play-outside-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-football-day",
+      "destination": "/fun-weird/national-football-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tailgating-day",
+      "destination": "/fun-weird/national-tailgating-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-drive-in-movie-day",
+      "destination": "/fun-weird/national-drive-in-movie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-state-fair-day",
+      "destination": "/fun-weird/national-state-fair-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-county-fair-day",
+      "destination": "/fun-weird/national-county-fair-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-road-trip-day",
+      "destination": "/fun-weird/national-road-trip-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tell-a-fairy-tale-day-stories",
+      "destination": "/fun-weird/national-tell-a-fairy-tale-day-stories/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-banana-split-day-dessert",
+      "destination": "/fun-weird/national-banana-split-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-two-different-colored-shoes-day-quirky",
+      "destination": "/fun-weird/national-two-different-colored-shoes-day-quirky/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wiggle-your-toes-day-weird",
+      "destination": "/fun-weird/national-wiggle-your-toes-day-weird/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-video-games-day-gaming",
+      "destination": "/fun-weird/national-video-games-day-gaming/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kazoo-day-music",
+      "destination": "/fun-weird/national-kazoo-day-music/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-rubber-ducky-day-bath",
+      "destination": "/fun-weird/national-rubber-ducky-day-bath/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hugging-day-affection",
+      "destination": "/fun-weird/national-hugging-day-affection/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pb-and-j-day-sandwich",
+      "destination": "/fun-weird/national-pb-and-j-day-sandwich/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-thrift-shop-day-secondhand",
+      "destination": "/fun-weird/national-thrift-shop-day-secondhand/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lost-sock-memorial-day-laundry",
+      "destination": "/fun-weird/national-lost-sock-memorial-day-laundry/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coloring-book-day-art",
+      "destination": "/fun-weird/national-coloring-book-day-art/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-goof-off-day-fun",
+      "destination": "/fun-weird/national-goof-off-day-fun/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ding-a-ling-day-phone",
+      "destination": "/fun-weird/national-ding-a-ling-day-phone/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-superhero-day-comics",
+      "destination": "/fun-weird/national-superhero-day-comics/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-walk-to-work-day-health",
+      "destination": "/fun-weird/national-walk-to-work-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hug-your-cat-day-pets",
+      "destination": "/fun-weird/national-hug-your-cat-day-pets/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheeseball-day-appetizer",
+      "destination": "/fun-weird/national-cheeseball-day-appetizer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-junk-food-day-treats",
+      "destination": "/fun-weird/national-junk-food-day-treats/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-sandwich-day-dessert",
+      "destination": "/fun-weird/national-ice-cream-sandwich-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bike-to-work-day-cycling",
+      "destination": "/fun-weird/national-bike-to-work-day-cycling/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-relaxation-day-chill",
+      "destination": "/fun-weird/national-relaxation-day-chill/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bubble-wrap-appreciation-day-pop",
+      "destination": "/fun-weird/national-bubble-wrap-appreciation-day-pop/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-backward-day-opposite",
+      "destination": "/fun-weird/national-backward-day-opposite/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-skip-the-straw-day-environment",
+      "destination": "/fun-weird/national-skip-the-straw-day-environment/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wear-red-day-heart-health",
+      "destination": "/fun-weird/national-wear-red-day-heart-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-no-housework-day-lazy",
+      "destination": "/fun-weird/national-no-housework-day-lazy/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-talk-like-pirate-day-arrr",
+      "destination": "/fun-weird/national-talk-like-pirate-day-arrr/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wear-pajamas-to-work-day",
+      "destination": "/fun-weird/national-wear-pajamas-to-work-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pack-your-lunch-day-savings",
+      "destination": "/fun-weird/national-pack-your-lunch-day-savings/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-make-a-friend-day-social",
+      "destination": "/fun-weird/national-make-a-friend-day-social/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-clean-out-refrigerator-day",
+      "destination": "/fun-weird/national-clean-out-refrigerator-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-leave-office-early-day-work-life",
+      "destination": "/fun-weird/national-leave-office-early-day-work-life/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-clean-your-desk-day-organization",
+      "destination": "/fun-weird/national-clean-your-desk-day-organization/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-napping-day-sleep",
+      "destination": "/fun-weird/national-napping-day-sleep/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dance-like-chicken-day-silly",
+      "destination": "/fun-weird/national-dance-like-chicken-day-silly/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-button-day-sewing",
+      "destination": "/fun-weird/national-button-day-sewing/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-blame-someone-else-day-humor",
+      "destination": "/fun-weird/national-blame-someone-else-day-humor/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-absurdity-day-weird",
+      "destination": "/fun-weird/national-absurdity-day-weird/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-popcorn-lovers-day-snack-fan",
+      "destination": "/fun-weird/national-popcorn-lovers-day-snack-fan/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-talk-in-elevator-day-awkward",
+      "destination": "/fun-weird/national-talk-in-elevator-day-awkward/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-selfie-day-photo-social",
+      "destination": "/fun-weird/national-selfie-day-photo-social/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-yo-yo-day-june-6",
+      "destination": "/fun-weird/national-yo-yo-day-june-6/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-play-monopoly-day-november",
+      "destination": "/fun-weird/national-play-monopoly-day-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-look-on-bright-side-day-december-21",
+      "destination": "/fun-weird/national-look-on-bright-side-day-december-21/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-name-yourself-day-april-9",
+      "destination": "/fun-weird/national-name-yourself-day-april-9/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-write-letter-appreciation-week-march-gratitude",
+      "destination": "/fun-weird/national-write-letter-appreciation-week-march-gratitude/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bathtub-party-day-december-5-fun",
+      "destination": "/fun-weird/national-bathtub-party-day-december-5-fun/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-do-something-nice-day-october",
+      "destination": "/fun-weird/national-do-something-nice-day-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/columbus-day",
+      "destination": "/holiday/columbus-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/halloween",
+      "destination": "/holiday/halloween/",
+      "permanent": true
+    },
+    {
+      "source": "/other/veterans-day",
+      "destination": "/holiday/veterans-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/thanksgiving-day",
+      "destination": "/holiday/thanksgiving-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/hanukkah-2026",
+      "destination": "/holiday/hanukkah-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/other/christmas-eve",
+      "destination": "/holiday/christmas-eve/",
+      "permanent": true
+    },
+    {
+      "source": "/other/christmas-day",
+      "destination": "/holiday/christmas-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/new-years-eve",
+      "destination": "/holiday/new-years-eve/",
+      "permanent": true
+    },
+    {
+      "source": "/other/presidents-day",
+      "destination": "/holiday/presidents-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/labor-day",
+      "destination": "/holiday/labor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/martin-luther-king-jr-day",
+      "destination": "/holiday/martin-luther-king-jr-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/memorial-day",
+      "destination": "/holiday/memorial-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/independence-day",
+      "destination": "/holiday/independence-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/earth-day",
+      "destination": "/holiday/earth-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/flag-day",
+      "destination": "/holiday/flag-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/arbor-day",
+      "destination": "/holiday/arbor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/juneteenth",
+      "destination": "/holiday/juneteenth/",
+      "permanent": true
+    },
+    {
+      "source": "/other/valentines-day",
+      "destination": "/holiday/valentines-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/new-years-day",
+      "destination": "/holiday/new-years-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/st-patricks-day",
+      "destination": "/holiday/st-patricks-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/easter",
+      "destination": "/holiday/easter/",
+      "permanent": true
+    },
+    {
+      "source": "/other/groundhog-day",
+      "destination": "/holiday/groundhog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/super-bowl-sunday",
+      "destination": "/holiday/super-bowl-sunday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/mothers-day",
+      "destination": "/holiday/mothers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/fathers-day",
+      "destination": "/holiday/fathers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/cinco-de-mayo",
+      "destination": "/holiday/cinco-de-mayo/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-constitution-day-america",
+      "destination": "/holiday/national-constitution-day-america/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-native-american-heritage-day",
+      "destination": "/holiday/national-native-american-heritage-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gold-star-mothers-day",
+      "destination": "/holiday/national-gold-star-mothers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-freedom-day-america",
+      "destination": "/holiday/national-freedom-day-america/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-day-of-prayer-america",
+      "destination": "/holiday/national-day-of-prayer-america/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-public-lands-day-conservation",
+      "destination": "/holiday/national-public-lands-day-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-vietnam-war-veterans-day",
+      "destination": "/holiday/national-vietnam-war-veterans-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/presidents-day-washington-lincoln",
+      "destination": "/holiday/presidents-day-washington-lincoln/",
+      "permanent": true
+    },
+    {
+      "source": "/other/pearl-harbor-remembrance-day-ww2",
+      "destination": "/holiday/pearl-harbor-remembrance-day-ww2/",
+      "permanent": true
+    },
+    {
+      "source": "/other/kwanzaa-african-american-celebration",
+      "destination": "/holiday/kwanzaa-african-american-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/passover-jewish-holiday",
+      "destination": "/holiday/passover-jewish-holiday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/ramadan-islamic-holy-month",
+      "destination": "/holiday/ramadan-islamic-holy-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/diwali-festival-of-lights",
+      "destination": "/holiday/diwali-festival-of-lights/",
+      "permanent": true
+    },
+    {
+      "source": "/other/rosh-hashanah-jewish-new-year",
+      "destination": "/holiday/rosh-hashanah-jewish-new-year/",
+      "permanent": true
+    },
+    {
+      "source": "/other/yom-kippur-day-of-atonement",
+      "destination": "/holiday/yom-kippur-day-of-atonement/",
+      "permanent": true
+    },
+    {
+      "source": "/other/dia-de-los-muertos-day-of-the-dead",
+      "destination": "/holiday/dia-de-los-muertos-day-of-the-dead/",
+      "permanent": true
+    },
+    {
+      "source": "/other/lunar-new-year-spring-festival",
+      "destination": "/holiday/lunar-new-year-spring-festival/",
+      "permanent": true
+    },
+    {
+      "source": "/other/mardi-gras-fat-tuesday-celebration",
+      "destination": "/holiday/mardi-gras-fat-tuesday-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/bastille-day-july",
+      "destination": "/holiday/bastille-day-july/",
+      "permanent": true
+    },
+    {
+      "source": "/other/black-friday",
+      "destination": "/shopping-deals/black-friday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/cyber-monday",
+      "destination": "/shopping-deals/cyber-monday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-small-business-saturday",
+      "destination": "/shopping-deals/national-small-business-saturday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/small-business-saturday",
+      "destination": "/shopping-deals/small-business-saturday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shopping-day",
+      "destination": "/shopping-deals/national-shopping-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bargain-hunting-day",
+      "destination": "/shopping-deals/national-bargain-hunting-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coupon-day",
+      "destination": "/shopping-deals/national-coupon-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-retail-day",
+      "destination": "/shopping-deals/national-retail-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shop-local-day",
+      "destination": "/shopping-deals/national-shop-local-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-online-shopping-day",
+      "destination": "/shopping-deals/national-online-shopping-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gift-card-day",
+      "destination": "/shopping-deals/national-gift-card-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mall-day",
+      "destination": "/shopping-deals/national-mall-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-garage-sale-day",
+      "destination": "/shopping-deals/national-garage-sale-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shopping-reminder-day-november",
+      "destination": "/shopping-deals/national-shopping-reminder-day-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-free-shipping-day-december",
+      "destination": "/shopping-deals/national-free-shipping-day-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-clearance-day-shopping",
+      "destination": "/shopping-deals/national-clearance-day-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coupon-month-september",
+      "destination": "/shopping-deals/national-coupon-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shop-small-saturday-business",
+      "destination": "/shopping-deals/national-shop-small-saturday-business/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-secondhand-wardrobe-day-thrift",
+      "destination": "/shopping-deals/national-secondhand-wardrobe-day-thrift/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bargain-hunting-week-deals",
+      "destination": "/shopping-deals/national-bargain-hunting-week-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-retail-gift-card-day-cards",
+      "destination": "/shopping-deals/national-retail-gift-card-day-cards/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-returns-day-shopping",
+      "destination": "/shopping-deals/national-returns-day-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/singles-day-shopping-global",
+      "destination": "/shopping-deals/singles-day-shopping-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/green-monday-shopping-holiday",
+      "destination": "/shopping-deals/green-monday-shopping-holiday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/super-saturday-shopping-christmas",
+      "destination": "/shopping-deals/super-saturday-shopping-christmas/",
+      "permanent": true
+    },
+    {
+      "source": "/other/travel-tuesday-deals-cyber-week",
+      "destination": "/shopping-deals/travel-tuesday-deals-cyber-week/",
+      "permanent": true
+    },
+    {
+      "source": "/other/restaurant-week-dining-deals",
+      "destination": "/shopping-deals/restaurant-week-dining-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coffee-day-commercial-deals",
+      "destination": "/shopping-deals/national-coffee-day-commercial-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/free-slurpee-day-7-eleven",
+      "destination": "/shopping-deals/free-slurpee-day-7-eleven/",
+      "permanent": true
+    },
+    {
+      "source": "/other/tax-day-deals-promotions",
+      "destination": "/shopping-deals/tax-day-deals-promotions/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pizza-day-commercial-deals",
+      "destination": "/shopping-deals/national-pizza-day-commercial-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheesecake-day-restaurant-deals",
+      "destination": "/shopping-deals/national-cheesecake-day-restaurant-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-doughnut-day-free-donuts-deals",
+      "destination": "/shopping-deals/national-doughnut-day-free-donuts-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/amazon-prime-day-mega-sale",
+      "destination": "/shopping-deals/amazon-prime-day-mega-sale/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-day-free-scoops",
+      "destination": "/shopping-deals/national-ice-cream-day-free-scoops/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-thrift-store-day-secondhand-shopping",
+      "destination": "/shopping-deals/national-thrift-store-day-secondhand-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bookstore-day-august",
+      "destination": "/shopping-deals/national-bookstore-day-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-antique-day-april",
+      "destination": "/shopping-deals/national-antique-day-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-record-store-day-april",
+      "destination": "/shopping-deals/national-record-store-day-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-back-to-school-day",
+      "destination": "/national/national-back-to-school-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-technology-day",
+      "destination": "/national/national-technology-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-reading-day",
+      "destination": "/national/national-reading-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-astronomy-day",
+      "destination": "/national/national-astronomy-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-family-day",
+      "destination": "/national/national-family-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-music-day",
+      "destination": "/national/national-music-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-friendship-day",
+      "destination": "/national/national-friendship-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-art-day",
+      "destination": "/national/national-art-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-internet-day",
+      "destination": "/national/national-internet-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-photography-day",
+      "destination": "/national/national-photography-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-creativity-day",
+      "destination": "/national/national-creativity-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gratitude-day",
+      "destination": "/national/national-gratitude-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-science-day",
+      "destination": "/national/national-science-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-innovation-day",
+      "destination": "/national/national-innovation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-entrepreneurship-day",
+      "destination": "/national/national-entrepreneurship-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mentorship-day",
+      "destination": "/national/national-mentorship-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-library-day",
+      "destination": "/national/national-library-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-education-day",
+      "destination": "/national/national-education-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-leadership-day",
+      "destination": "/national/national-leadership-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-american-history-day",
+      "destination": "/national/national-american-history-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-small-business-day",
+      "destination": "/national/national-small-business-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-armed-forces-day",
+      "destination": "/national/national-armed-forces-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-4th-of-july-weekend",
+      "destination": "/national/national-4th-of-july-weekend/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-american-dream-day",
+      "destination": "/national/national-american-dream-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-space-exploration-day-usa",
+      "destination": "/national/national-space-exploration-day-usa/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dentist-day-health",
+      "destination": "/national/national-dentist-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-agriculture-day-farming",
+      "destination": "/national/national-agriculture-day-farming/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-school-librarian-day-education",
+      "destination": "/national/national-school-librarian-day-education/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-high-five-day-celebration",
+      "destination": "/national/national-high-five-day-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-teacher-appreciation-day-education",
+      "destination": "/national/national-teacher-appreciation-day-education/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-astronaut-day-space",
+      "destination": "/national/national-astronaut-day-space/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-inventors-day-innovation",
+      "destination": "/national/national-inventors-day-innovation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-book-lovers-day-reading",
+      "destination": "/national/national-book-lovers-day-reading/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-parks-week-conservation",
+      "destination": "/national/national-parks-week-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-first-responders-day-heroes",
+      "destination": "/national/national-first-responders-day-heroes/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-nurses-day-healthcare",
+      "destination": "/national/national-nurses-day-healthcare/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-police-week-law-enforcement",
+      "destination": "/national/national-police-week-law-enforcement/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-disability-employment-awareness-month",
+      "destination": "/national/national-disability-employment-awareness-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stem-day-science",
+      "destination": "/national/national-stem-day-science/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-doughnut-day-free-donuts",
+      "destination": "/national/national-doughnut-day-free-donuts/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cinema-day-movies",
+      "destination": "/national/national-cinema-day-movies/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-streaming-day-entertainment",
+      "destination": "/national/national-streaming-day-entertainment/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grilling-month-summer",
+      "destination": "/national/national-grilling-month-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-candy-corn-day-halloween",
+      "destination": "/national/national-candy-corn-day-halloween/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pumpkin-day-fall",
+      "destination": "/national/national-pumpkin-day-fall/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-watermelon-day-summer",
+      "destination": "/national/national-watermelon-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-baking-soda-day",
+      "destination": "/national/national-baking-soda-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-iced-tea-day-summer",
+      "destination": "/national/national-iced-tea-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lemonade-day-summer",
+      "destination": "/national/national-lemonade-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-root-beer-float-day",
+      "destination": "/national/national-root-beer-float-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cupcake-day-dessert",
+      "destination": "/national/national-cupcake-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-sundae-day",
+      "destination": "/national/national-ice-cream-sundae-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-day-american",
+      "destination": "/national/national-peanut-day-american/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eat-outside-day-picnic",
+      "destination": "/national/national-eat-outside-day-picnic/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-farmers-market-week",
+      "destination": "/national/national-farmers-market-week/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-roller-coaster-day-thrills",
+      "destination": "/national/national-roller-coaster-day-thrills/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-waterpark-day-summer",
+      "destination": "/national/national-waterpark-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fantasy-football-draft-day",
+      "destination": "/national/national-fantasy-football-draft-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donut-day-free-deals",
+      "destination": "/national/national-donut-day-free-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-military-appreciation-month-may",
+      "destination": "/national/national-military-appreciation-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-native-american-heritage-month-november",
+      "destination": "/national/national-native-american-heritage-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-teacher-appreciation-week-may",
+      "destination": "/national/national-teacher-appreciation-week-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-school-lunch-week-nutrition",
+      "destination": "/national/national-school-lunch-week-nutrition/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-drive-thru-day-fast-food",
+      "destination": "/national/national-drive-thru-day-fast-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-family-week-thanksgiving",
+      "destination": "/national/national-family-week-thanksgiving/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grandparents-day-family",
+      "destination": "/national/national-grandparents-day-family/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-law-enforcement-appreciation-day-january",
+      "destination": "/national/national-law-enforcement-appreciation-day-january/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-take-a-hike-day-november-17-outdoors",
+      "destination": "/national/national-take-a-hike-day-november-17-outdoors/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-volunteer-month-april",
+      "destination": "/national/national-volunteer-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-small-business-week-may",
+      "destination": "/national/national-small-business-week-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-library-week-april",
+      "destination": "/national/national-library-week-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-womens-day",
+      "destination": "/international/international-womens-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-environment-day",
+      "destination": "/international/world-environment-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-friendship",
+      "destination": "/international/international-day-of-friendship/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-kindness-day-international",
+      "destination": "/international/world-kindness-day-international/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-food-day-international",
+      "destination": "/international/world-food-day-international/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-book-day-international",
+      "destination": "/international/world-book-day-international/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ocean-day",
+      "destination": "/international/national-ocean-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-peace",
+      "destination": "/international/international-day-of-peace/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-music-day",
+      "destination": "/international/international-music-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-yoga-day",
+      "destination": "/international/international-yoga-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-oceans-day",
+      "destination": "/international/world-oceans-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-happiness",
+      "destination": "/international/international-day-of-happiness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-water-day",
+      "destination": "/international/world-water-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-families",
+      "destination": "/international/international-day-of-families/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-photography-day-global",
+      "destination": "/international/world-photography-day-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-tourism-day-travel",
+      "destination": "/international/world-tourism-day-travel/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-dance-day-celebration",
+      "destination": "/international/world-dance-day-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-bee-day-pollinators",
+      "destination": "/international/world-bee-day-pollinators/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-emoji-day-digital",
+      "destination": "/international/world-emoji-day-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-chocolate-day-global",
+      "destination": "/international/world-chocolate-day-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-nutella-day-spread",
+      "destination": "/international/world-nutella-day-spread/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-pasta-day-italian",
+      "destination": "/international/world-pasta-day-italian/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-mental-health-day-awareness",
+      "destination": "/international/world-mental-health-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-sleep-day-health",
+      "destination": "/international/world-sleep-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-coffee-day-beverage",
+      "destination": "/international/world-coffee-day-beverage/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-vegan-day-plant-based",
+      "destination": "/international/world-vegan-day-plant-based/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-piano-day-music",
+      "destination": "/international/world-piano-day-music/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-beer-day-beverage",
+      "destination": "/international/world-beer-day-beverage/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-smile-day-happiness",
+      "destination": "/international/world-smile-day-happiness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-meditation-day-mindfulness",
+      "destination": "/international/world-meditation-day-mindfulness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-vegetarian-day-plant-based",
+      "destination": "/international/world-vegetarian-day-plant-based/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-sandwich-day-food",
+      "destination": "/international/world-sandwich-day-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-aids-day-awareness",
+      "destination": "/international/world-aids-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-art-day-creativity",
+      "destination": "/international/world-art-day-creativity/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-press-freedom-day-journalism",
+      "destination": "/international/world-press-freedom-day-journalism/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-refugee-day-humanitarian",
+      "destination": "/international/world-refugee-day-humanitarian/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-youth-day-young-people",
+      "destination": "/international/world-youth-day-young-people/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-animal-day-welfare",
+      "destination": "/international/world-animal-day-welfare/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-childrens-day-unicef",
+      "destination": "/international/world-childrens-day-unicef/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-television-day-media",
+      "destination": "/international/world-television-day-media/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-coffee-day-global",
+      "destination": "/international/international-coffee-day-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-literacy-day-education",
+      "destination": "/international/international-literacy-day-education/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-charity-global",
+      "destination": "/international/international-day-of-charity-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-older-persons-elderly",
+      "destination": "/international/international-day-of-older-persons-elderly/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-volunteer-day-service",
+      "destination": "/international/international-volunteer-day-service/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-human-rights-december",
+      "destination": "/international/international-day-of-human-rights-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-biodiversity-day-may-conservation",
+      "destination": "/international/international-biodiversity-day-may-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-forests-march",
+      "destination": "/international/international-day-of-forests-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-clean-air-september",
+      "destination": "/international/international-day-of-clean-air-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coffee-day/",
+      "destination": "/food/national-coffee-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coffee-day-weekend-specials/",
+      "destination": "/food/national-coffee-day-weekend-specials/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-taco-day/",
+      "destination": "/food/national-taco-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dessert-day/",
+      "destination": "/food/national-dessert-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pasta-day/",
+      "destination": "/food/national-pasta-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-cupcake-day/",
+      "destination": "/food/national-chocolate-cupcake-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sandwich-day/",
+      "destination": "/food/national-sandwich-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cappuccino-day/",
+      "destination": "/food/national-cappuccino-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-butter-lovers-day/",
+      "destination": "/food/national-peanut-butter-lovers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cookie-day/",
+      "destination": "/food/national-cookie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-brownie-day/",
+      "destination": "/food/national-brownie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-maple-syrup-day/",
+      "destination": "/food/national-maple-syrup-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fruitcake-day/",
+      "destination": "/food/national-fruitcake-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-candy-day/",
+      "destination": "/food/national-chocolate-candy-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cookie-exchange-day/",
+      "destination": "/food/national-cookie-exchange-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-champagne-day/",
+      "destination": "/food/national-champagne-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pizza-day/",
+      "destination": "/food/national-pizza-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-day/",
+      "destination": "/food/national-ice-cream-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pretzel-day/",
+      "destination": "/food/national-pretzel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hamburger-day/",
+      "destination": "/food/national-hamburger-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donut-day/",
+      "destination": "/food/national-donut-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wine-day/",
+      "destination": "/food/national-wine-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-day/",
+      "destination": "/food/national-chocolate-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-beer-day/",
+      "destination": "/food/national-beer-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hot-dog-day/",
+      "destination": "/food/national-hot-dog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pancake-day/",
+      "destination": "/food/national-pancake-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grilled-cheese-day/",
+      "destination": "/food/national-grilled-cheese-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sushi-day/",
+      "destination": "/food/national-sushi-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-barbecue-day/",
+      "destination": "/food/national-barbecue-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheese-day/",
+      "destination": "/food/national-cheese-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smoothie-day/",
+      "destination": "/food/national-smoothie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-waffle-day/",
+      "destination": "/food/national-waffle-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-nacho-day/",
+      "destination": "/food/national-nacho-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smoothie-bowl-day/",
+      "destination": "/food/national-smoothie-bowl-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-avocado-day/",
+      "destination": "/food/national-avocado-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-soup-day/",
+      "destination": "/food/national-soup-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-salad-day/",
+      "destination": "/food/national-salad-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pie-day/",
+      "destination": "/food/national-pie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cereal-day/",
+      "destination": "/food/national-cereal-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bagel-day/",
+      "destination": "/food/national-bagel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-muffin-day/",
+      "destination": "/food/national-muffin-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-rice-day/",
+      "destination": "/food/national-rice-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-oatmeal-day/",
+      "destination": "/food/national-oatmeal-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-vegetarian-day/",
+      "destination": "/food/national-vegetarian-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-spice-day/",
+      "destination": "/food/national-spice-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tea-day/",
+      "destination": "/food/national-tea-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-popcorn-day/",
+      "destination": "/food/national-popcorn-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-yogurt-day/",
+      "destination": "/food/national-yogurt-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-granola-day/",
+      "destination": "/food/national-granola-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-apple-pie-day/",
+      "destination": "/food/national-apple-pie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-baseball-day/",
+      "destination": "/food/national-baseball-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bbq-day/",
+      "destination": "/food/national-bbq-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wings-day/",
+      "destination": "/food/national-wings-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mac-and-cheese-day/",
+      "destination": "/food/national-mac-and-cheese-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fried-chicken-day/",
+      "destination": "/food/national-fried-chicken-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-soul-food-day/",
+      "destination": "/food/national-soul-food-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-butter-day-spread/",
+      "destination": "/food/national-peanut-butter-day-spread/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smores-day-camping/",
+      "destination": "/food/national-smores-day-camping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-corn-on-the-cob-day-summer/",
+      "destination": "/food/national-corn-on-the-cob-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-biscuit-day-southern/",
+      "destination": "/food/national-biscuit-day-southern/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-waffle-iron-day-breakfast/",
+      "destination": "/food/national-waffle-iron-day-breakfast/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lobster-day-seafood/",
+      "destination": "/food/national-lobster-day-seafood/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-french-fry-day-fast-food/",
+      "destination": "/food/national-french-fry-day-fast-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chicken-wing-day-buffalo/",
+      "destination": "/food/national-chicken-wing-day-buffalo/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheeseburger-day-deals/",
+      "destination": "/food/national-cheeseburger-day-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-margarita-day-cocktails/",
+      "destination": "/food/national-margarita-day-cocktails/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bacon-day-breakfast/",
+      "destination": "/food/national-bacon-day-breakfast/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-burrito-day-mexican-food/",
+      "destination": "/food/national-burrito-day-mexican-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-guacamole-day-avocado/",
+      "destination": "/food/national-guacamole-day-avocado/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fried-chicken-sandwich-day-fast-food/",
+      "destination": "/food/national-fried-chicken-sandwich-day-fast-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-milkshake-day-ice-cream/",
+      "destination": "/food/national-milkshake-day-ice-cream/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lasagna-day-italian-food/",
+      "destination": "/food/national-lasagna-day-italian-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-spinach-day-healthy/",
+      "destination": "/food/national-spinach-day-healthy/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grilled-cheese-sandwich-day-comfort/",
+      "destination": "/food/national-grilled-cheese-sandwich-day-comfort/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-strawberry-day-berry/",
+      "destination": "/food/national-strawberry-day-berry/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coconut-cream-pie-day-dessert/",
+      "destination": "/food/national-coconut-cream-pie-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheesesteak-day-philly/",
+      "destination": "/food/national-cheesesteak-day-philly/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chocolate-chip-cookie-day-baking/",
+      "destination": "/food/national-chocolate-chip-cookie-day-baking/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cinnamon-roll-day-sweet/",
+      "destination": "/food/national-cinnamon-roll-day-sweet/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-oreo-cookie-day-march-6/",
+      "destination": "/food/national-oreo-cookie-day-march-6/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-caramel-day-april-5/",
+      "destination": "/food/national-caramel-day-april-5/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chili-day-february/",
+      "destination": "/food/national-chili-day-february/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-butterscotch-pudding-day-september/",
+      "destination": "/food/national-butterscotch-pudding-day-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eggs-benedict-day-april-16-brunch/",
+      "destination": "/food/national-eggs-benedict-day-april-16-brunch/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-cluster-day-march-8-candy/",
+      "destination": "/food/national-peanut-cluster-day-march-8-candy/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-quinoa-day/",
+      "destination": "/food/national-quinoa-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-artichoke-day/",
+      "destination": "/food/national-artichoke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-falafel-day/",
+      "destination": "/food/national-falafel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kombucha-day/",
+      "destination": "/food/national-kombucha-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-edamame-day-september/",
+      "destination": "/food/national-edamame-day-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-miso-soup-day-january/",
+      "destination": "/food/national-miso-soup-day-january/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-heart-day/",
+      "destination": "/awareness-health/world-heart-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-teachers-day/",
+      "destination": "/awareness-health/world-teachers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mammography-day/",
+      "destination": "/awareness-health/national-mammography-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-health-day/",
+      "destination": "/awareness-health/world-health-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stress-awareness-day/",
+      "destination": "/awareness-health/national-stress-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-meditation-day/",
+      "destination": "/awareness-health/national-meditation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fitness-day/",
+      "destination": "/awareness-health/national-fitness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sleep-day/",
+      "destination": "/awareness-health/national-sleep-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-nutrition-month/",
+      "destination": "/awareness-health/national-nutrition-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mental-health-day/",
+      "destination": "/awareness-health/national-mental-health-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mindfulness-day/",
+      "destination": "/awareness-health/national-mindfulness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-digital-wellness-day/",
+      "destination": "/awareness-health/national-digital-wellness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-literacy-awareness-day/",
+      "destination": "/awareness-health/national-literacy-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cybersecurity-awareness-day/",
+      "destination": "/awareness-health/national-cybersecurity-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-environmental-education-day/",
+      "destination": "/awareness-health/national-environmental-education-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-autism-awareness-day/",
+      "destination": "/awareness-health/national-autism-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-disaster-preparedness-day/",
+      "destination": "/awareness-health/national-disaster-preparedness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-blood-donor-day/",
+      "destination": "/awareness-health/national-blood-donor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-organ-donor-day/",
+      "destination": "/awareness-health/national-organ-donor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cancer-awareness-day/",
+      "destination": "/awareness-health/national-cancer-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mental-health-awareness-day/",
+      "destination": "/awareness-health/national-mental-health-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-recycling-day/",
+      "destination": "/awareness-health/national-recycling-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-diabetes-awareness-day/",
+      "destination": "/awareness-health/national-diabetes-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-alzheimers-awareness-day/",
+      "destination": "/awareness-health/national-alzheimers-awareness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cancer-survivors-day/",
+      "destination": "/awareness-health/national-cancer-survivors-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-suicide-prevention-day/",
+      "destination": "/awareness-health/national-suicide-prevention-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-recovery-month/",
+      "destination": "/awareness-health/national-recovery-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donate-life-month/",
+      "destination": "/awareness-health/national-donate-life-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-breast-cancer-awareness-month/",
+      "destination": "/awareness-health/national-breast-cancer-awareness-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donate-life-day-organ/",
+      "destination": "/awareness-health/national-donate-life-day-organ/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-diabetes-awareness-month-november/",
+      "destination": "/awareness-health/national-diabetes-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-heart-health-month-february/",
+      "destination": "/awareness-health/national-heart-health-month-february/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-alzheimers-awareness-month-november/",
+      "destination": "/awareness-health/national-alzheimers-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stroke-awareness-month-may/",
+      "destination": "/awareness-health/national-stroke-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-immunization-awareness-month-august/",
+      "destination": "/awareness-health/national-immunization-awareness-month-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-obesity-awareness-month-september/",
+      "destination": "/awareness-health/national-obesity-awareness-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-depression-screening-day-awareness/",
+      "destination": "/awareness-health/national-depression-screening-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-physical-therapy-month-october/",
+      "destination": "/awareness-health/national-physical-therapy-month-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cholesterol-education-month-september/",
+      "destination": "/awareness-health/national-cholesterol-education-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pain-awareness-month-september/",
+      "destination": "/awareness-health/national-pain-awareness-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-prostate-health-month-september/",
+      "destination": "/awareness-health/national-prostate-health-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bone-joint-health-week-october/",
+      "destination": "/awareness-health/national-bone-joint-health-week-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-poison-prevention-week-march/",
+      "destination": "/awareness-health/national-poison-prevention-week-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-safety-month-june/",
+      "destination": "/awareness-health/national-safety-month-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-preparedness-month-september/",
+      "destination": "/awareness-health/national-preparedness-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-yoga-month-september/",
+      "destination": "/awareness-health/national-yoga-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chiropractic-health-month-october/",
+      "destination": "/awareness-health/national-chiropractic-health-month-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dental-hygiene-month-october/",
+      "destination": "/awareness-health/national-dental-hygiene-month-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-vision-learning-month-august/",
+      "destination": "/awareness-health/national-vision-learning-month-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-spinal-cord-injury-month-september/",
+      "destination": "/awareness-health/national-spinal-cord-injury-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hepatitis-awareness-month-may/",
+      "destination": "/awareness-health/national-hepatitis-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-celiac-disease-awareness-month-may/",
+      "destination": "/awareness-health/national-celiac-disease-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-scoliosis-awareness-month-june/",
+      "destination": "/awareness-health/national-scoliosis-awareness-month-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-healthy-skin-month-november/",
+      "destination": "/awareness-health/national-healthy-skin-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lung-cancer-awareness-month-november/",
+      "destination": "/awareness-health/national-lung-cancer-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-epilepsy-awareness-month-november/",
+      "destination": "/awareness-health/national-epilepsy-awareness-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-influenza-vaccination-week-december/",
+      "destination": "/awareness-health/national-influenza-vaccination-week-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hand-washing-awareness-week-december/",
+      "destination": "/awareness-health/national-hand-washing-awareness-week-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-autism-awareness-month-april/",
+      "destination": "/awareness-health/national-autism-awareness-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bone-marrow-donor-awareness-november/",
+      "destination": "/awareness-health/national-bone-marrow-donor-awareness-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-glaucoma-awareness-january/",
+      "destination": "/awareness-health/national-glaucoma-awareness-january/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kidney-month-march/",
+      "destination": "/awareness-health/national-kidney-month-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-migraine-headache-awareness-june/",
+      "destination": "/awareness-health/national-migraine-headache-awareness-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ptsd-awareness-june/",
+      "destination": "/awareness-health/national-ptsd-awareness-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-minority-health-month-april/",
+      "destination": "/awareness-health/national-minority-health-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-healthy-vision-month-may/",
+      "destination": "/awareness-health/national-healthy-vision-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-distracted-driving-awareness-april-safety/",
+      "destination": "/awareness-health/national-distracted-driving-awareness-april-safety/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eating-disorders-awareness-week-february-health/",
+      "destination": "/awareness-health/national-eating-disorders-awareness-week-february-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-childhood-obesity-awareness-september-health/",
+      "destination": "/awareness-health/national-childhood-obesity-awareness-september-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-diabetes-day-november-14/",
+      "destination": "/awareness-health/world-diabetes-day-november-14/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-colorectal-cancer-awareness-march-health/",
+      "destination": "/awareness-health/national-colorectal-cancer-awareness-march-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eye-exam-month-august-vision/",
+      "destination": "/awareness-health/national-eye-exam-month-august-vision/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sleep-awareness-week-march/",
+      "destination": "/awareness-health/national-sleep-awareness-week-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kidney-health-month-march/",
+      "destination": "/awareness-health/national-kidney-health-month-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stress-awareness-month-april/",
+      "destination": "/awareness-health/national-stress-awareness-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-skin-cancer-awareness-month-may/",
+      "destination": "/awareness-health/national-skin-cancer-awareness-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pet-day/",
+      "destination": "/animals-pets/national-pet-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dog-day/",
+      "destination": "/animals-pets/national-dog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cat-day/",
+      "destination": "/animals-pets/national-cat-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bird-day/",
+      "destination": "/animals-pets/national-bird-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fish-day/",
+      "destination": "/animals-pets/national-fish-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pet-adoption-day/",
+      "destination": "/animals-pets/national-pet-adoption-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-day/",
+      "destination": "/animals-pets/national-wildlife-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-elephant-day/",
+      "destination": "/animals-pets/national-elephant-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-rabbit-day/",
+      "destination": "/animals-pets/national-rabbit-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-horse-day/",
+      "destination": "/animals-pets/national-horse-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-turtle-day/",
+      "destination": "/animals-pets/national-turtle-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-butterfly-day/",
+      "destination": "/animals-pets/national-butterfly-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-penguin-day/",
+      "destination": "/animals-pets/national-penguin-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bee-day/",
+      "destination": "/animals-pets/national-bee-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-koala-day/",
+      "destination": "/animals-pets/national-koala-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shark-day/",
+      "destination": "/animals-pets/national-shark-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-squirrel-day/",
+      "destination": "/animals-pets/national-squirrel-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dolphin-day/",
+      "destination": "/animals-pets/national-dolphin-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-panda-day/",
+      "destination": "/animals-pets/national-panda-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hedgehog-day/",
+      "destination": "/animals-pets/national-hedgehog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-whale-day/",
+      "destination": "/animals-pets/national-whale-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-sloth-day/",
+      "destination": "/animals-pets/national-sloth-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-puppy-day-celebration/",
+      "destination": "/animals-pets/national-puppy-day-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ferret-day-pets/",
+      "destination": "/animals-pets/national-ferret-day-pets/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-feral-cat-day-awareness/",
+      "destination": "/animals-pets/national-feral-cat-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-guide-dog-day-service/",
+      "destination": "/animals-pets/national-guide-dog-day-service/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-chicken-month-september/",
+      "destination": "/animals-pets/national-chicken-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mutt-day-mixed-breed/",
+      "destination": "/animals-pets/national-mutt-day-mixed-breed/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-rehabilitation-day-rescue/",
+      "destination": "/animals-pets/national-wildlife-rehabilitation-day-rescue/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-k9-veterans-day-military/",
+      "destination": "/animals-pets/national-k9-veterans-day-military/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kitten-day-adorable/",
+      "destination": "/animals-pets/national-kitten-day-adorable/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-guinea-pig-appreciation-day/",
+      "destination": "/animals-pets/national-guinea-pig-appreciation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hamster-day-small-pets/",
+      "destination": "/animals-pets/national-hamster-day-small-pets/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-reptile-awareness-day-lizards/",
+      "destination": "/animals-pets/national-reptile-awareness-day-lizards/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-aquarium-day-fish-tanks/",
+      "destination": "/animals-pets/national-aquarium-day-fish-tanks/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-parakeet-day-budgies/",
+      "destination": "/animals-pets/national-parakeet-day-budgies/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-parrot-day-tropical-birds/",
+      "destination": "/animals-pets/national-parrot-day-tropical-birds/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-alpaca-day-fiber-animals/",
+      "destination": "/animals-pets/national-alpaca-day-fiber-animals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-llama-day-pack-animals/",
+      "destination": "/animals-pets/national-llama-day-pack-animals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pygmy-goat-day-miniature/",
+      "destination": "/animals-pets/national-pygmy-goat-day-miniature/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-miniature-horse-day-tiny/",
+      "destination": "/animals-pets/national-miniature-horse-day-tiny/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donkey-day-burros/",
+      "destination": "/animals-pets/national-donkey-day-burros/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-barn-cat-day-working-cats/",
+      "destination": "/animals-pets/national-barn-cat-day-working-cats/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-therapy-animal-day-service/",
+      "destination": "/animals-pets/national-therapy-animal-day-service/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-foster-a-pet-month-june/",
+      "destination": "/animals-pets/national-foster-a-pet-month-june/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-black-cat-appreciation-day-adoption/",
+      "destination": "/animals-pets/national-black-cat-appreciation-day-adoption/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-senior-pet-day-older-animals/",
+      "destination": "/animals-pets/national-senior-pet-day-older-animals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pet-obesity-awareness-day-health/",
+      "destination": "/animals-pets/national-pet-obesity-awareness-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-squirrel-appreciation-day-wildlife/",
+      "destination": "/animals-pets/national-squirrel-appreciation-day-wildlife/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-horse-protection-day-equine/",
+      "destination": "/animals-pets/national-horse-protection-day-equine/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-refuges-day-conservation/",
+      "destination": "/animals-pets/national-wildlife-refuges-day-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dress-up-your-pet-day-fun-costumes/",
+      "destination": "/animals-pets/national-dress-up-your-pet-day-fun-costumes/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-answer-your-cats-questions-day-funny/",
+      "destination": "/animals-pets/national-answer-your-cats-questions-day-funny/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-miniature-donkey-day-cute/",
+      "destination": "/animals-pets/national-miniature-donkey-day-cute/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-zoo-lovers-day-april-8/",
+      "destination": "/animals-pets/national-zoo-lovers-day-april-8/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-service-dog-month-september/",
+      "destination": "/animals-pets/national-service-dog-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shelter-dog-month-august/",
+      "destination": "/animals-pets/national-shelter-dog-month-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-adopt-rescued-rabbit-month-february/",
+      "destination": "/animals-pets/national-adopt-rescued-rabbit-month-february/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-save-the-elephant-day-april/",
+      "destination": "/animals-pets/national-save-the-elephant-day-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-iguana-awareness-day-september/",
+      "destination": "/animals-pets/national-iguana-awareness-day-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wildlife-federation-week-nature-conservation/",
+      "destination": "/animals-pets/national-wildlife-federation-week-nature-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-snake-day-july-16-reptile-awareness/",
+      "destination": "/animals-pets/world-snake-day-july-16-reptile-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-boss-day/",
+      "destination": "/fun-weird/national-boss-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/daylight-saving-time-ends/",
+      "destination": "/fun-weird/daylight-saving-time-ends/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ugly-christmas-sweater-day/",
+      "destination": "/fun-weird/national-ugly-christmas-sweater-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-siblings-day/",
+      "destination": "/fun-weird/national-siblings-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-work-from-home-day/",
+      "destination": "/fun-weird/national-work-from-home-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-random-acts-of-kindness-day/",
+      "destination": "/fun-weird/national-random-acts-of-kindness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-employee-appreciation-day/",
+      "destination": "/fun-weird/national-employee-appreciation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gardening-day/",
+      "destination": "/fun-weird/national-gardening-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-picnic-day/",
+      "destination": "/fun-weird/national-picnic-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-joke-day/",
+      "destination": "/fun-weird/national-joke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-take-a-walk-day/",
+      "destination": "/fun-weird/national-take-a-walk-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-laugh-day/",
+      "destination": "/fun-weird/national-laugh-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-smile-day/",
+      "destination": "/fun-weird/national-smile-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-happiness-day/",
+      "destination": "/fun-weird/national-happiness-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pajama-day/",
+      "destination": "/fun-weird/national-pajama-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-board-game-day/",
+      "destination": "/fun-weird/national-board-game-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bubble-wrap-day/",
+      "destination": "/fun-weird/national-bubble-wrap-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-backwards-day/",
+      "destination": "/fun-weird/national-backwards-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-video-game-day/",
+      "destination": "/fun-weird/national-video-game-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dance-day/",
+      "destination": "/fun-weird/national-dance-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-puzzle-day/",
+      "destination": "/fun-weird/national-puzzle-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-karaoke-day/",
+      "destination": "/fun-weird/national-karaoke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-magic-day/",
+      "destination": "/fun-weird/national-magic-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-trivia-day/",
+      "destination": "/fun-weird/national-trivia-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-opposite-day/",
+      "destination": "/fun-weird/national-opposite-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-compliment-day/",
+      "destination": "/fun-weird/national-compliment-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tell-a-joke-day/",
+      "destination": "/fun-weird/national-tell-a-joke-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-play-outside-day/",
+      "destination": "/fun-weird/national-play-outside-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-football-day/",
+      "destination": "/fun-weird/national-football-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tailgating-day/",
+      "destination": "/fun-weird/national-tailgating-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-drive-in-movie-day/",
+      "destination": "/fun-weird/national-drive-in-movie-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-state-fair-day/",
+      "destination": "/fun-weird/national-state-fair-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-county-fair-day/",
+      "destination": "/fun-weird/national-county-fair-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-road-trip-day/",
+      "destination": "/fun-weird/national-road-trip-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-tell-a-fairy-tale-day-stories/",
+      "destination": "/fun-weird/national-tell-a-fairy-tale-day-stories/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-banana-split-day-dessert/",
+      "destination": "/fun-weird/national-banana-split-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-two-different-colored-shoes-day-quirky/",
+      "destination": "/fun-weird/national-two-different-colored-shoes-day-quirky/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wiggle-your-toes-day-weird/",
+      "destination": "/fun-weird/national-wiggle-your-toes-day-weird/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-video-games-day-gaming/",
+      "destination": "/fun-weird/national-video-games-day-gaming/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-kazoo-day-music/",
+      "destination": "/fun-weird/national-kazoo-day-music/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-rubber-ducky-day-bath/",
+      "destination": "/fun-weird/national-rubber-ducky-day-bath/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hugging-day-affection/",
+      "destination": "/fun-weird/national-hugging-day-affection/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pb-and-j-day-sandwich/",
+      "destination": "/fun-weird/national-pb-and-j-day-sandwich/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-thrift-shop-day-secondhand/",
+      "destination": "/fun-weird/national-thrift-shop-day-secondhand/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lost-sock-memorial-day-laundry/",
+      "destination": "/fun-weird/national-lost-sock-memorial-day-laundry/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coloring-book-day-art/",
+      "destination": "/fun-weird/national-coloring-book-day-art/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-goof-off-day-fun/",
+      "destination": "/fun-weird/national-goof-off-day-fun/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ding-a-ling-day-phone/",
+      "destination": "/fun-weird/national-ding-a-ling-day-phone/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-superhero-day-comics/",
+      "destination": "/fun-weird/national-superhero-day-comics/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-walk-to-work-day-health/",
+      "destination": "/fun-weird/national-walk-to-work-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-hug-your-cat-day-pets/",
+      "destination": "/fun-weird/national-hug-your-cat-day-pets/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheeseball-day-appetizer/",
+      "destination": "/fun-weird/national-cheeseball-day-appetizer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-junk-food-day-treats/",
+      "destination": "/fun-weird/national-junk-food-day-treats/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-sandwich-day-dessert/",
+      "destination": "/fun-weird/national-ice-cream-sandwich-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bike-to-work-day-cycling/",
+      "destination": "/fun-weird/national-bike-to-work-day-cycling/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-relaxation-day-chill/",
+      "destination": "/fun-weird/national-relaxation-day-chill/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bubble-wrap-appreciation-day-pop/",
+      "destination": "/fun-weird/national-bubble-wrap-appreciation-day-pop/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-backward-day-opposite/",
+      "destination": "/fun-weird/national-backward-day-opposite/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-skip-the-straw-day-environment/",
+      "destination": "/fun-weird/national-skip-the-straw-day-environment/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wear-red-day-heart-health/",
+      "destination": "/fun-weird/national-wear-red-day-heart-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-no-housework-day-lazy/",
+      "destination": "/fun-weird/national-no-housework-day-lazy/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-talk-like-pirate-day-arrr/",
+      "destination": "/fun-weird/national-talk-like-pirate-day-arrr/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-wear-pajamas-to-work-day/",
+      "destination": "/fun-weird/national-wear-pajamas-to-work-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pack-your-lunch-day-savings/",
+      "destination": "/fun-weird/national-pack-your-lunch-day-savings/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-make-a-friend-day-social/",
+      "destination": "/fun-weird/national-make-a-friend-day-social/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-clean-out-refrigerator-day/",
+      "destination": "/fun-weird/national-clean-out-refrigerator-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-leave-office-early-day-work-life/",
+      "destination": "/fun-weird/national-leave-office-early-day-work-life/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-clean-your-desk-day-organization/",
+      "destination": "/fun-weird/national-clean-your-desk-day-organization/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-napping-day-sleep/",
+      "destination": "/fun-weird/national-napping-day-sleep/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dance-like-chicken-day-silly/",
+      "destination": "/fun-weird/national-dance-like-chicken-day-silly/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-button-day-sewing/",
+      "destination": "/fun-weird/national-button-day-sewing/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-blame-someone-else-day-humor/",
+      "destination": "/fun-weird/national-blame-someone-else-day-humor/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-absurdity-day-weird/",
+      "destination": "/fun-weird/national-absurdity-day-weird/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-popcorn-lovers-day-snack-fan/",
+      "destination": "/fun-weird/national-popcorn-lovers-day-snack-fan/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-talk-in-elevator-day-awkward/",
+      "destination": "/fun-weird/national-talk-in-elevator-day-awkward/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-selfie-day-photo-social/",
+      "destination": "/fun-weird/national-selfie-day-photo-social/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-yo-yo-day-june-6/",
+      "destination": "/fun-weird/national-yo-yo-day-june-6/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-play-monopoly-day-november/",
+      "destination": "/fun-weird/national-play-monopoly-day-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-look-on-bright-side-day-december-21/",
+      "destination": "/fun-weird/national-look-on-bright-side-day-december-21/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-name-yourself-day-april-9/",
+      "destination": "/fun-weird/national-name-yourself-day-april-9/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-write-letter-appreciation-week-march-gratitude/",
+      "destination": "/fun-weird/national-write-letter-appreciation-week-march-gratitude/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bathtub-party-day-december-5-fun/",
+      "destination": "/fun-weird/national-bathtub-party-day-december-5-fun/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-do-something-nice-day-october/",
+      "destination": "/fun-weird/national-do-something-nice-day-october/",
+      "permanent": true
+    },
+    {
+      "source": "/other/columbus-day/",
+      "destination": "/holiday/columbus-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/halloween/",
+      "destination": "/holiday/halloween/",
+      "permanent": true
+    },
+    {
+      "source": "/other/veterans-day/",
+      "destination": "/holiday/veterans-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/thanksgiving-day/",
+      "destination": "/holiday/thanksgiving-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/hanukkah-2026/",
+      "destination": "/holiday/hanukkah-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/other/christmas-eve/",
+      "destination": "/holiday/christmas-eve/",
+      "permanent": true
+    },
+    {
+      "source": "/other/christmas-day/",
+      "destination": "/holiday/christmas-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/new-years-eve/",
+      "destination": "/holiday/new-years-eve/",
+      "permanent": true
+    },
+    {
+      "source": "/other/presidents-day/",
+      "destination": "/holiday/presidents-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/labor-day/",
+      "destination": "/holiday/labor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/martin-luther-king-jr-day/",
+      "destination": "/holiday/martin-luther-king-jr-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/memorial-day/",
+      "destination": "/holiday/memorial-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/independence-day/",
+      "destination": "/holiday/independence-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/earth-day/",
+      "destination": "/holiday/earth-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/flag-day/",
+      "destination": "/holiday/flag-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/arbor-day/",
+      "destination": "/holiday/arbor-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/juneteenth/",
+      "destination": "/holiday/juneteenth/",
+      "permanent": true
+    },
+    {
+      "source": "/other/valentines-day/",
+      "destination": "/holiday/valentines-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/new-years-day/",
+      "destination": "/holiday/new-years-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/st-patricks-day/",
+      "destination": "/holiday/st-patricks-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/easter/",
+      "destination": "/holiday/easter/",
+      "permanent": true
+    },
+    {
+      "source": "/other/groundhog-day/",
+      "destination": "/holiday/groundhog-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/super-bowl-sunday/",
+      "destination": "/holiday/super-bowl-sunday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/mothers-day/",
+      "destination": "/holiday/mothers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/fathers-day/",
+      "destination": "/holiday/fathers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/cinco-de-mayo/",
+      "destination": "/holiday/cinco-de-mayo/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-constitution-day-america/",
+      "destination": "/holiday/national-constitution-day-america/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-native-american-heritage-day/",
+      "destination": "/holiday/national-native-american-heritage-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gold-star-mothers-day/",
+      "destination": "/holiday/national-gold-star-mothers-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-freedom-day-america/",
+      "destination": "/holiday/national-freedom-day-america/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-day-of-prayer-america/",
+      "destination": "/holiday/national-day-of-prayer-america/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-public-lands-day-conservation/",
+      "destination": "/holiday/national-public-lands-day-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-vietnam-war-veterans-day/",
+      "destination": "/holiday/national-vietnam-war-veterans-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/presidents-day-washington-lincoln/",
+      "destination": "/holiday/presidents-day-washington-lincoln/",
+      "permanent": true
+    },
+    {
+      "source": "/other/pearl-harbor-remembrance-day-ww2/",
+      "destination": "/holiday/pearl-harbor-remembrance-day-ww2/",
+      "permanent": true
+    },
+    {
+      "source": "/other/kwanzaa-african-american-celebration/",
+      "destination": "/holiday/kwanzaa-african-american-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/passover-jewish-holiday/",
+      "destination": "/holiday/passover-jewish-holiday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/ramadan-islamic-holy-month/",
+      "destination": "/holiday/ramadan-islamic-holy-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/diwali-festival-of-lights/",
+      "destination": "/holiday/diwali-festival-of-lights/",
+      "permanent": true
+    },
+    {
+      "source": "/other/rosh-hashanah-jewish-new-year/",
+      "destination": "/holiday/rosh-hashanah-jewish-new-year/",
+      "permanent": true
+    },
+    {
+      "source": "/other/yom-kippur-day-of-atonement/",
+      "destination": "/holiday/yom-kippur-day-of-atonement/",
+      "permanent": true
+    },
+    {
+      "source": "/other/dia-de-los-muertos-day-of-the-dead/",
+      "destination": "/holiday/dia-de-los-muertos-day-of-the-dead/",
+      "permanent": true
+    },
+    {
+      "source": "/other/lunar-new-year-spring-festival/",
+      "destination": "/holiday/lunar-new-year-spring-festival/",
+      "permanent": true
+    },
+    {
+      "source": "/other/mardi-gras-fat-tuesday-celebration/",
+      "destination": "/holiday/mardi-gras-fat-tuesday-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/bastille-day-july/",
+      "destination": "/holiday/bastille-day-july/",
+      "permanent": true
+    },
+    {
+      "source": "/other/black-friday/",
+      "destination": "/shopping-deals/black-friday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/cyber-monday/",
+      "destination": "/shopping-deals/cyber-monday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-small-business-saturday/",
+      "destination": "/shopping-deals/national-small-business-saturday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/small-business-saturday/",
+      "destination": "/shopping-deals/small-business-saturday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shopping-day/",
+      "destination": "/shopping-deals/national-shopping-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bargain-hunting-day/",
+      "destination": "/shopping-deals/national-bargain-hunting-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coupon-day/",
+      "destination": "/shopping-deals/national-coupon-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-retail-day/",
+      "destination": "/shopping-deals/national-retail-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shop-local-day/",
+      "destination": "/shopping-deals/national-shop-local-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-online-shopping-day/",
+      "destination": "/shopping-deals/national-online-shopping-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gift-card-day/",
+      "destination": "/shopping-deals/national-gift-card-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mall-day/",
+      "destination": "/shopping-deals/national-mall-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-garage-sale-day/",
+      "destination": "/shopping-deals/national-garage-sale-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shopping-reminder-day-november/",
+      "destination": "/shopping-deals/national-shopping-reminder-day-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-free-shipping-day-december/",
+      "destination": "/shopping-deals/national-free-shipping-day-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-clearance-day-shopping/",
+      "destination": "/shopping-deals/national-clearance-day-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coupon-month-september/",
+      "destination": "/shopping-deals/national-coupon-month-september/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-shop-small-saturday-business/",
+      "destination": "/shopping-deals/national-shop-small-saturday-business/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-secondhand-wardrobe-day-thrift/",
+      "destination": "/shopping-deals/national-secondhand-wardrobe-day-thrift/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bargain-hunting-week-deals/",
+      "destination": "/shopping-deals/national-bargain-hunting-week-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-retail-gift-card-day-cards/",
+      "destination": "/shopping-deals/national-retail-gift-card-day-cards/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-returns-day-shopping/",
+      "destination": "/shopping-deals/national-returns-day-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/singles-day-shopping-global/",
+      "destination": "/shopping-deals/singles-day-shopping-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/green-monday-shopping-holiday/",
+      "destination": "/shopping-deals/green-monday-shopping-holiday/",
+      "permanent": true
+    },
+    {
+      "source": "/other/super-saturday-shopping-christmas/",
+      "destination": "/shopping-deals/super-saturday-shopping-christmas/",
+      "permanent": true
+    },
+    {
+      "source": "/other/travel-tuesday-deals-cyber-week/",
+      "destination": "/shopping-deals/travel-tuesday-deals-cyber-week/",
+      "permanent": true
+    },
+    {
+      "source": "/other/restaurant-week-dining-deals/",
+      "destination": "/shopping-deals/restaurant-week-dining-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-coffee-day-commercial-deals/",
+      "destination": "/shopping-deals/national-coffee-day-commercial-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/free-slurpee-day-7-eleven/",
+      "destination": "/shopping-deals/free-slurpee-day-7-eleven/",
+      "permanent": true
+    },
+    {
+      "source": "/other/tax-day-deals-promotions/",
+      "destination": "/shopping-deals/tax-day-deals-promotions/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pizza-day-commercial-deals/",
+      "destination": "/shopping-deals/national-pizza-day-commercial-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cheesecake-day-restaurant-deals/",
+      "destination": "/shopping-deals/national-cheesecake-day-restaurant-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-doughnut-day-free-donuts-deals/",
+      "destination": "/shopping-deals/national-doughnut-day-free-donuts-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/amazon-prime-day-mega-sale/",
+      "destination": "/shopping-deals/amazon-prime-day-mega-sale/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-day-free-scoops/",
+      "destination": "/shopping-deals/national-ice-cream-day-free-scoops/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-thrift-store-day-secondhand-shopping/",
+      "destination": "/shopping-deals/national-thrift-store-day-secondhand-shopping/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-bookstore-day-august/",
+      "destination": "/shopping-deals/national-bookstore-day-august/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-antique-day-april/",
+      "destination": "/shopping-deals/national-antique-day-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-record-store-day-april/",
+      "destination": "/shopping-deals/national-record-store-day-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-back-to-school-day/",
+      "destination": "/national/national-back-to-school-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-technology-day/",
+      "destination": "/national/national-technology-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-reading-day/",
+      "destination": "/national/national-reading-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-astronomy-day/",
+      "destination": "/national/national-astronomy-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-family-day/",
+      "destination": "/national/national-family-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-music-day/",
+      "destination": "/national/national-music-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-friendship-day/",
+      "destination": "/national/national-friendship-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-art-day/",
+      "destination": "/national/national-art-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-internet-day/",
+      "destination": "/national/national-internet-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-photography-day/",
+      "destination": "/national/national-photography-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-creativity-day/",
+      "destination": "/national/national-creativity-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-gratitude-day/",
+      "destination": "/national/national-gratitude-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-science-day/",
+      "destination": "/national/national-science-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-innovation-day/",
+      "destination": "/national/national-innovation-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-entrepreneurship-day/",
+      "destination": "/national/national-entrepreneurship-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-mentorship-day/",
+      "destination": "/national/national-mentorship-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-library-day/",
+      "destination": "/national/national-library-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-education-day/",
+      "destination": "/national/national-education-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-leadership-day/",
+      "destination": "/national/national-leadership-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-american-history-day/",
+      "destination": "/national/national-american-history-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-small-business-day/",
+      "destination": "/national/national-small-business-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-armed-forces-day/",
+      "destination": "/national/national-armed-forces-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-4th-of-july-weekend/",
+      "destination": "/national/national-4th-of-july-weekend/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-american-dream-day/",
+      "destination": "/national/national-american-dream-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-space-exploration-day-usa/",
+      "destination": "/national/national-space-exploration-day-usa/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-dentist-day-health/",
+      "destination": "/national/national-dentist-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-agriculture-day-farming/",
+      "destination": "/national/national-agriculture-day-farming/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-school-librarian-day-education/",
+      "destination": "/national/national-school-librarian-day-education/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-high-five-day-celebration/",
+      "destination": "/national/national-high-five-day-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-teacher-appreciation-day-education/",
+      "destination": "/national/national-teacher-appreciation-day-education/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-astronaut-day-space/",
+      "destination": "/national/national-astronaut-day-space/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-inventors-day-innovation/",
+      "destination": "/national/national-inventors-day-innovation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-book-lovers-day-reading/",
+      "destination": "/national/national-book-lovers-day-reading/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-parks-week-conservation/",
+      "destination": "/national/national-parks-week-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-first-responders-day-heroes/",
+      "destination": "/national/national-first-responders-day-heroes/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-nurses-day-healthcare/",
+      "destination": "/national/national-nurses-day-healthcare/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-police-week-law-enforcement/",
+      "destination": "/national/national-police-week-law-enforcement/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-disability-employment-awareness-month/",
+      "destination": "/national/national-disability-employment-awareness-month/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-stem-day-science/",
+      "destination": "/national/national-stem-day-science/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-doughnut-day-free-donuts/",
+      "destination": "/national/national-doughnut-day-free-donuts/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cinema-day-movies/",
+      "destination": "/national/national-cinema-day-movies/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-streaming-day-entertainment/",
+      "destination": "/national/national-streaming-day-entertainment/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grilling-month-summer/",
+      "destination": "/national/national-grilling-month-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-candy-corn-day-halloween/",
+      "destination": "/national/national-candy-corn-day-halloween/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-pumpkin-day-fall/",
+      "destination": "/national/national-pumpkin-day-fall/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-watermelon-day-summer/",
+      "destination": "/national/national-watermelon-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-baking-soda-day/",
+      "destination": "/national/national-baking-soda-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-iced-tea-day-summer/",
+      "destination": "/national/national-iced-tea-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-lemonade-day-summer/",
+      "destination": "/national/national-lemonade-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-root-beer-float-day/",
+      "destination": "/national/national-root-beer-float-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-cupcake-day-dessert/",
+      "destination": "/national/national-cupcake-day-dessert/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ice-cream-sundae-day/",
+      "destination": "/national/national-ice-cream-sundae-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-peanut-day-american/",
+      "destination": "/national/national-peanut-day-american/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-eat-outside-day-picnic/",
+      "destination": "/national/national-eat-outside-day-picnic/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-farmers-market-week/",
+      "destination": "/national/national-farmers-market-week/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-roller-coaster-day-thrills/",
+      "destination": "/national/national-roller-coaster-day-thrills/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-waterpark-day-summer/",
+      "destination": "/national/national-waterpark-day-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-fantasy-football-draft-day/",
+      "destination": "/national/national-fantasy-football-draft-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-donut-day-free-deals/",
+      "destination": "/national/national-donut-day-free-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-military-appreciation-month-may/",
+      "destination": "/national/national-military-appreciation-month-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-native-american-heritage-month-november/",
+      "destination": "/national/national-native-american-heritage-month-november/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-teacher-appreciation-week-may/",
+      "destination": "/national/national-teacher-appreciation-week-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-school-lunch-week-nutrition/",
+      "destination": "/national/national-school-lunch-week-nutrition/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-drive-thru-day-fast-food/",
+      "destination": "/national/national-drive-thru-day-fast-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-family-week-thanksgiving/",
+      "destination": "/national/national-family-week-thanksgiving/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-grandparents-day-family/",
+      "destination": "/national/national-grandparents-day-family/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-law-enforcement-appreciation-day-january/",
+      "destination": "/national/national-law-enforcement-appreciation-day-january/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-take-a-hike-day-november-17-outdoors/",
+      "destination": "/national/national-take-a-hike-day-november-17-outdoors/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-volunteer-month-april/",
+      "destination": "/national/national-volunteer-month-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-small-business-week-may/",
+      "destination": "/national/national-small-business-week-may/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-library-week-april/",
+      "destination": "/national/national-library-week-april/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-womens-day/",
+      "destination": "/international/international-womens-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-environment-day/",
+      "destination": "/international/world-environment-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-friendship/",
+      "destination": "/international/international-day-of-friendship/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-kindness-day-international/",
+      "destination": "/international/world-kindness-day-international/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-food-day-international/",
+      "destination": "/international/world-food-day-international/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-book-day-international/",
+      "destination": "/international/world-book-day-international/",
+      "permanent": true
+    },
+    {
+      "source": "/other/national-ocean-day/",
+      "destination": "/international/national-ocean-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-peace/",
+      "destination": "/international/international-day-of-peace/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-music-day/",
+      "destination": "/international/international-music-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-yoga-day/",
+      "destination": "/international/international-yoga-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-oceans-day/",
+      "destination": "/international/world-oceans-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-happiness/",
+      "destination": "/international/international-day-of-happiness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-water-day/",
+      "destination": "/international/world-water-day/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-families/",
+      "destination": "/international/international-day-of-families/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-photography-day-global/",
+      "destination": "/international/world-photography-day-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-tourism-day-travel/",
+      "destination": "/international/world-tourism-day-travel/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-dance-day-celebration/",
+      "destination": "/international/world-dance-day-celebration/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-bee-day-pollinators/",
+      "destination": "/international/world-bee-day-pollinators/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-emoji-day-digital/",
+      "destination": "/international/world-emoji-day-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-chocolate-day-global/",
+      "destination": "/international/world-chocolate-day-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-nutella-day-spread/",
+      "destination": "/international/world-nutella-day-spread/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-pasta-day-italian/",
+      "destination": "/international/world-pasta-day-italian/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-mental-health-day-awareness/",
+      "destination": "/international/world-mental-health-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-sleep-day-health/",
+      "destination": "/international/world-sleep-day-health/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-coffee-day-beverage/",
+      "destination": "/international/world-coffee-day-beverage/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-vegan-day-plant-based/",
+      "destination": "/international/world-vegan-day-plant-based/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-piano-day-music/",
+      "destination": "/international/world-piano-day-music/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-beer-day-beverage/",
+      "destination": "/international/world-beer-day-beverage/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-smile-day-happiness/",
+      "destination": "/international/world-smile-day-happiness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-meditation-day-mindfulness/",
+      "destination": "/international/world-meditation-day-mindfulness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-vegetarian-day-plant-based/",
+      "destination": "/international/world-vegetarian-day-plant-based/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-sandwich-day-food/",
+      "destination": "/international/world-sandwich-day-food/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-aids-day-awareness/",
+      "destination": "/international/world-aids-day-awareness/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-art-day-creativity/",
+      "destination": "/international/world-art-day-creativity/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-press-freedom-day-journalism/",
+      "destination": "/international/world-press-freedom-day-journalism/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-refugee-day-humanitarian/",
+      "destination": "/international/world-refugee-day-humanitarian/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-youth-day-young-people/",
+      "destination": "/international/world-youth-day-young-people/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-animal-day-welfare/",
+      "destination": "/international/world-animal-day-welfare/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-childrens-day-unicef/",
+      "destination": "/international/world-childrens-day-unicef/",
+      "permanent": true
+    },
+    {
+      "source": "/other/world-television-day-media/",
+      "destination": "/international/world-television-day-media/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-coffee-day-global/",
+      "destination": "/international/international-coffee-day-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-literacy-day-education/",
+      "destination": "/international/international-literacy-day-education/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-charity-global/",
+      "destination": "/international/international-day-of-charity-global/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-older-persons-elderly/",
+      "destination": "/international/international-day-of-older-persons-elderly/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-volunteer-day-service/",
+      "destination": "/international/international-volunteer-day-service/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-human-rights-december/",
+      "destination": "/international/international-day-of-human-rights-december/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-biodiversity-day-may-conservation/",
+      "destination": "/international/international-biodiversity-day-may-conservation/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-forests-march/",
+      "destination": "/international/international-day-of-forests-march/",
+      "permanent": true
+    },
+    {
+      "source": "/other/international-day-of-clean-air-september/",
+      "destination": "/international/international-day-of-clean-air-september/",
+      "permanent": true
     }
   ]
 }
