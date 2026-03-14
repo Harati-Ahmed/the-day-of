@@ -8,6 +8,7 @@ import { ThemeProvider } from '@/contexts/theme-context';
 import ThemeSpread from '@/components/theme-spread';
 import LazyToaster from '@/components/lazy-toaster';
 import { LazyAnalytics, LazySpeedInsights } from '@/components/lazy-analytics';
+import DeferredScripts from '@/components/deferred-scripts';
 
 // Optimized font loading for mobile - swap shows text immediately, no preload to unblock LCP
 const inter = Inter({ 

@@ -3,7 +3,6 @@ import { formatDate, getCategorySlug, getCategoryColor } from '@/lib/utils';
 import { Calendar, Globe, TrendingUp, Star, Clock, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
-// Import components directly for static site - no dynamic loading needed
 import NewsletterSubscribe from '@/components/newsletter-subscribe';
 import LazySection from '@/components/lazy-section';
 import HomepageTodaySection from '@/components/homepage-today-section';

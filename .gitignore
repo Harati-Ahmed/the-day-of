@@ -106,4 +106,4 @@ frontend/events-list.txt
 Search console 404error/
 
 # Lighthouse reports (local testing)
-lighthouse-report.json
+lighthouse-*.json
