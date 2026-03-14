@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://www.thedayof.net',
+    canonical: 'https://www.thedayof.net/',
   },
   other: {
     'google-adsense-account': 'ca-pub-2160043117224167',

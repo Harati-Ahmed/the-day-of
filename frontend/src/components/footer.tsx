@@ -58,25 +58,25 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-6 text-white">Popular Categories</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/category/food" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
+                <Link href="/category/food/" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
                   <span className="text-lg group-hover:scale-110 transition-transform">🍽️</span>
                   <span>Food Days</span>
                 </Link>
               </li>
               <li>
-                <Link href="/category/holiday" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
+                <Link href="/category/holiday/" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
                   <span className="text-lg group-hover:scale-110 transition-transform">🎊</span>
                   <span>Holidays</span>
                 </Link>
               </li>
               <li>
-                <Link href="/category/awareness-health" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
+                <Link href="/category/awareness-health/" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
                   <span className="text-lg group-hover:scale-110 transition-transform">❤️</span>
                   <span>Awareness</span>
                 </Link>
               </li>
               <li>
-                <Link href="/category/fun-weird" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
+                <Link href="/category/fun-weird/" className="flex items-center gap-3 text-neutral-300 hover:text-primary-400 transition-colors font-medium group">
                   <span className="text-lg group-hover:scale-110 transition-transform">🎉</span>
                   <span>Fun & Weird</span>
                 </Link>

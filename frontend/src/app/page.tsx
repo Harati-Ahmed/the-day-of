@@ -228,7 +228,7 @@ export default function HomePage() {
                       <span>•</span>
                       <span>Food</span>
                     </div>
-                    <Link href="/food/national-coffee-day" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-semibold">
+                    <Link href="/food/national-coffee-day/" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-semibold">
                       Read More →
                     </Link>
                   </div>
@@ -289,7 +289,7 @@ export default function HomePage() {
               const dayCount = getDaysByCategory(category.name).length;
               return (
                 <div key={category.slug} className="group">
-                  <Link href={`/category/${category.slug}`}>
+                  <Link href={`/category/${category.slug}/`}>
                     <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium transition-all duration-300 p-6 text-center group-hover:-translate-y-1">
                       <div className={`w-16 h-16 rounded-2xl ${category.color} flex items-center justify-center text-3xl mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
                         {category.icon}

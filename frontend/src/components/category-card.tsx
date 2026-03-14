@@ -8,7 +8,7 @@ interface CategoryCardProps {
 
 export default function CategoryCard({ category, dayCount }: CategoryCardProps) {
   return (
-    <Link href={`/category/${category.slug}`}>
+    <Link href={`/category/${category.slug}/`}>
       <div className="bg-white dark:bg-dark-800 rounded-2xl shadow-soft hover:shadow-medium dark:shadow-dark-soft dark:hover:shadow-dark-medium border border-neutral-100 dark:border-dark-700 hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-700 group p-8 h-full">
         <div className="flex items-center justify-between mb-6">
           <div className={`w-16 h-16 rounded-2xl ${category.color} flex items-center justify-center text-3xl shadow-soft dark:shadow-dark-soft group-hover:scale-110 transition-transform duration-300`}>
